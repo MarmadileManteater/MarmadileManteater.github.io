@@ -1,0 +1,871 @@
+FreeTube: 'FreeTube'
+# Currently on Subscriptions, Playlists, and History
+'This part of the app is not ready yet. Come back later when progress has been made.': >-
+  Ta część aplikacji nie jest jeszcze gotowa. Wróć później, gdy zostaną poczynione
+  postępy.
+
+# Webkit Menu Bar
+File: 'Plik'
+Quit: 'Wyjdź'
+Edit: 'Edycja'
+Undo: 'Cofnij'
+Redo: 'Ponów'
+Cut: 'Wytnij'
+Copy: 'Kopiuj'
+Paste: 'Wklej'
+Delete: 'Usuń'
+Select all: 'Zaznacz wszystko'
+Reload: 'Odśwież'
+Force Reload: 'Wymuś odświeżenie'
+Toggle Developer Tools: 'Włącz/wyłącz narzędzia deweloperskie'
+Actual size: 'Rzeczywisty rozmiar'
+Zoom in: 'Powiększ'
+Zoom out: 'Zmniejsz'
+Toggle fullscreen: 'Włącz/wyłącz tryb pełnoekranowy'
+Window: 'Okno'
+Minimize: 'Zminimalizuj'
+Close: 'Zamknij'
+Back: 'Wstecz'
+Forward: 'Naprzód'
+
+# Search Bar
+Search / Go to URL: 'Szukaj / Przejdź do adresu URL'
+  # In Filter Button
+Search Filters:
+  Search Filters: 'Filtry wyszukiwania'
+  Sort By:
+    Sort By: 'Sortuj według'
+    Most Relevant: 'Trafność'
+    Rating: 'Ocena'
+    Upload Date: 'Data przesłania'
+    View Count: 'Liczba wyświetleń'
+  Time:
+    Time: 'Czas przesłania'
+    Any Time: 'Kiedykolwiek'
+    Last Hour: 'Ostatnia godzina'
+    Today: 'Dzisiaj'
+    This Week: 'W tym tygodniu'
+    This Month: 'W tym miesiącu'
+    This Year: 'W tym roku'
+  Type:
+    Type: 'Typ'
+    All Types: 'Wszystkie typy'
+    Videos: 'Filmy'
+    Channels: 'Kanały'
+    #& Playlists
+  Duration:
+    Duration: 'Długość'
+    All Durations: 'Każda'
+    Short (< 4 minutes): 'Krótkie (< 4 minuty)'
+    Long (> 20 minutes): 'Długie (> 20 minut)'
+  # On Search Page
+  Search Results: 'Wyniki wyszukiwania'
+  Fetching results. Please wait: 'Trwa wyszukiwanie. Proszę poczekać'
+  Fetch more results: 'Pokaż więcej wyników'
+# Sidebar
+  There are no more results for this search: Nie ma więcej wyników dla tego wyszukiwania
+Subscriptions:
+    # On Subscriptions Page
+  Subscriptions: 'Subskrypcje'
+  Latest Subscriptions: 'Ostatnie subskrypcje'
+  'Your Subscription list is currently empty. Start adding subscriptions to see them here.': 'Twoja
+    lista subskrypcji jest obecnie pusta. Zacznij dodawać subskrypcje, aby zobaczyć
+    je tutaj.'
+  'Getting Subscriptions.  Please wait.': 'Pobieranie subskrypcji. Proszę czekać...'
+  Refresh Subscriptions: Odśwież subskrypcje
+  Getting Subscriptions. Please wait.: Pobieranie subskrypcji. Proszę poczekać.
+  This profile has a large number of subscriptions.  Forcing RSS to avoid rate limiting: Ten
+    profil posiada dużą liczbę subskrypcji. Wymuszenie RSS w celu uniknięcia ograniczenia
+    dostępu
+  Load More Videos: Załaduj więcej filmów
+Trending:
+  Trending: 'Na czasie'
+  Trending Tabs: Karty „Na czasie”
+  Default: Domyślna
+  Music: Muzyka
+  Gaming: Gry
+  Movies: Filmy
+Most Popular: 'Popularne'
+Playlists: 'Playlisty'
+User Playlists:
+  Your Playlists: 'Twoje playlisty'
+  Your saved videos are empty. Click on the save button on the corner of a video to have it listed here: Nie
+    masz żadnych zapisanych filmów. Kliknij przycisk „Zapisz film” w rogu filmu, aby
+    został on wymieniony na tej liście
+  Playlist Message: Ta strona nie odzwierciedla w pełni działających playlist. Są
+    tu jedynie wymienione filmy, które zapisałeś lub oznaczyłeś jako ulubione. Kiedy
+    prace nad tą stroną zostaną zakończone, wszystkie filmy tu obecne zostaną przeniesione
+    do playlisty „Ulubione”.
+  Search bar placeholder: Przeszukaj playlisty
+  Empty Search Message: Na tej playliście nie ma filmów, które pasowałyby do Twojego
+    zapytania
+History:
+  # On History Page
+  History: 'Historia'
+  Watch History: 'Historia oglądania'
+  Your history list is currently empty.: 'Twoja historia jest obecnie pusta.'
+  Search bar placeholder: Przeszukaj historię
+  Empty Search Message: W historii nie ma filmów, które pasowałyby do Twojego zapytania
+Settings:
+  # On Settings Page
+  Settings: 'Ustawienia'
+  General Settings:
+    General Settings: 'Ustawienia ogólne'
+    Fallback to Non-Preferred Backend on Failure: 'Wycofaj się do niepreferowanego
+      back-endu przy niepowodzeniu'
+    Enable Search Suggestions: 'Włącz sugestie wyszukiwania'
+    Default Landing Page: 'Domyślna karta startowa'
+    Locale Preference: 'Ustawienia regionalne'
+    Preferred API Backend:
+      Preferred API Backend: 'Preferowany back-end API'
+      Local API: 'Lokalne API'
+      Invidious API: 'API Invidious'
+    Video View Type:
+      Video View Type: 'Sposób prezentacji filmów'
+      Grid: 'Siatka'
+      List: 'Lista'
+    Thumbnail Preference:
+      Thumbnail Preference: 'Ustawienia miniaturek'
+      Default: 'Domyślna'
+      Beginning: 'Początek'
+      Middle: 'Środek'
+      End: 'Koniec'
+    'Invidious Instance (Default is https://invidious.snopyta.org)': 'Serwer Invidious
+      (Domyślnie jest https://invidious.snopyta.org)'
+    Region for Trending: '„Na czasie” z obszaru'
+        #! List countries
+    Check for Latest Blog Posts: Sprawdź ostatnie wpisy na blogu
+    Check for Updates: Szukaj aktualizacji
+    View all Invidious instance information: Pokaż informacje o wszystkich instancjach
+      Invidious
+    System Default: Ustawienie systemowe
+    Clear Default Instance: Wyczyść domyślną instancję
+    Set Current Instance as Default: Ustaw obecną instancję jako domyślną
+    Current instance will be randomized on startup: Obecna instancja będzie losowana
+      przy uruchamianiu
+    No default instance has been set: Nie ustawiono domyślnej instancji
+    The currently set default instance is $: Obecnie domyślną instancją jest $
+    Current Invidious Instance: Obecna instancja Invidious
+    External Link Handling:
+      No Action: Brak akcji
+      Ask Before Opening Link: Zapytaj przed otworzeniem linku
+      Open Link: Otwórz link
+      External Link Handling: Obsługa zewnętrznych linków
+  Theme Settings:
+    Theme Settings: 'Ustawienia wyglądu'
+    Match Top Bar with Main Color: 'Dopasuj górną belkę do głównego koloru'
+    Base Theme:
+      Base Theme: 'Bazowy motyw'
+      Black: 'Czarny'
+      Dark: 'Ciemny'
+      Light: 'Jasny'
+      Dracula: 'Drakula'
+      System Default: Domyślny systemu
+    Main Color Theme:
+      Main Color Theme: 'Główny kolor motywu'
+      Red: 'Czerwony'
+      Pink: 'Różowy'
+      Purple: 'Fioletowy'
+      Deep Purple: 'Granatowy'
+      Indigo: 'Indygo'
+      Blue: 'Niebieski'
+      Light Blue: 'Jasnoniebieski'
+      Cyan: 'Turkusowy'
+      Teal: 'Morski'
+      Green: 'Zielony'
+      Light Green: 'Jasnozielony'
+      Lime: 'Limonkowy'
+      Yellow: 'Żółty'
+      Amber: 'Bursztynowy'
+      Orange: 'Pomarańczowy'
+      Deep Orange: 'Głęboka pomarańcza'
+      Dracula Cyan: 'Dracula Turkusowy'
+      Dracula Green: 'Dracula Zielony'
+      Dracula Orange: 'Dracula Pomarańczowy'
+      Dracula Pink: 'Dracula Różowy'
+      Dracula Purple: 'Dracula Fioletowy'
+      Dracula Red: 'Dracula Czerwony'
+      Dracula Yellow: 'Dracula Żółty'
+    Secondary Color Theme: 'Drugi kolor motywu'
+        #* Main Color Theme
+    UI Scale: Skala UI
+    Expand Side Bar by Default: Domyślnie rozwiń pasek boczny
+    Disable Smooth Scrolling: Wyłącz płynne przewijanie
+    Hide Side Bar Labels: Schowaj etykiety paska bocznego
+  Player Settings:
+    Player Settings: 'Ustawienia odtwarzacza'
+    Force Local Backend for Legacy Formats: 'Wymuś lokalny back-end dla starych formatów'
+    Remember History: ''
+    Play Next Video: 'Odtwórz następny film'
+    Turn on Subtitles by Default: 'Domyślnie odtwarzaj z napisami'
+    Autoplay Videos: 'Autoodtwarzanie filmów'
+    Proxy Videos Through Invidious: 'Odtwarzaj filmy przez proxy Invidious'
+    Autoplay Playlists: 'Autoodtwarzanie playlist'
+    Enable Theatre Mode by Default: 'Domyślnie włącz tryb kinowy'
+    Default Volume: 'Domyślna głośność'
+    Default Playback Rate: 'Domyślna szybkość odtwarzania'
+    Default Video Format:
+      Default Video Format: 'Domyślny format filmów'
+      Dash Formats: 'Formaty DASH'
+      Legacy Formats: 'Stare formaty'
+      Audio Formats: 'Formaty audio'
+    Default Quality:
+      Default Quality: 'Domyślna jakość'
+      Auto: 'Auto'
+      144p: '144p'
+      240p: '240p'
+      360p: '360p'
+      480p: '480p'
+      720p: '720p'
+      1080p: '1080p'
+      1440p: '1440p'
+      4k: '4k'
+      8k: '8k'
+    Playlist Next Video Interval: Przerwa przed kolejną pozycją playlisty
+    Next Video Interval: Czas do następnego filmu
+    Scroll Volume Over Video Player: Kontroluj głośność kółkiem myszy na obszarze
+      odtwarzacza
+    Display Play Button In Video Player: Pokaż przycisk odtwarzania na odtwarzaczu
+    Fast-Forward / Rewind Interval: Interwał przewijania
+    Scroll Playback Rate Over Video Player: Kontroluj szybkość odtwarzania kółkiem
+      myszy na obszarze odtwarzania
+    Max Video Playback Rate: Maksymalna szybkość odtwarzania
+    Video Playback Rate Interval: Przeskoki w wyborze prędkości odtwarzania
+    Screenshot:
+      Format Label: Format zrzutu
+      Quality Label: Jakość zrzutu
+      Ask Path: Pytaj o folder zapisu
+      Folder Label: Folder ze zrzutami
+      Folder Button: Wybierz folder
+      File Name Label: Wzorzec nazwy pliku
+      File Name Tooltip: 'Możesz użyć następujących zmiennych: %Y Rok 4 cyfry. %M
+        Miesiąc 2 cyfry. %D Dzień 2 cyfry. %H Godzina 2 cyfry. %N Minuta 2 cyfry.
+        %S Sekunda 2 cyfry. %T Milisekunda 3 cyfry. %s Sekunda filmu. %t Milisekunda
+        filmu 3 cyfry. %i ID filmu. Możesz również tworzyć podfoldery używając "\"
+        albo "/".'
+      Error:
+        Forbidden Characters: Niedozwolone znaki
+        Empty File Name: Pusta nazwa pliku
+      Enable: Włącz zrzuty ekranu
+  Subscription Settings:
+    Subscription Settings: 'Ustawienia subskrypcji'
+    Hide Videos on Watch: 'Ukrywaj filmy po obejrzeniu'
+    Subscriptions Export Format:
+      Subscriptions Export Format: 'Format exportu subskrypcji'
+      #& Freetube
+      Newpipe: 'Newpipe'
+      OPML: 'OPML'
+    Manage Subscriptions: 'Zarządzaj subskrypcjami'
+    Import Subscriptions: 'Importuj subskrypcje'
+    Export Subscriptions: 'Eksportuj subskrypcje'
+    How do I import my subscriptions?: 'Jak zaimportować swoje subskrypcje?'
+    Fetch Feeds from RSS: Pobierz subskrypcje z RSS
+  Advanced Settings:
+    Advanced Settings: 'Ustawienia zaawansowane'
+    Enable Debug Mode (Prints data to the console): 'Włącz tryb dubugowania (pokazuje
+      dane w konsoli)'
+    'Proxy Address (Example: SOCKS5://127.0.0.1:9050 )': 'Adres proxy (przykład: SOCKS5://127.0.0.1:9050
+      )'
+    'Clicking "TEST PROXY" button will send a request to https://ipinfo.io/json': 'Kliknięcie
+      przycisku „SPRAWDŹ PROXY” wyśle zapytanie na https://ipinfo.io/json'
+    Use Tor / Proxy for API calls: 'Użyj proxy, lub sieci Tor do wywołań API'
+    TEST PROXY: 'SPRAWDŹ PROXY'
+    #& Invidious Instance (Default is https://invidious.snopyta.org)
+    See Public Instances: 'Zobacz publiczne serwery'
+    Clear History:
+      Clear History: 'Wyczyść historię'
+      # On Click
+      Are you sure you want to delete your history?: 'Czy jesteś pewny/a, że chcesz
+        usunąć swoją historię?'
+      #& Yes
+      #& No
+    Clear Subscriptions:
+      Clear Subscriptions: 'Wyczyść subskrypcje'
+      # On Click
+      Are you sure you want to remove all subscriptions?: 'Czy jesteś pewny/a, że
+        chcesz usunąć wszystkie subskrypcje?'
+      #& Yes
+      #& No
+
+  Privacy Settings:
+    Watch history has been cleared: Historia oglądania została wyczyszczona
+    Are you sure you want to remove your entire watch history?: Jesteś pewny/a, że
+      chcesz usunąć całą historię oglądania?
+    Remove Watch History: Usuń historię oglądania
+    Search cache has been cleared: Plik cache wyszukiwań został wyczyszczony
+    Are you sure you want to clear out your search cache?: Jesteś pewny/a, że chcesz
+      wyczyścić plik cache wyszukiwań?
+    Clear Search Cache: Wyczyść plik cache wyszukiwań
+    Save Watched Progress: Zapisuj postęp odtwarzania
+    Remember History: Pamiętaj historię
+    Privacy Settings: Ustawienia prywatności
+    Are you sure you want to remove all subscriptions and profiles?  This cannot be undone.: Czy
+      jesteś pewny/a, że chcesz usunąć wszystkie subskrypcje i profile? Nie będzie
+      można tego cofnąć.
+    Remove All Subscriptions / Profiles: Usuń wszystkie subskrypcje / profile
+    Automatically Remove Video Meta Files: Automatycznie usuwaj pliki metadanych filmu
+  Data Settings:
+    How do I import my subscriptions?: Jak mogę zaimportować swoje subskrypcje?
+    Unknown data key: Nieznany klucz danych
+    Unable to write file: Nie można zapisać pliku
+    Unable to read file: Nie można odczytać pliku
+    All watched history has been successfully exported: Cała historia oglądania została
+      pomyślnie wyeksportowana
+    All watched history has been successfully imported: Cała historia oglądania została
+      pomyślnie zaimportowana
+    History object has insufficient data, skipping item: Obiekt historii ma niewystarczającą
+      ilość danych, pomijam element
+    Subscriptions have been successfully exported: Subskrypcje zostały z powodzeniem
+      wyeksportowane
+    Invalid history file: Nieprawidłowy plik historii
+    This might take a while, please wait: Może to chwilę potrwać, proszę poczekać
+    Invalid subscriptions file: Nieprawidłowy plik subskrypcji
+    All subscriptions have been successfully imported: Wszystkie subskrypcje zostały
+      z powodzeniem zaimportowane
+    All subscriptions and profiles have been successfully imported: Wszystkie subskrypcje
+      i profile zostały z powodzeniem zaimportowane
+    Profile object has insufficient data, skipping item: Obiekt profilu ma niewystarczającą
+      ilość danych, pomijam element
+    Export History: Wyeksportuj historię
+    Import History: Zaimportuj historię
+    Export FreeTube: Eksport do FreeTube
+    Export YouTube: Eksport do YouTube
+    Export NewPipe: Eksport do NewPipe
+    Export Subscriptions: Wyeksportuj subskrypcje
+    Import NewPipe: Import z NewPipe
+    Import YouTube: Import z YouTube
+    Import FreeTube: Import z FreeTube
+    Import Subscriptions: Zaimportuj subskrypcje
+    Select Export Type: Wybierz typ exportu
+    Select Import Type: Wybierz typ importu
+    Data Settings: Ustawienia danych
+    One or more subscriptions were unable to be imported: Nie można było zaimportować
+      co najmniej jednej subskrypcji
+    Check for Legacy Subscriptions: Sprawdź subskrypcje ze starej wersji
+    Manage Subscriptions: Zarządzaj subskrypcjami
+    Export Playlists: Wyeksportuj playlisty
+    All playlists has been successfully exported: Wszystkie playlisty pomyślnie wyeksportowano
+    Playlist insufficient data: Niewystarczająca ilość danych dla playlisty "$", pomijam
+      element
+    Import Playlists: Zaimportuj playlisty
+    All playlists has been successfully imported: Wszystkie playlisty pomyślnie zaimportowano
+  Distraction Free Settings:
+    Distraction Free Settings: Ustawienia skupienia uwagi
+    Hide Live Chat: Schowaj czat na żywo
+    Hide Popular Videos: Schowaj filmy „Popularne”
+    Hide Trending Videos: Schowaj filmy „Na czasie”
+    Hide Recommended Videos: Schowaj polecane filmy
+    Hide Comment Likes: Schowaj polubienia komentarzy
+    Hide Channel Subscribers: Schowaj subskrybentów kanału
+    Hide Video Likes And Dislikes: Schowaj łapki w górę i w dół
+    Hide Video Views: Schowaj wyświetlenia filmów
+    Hide Active Subscriptions: Schowaj aktywne subskrypcje
+    Hide Playlists: Schowaj playlistę
+  The app needs to restart for changes to take effect. Restart and apply change?: Aplikacja
+    musi zostać ponownie uruchomiona, aby zmiany zostały wprowadzone. Uruchomić ponownie
+    i zastosować zmiany?
+  Proxy Settings:
+    Your Info: O Tobie
+    Error getting network information. Is your proxy configured properly?: Wystąpił
+      błąd przy pozyskiwaniu informacji o sieci. Czy Twoje proxy jest poprawnie ustawione?
+    City: Miasto
+    Region: Region
+    Country: Kraj
+    Ip: IP
+    Test Proxy: Sprawdź proxy
+    Clicking on Test Proxy will send a request to: Kliknięcie „Sprawdź proxy” wyśle
+      żądanie do
+    Proxy Port Number: Numer portu proxy
+    Proxy Host: Host proxy
+    Proxy Protocol: Protokół proxy
+    Enable Tor / Proxy: Włącz Tor / Proxy
+    Proxy Settings: Ustawienia proxy
+  SponsorBlock Settings:
+    Notify when sponsor segment is skipped: Powiadamiaj, kiedy segment sponsorowany
+      zostanie pominięty
+    'SponsorBlock API Url (Default is https://sponsor.ajay.app)': Adres URL interfejsu
+      API SponsorBlock (Domyślnie jest https://sponsor.ajay.app)
+    Enable SponsorBlock: Włącz SponsorBlock
+    SponsorBlock Settings: Ustawienia SponsorBlock
+    Skip Options:
+      Skip Option: Opcja pominięcia
+      Auto Skip: Pomijaj automatycznie
+      Show In Seek Bar: Pokaż na pasku postępu
+      Prompt To Skip: Zapytaj, czy pominąć
+      Do Nothing: Nic nie rób
+    Category Color: Kolor segmentu
+  External Player Settings:
+    Custom External Player Arguments: Niestandardowe argumenty zewnętrznego odtwarzacza
+    Custom External Player Executable: Niestandardowy plik wykonywalny zewnętrznego
+      odtwarzacza
+    Ignore Unsupported Action Warnings: Ignoruj ostrzeżenia o nieobsługiwanych działaniach
+    External Player: Zewnętrzny odtwarzacz
+    External Player Settings: Ustawienia zewnętrznego odtwarzacza
+  Download Settings:
+    Ask Download Path: Pytaj o lokalizację pobierania
+    Download Settings: Ustawienia pobierania
+    Choose Path: Wybierz folder
+About:
+  #On About page
+  About: 'O projekcie'
+  #& About
+  'This software is FOSS and released under the GNU Affero General Public License v3.0.': 'Ten
+    program copyleft jest objęty wolną licencją APGL-3.0.'
+
+  'Found a bug? Want to suggest a feature? Want to help out? Check out our GitHub page. Pull requests are welcome.': >-
+    Znalazłeś/aś błąd? Masz pomysł na nową funkcję? Chcesz jakoś pomóc? Zajrzyj na
+    naszą stronę GitHub. Mile widziane pull requesty.
+
+  Thank you very much to the People and Projects that make FreeTube possible!: 'Wielkie
+    dzięki za wszystkich ludzi i projekty, dzięki którym istnienie FreeTube jest możliwe!'
+
+  'Want to chat? Join our Element / Matrix Server . Please check the rules before joining.': 'Chcesz
+    pogadać? Dołącz do naszej społeczności Element (serwer Matrix). Przejrzyj proszę
+    zasady zanim dołączysz.'
+
+  'Looking for help? Check out our Wiki page.': 'Szukasz pomocy? Sprawdź naszą stronę
+    Wiki.'
+
+  Check out our Firefox extension!: 'Sprawdź nasz dodatek do Firefoxa!'
+
+  'If you enjoy using FreeTube, consider donating via Liberapay or through our Bitcoin address.': 'Jeśli
+    lubisz korzystać z FreeTube, rozważ darowiznę poprzez Liberapay lub naszego adresu
+    Bitcoin.'
+
+  #~ 'BTC: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS'
+
+  Latest FreeTube News: 'Ostatnie wieści o FreeTube'
+
+#On Channel Page
+  Translate via Weblate: Przetłumaczone poprzez Weblate
+  Website: Strona internetowa
+  Source Code: Kod źródłowy
+  Release Notes: Informacje o wydaniu
+  Blog: Blog
+  Credits: Zasługi
+  FAQ: FAQ
+  Wiki: Wiki
+  Report an Issue: Zgłoś problem
+  Channel Rules: Zasady kanału
+  Email: E-mail
+  License: Licencja
+  Beta: Beta
+  Donate: Wesprzyj
+  Useful Links: Przydatne linki
+  Help: Pomoc
+  Contact: Kontakt
+  these people and projects: tym ludziom i projektom
+  Translate: Przetłumacz
+  room rules: zasady pokoju
+  Chat on Matrix: Czat na Matrix
+  Mastodon: Mastodon
+  Please read the: Proszę przeczytać
+  Please check for duplicates before posting: Proszę poszukać duplikatów przed wysłaniem
+  GitHub issues: problemy na GitHub
+  Report a problem: Zgłoś problem
+  FreeTube Wiki: Wiki FreeTube
+  GitHub releases: wydania na GitHub
+  Downloads / Changelog: Wydania / Lista zmian
+  View License: Zobacz licencję
+  Licensed under the AGPLv3: Na licencji AGPLv3
+  Source code: Kod źródłowy
+  FreeTube is made possible by: FreeTube powstał dzięki
+Channel:
+  Subscriber: 'Subskrybent/ka'
+  Subscribers: 'subskrybentów'
+  Subscribe: 'Zasubskrybuj'
+  Unsubscribe: 'Odsubskrybuj'
+  Search Channel: 'Przeszukaj kanał'
+  Your search results have returned 0 results: 'Twoje zapytanie zwróciło 0 wyników'
+  Sort By: 'Sortuj według'
+  Videos:
+    Videos: 'Filmy'
+    This channel does not currently have any videos: 'Ten kanał nie ma obecnie żadnych
+      filmów'
+    Sort Types:
+      Newest: 'Najnowsze'
+      Oldest: 'Najstarsze'
+      Most Popular: 'Najpopularniejsze'
+  Playlists:
+    Playlists: 'Playlisty'
+    This channel does not currently have any playlists: 'Ten kanał nie ma żadnych
+      playlist'
+    Sort Types:
+      Last Video Added: 'Ostatnio dodany film'
+      Newest: 'Najnowsze'
+      Oldest: 'Najstarsze'
+  About:
+    About: 'O kanale'
+    Channel Description: 'Opis kanału'
+    Featured Channels: 'Polecane kanały'
+  Added channel to your subscriptions: Dodano kanał do twoich subskrypcji
+  Removed subscription from $ other channel(s): Usunięto subskrypcje z $ pozostałych
+    kanałów
+  Channel has been removed from your subscriptions: Kanał został usunięty z twoich
+    subskrypcji
+Video:
+  Mark As Watched: 'Oznacz jako obejrzany'
+  Remove From History: 'Usuń z historii'
+  Video has been marked as watched: 'Film został oznaczony jako obejrzany'
+  Video has been removed from your history: 'Film został usunięty z Twojej historii'
+  Open in YouTube: 'Otwórz na stronie YouTube'
+  Copy YouTube Link: 'Skopiuj link do strony YouTube'
+  Open YouTube Embedded Player: 'Otwórz odtwarzacz YouTube'
+  Copy YouTube Embedded Player Link: 'Skopiuj link do odtwarzacza YouTube'
+  Open in Invidious: 'Otwórz na stronie Invidious'
+  Copy Invidious Link: 'Skopiuj link do strony Invidious'
+  View: 'wyświetlenie'
+  Views: 'wyświetleń'
+  # Context is "X People Watching"
+  Watching: 'ogląda'
+  Watched: 'Obejrzany'
+  # As in a Live Video
+  Live: 'Transmisja'
+  Live Now: 'Teraz na żywo'
+  Live Chat: 'Czat na żywo'
+  Enable Live Chat: 'Włącz czat na żywo'
+  Live Chat is currently not supported in this build.: 'Czat na żywo nie jest obecnie
+    wspierany w tej kompilacji.'
+  'Chat is disabled or the Live Stream has ended.': 'Czat jest wyłączony, lub transmisja
+    na żywo zakończyła się.'
+  Live chat is enabled.  Chat messages will appear here once sent.: 'Czat na żywo
+    jest włączony. Wiadomości z czatu pojawią się tutaj po wysłaniu.'
+  'Live Chat is currently not supported with the Invidious API.  A direct connection to YouTube is required.': 'Czat
+    na żywo nie wspiera obecnie API Invidious. Konieczne jest połączenie bezpośrednie
+    z YouTube.'
+  Published:
+    Jan: 'sty.'
+    Feb: 'lut.'
+    Mar: 'mar.'
+    Apr: 'kwi.'
+    May: 'maj'
+    Jun: 'cze.'
+    Jul: 'lip.'
+    Aug: 'sie.'
+    Sep: 'wrz.'
+    Oct: 'paź.'
+    Nov: 'lis.'
+    Dec: 'gru.'
+    Second: 'sekundę'
+    Seconds: 'sekund/y'
+    Hour: 'godzinę'
+    Hours: 'godzin/y'
+    Day: 'dzień'
+    Days: 'dni'
+    Week: 'tydzień'
+    Weeks: 'tygodni/e'
+    Month: 'miesiąc'
+    Months: 'miesiące/y'
+    Year: 'rok'
+    Years: 'lat/a'
+    Ago: 'temu'
+    Upcoming: 'Premiera'
+    Minutes: minut/y
+    Minute: minutę
+  Published on: 'Opublikowano'
+  # $ is replaced with the number and % with the unit (days, hours, minutes...)
+  Publicationtemplate: '$ % temu'
+#& Videos
+  Autoplay: Autoodtwarzanie
+  Play Previous Video: Odtwórz poprzedni film
+  Play Next Video: Odtwórz następny film
+  Reverse Playlist: Odwróć playlistę
+  Shuffle Playlist: Losuj z playlisty
+  Loop Playlist: Zapętl playlistę
+  Starting soon, please refresh the page to check again: Wkrótce się zacznie, proszę
+    odświeżyć stronę, aby ponownie sprawdzić
+  Audio:
+    Best: Najlepsza
+    High: Wysoka
+    Medium: Średnia
+    Low: Niska
+  audio only: tylko audio
+  video only: tylko wideo
+  Download Video: Pobierz film
+  Copy Invidious Channel Link: Skopiuj link do kanału na stronie Invidious
+  Open Channel in Invidious: Otwórz kanał na stronie Invidious
+  Copy YouTube Channel Link: Skopiuj link do kanału na stronie YouTube
+  Open Channel in YouTube: Otwórz kanał na stronie YouTube
+  Started streaming on: Rozpoczęto transmitowanie dnia
+  Streamed on: Transmitowane dnia
+  Video has been removed from your saved list: Film został usunięty z Twojej listy
+    zapisanych
+  Video has been saved: Film został zapisany
+  Save Video: Zapisz film
+  translated from English: przetłumaczone z angielskiego
+  Sponsor Block category:
+    music offtopic: niemuzyczny
+    interaction: o interakcji
+    self-promotion: z własną promocją
+    outro: z ekranem końcowym
+    intro: z intrem
+    sponsor: sponsorowany
+    filler: z wypełniaczem
+    recap: z podsumowaniem
+  Skipped segment: Pominięto segment
+  External Player:
+    Unsupported Actions:
+      reversing playlists: odwracania playlist
+      shuffling playlists: losowania z playlist
+      looping playlists: zapętlania playlist
+      opening specific video in a playlist (falling back to opening the video): otwierania
+        wskazanego filmu na playliście (zamiast tego nastąpi otwarcie filmu)
+      opening playlists: otwierania playlist
+      setting a playback rate: ustawienia prędkości odtwarzania
+      starting video at offset: rozpoczynania filmu z przesunięciem
+    UnsupportedActionTemplate: '$ nie obsługuje: %'
+    OpeningTemplate: Otwieranie $ w %...
+    playlist: playlisty
+    video: filmu
+    OpenInTemplate: Otwórz w $
+  Premieres on: Premiera
+  Stats:
+    buffered: Zbuforowano
+    out of: z
+    video id: ID filmu (YouTube)
+    player resolution: Odtwarzacz
+    volume: Głośność
+    bandwidth: Prędkość połączenia
+    fps: FPS
+    frame drop: Pominięte klatki
+    Video ID: ID filmu
+    Resolution: Rozdzielczość
+    Player Dimensions: Wymiary odtwarzacza
+    Bitrate: Szybkość transmisji
+    Volume: Głośność
+    Bandwidth: Przepustowość
+    Buffered: Zbuforowano
+    Mimetype: Typ MIME
+    Video statistics are not available for legacy videos: Statystyki filmu nie są
+      dostępne dla starych formatów
+    Dropped / Total Frames: Opuszczone klatki / klatki ogółem
+Videos:
+  #& Sort By
+  Sort By:
+    Newest: 'Najnowsze'
+    Oldest: 'Najstarsze'
+    #& Most Popular
+#& Playlists
+Playlist:
+  #& About
+  View Full Playlist: 'Zobacz całą playlistę'
+  Videos: 'filmów'
+  View: 'wyświetlenie'
+  Views: 'wyświetleń'
+  Last Updated On: 'Ostatnio zaktualizowano'
+  Share Playlist:
+    Share Playlist: 'Podziel się playlistą'
+    Copy YouTube Link: 'Skopiuj link do strony YouTube'
+    Open in YouTube: 'Otwórz na stronie YouTube'
+    Copy Invidious Link: 'Skopiuj link do strony Invidious'
+    Open in Invidious: 'Otwórz w Invidious'
+
+# On Video Watch Page
+#* Published
+#& Views
+  Playlist: Playlista
+Toggle Theatre Mode: 'Aktywuj tryb kinowy'
+Change Format:
+  Change Video Formats: 'Zmień formaty wideo'
+  Use Dash Formats: 'Użyj formatów DASH'
+  Use Legacy Formats: 'Użyj starych formatów'
+  Use Audio Formats: 'Użyj formatów audio'
+  Audio formats are not available for this video: Formaty audio nie są dostępne dla
+    tego filmu
+  Dash formats are not available for this video: Formaty DASH nie są dostępne dla
+    tego filmu
+Share:
+  Share Video: 'Podziel się filmem'
+  Copy Link: 'Skopiuj link'
+  Open Link: 'Otwórz link'
+  Copy Embed: 'Skopiuj link do osadzenia'
+  Open Embed: 'Otwórz link do osadzenia'
+  # On Click
+  Invidious URL copied to clipboard: 'Skopiowano URL Invidious do schowka'
+  Invidious Embed URL copied to clipboard: 'Skopiowano URL odtwarzacza Invidious do
+    schowka'
+  YouTube URL copied to clipboard: 'Skopiowano URL YouTube do schowka'
+  YouTube Embed URL copied to clipboard: 'Skopiowano URL odtwarzacza YouTube do schowka'
+  Include Timestamp: Dołącz znacznik czasu
+  YouTube Channel URL copied to clipboard: Skopiowano URL kanału na YouTube do schowka
+  Invidious Channel URL copied to clipboard: Skopiowano URL kanału na Invidious do
+    schowka
+Mini Player: 'Mini odtwarzacz'
+Comments:
+  Comments: 'Komentarze'
+  Click to View Comments: 'Kliknij, aby wyświetlić komentarze'
+  Getting comment replies, please wait: 'Pobieranie odpowiedzi do komentarza, proszę
+    poczekać'
+  Show Comments: 'Pokaż komentarze'
+  Hide Comments: 'Schowaj komentarze'
+  # Context: View 10 Replies, View 1 Reply
+  View: 'Wyświetl'
+  Hide: 'Schowaj'
+  Replies: 'odpowiedzi'
+  Reply: 'odpowiedź'
+  There are no comments available for this video: 'Nie ma żadnych komentarzy odnośnie
+    tego filmu'
+  Load More Comments: 'Pokaż więcej komentarzy'
+  There are no more comments for this video: Nie ma więcej komentarzy pod tym filmem
+  No more comments available: Nie ma więcej komentarzy
+  Newest first: Najpierw najnowsze
+  Top comments: Najlepsze komentarze
+  Sort by: Sortuj według
+  Show More Replies: Pokaż więcej odpowiedzi
+  And others: i innych
+  Pinned by: Przypięty przez
+  From $channelName: od $channelName
+  Member: Wspierający
+Up Next: 'Następne'
+
+# Toast Messages
+Local API Error (Click to copy): 'Błąd lokalnego API (kliknij by skopiować)'
+Invidious API Error (Click to copy): 'Błąd API Invidious (kliknij by skopiować)'
+Falling back to Invidious API: 'Wycofywanie do API Invidious'
+Falling back to the local API: 'Wycofywanie do lokalnego API'
+Subscriptions have not yet been implemented: 'Subskrypcje nie zostały jeszcze wprowadzone'
+Loop is now disabled: 'Zapętlenie jest teraz wyłączone'
+Loop is now enabled: 'Zapętlenie jest teraz włączone'
+Shuffle is now disabled: 'Losowanie jest teraz wyłączone'
+Shuffle is now enabled: 'Losowanie jest teraz włączone'
+Playing Next Video: 'Odtwórz następny film'
+Playing Previous Video: 'Odtwórz poprzedni film'
+Playing next video in 5 seconds.  Click to cancel: 'Odtworzenie następnego filmu za
+  5 sekund. Kliknij aby anulować.'
+Canceled next video autoplay: 'Anulowano odtworzenie następnego filmu'
+'The playlist has ended.  Enable loop to continue playing': 'Playlista się zakończyła.
+  Włącz zapętlanie by kontynuować odtwarzanie'
+
+Yes: 'Tak'
+No: 'Nie'
+Locale Name: Polski
+Profile:
+  $ is now the active profile: $ jest teraz aktywnym profilem
+  Your default profile has been changed to your primary profile: Twój domyślny profil
+    został zmieniony na profil główny
+  Removed $ from your profiles: Usunięto $ z twoich profili
+  Your default profile has been set to $: $ został ustawiony jako Twój domyślny profil
+  Profile has been updated: Zaktualizowano profil
+  Profile has been created: Utworzono profil
+  Your profile name cannot be empty: Nazwa profilu nie może być pusta
+  Profile could not be found: Nie odnaleziono profilu
+  All subscriptions will also be deleted.: Wszystkie subskrypcje również zostaną usunięte.
+  Are you sure you want to delete this profile?: Czy jesteś pewny/a, że chcesz usunąć
+    ten profil?
+  Delete Profile: Usuń profil
+  Make Default Profile: Ustaw jako profil domyślny
+  Update Profile: Zaktualizuj profil
+  Create Profile: Stwórz profil
+  Profile Preview: Podgląd profilu
+  Custom Color: Własny kolor
+  Color Picker: Wybór koloru
+  Edit Profile: Edytuj profil
+  Create New Profile: Stwórz nowy profil
+  Profile Manager: Menadżer profili
+  All Channels: Wszystkie kanały
+  Profile Select: Wybór profilu
+  Are you sure you want to delete the selected channels?  This will not delete the channel from any other profile.: Czy
+    jesteś pewny/a, że chcesz usunąć wybrane kanały? Te kanały nie  zostaną usunięte
+    w żadnym innym profilu.
+  ? This is your primary profile.  Are you sure you want to delete the selected channels?  The
+    same channels will be deleted in any profile they are found in.
+  : To jest Twój główny profil. Czy jesteś pewny/a, że chcesz usunąć wybrane kanały?
+    Te kanały zostaną usunięte we wszystkich profilach, w których się znajdują.
+  No channel(s) have been selected: Nie wybrano żadnego kanału
+  Add Selected To Profile: Dodaj wybrane do profilu
+  Delete Selected: Usuń wybrane
+  Select None: Nic nie wybieraj
+  Select All: Wybierz wszystkie
+  $ selected: Wybrano $
+  Other Channels: Inne kanały
+  Subscription List: Lista subskrypcji
+  Profile Filter: Filtr profilu
+  Profile Settings: Ustawienia profilu
+The playlist has been reversed: Playlista została odwrócona
+A new blog is now available, $. Click to view more: Nowy wpis na blogu jest dostępny,
+  $. Kliknij, aby zobaczyć więcej
+Download From Site: Pobierz ze strony
+Version $ is now available!  Click for more details: Wersja $ jest już dostępna! Kliknij
+  po więcej szczegółów
+This video is unavailable because of missing formats. This can happen due to country unavailability.: Ten
+  film jest niedostępny z powodu brakujących formatów. Przyczyną może być blokada
+  regionalna.
+Tooltips:
+  Subscription Settings:
+    Fetch Feeds from RSS: Po włączeniu FreeTube będzie używać RSS zamiast domyślnej
+      metody pobierania subskrypcji. RSS jest szybszy i zapobiega blokadzie IP, ale
+      nie dostarcza informacji, takich jak czas trwania filmu czy status transmisji
+      na żywo
+  General Settings:
+    Fallback to Non-Preferred Backend on Failure: Po włączeniu, kiedy Twój preferowany
+      API napotka problem, FreeTube automatycznie spróbuje użyć niepreferowanego API
+      jako metody zapasowej.
+    Preferred API Backend: Wybierz back-end , który FreeTube użyje do uzyskiwania
+      danych. Lokalne API jest wbudowanym ekstraktorem. API Invidious wymaga połączenia
+      z serwerem Invidious.
+    Region for Trending: Obszar filmów „Na czasie” pozwala wybrać kraj, z którego
+      chciałbyś zobaczyć filmy zdobywające popularność. Nie wszystkie wyświetlone
+      kraje są obsługiwane przez YouTube.
+    Invidious Instance: Serwer Invidious, którym FreeTube będzie się łączył do wywołań
+      API.
+    Thumbnail Preference: Wszystkie miniaturki na FreeTube zostaną zastąpione klatką
+      z filmu zamiast miniaturki domyślnej.
+    External Link Handling: "Wybierz domyślne zachowanie kiedy link, który nie może\
+      \ zostać otworzony w FreeTube, został kliknięty.\nDomyślnie FreeTube otworzy\
+      \ kliknięty link w domyślnej przeglądarce.\n"
+  Player Settings:
+    Force Local Backend for Legacy Formats: Działa tylko, kiedy API Invidious jest
+      ustawiony jako domyślny. Gdy opcja jest włączona, do odtwarzania starych formatów
+      zostanie użyty lokalny API, zamiast API Invidious. Pomaga w przypadkach, gdy
+      filmy zwracane przez Invidious nie odtwarzają się z powodu blokady regionalnej.
+    Default Video Format: Ustaw formaty, które zostaną użyte do odtwarzania filmów.
+      Formaty DASH obsługują wyższe rozdzielczości. Stare formaty są ograniczone do
+      720p, ale zużywają mniej przepustowości. Formaty audio odtwarzają tylko dźwięk.
+    Proxy Videos Through Invidious: Będzie dostarczał filmy, łącząc się z Invidious,
+      a nie bezpośrednio z YouTube. Nadpisuje ustawienia API.
+    Scroll Playback Rate Over Video Player: Umieść kursor nad odtwarzaczem, przytrzymaj
+      klawisz „Ctrl” („Command” na Mac-u) i przewijaj kółkiem myszy w górę i w dół,
+      aby kontrolować szybkość odtwarzania. Przytrzymaj klawisz „Ctrl” („Command”
+      na Mac-u) i kliknij lewym przyciskiem myszy, by szybko powrócić do domyślnej
+      wartości (1x, chyba że została zmieniona w ustawieniach).
+  Privacy Settings:
+    Remove Video Meta Files: Po włączeniu FreeTube automatycznie usunie pliki metadanych
+      utworzone podczas odtwarzania filmu, gdy strona odtwarzania zostanie zamknięta.
+  External Player Settings:
+    Ignore Warnings: Nie wyświetlaj ostrzeżeń o nieobsługiwanych akcjach przez zewnętrzny
+      odtwarzacz (n.p. odwracanie playlist, itp.).
+    External Player: Wybranie zewnętrznego odtwarzacza spowoduje wyświetlenie na miniaturkach
+      ikony, która otworzy film (playlistę, jeśli są obsługiwane) w zewnętrznym odtwarzaczu.
+    Custom External Player Arguments: Wszelkie niestandardowe argumenty wiersza poleceń,
+      oddzielone średnikami (';'), które chcesz przekazać do zewnętrznego odtwarzacza.
+    Custom External Player Executable: FreeTube domyślnie przyjmie, że wybrany odtwarzacz
+      jest do znalezienia za pomocą zmiennej środowiskowej PATH. Jeśli trzeba, można
+      tutaj ustawić niestandardową ścieżkę.
+    DefaultCustomArgumentsTemplate: "(Domyślnie: '$')"
+Playing Next Video Interval: Odtwarzanie kolejnego filmu już za chwilę. Wciśnij aby
+  przerwać. | Odtwarzanie kolejnego filmu za {nextVideoInterval} sekundę. Wciśnij
+  aby przerwać. | Odtwarzanie kolejnego filmu za {nextVideoInterval} sekund. Wciśnij
+  aby przerwać.
+More: Więcej
+Unknown YouTube url type, cannot be opened in app: Nieznany typ adresu URL YouTube,
+  nie można go otworzyć w aplikacji
+Hashtags have not yet been implemented, try again later: Hashtagi nie zostały jeszcze
+  wprowadzone, spróbuj później
+Open New Window: Otwórz nowe okno
+Default Invidious instance has been cleared: Domyślna instancja Invidious została
+  wyczyszczona
+Default Invidious instance has been set to $: Domyślna instancja Invidious została
+  ustawiona na $
+Search Bar:
+  Clear Input: Wyczyść pole
+External link opening has been disabled in the general settings: Otwieranie zewnętrznych
+  linków zostało wyłączone w ustawieniach ogólnych
+Are you sure you want to open this link?: Czy na pewno chcesz otworzyć ten link?
+Downloading has completed: '"$" został pobrany'
+Starting download: Rozpoczęto pobieranie "$"
+Downloading failed: Wystąpił problem z pobieraniem "$"
+Downloading canceled: Pobieranie zostało przerwane przez użytkownika
+Download folder does not exist: Katalog pobierania "$" nie istnieje. Przełączono na
+  tryb "pytaj o folder".
+Screenshot Error: Wykonanie zrzutu nie powiodło się. $
+Screenshot Success: Zapisano zrzut ekranu jako "$"

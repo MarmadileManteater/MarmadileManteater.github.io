@@ -1,0 +1,492 @@
+# Put the name of your locale in the same language
+Locale Name: 'Latina'
+FreeTube: 'FreeTube'
+# Currently on Subscriptions, Playlists, and History
+'This part of the app is not ready yet. Come back later when progress has been made.': >-
+  Haec programmatis pars perfecta non est. Remea cum in hac profectum sit.
+
+# Webkit Menu Bar
+File: 'tabula'
+Quit: 'Exi'
+Edit: 'Muta'
+Undo: 'Tolle'
+Redo: 'Refac'
+Cut: 'Deseca'
+Copy: 'Effinge'
+Paste: 'Agglutina'
+Delete: 'Dele'
+Select all: 'Omnia selige'
+Reload: 'renovare'
+Force Reload: 'Vi Reficite'
+Toggle Developer Tools: 'Mutatio Constitutor Instrumenta'
+Actual size: 'Vera magnitudine'
+Zoom in: 'Visum propius'
+Zoom out: 'Visi repostus'
+Toggle fullscreen: 'Totus mutatur ostentationem'
+Window: 'fenestram'
+Minimize: 'Redigo'
+Close: 'Claude'
+Back: 'Redeo'
+Forward: 'Promoveo'
+
+Version $ is now available!  Click for more details: 'Editio $ nunc praesto! Tactus
+  pro magis singula res'
+Download From Site: 'Adepto ex situ'
+A new blog is now available, $. Click to view more: 'Novum scripturam creata est,
+  $. Tangere hic pro magis notitia'
+
+# Search Bar
+Search / Go to URL: 'Requiro / Adeo URL'
+  # In Filter Button
+Search Filters:
+  Search Filters: 'Requiro Filtra'
+  Sort By:
+    Sort By: 'Disponere Per'
+    Most Relevant: 'Maxime Pertinentes'
+    Rating: 'Transientes'
+    Upload Date: 'Transporto Dies'
+    View Count: 'Iteratio visibus visibile'
+  Time:
+    Time: 'Tempus'
+    Any Time: 'Umquam'
+    Last Hour: 'Intra Horam'
+    Today: 'Hodie'
+    This Week: 'Hoc Septimana'
+    This Month: 'Haec Mensis'
+    This Year: 'Hoc Anno'
+  Type:
+    Type: 'Genus'
+    All Types: 'Omnes'
+    Videos: 'Movens Imaginibus'
+    Channels: 'Canalis'
+    #& Playlists
+  Duration:
+    Duration: 'Diuturnitas'
+    All Durations: 'Omnes Durationes'
+    Short (< 4 minutes): 'Brevis (< 4 minutes)'
+    Long (> 20 minutes): 'Longus (> 20 minutes)'
+  # On Search Page
+  Search Results: 'Quaerere Eventus'
+  Fetching results. Please wait: 'Lignatio eventus. Placet expectare'
+  Fetch more results: 'Adepto plus eventus'
+# Sidebar
+  There are no more results for this search: Adepto plus eventus non possunt
+Subscriptions:
+    # On Subscriptions Page
+  Subscriptions: 'Subscriptio'
+  Latest Subscriptions: 'Tardus Subscriptio'
+  'Your Subscription list is currently empty. Start adding subscriptions to see them here.': 'Subscription
+    vestri album sit vacua. Incipe addere subscriptions videre hic.'
+  'Getting Subscriptions. Please wait.': 'Questus subnotationes. Placet exspectare.'
+  Refresh Subscriptions: 'Refectorius Subnotationes'
+  Load More Videos: Voce plus Movens Imaginibus
+  This profile has a large number of subscriptions.  Forcing RSS to avoid rate limiting: Haec
+    profile copia subscriptioni habet. Impono RSS ut impedio restrictionis per celeritatis
+Trending:
+  Trending: 'Inclinant'
+Most Popular: 'Maxime Popular'
+Playlists: 'Album ludere'
+User Playlists:
+  Your Playlists: 'Album Ludere Vestra'
+  Playlist Message: Haec pagina est a plene reflective opus playlists. Is solum album
+    et conservi videos quod favorited. Ubi consummatum opus est, omnia hic Move Imaginibus
+    commodum migravit ad "Favorites" Album Ludere.
+History:
+  # On History Page
+  History: 'Historiam'
+  Watch History: 'Specto Historia'
+  Your history list is currently empty.: 'Tua historia album sit amet vacua.'
+Settings:
+  # On Settings Page
+  Settings: 'Optiones'
+  General Settings:
+    General Settings: 'Generalis Occasus'
+    Check for Updates: 'Reprehendo pro Updates'
+    Check for Latest Blog Posts: 'Reprehendo pro recentissimus diurnus ingressum'
+    Fallback to Non-Preferred Backend on Failure: 'Revertere ad secundarium ratio
+      cum defectum'
+    Enable Search Suggestions: 'Permitte Quaerere Conmendatio'
+    Default Landing Page: 'Usitatus Portum Pagina'
+    Locale Preference: 'Locus Praedilectionis'
+    Preferred API Backend:
+      Preferred API Backend: 'Praedilectionis API Ratio'
+      Local API: 'Locus API'
+      Invidious API: 'Invidious API'
+    Video View Type:
+      Video View Type: 'Video Modus Visio'
+      Grid: 'Reticulum'
+      List: 'Album'
+    Thumbnail Preference:
+      Thumbnail Preference: 'Parva Imago Occasus'
+      Default: 'Iusto'
+      Beginning: 'Initium'
+      Middle: 'Medium'
+      End: 'Finis'
+    'Invidious Instance (Default is https://invidious.snopyta.org)': 'Invidious nusquam
+      esset (Iusto est https://invidious.snopyta.org)'
+    Region for Trending: 'ad usum inclinanatus regionem'
+        #! List countries
+  Theme Settings:
+    Theme Settings: 'Occasus Lemma'
+    Match Top Bar with Main Color: 'par cacumen cum pelagus color'
+    Base Theme:
+      Base Theme: 'Basis Lemma'
+      Black: 'Lividus'
+      Dark: 'Niger'
+      Light: 'Illustris'
+      Dracula: 'Dracula'
+    Main Color Theme:
+      Main Color Theme: 'Pelagus Color Lemma'
+      Red: 'Ruber'
+      Pink: 'Roseus'
+      Purple: 'Purpura'
+      Deep Purple: 'Purpura Tenebris'
+      Indigo: 'Indicus'
+      Blue: 'Caeruleum'
+      Light Blue: 'Caeruleum'
+      Cyan: 'Galben'
+      Teal: 'Querquedulae'
+      Green: 'Prasinus'
+      Light Green: 'Levis Prasinus'
+      Lime: ''
+      Yellow: ''
+      Amber: ''
+      Orange: ''
+      Deep Orange: ''
+      Dracula Cyan: 'Dracula Galben'
+      Dracula Green: 'Dracula Prasinus'
+      Dracula Orange: 'Dracula Orange'
+      Dracula Pink: 'Dracula Roseus'
+      Dracula Purple: 'Dracula Purpura'
+      Dracula Red: 'Dracula Ruber'
+      Dracula Yellow: 'Dracula Flavum'
+    Secondary Color Theme: ''
+        #* Main Color Theme
+  Player Settings:
+    Player Settings: ''
+    Force Local Backend for Legacy Formats: ''
+    Play Next Video: ''
+    Turn on Subtitles by Default: ''
+    Autoplay Videos: ''
+    Proxy Videos Through Invidious: ''
+    Autoplay Playlists: ''
+    Enable Theatre Mode by Default: ''
+    Default Volume: ''
+    Default Playback Rate: ''
+    Default Video Format:
+      Default Video Format: ''
+      Dash Formats: ''
+      Legacy Formats: ''
+      Audio Formats: ''
+    Default Quality:
+      Default Quality: ''
+      Auto: ''
+      144p: ''
+      240p: ''
+      360p: ''
+      480p: ''
+      720p: ''
+      1080p: ''
+      1440p: ''
+      4k: ''
+      8k: ''
+  Privacy Settings:
+    Privacy Settings: ''
+    Remember History: ''
+    Save Watched Progress: ''
+    Clear Search Cache: ''
+    Are you sure you want to clear out your search cache?: ''
+    Search cache has been cleared: ''
+    Remove Watch History: ''
+    Are you sure you want to remove your entire watch history?: ''
+    Watch history has been cleared: ''
+    Remove All Subscriptions / Profiles: ''
+    Are you sure you want to remove all subscriptions and profiles?  This cannot be undone.: ''
+  Subscription Settings:
+    Subscription Settings: ''
+    Hide Videos on Watch: ''
+    Fetch Feeds from RSS: ''
+    Manage Subscriptions: ''
+  Data Settings:
+    Data Settings: ''
+    Select Import Type: ''
+    Select Export Type: ''
+    Import Subscriptions: ''
+    Import FreeTube: ''
+    Import YouTube: ''
+    Import NewPipe: ''
+    Export Subscriptions: ''
+    Export FreeTube: ''
+    Export YouTube: ''
+    Export NewPipe: ''
+    Import History: ''
+    Export History: ''
+    Profile object has insufficient data, skipping item: ''
+    All subscriptions and profiles have been successfully imported: ''
+    All subscriptions have been successfully imported: ''
+    One or more subscriptions were unable to be imported: ''
+    Invalid subscriptions file: ''
+    This might take a while, please wait: ''
+    Invalid history file: ''
+    Subscriptions have been successfully exported: ''
+    History object has insufficient data, skipping item: ''
+    All watched history has been successfully imported: ''
+    All watched history has been successfully exported: ''
+    Unable to read file: ''
+    Unable to write file: ''
+    Unknown data key: ''
+    How do I import my subscriptions?: ''
+  Advanced Settings:
+    Advanced Settings: ''
+    Enable Debug Mode (Prints data to the console): ''
+    'Proxy Address (Example: SOCKS5://127.0.0.1:9050 )': ''
+    'Clicking "TEST PROXY" button will send a request to https://ipinfo.io/json': ''
+    Use Tor / Proxy for API calls: ''
+    TEST PROXY: ''
+    #& Invidious Instance (Default is https://invidious.snopyta.org)
+    See Public Instances: ''
+    Clear History:
+      Clear History: ''
+      # On Click
+      Are you sure you want to delete your history?: ''
+      #& Yes
+      #& No
+    Clear Subscriptions:
+      Clear Subscriptions: ''
+      # On Click
+      Are you sure you want to remove all subscriptions?: ''
+      #& Yes
+      #& No
+
+About:
+  #On About page
+  About: ''
+  #& About
+  'This software is FOSS and released under the GNU Affero General Public License v3.0.': ''
+
+  'Found a bug? Want to suggest a feature? Want to help out? Check out our GitHub page. Pull requests are welcome.': >
+
+  Thank you very much to the People and Projects that make FreeTube possible!: ''
+
+  'Want to chat? Join our Element / Matrix Server . Please check the rules before joining.': ''
+
+  'Looking for help? Check out our Wiki page.': ''
+
+  Check out our Firefox extension!: ''
+
+  'If you enjoy using FreeTube, consider donating via Liberapay or through our Bitcoin address.': ''
+
+  #~ 'BTC: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS'
+
+  Latest FreeTube News: ''
+
+Profile:
+  Profile Select: ''
+  All Channels: ''
+  Profile Manager: ''
+  Create New Profile: ''
+  Edit Profile: ''
+  Color Picker: ''
+  Custom Color: ''
+  Profile Preview: ''
+  Create Profile: ''
+  Update Profile: ''
+  Make Default Profile: ''
+  Delete Profile: ''
+  Are you sure you want to delete this profile?: ''
+  All subscriptions will also be deleted.: ''
+  Profile could not be found: ''
+  Your profile name cannot be empty: ''
+  Profile has been created: ''
+  Profile has been updated: ''
+  Your default profile has been set to $: ''
+  Removed $ from your profiles: ''
+  Your default profile has been changed to your primary profile: ''
+  $ is now the active profile: ''
+  Subscription List: ''
+  Other Channels: ''
+  $ selected: ''
+  Select All: ''
+  Select None: ''
+  Delete Selected: ''
+  Add Selected To Profile: ''
+  No channel(s) have been selected: ''
+  ? This is your primary profile.  Are you sure you want to delete the selected channels?  The
+    same channels will be deleted in any profile they are found in.
+  : ''
+  Are you sure you want to delete the selected channels?  This will not delete the channel from any other profile.: ''
+#On Channel Page
+Channel:
+  Subscriber: ''
+  Subscribers: ''
+  Subscribe: ''
+  Unsubscribe: ''
+  Channel has been removed from your subscriptions: ''
+  Removed subscription from $ other channel(s): ''
+  Added channel to your subscriptions: ''
+  Search Channel: ''
+  Your search results have returned 0 results: ''
+  Sort By: ''
+  Videos:
+    Videos: ''
+    This channel does not currently have any videos: ''
+    Sort Types:
+      Newest: ''
+      Oldest: ''
+      Most Popular: ''
+  Playlists:
+    Playlists: ''
+    This channel does not currently have any playlists: ''
+    Sort Types:
+      Last Video Added: ''
+      Newest: ''
+      Oldest: ''
+  About:
+    About: ''
+    Channel Description: ''
+    Featured Channels: ''
+Video:
+  Mark As Watched: ''
+  Remove From History: ''
+  Video has been marked as watched: ''
+  Video has been removed from your history: ''
+  Open in YouTube: ''
+  Copy YouTube Link: ''
+  Open YouTube Embedded Player: ''
+  Copy YouTube Embedded Player Link: ''
+  Open in Invidious: ''
+  Copy Invidious Link: ''
+  View: ''
+  Views: ''
+  Loop Playlist: ''
+  Shuffle Playlist: ''
+  Reverse Playlist: ''
+  Play Next Video: ''
+  Play Previous Video: ''
+  # Context is "X People Watching"
+  Watching: ''
+  Watched: ''
+  Autoplay: ''
+  # As in a Live Video
+  Live: ''
+  Live Now: ''
+  Live Chat: ''
+  Enable Live Chat: ''
+  Live Chat is currently not supported in this build.: ''
+  'Chat is disabled or the Live Stream has ended.': ''
+  Live chat is enabled.  Chat messages will appear here once sent.: ''
+  'Live Chat is currently not supported with the Invidious API.  A direct connection to YouTube is required.': ''
+  Published:
+    Jan: ''
+    Feb: ''
+    Mar: ''
+    Apr: ''
+    May: ''
+    Jun: ''
+    Jul: ''
+    Aug: ''
+    Sep: ''
+    Oct: ''
+    Nov: ''
+    Dec: ''
+    Second: ''
+    Seconds: ''
+    Minute: ''
+    Minutes: ''
+    Hour: ''
+    Hours: ''
+    Day: ''
+    Days: ''
+    Week: ''
+    Weeks: ''
+    Month: ''
+    Months: ''
+    Year: ''
+    Years: ''
+    Ago: ''
+    Upcoming: ''
+  Published on: ''
+  # $ is replaced with the number and % with the unit (days, hours, minutes...)
+  Publicationtemplate: ''
+#& Videos
+Videos:
+  #& Sort By
+  Sort By:
+    Newest: ''
+    Oldest: ''
+    #& Most Popular
+#& Playlists
+Playlist:
+  #& About
+  View Full Playlist: ''
+  Videos: ''
+  View: ''
+  Views: ''
+  Last Updated On: ''
+  Share Playlist:
+    Share Playlist: ''
+    Copy YouTube Link: ''
+    Open in YouTube: ''
+    Copy Invidious Link: ''
+    Open in Invidious: ''
+
+# On Video Watch Page
+#* Published
+#& Views
+Toggle Theatre Mode: ''
+Change Format:
+  Change Video Formats: ''
+  Use Dash Formats: ''
+  Use Legacy Formats: ''
+  Use Audio Formats: ''
+  Dash formats are not available for this video: ''
+  Audio formats are not available for this video: ''
+Share:
+  Share Video: ''
+  Include Timestamp: ''
+  Copy Link: ''
+  Open Link: ''
+  Copy Embed: ''
+  Open Embed: ''
+  # On Click
+  Invidious URL copied to clipboard: ''
+  Invidious Embed URL copied to clipboard: ''
+  YouTube URL copied to clipboard: ''
+  YouTube Embed URL copied to clipboard: ''
+Mini Player: ''
+Comments:
+  Comments: ''
+  Click to View Comments: ''
+  Getting comment replies, please wait: ''
+  Show Comments: ''
+  Hide Comments: ''
+  # Context: View 10 Replies, View 1 Reply
+  View: ''
+  Hide: ''
+  Replies: ''
+  Reply: ''
+  There are no comments available for this video: ''
+  Load More Comments: ''
+Up Next: ''
+
+# Toast Messages
+Local API Error (Click to copy): ''
+Invidious API Error (Click to copy): ''
+Falling back to Invidious API: ''
+Falling back to the local API: ''
+Subscriptions have not yet been implemented: ''
+Loop is now disabled: ''
+Loop is now enabled: ''
+Shuffle is now disabled: ''
+Shuffle is now enabled: ''
+The playlist has been reversed: ''
+Playing Next Video: ''
+Playing Previous Video: ''
+Playing next video in 5 seconds.  Click to cancel: ''
+Canceled next video autoplay: ''
+'The playlist has ended.  Enable loop to continue playing': ''
+
+Yes: ''
+No: 'nullum'
+More: plus
+Open New Window: aperiere fenestram novum

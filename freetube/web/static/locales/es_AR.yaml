@@ -1,0 +1,530 @@
+# Put the name of your locale in the same language
+Locale Name: 'español (Argentina)'
+FreeTube: 'FreeTube'
+# Currently on Subscriptions, Playlists, and History
+'This part of the app is not ready yet. Come back later when progress has been made.': >-
+  Esta parte de la aplicación no esta lista por el momento. Vuelve después cuando
+  haya habido progreso.
+
+# Webkit Menu Bar
+File: 'Archivo'
+Quit: 'Quitar'
+Edit: 'Editar'
+Undo: 'Deshacer'
+Redo: 'Rehacer'
+Cut: 'Cortar'
+Copy: 'Copiar'
+Paste: 'Pegar'
+Delete: 'Eliminar'
+Select all: 'Seleccionar todo'
+Reload: 'Recargar'
+Force Reload: 'Forzar recarga'
+Toggle Developer Tools: 'Alternar herramientas para desarrolladores'
+Actual size: 'Tamaño real'
+Zoom in: 'Acercarse'
+Zoom out: 'Alejarse'
+Toggle fullscreen: 'Alternar pantalla completa'
+Window: 'Ventana'
+Minimize: 'Minimizar'
+Close: 'Cerrar'
+Back: 'Volver'
+Forward: 'Adelante'
+
+# Search Bar
+Search / Go to URL: 'Buscar / Ir a URL'
+  # In Filter Button
+Search Filters:
+  Search Filters: 'Filtros de búsqueda'
+  Sort By:
+    Sort By: 'Ordenar por'
+    Most Relevant: 'Más relevante'
+    Rating: 'Clasificación'
+    Upload Date: 'Fecha de carga'
+    View Count: 'Conteo de visitas'
+  Time:
+    Time: 'Hora'
+    Any Time: 'En cualquier momento'
+    Last Hour: 'Última hora'
+    Today: 'Hoy'
+    This Week: 'Esta semana'
+    This Month: 'Este mes'
+    This Year: 'Este año'
+  Type:
+    Type: 'Tipo'
+    All Types: 'Todos los tipos'
+    Videos: 'Videos'
+    Channels: 'Canales'
+    #& Playlists
+  Duration:
+    Duration: 'Duración'
+    All Durations: 'Todas las duraciones'
+    Short (< 4 minutes): 'Corto (< 4 minutos)'
+    Long (> 20 minutes): 'Larga (> 20 minutos)'
+  # On Search Page
+  Search Results: 'Resultados de la búsqueda'
+  Fetching results. Please wait: 'Obteniendo resultados. Por favor espere'
+  Fetch more results: 'Obtener más resultados'
+# Sidebar
+  There are no more results for this search: No hay más resultados para esta búsqueda
+Subscriptions:
+    # On Subscriptions Page
+  Subscriptions: 'Suscripciones'
+  Latest Subscriptions: 'Últimas suscripciones'
+  'Your Subscription list is currently empty. Start adding subscriptions to see them here.': 'Su
+    lista de suscripción está actualmente vacía. Comience a agregar suscripciones
+    para verlas aquí.'
+  'Getting Subscriptions. Please wait.': 'Obtención de suscripciones. Por favor espere.'
+  Refresh Subscriptions: 'Actualizar suscripciones'
+  Load More Videos: Cargar más videos
+  This profile has a large number of subscriptions.  Forcing RSS to avoid rate limiting: Este
+    perfil tiene un gran número de suscriptores.  Forzando RSS para evitar límites
+Trending:
+  Trending: 'Tendencias'
+  Movies: Películas
+  Gaming: Juego
+  Music: Música
+  Default: Por defecto
+  Trending Tabs: Pestañas de Tendencias
+Most Popular: 'Más popular'
+Playlists: 'Listas de reproducción'
+User Playlists:
+  Your Playlists: 'Tus listas de reproducción'
+  Your saved videos are empty. Click on the save button on the corner of a video to have it listed here: Tu
+    lista de videos guardados está vacía. Hacé clic en el botón de guardado en la
+    esquina de un video para que aparezca acá
+  Playlist Message: Está página no es un reflejo de listas de reproducción completamente
+    funcionales. Solo lista los videos que has guardado o marcado como favoritos.
+    Cuando el trabajo esté terminado, todos los videos que están actualmente acá serán
+    migrados a una lista de reproducción de 'Favoritos'.
+  Search bar placeholder: Buscar en la Lista de Reproducción
+History:
+  # On History Page
+  History: 'Historial'
+  Watch History: 'Ver historial'
+  Your history list is currently empty.: 'Su lista de historial está actualmente vacía.'
+  Search bar placeholder: Buscar en el Historial
+Settings:
+  # On Settings Page
+  Settings: 'Configuraciones'
+  General Settings:
+    General Settings: 'Configuraciones generales'
+    Fallback to Non-Preferred Backend on Failure: 'Recurrir a un backend no preferido
+      cuando suceda un fallo'
+    Enable Search Suggestions: 'Habilitar sugerencias de búsqueda'
+    Default Landing Page: 'Página de destino predeterminada'
+    Locale Preference: 'Preferencia regional'
+    Preferred API Backend:
+      Preferred API Backend: 'Backend de API preferido'
+      Local API: 'API local'
+      Invidious API: 'API envidiosa'
+    Video View Type:
+      Video View Type: 'Tipo de vista de video'
+      Grid: 'Cuadrícula'
+      List: 'Lista'
+    Thumbnail Preference:
+      Thumbnail Preference: 'Preferencia de miniaturas'
+      Default: 'Predeterminado'
+      Beginning: 'Comenzando'
+      Middle: 'Medio'
+      End: 'Final'
+    'Invidious Instance (Default is https://invidious.snopyta.org)': 'Instancia de
+      Invidious (por defecto es https://invidious.snopyta.org)'
+    Region for Trending: 'Región para Tendencias'
+        #! List countries
+    View all Invidious instance information: Ver toda la información sobre la instancia
+      de Invidious
+    Check for Latest Blog Posts: Buscar nuevas entradas de blogs
+    Check for Updates: Buscar actualizaciones
+    Set Current Instance as Default: Definir Instancia Actual como Por Defecto
+    Clear Default Instance: Limpiar Instancia Por Defecto
+    Current Invidious Instance: Instancia Actual de Individuous
+    The currently set default instance is $: La instancia actual es $
+    No default instance has been set: No se ha elegido ninguna instancia
+    Current instance will be randomized on startup: La instancia actual será aleatorizada
+      en el inicio
+    System Default: Por defecto del Sistema
+    External Link Handling:
+      No Action: Sin Acción
+      External Link Handling: Manejo de Enlaces Externos
+      Open Link: Abrir Enlace
+      Ask Before Opening Link: Preguntar Antes de Abrir un Enlace
+  Theme Settings:
+    Theme Settings: 'Configuraciones del tema'
+    Match Top Bar with Main Color: 'Igualar color de la barra superior con el color
+      principal'
+    Base Theme:
+      Base Theme: 'Tema base'
+      Black: 'Negro'
+      Dark: 'Oscuro'
+      Light: 'Claro'
+      Dracula: 'Drácula'
+    Main Color Theme:
+      Main Color Theme: 'Color principal del tema'
+      Red: 'Rojo'
+      Pink: 'Rosado'
+      Purple: 'Púrpura'
+      Deep Purple: 'Púrpura oscuro'
+      Indigo: 'Indigo'
+      Blue: 'Azul'
+      Light Blue: 'Celeste'
+      Cyan: 'Cian'
+      Teal: 'Verde azulado'
+      Green: 'Verde'
+      Light Green: 'Verde claro'
+      Lime: 'Lima'
+      Yellow: 'Amarillo'
+      Amber: 'Ámbar'
+      Orange: 'Naranja'
+      Deep Orange: 'Naranja oscuro'
+      Dracula Cyan: 'Drácula Cian'
+      Dracula Green: 'Drácula Verde'
+      Dracula Orange: 'Drácula Naranja'
+      Dracula Pink: 'Drácula Rosado'
+      Dracula Purple: 'Drácula Púrpura'
+      Dracula Red: 'Drácula Rojo'
+      Dracula Yellow: 'Drácula Amarillo'
+    Secondary Color Theme: 'Color secundario del tema'
+        #* Main Color Theme
+    UI Scale: Escala de la interfaz de usuario
+    Disable Smooth Scrolling: Desactivar desplazamiento suave
+    Expand Side Bar by Default: Expandir la barra lateral por defecto
+    Hide Side Bar Labels: Esconder las Etiquetas de la Barra Lateral
+  Player Settings:
+    Player Settings: 'Configuraciones del reproductor'
+    Force Local Backend for Legacy Formats: 'Forzar un backend local para los formatos
+      de legado'
+    Play Next Video: 'Reproducir siguiente video'
+    Turn on Subtitles by Default: 'Activar subtítulos por defecto'
+    Autoplay Videos: 'Autoreproducir videos'
+    Proxy Videos Through Invidious: 'Utilizar Invidious como proxy para los videos'
+    Autoplay Playlists: 'Autoreproducir listas de reproducción'
+    Enable Theatre Mode by Default: 'Habilitar modo cine por defecto'
+    Default Volume: 'Volumen por defecto'
+    Default Playback Rate: 'Velocidad de reproducción por defecto'
+    Default Video Format:
+      Default Video Format: 'Formato de video por defecto'
+      Dash Formats: 'Formatos del panel'
+      Legacy Formats: 'Formatos de legado'
+      Audio Formats: 'Formatos de audio'
+    Default Quality:
+      Default Quality: 'Calidad de video por defecto'
+      Auto: 'Automática'
+      144p: '144p'
+      240p: '240p'
+      360p: '360p'
+      480p: '480p'
+      720p: '720p'
+      1080p: ''
+      1440p: '1440p'
+      4k: '4k'
+      8k: '8k'
+  Privacy Settings:
+    Privacy Settings: 'Configuraciones de privacidad'
+    Remember History: 'Recordar historial'
+    Save Watched Progress: 'Recordar tiempo observado del video'
+    Clear Search Cache: 'Borrar la caché de búsqueda'
+    Are you sure you want to clear out your search cache?: '¿Estás seguro de querer
+      borrar tu caché de búsqueda?'
+    Search cache has been cleared: 'La caché de búsqueda ha sido borrada'
+    Remove Watch History: 'Borrar historial de videos vistos'
+    Are you sure you want to remove your entire watch history?: '¿Estás seguro de
+      querer borrar tu historial completo de videos vistos?'
+    Watch history has been cleared: 'El historial de videos vistos ha sido borrado'
+    Remove All Subscriptions / Profiles: 'Remover todas las suscripciones / perfiles'
+    Are you sure you want to remove all subscriptions and profiles?  This cannot be undone.: '¿Estás
+      seguro de querer remover todas las suscripciones y perfiles? Esta acción no
+      puede deshacerse.'
+  Subscription Settings:
+    Subscription Settings: 'Configuraciones de suscripción'
+    Hide Videos on Watch: 'Ocultar videos para ver'
+    Fetch Feeds from RSS: ''
+    Manage Subscriptions: 'Administrar suscripciones'
+  Data Settings:
+    Data Settings: 'Configuraciones de datos'
+    Select Import Type: 'Seleccionar tipo para importar'
+    Select Export Type: 'Seleccionar tipo para exportar'
+    Import Subscriptions: 'Importar suscripciones'
+    Import FreeTube: 'Importar FreeTube'
+    Import YouTube: 'Importar Youtube'
+    Import NewPipe: 'Importar NewPipe'
+    Export Subscriptions: 'Exportar suscripciones'
+    Export FreeTube: 'Exportar Freetube'
+    Export YouTube: 'Exportar Youtube'
+    Export NewPipe: 'Exportar NewPipe'
+    Import History: 'Importar historial'
+    Export History: 'Exportar historial'
+    Profile object has insufficient data, skipping item: ''
+    All subscriptions and profiles have been successfully imported: ''
+    All subscriptions have been successfully imported: ''
+    Invalid subscriptions file: ''
+    This might take a while, please wait: ''
+    Invalid history file: ''
+    Subscriptions have been successfully exported: ''
+    History object has insufficient data, skipping item: ''
+    All watched history has been successfully imported: ''
+    All watched history has been successfully exported: ''
+    Unable to read file: ''
+    Unable to write file: ''
+    Unknown data key: ''
+    How do I import my subscriptions?: ''
+    Check for Legacy Subscriptions: Comprobar suscripciones de legado
+  Advanced Settings:
+    Advanced Settings: ''
+    Enable Debug Mode (Prints data to the console): ''
+    'Proxy Address (Example: SOCKS5://127.0.0.1:9050 )': ''
+    'Clicking "TEST PROXY" button will send a request to https://ipinfo.io/json': ''
+    Use Tor / Proxy for API calls: ''
+    TEST PROXY: ''
+    #& Invidious Instance (Default is https://invidious.snopyta.org)
+    See Public Instances: ''
+    Clear History:
+      Clear History: ''
+      # On Click
+      Are you sure you want to delete your history?: ''
+      #& Yes
+      #& No
+    Clear Subscriptions:
+      Clear Subscriptions: ''
+      # On Click
+      Are you sure you want to remove all subscriptions?: ''
+      #& Yes
+      #& No
+
+  Distraction Free Settings:
+    Hide Active Subscriptions: Ocultar suscripciones activas
+    Hide Live Chat: Ocultar chat en vivo
+    Hide Popular Videos: Ocultar videos populares
+    Hide Trending Videos: Ocultar videos en tendencia
+    Hide Recommended Videos: Ocultar videos recomendados
+    Hide Comment Likes: Ocultar calificaciones de comentarios
+    Hide Channel Subscribers: Ocultar los suscriptores del canal
+    Hide Video Likes And Dislikes: Ocultar calificaciones del video
+    Hide Video Views: Ocultar las vistas del video
+    Distraction Free Settings: Configuraciones para evitar distraerse
+  The app needs to restart for changes to take effect. Restart and apply change?: Esta
+    aplicación necesita reiniciarse para que los cambios entren en efecto. ¿Reiniciar
+    y aplicar el cambio?
+  Proxy Settings:
+    Clicking on Test Proxy will send a request to: Hacer clic en Probar proxy enviará
+      una solicitud a
+About:
+  #On About page
+  About: ''
+  #& About
+  'This software is FOSS and released under the GNU Affero General Public License v3.0.': ''
+
+  'Found a bug? Want to suggest a feature? Want to help out? Check out our GitHub page. Pull requests are welcome.': >
+
+  Thank you very much to the People and Projects that make FreeTube possible!: ''
+
+  'Want to chat? Join our Element / Matrix Server . Please check the rules before joining.': ''
+
+  'Looking for help? Check out our Wiki page.': ''
+
+  Check out our Firefox extension!: ''
+
+  'If you enjoy using FreeTube, consider donating via Liberapay or through our Bitcoin address.': ''
+
+  #~ 'BTC: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS'
+
+  Latest FreeTube News: ''
+
+  Website: Sitio web
+  Email: Correo electrónico
+  Blog: Blog
+Profile:
+  All Channels: ''
+  Profile Manager: ''
+  Create New Profile: ''
+  Edit Profile: ''
+  Color Picker: ''
+  Custom Color: ''
+  Profile Preview: ''
+  Create Profile: ''
+  Update Profile: ''
+  Make Default Profile: ''
+  Delete Profile: ''
+  Are you sure you want to delete this profile?: ''
+  All subscriptions will also be deleted.: ''
+  Profile could not be found: ''
+  Your profile name cannot be empty: ''
+  Profile has been created: ''
+  Profile has been updated: ''
+  Your default profile has been set to $: ''
+  Removed $ from your profiles: ''
+  Your default profile has been changed to your primary profile: ''
+  $ is now the active profile: ''
+#On Channel Page
+Channel:
+  Subscriber: ''
+  Subscribers: ''
+  Subscribe: ''
+  Unsubscribe: ''
+  Search Channel: ''
+  Your search results have returned 0 results: ''
+  Sort By: ''
+  Videos:
+    Videos: ''
+    This channel does not currently have any videos: ''
+    Sort Types:
+      Newest: ''
+      Oldest: ''
+      Most Popular: ''
+  Playlists:
+    Playlists: ''
+    This channel does not currently have any playlists: ''
+    Sort Types:
+      Last Video Added: ''
+      Newest: ''
+      Oldest: ''
+  About:
+    About: ''
+    Channel Description: ''
+    Featured Channels: ''
+Video:
+  Mark As Watched: ''
+  Remove From History: ''
+  Video has been marked as watched: ''
+  Video has been removed from your history: ''
+  Open in YouTube: ''
+  Copy YouTube Link: ''
+  Open YouTube Embedded Player: ''
+  Copy YouTube Embedded Player Link: ''
+  Open in Invidious: ''
+  Copy Invidious Link: ''
+  View: ''
+  Views: ''
+  # Context is "X People Watching"
+  Watching: ''
+  Watched: ''
+  Autoplay: ''
+  # As in a Live Video
+  Live: ''
+  Live Now: ''
+  Live Chat: ''
+  Enable Live Chat: ''
+  Live Chat is currently not supported in this build.: ''
+  'Chat is disabled or the Live Stream has ended.': ''
+  Live chat is enabled.  Chat messages will appear here once sent.: ''
+  'Live Chat is currently not supported with the Invidious API.  A direct connection to YouTube is required.': ''
+  Published:
+    Jan: ''
+    Feb: ''
+    Mar: ''
+    Apr: ''
+    May: ''
+    Jun: ''
+    Jul: ''
+    Aug: ''
+    Sep: ''
+    Oct: ''
+    Nov: ''
+    Dec: ''
+    Second: ''
+    Seconds: ''
+    Minute: ''
+    Minutes: ''
+    Hour: ''
+    Hours: ''
+    Day: ''
+    Days: ''
+    Week: ''
+    Weeks: ''
+    Month: ''
+    Months: ''
+    Year: ''
+    Years: ''
+    Ago: ''
+    Upcoming: ''
+  Published on: ''
+  # $ is replaced with the number and % with the unit (days, hours, minutes...)
+  Publicationtemplate: ''
+#& Videos
+  translated from English: traducido del inglés
+  Stats:
+    Mimetype: Tipo de medio
+Videos:
+  #& Sort By
+  Sort By:
+    Newest: ''
+    Oldest: ''
+    #& Most Popular
+#& Playlists
+Playlist:
+  #& About
+  View Full Playlist: ''
+  Videos: ''
+  View: ''
+  Views: ''
+  Last Updated On: ''
+  Share Playlist:
+    Share Playlist: ''
+    Copy YouTube Link: ''
+    Open in YouTube: ''
+    Copy Invidious Link: ''
+    Open in Invidious: ''
+
+# On Video Watch Page
+#* Published
+#& Views
+Toggle Theatre Mode: ''
+Change Format:
+  Change Video Formats: ''
+  Use Dash Formats: ''
+  Use Legacy Formats: ''
+  Use Audio Formats: ''
+Share:
+  Share Video: ''
+  Copy Link: ''
+  Open Link: ''
+  Copy Embed: ''
+  Open Embed: ''
+  # On Click
+  Invidious URL copied to clipboard: ''
+  Invidious Embed URL copied to clipboard: ''
+  YouTube URL copied to clipboard: ''
+  YouTube Embed URL copied to clipboard: ''
+Mini Player: ''
+Comments:
+  Comments: ''
+  Click to View Comments: ''
+  Getting comment replies, please wait: ''
+  Show Comments: ''
+  Hide Comments: ''
+  # Context: View 10 Replies, View 1 Reply
+  View: ''
+  Hide: ''
+  Replies: ''
+  Reply: ''
+  There are no comments available for this video: ''
+  Load More Comments: ''
+Up Next: ''
+
+# Toast Messages
+Local API Error (Click to copy): ''
+Invidious API Error (Click to copy): ''
+Falling back to Invidious API: ''
+Falling back to the local API: ''
+Subscriptions have not yet been implemented: ''
+Loop is now disabled: ''
+Loop is now enabled: ''
+Shuffle is now disabled: ''
+Shuffle is now enabled: ''
+Playing Next Video: ''
+Playing Previous Video: ''
+Playing next video in 5 seconds.  Click to cancel: ''
+Canceled next video autoplay: ''
+'The playlist has ended.  Enable loop to continue playing': ''
+
+Yes: 'Sí'
+No: 'No'
+A new blog is now available, $. Click to view more: Un nuevo blog está disponible,
+  $. Hacé clic para ver más
+Download From Site: Descargar desde el sitio
+Version $ is now available!  Click for more details: La versión $ ya está disponible.  Hacé
+  clic acá para más detalles.
+More: Más
+Are you sure you want to open this link?: ¿Está seguro que desea abrir este enlace?
+Open New Window: Abrir nueva ventana
+Search Bar:
+  Clear Input: Limpiar Entrada

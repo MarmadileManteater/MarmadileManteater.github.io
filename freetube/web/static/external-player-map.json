@@ -1,0 +1,58 @@
+[
+    {
+        "name": "None",
+        "value": "",
+        "cmdArguments": null
+    },
+    {
+        "name": "mpv",
+        "value": "mpv",
+        "cmdArguments": {
+            "defaultExecutable": "mpv",
+            "defaultCustomArguments": null,
+            "supportsYtdlProtocol": true,
+            "videoUrl": "",
+            "playlistUrl": "",
+            "startOffset": "--start=",
+            "playbackRate": "--speed=",
+            "playlistIndex": "--playlist-start=",
+            "playlistReverse": null,
+            "playlistShuffle": "--shuffle",
+            "playlistLoop": "--loop-playlist"
+        }
+    },
+    {
+        "name": "VLC",
+        "value": "vlc",
+        "cmdArguments": {
+            "defaultExecutable": "vlc",
+            "defaultCustomArguments": null,
+            "supportsYtdlProtocol": false,
+            "videoUrl": "",
+            "playlistUrl": null,
+            "startOffset": "--start-time=",
+            "playbackRate": "--rate=",
+            "playlistIndex": null,
+            "playlistReverse": null,
+            "playlistShuffle": "--random",
+            "playlistLoop": "--loop"
+        }
+    },
+    {
+        "name": "iina",
+        "value": "iina",
+        "cmdArguments": {
+            "defaultExecutable": "iina",
+            "defaultCustomArguments": "--no-stdin",
+            "supportsYtdlProtocol": true,
+            "videoUrl": "",
+            "playlistUrl": "",
+            "startOffset": "--mpv-start=",
+            "playbackRate": "--mpv-speed=",
+            "playlistIndex": "--mpv-playlist-start=",
+            "playlistReverse": null,
+            "playlistShuffle": "--mpv-shuffle",
+            "playlistLoop": "--mpv-loop-playlist"
+        }
+    }
+]

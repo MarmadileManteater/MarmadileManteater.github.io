@@ -1,0 +1,805 @@
+# Put the name of your locale in the same language
+Locale Name: 'العربية'
+FreeTube: 'فريتيوب'
+# Currently on Subscriptions, Playlists, and History
+'This part of the app is not ready yet. Come back later when progress has been made.': >-
+  هذا الجزء من التطبيق ليس جاهزاً بعد. عُد لاحقاً عندما يتم إحراز تقدم.
+
+# Webkit Menu Bar
+File: 'ملف'
+Quit: 'إغلاق'
+Edit: 'تحرير'
+Undo: 'تراجع'
+Redo: 'إعادة'
+Cut: 'قص'
+Copy: 'نسخ'
+Paste: 'لصق'
+Delete: 'حذف'
+Select all: 'تحديد الكل'
+Reload: 'إعادة تحميل'
+Force Reload: 'فرض إعادة التحميل'
+Toggle Developer Tools: 'فتح أدوات المطوّر'
+Actual size: 'الحجم الأصلي'
+Zoom in: 'تكبير'
+Zoom out: 'تصغير'
+Toggle fullscreen: 'تفعيل وضع الشاشة الكاملة'
+Window: 'نافذة'
+Minimize: 'تصغير'
+Close: 'إغلاق'
+Back: 'رجوع'
+Forward: 'إلى الأمام'
+
+# Search Bar
+Search / Go to URL: 'ابحث / اذهب إلى رابط'
+  # In Filter Button
+Search Filters:
+  Search Filters: 'فلاتر البحث'
+  Sort By:
+    Sort By: 'فرز بحسب'
+    Most Relevant: 'الأكثر صلة'
+    Rating: 'التقييم'
+    Upload Date: 'تاريخ الرفع'
+    View Count: 'عدد المشاهدات'
+  Time:
+    Time: 'الوقت'
+    Any Time: 'أي وقت'
+    Last Hour: 'آخر ساعة'
+    Today: 'اليوم'
+    This Week: 'هذا الأسبوع'
+    This Month: 'هذا الشهر'
+    This Year: 'هذه السنة'
+  Type:
+    Type: 'النوع'
+    All Types: 'كل الأنواع'
+    Videos: 'فيديوهات'
+    Channels: 'قنوات'
+    #& Playlists
+  Duration:
+    Duration: 'المدة'
+    All Durations: 'كل المدد'
+    Short (< 4 minutes): 'قصير (< 4 دقائق)'
+    Long (> 20 minutes): 'طويل (> 20 دقيقة)'
+  # On Search Page
+  Search Results: 'نتائج البحث'
+  Fetching results. Please wait: 'جاري إحضار النتائج. الرجاء الانتظار'
+  Fetch more results: 'إحضار المزيد من النتائج'
+# Sidebar
+  There are no more results for this search: لم يتبقى المزيد من النتائج لهذا البحث
+Subscriptions:
+    # On Subscriptions Page
+  Subscriptions: 'الاشتراكات'
+  Latest Subscriptions: 'أحدث الاشتراكات'
+  'Your Subscription list is currently empty. Start adding subscriptions to see them here.': 'قائمة
+    اشتراكاتك فارغة حالياً. ابدأ بإضافة الاشتراكات لتراهم هنا.'
+  'Getting Subscriptions. Please wait.': 'جاري تحميل الاشتراكات. يرجى الانتظار.'
+  Refresh Subscriptions: 'تحديث الاشتراكات'
+  Load More Videos: حمّل المزيد من الفيديوهات
+  This profile has a large number of subscriptions.  Forcing RSS to avoid rate limiting: لدى
+    هذا الملف الشخصي عدد كبير من الاشتراكات. يتم فرض وضع RSS لتجنب تقييد الوصول للاشتراكات
+Trending:
+  Trending: 'المحتوى الرائج'
+  Trending Tabs: علامات التبويب الشائعة
+  Movies: أفلام
+  Gaming: الالعاب
+  Music: الموسيقى
+  Default: الإفتراضي
+Most Popular: 'الأكثر شعبية'
+Playlists: 'قوائم التشغيل'
+User Playlists:
+  Your Playlists: 'قوائم التشغيل الخاصة بك'
+  Your saved videos are empty. Click on the save button on the corner of a video to have it listed here: ليس
+    لديك أي فيديو محتفظ عليه. إضغط على زر "إحفظ" في زاوية الفيديو لكي يحفظ هنا
+  Playlist Message: هذه الصفحة لا تظهر قائمات التشغيل بشكل كامل, وإنما تظهر فيديوات
+    إحتفضت عليها أو فضّلتها. عندما يكمل العمل بالكامل على هذه الصفحة, سترى كل فيديواتك
+    هنا تنتقل إلى قائمة تشغيل تسمى "المفضلة".
+  Search bar placeholder: بحث في قائمة التشغيل
+  Empty Search Message: لا توجد مقاطع فيديو في قائمة التشغيل هذه تتطابق مع بحثك
+History:
+  # On History Page
+  History: 'السجلّ'
+  Watch History: 'سجلّ المشاهدات'
+  Your history list is currently empty.: 'قائمة سجلّك فارغة حالياً.'
+  Search bar placeholder: البحث في السجل
+  Empty Search Message: لا توجد مقاطع فيديو في السجل الخاص بك تطابق بحثك
+Settings:
+  # On Settings Page
+  Settings: 'الإعدادات'
+  General Settings:
+    General Settings: 'الإعدادات العامة'
+    Fallback to Non-Preferred Backend on Failure: 'الرجوع إلى الواجهة الخلفية الغير
+      مفضلة عند الفشل'
+    Enable Search Suggestions: 'تفعيل الإقتراحات عند البحث'
+    Default Landing Page: 'الصفحة ‪المقصودة الافتراضية'
+    Locale Preference: 'اللغات المفضلة'
+    Preferred API Backend:
+      Preferred API Backend: 'الواجهة الخلفية المفضلة'
+      Local API: 'واجهة برمجة محلية'
+      Invidious API: 'واجهة برمجة "انفيديوس"'
+    Video View Type:
+      Video View Type: 'شكل عرض الفيديو'
+      Grid: 'شبكة'
+      List: 'قائمة'
+    Thumbnail Preference:
+      Thumbnail Preference: 'تفضيل الصورة المصغّرة'
+      Default: 'الافتراضي'
+      Beginning: 'بداية'
+      Middle: 'وسط'
+      End: 'نهاية'
+    'Invidious Instance (Default is https://invidious.snopyta.org)': 'حالة Invidious
+      (الافتراضية هي https://invidious.snopyta.org)'
+    Region for Trending: 'المنطقة للأكثر شيوعاً'
+        #! List countries
+    Check for Latest Blog Posts: تحقق من أحدث منشورات المدونة
+    Check for Updates: تحقّق من وجود تحديثات
+    View all Invidious instance information: عرض جميع نماذج Invidious
+    System Default: افتراضي النظام
+    Set Current Instance as Default: قم بتعيين المثيل الحالي كافتراضي
+    Current instance will be randomized on startup: سيتم عشوائية المثيل الحالي عند
+      بدء التشغيل
+    No default instance has been set: لم يتم تعيين مثيل افتراضي
+    The currently set default instance is $: المثيل الافتراضي المحدد حاليا هو $
+    Current Invidious Instance: المثيل الحالي Invidious
+    Clear Default Instance: مسح المثيل الافتراضي
+    External Link Handling:
+      No Action: لا يوجد إجراء
+      Ask Before Opening Link: اسأل قبل فتح الرابط
+      Open Link: افتح الرابط
+      External Link Handling: معالجة الارتباط الخارجي
+  Theme Settings:
+    Theme Settings: 'إعدادات السِمة'
+    Match Top Bar with Main Color: 'طابق الشريط العلوي مع اللون الأساسي'
+    Base Theme:
+      Base Theme: 'السِمة الأساسية'
+      Black: 'أسود'
+      Dark: 'داكن'
+      Light: 'فاتح'
+      Dracula: 'دراكولا'
+      System Default: افتراضيات النظام
+    Main Color Theme:
+      Main Color Theme: 'لون السِمة الأساسي'
+      Red: 'أحمر'
+      Pink: 'وردي'
+      Purple: 'إرجواني'
+      Deep Purple: 'إرجواني داكن'
+      Indigo: 'نيلي'
+      Blue: 'أزرق'
+      Light Blue: 'أزرق فاتح'
+      Cyan: 'سماوي'
+      Teal: 'تركوازي'
+      Green: 'أخضر'
+      Light Green: 'أخضر فاتح'
+      Lime: 'أخضر لايم'
+      Yellow: 'أصفر'
+      Amber: 'كهرماني'
+      Orange: 'برتقالي'
+      Deep Orange: 'برتقالي داكن'
+      Dracula Cyan: 'دراكولا سماوي'
+      Dracula Green: 'دراكولا أخضر'
+      Dracula Orange: 'دراكولا برتقالي'
+      Dracula Pink: 'دراكولا وردي'
+      Dracula Purple: 'دراكولا إرجواني'
+      Dracula Red: 'دراكولا أحمر'
+      Dracula Yellow: 'دراكولا أصفر'
+    Secondary Color Theme: 'لون السِمة الثانوي'
+        #* Main Color Theme
+    UI Scale: مقياس واجهة المستخدم
+    Disable Smooth Scrolling: عطّل التمرير المتجانس
+    Expand Side Bar by Default: كبّر الشريط الجانبي بشكل افتراضي
+    Hide Side Bar Labels: إخفاء تسميات الشريط الجانبي
+  Player Settings:
+    Player Settings: 'إعدادات المشغل'
+    Force Local Backend for Legacy Formats: 'فرض الواجهة الخلفية المحلية للتنسيقات
+      القديمة'
+    Play Next Video: 'شغل الفيديو التالي'
+    Turn on Subtitles by Default: 'شغّل الترجمات بشكل افتراضي'
+    Autoplay Videos: 'شغًل الفيديوهات تلقائياً'
+    Proxy Videos Through Invidious: 'استخدم Invidious كوسيط للفيديوهات'
+    Autoplay Playlists: 'شغّل قوائم التشغيل تلقائياً'
+    Enable Theatre Mode by Default: 'فعّل وضع المسرح بشكل افتراضي'
+    Default Volume: 'مستوى الصوت الافتراضي'
+    Default Playback Rate: 'معدّل سرعة التشغيل الافتراضية'
+    Default Video Format:
+      Default Video Format: 'تنسيق الفيديو الافتراضي'
+      Dash Formats: 'تنسيقات DASH'
+      Legacy Formats: 'تنسيقات قديمة'
+      Audio Formats: 'تنسيقات الصوت'
+    Default Quality:
+      Default Quality: 'الجودة الافتراضية'
+      Auto: 'تلقائية'
+      144p: '144p'
+      240p: '240p'
+      360p: '360p'
+      480p: '480p'
+      720p: '720p'
+      1080p: '1080p'
+      1440p: '1440p'
+      4k: '4k'
+      8k: '‍8k'
+    Playlist Next Video Interval: الفاصل الزمني لتشغيل الفيديو التالي في قائمة التشغيل
+    Next Video Interval: الفاصل الزمني للفيديو التالي
+    Scroll Volume Over Video Player: تمرير مستوى الصوت عبر مشغل الفيديو
+    Display Play Button In Video Player: عرض زر التشغيل في مشغل الفيديو
+    Fast-Forward / Rewind Interval: الفاصل الزمني السريع للأمام / الترجيع
+    Scroll Playback Rate Over Video Player: معدل تمرير التشغيل عبر مشغل الفيديو
+    Max Video Playback Rate: أقصى معدل تشغيل الفيديو
+    Video Playback Rate Interval: الفاصل الزمني لمعدل تشغيل الفيديو
+  Privacy Settings:
+    Privacy Settings: 'إعدادات الخصوصية'
+    Remember History: 'تذّكر سجلّ المشاهدة'
+    Save Watched Progress: 'حفظ نسبة المشاهدة'
+    Clear Search Cache: 'مسح ذاكرة التخزين المؤقت للبحث'
+    Are you sure you want to clear out your search cache?: 'هل أنت متأكد أنك تريد
+      مسح ذاكرة التخزين المؤقت للبحث؟'
+    Search cache has been cleared: 'تم مسح ذاكرة التخزين المؤقت للبحث'
+    Remove Watch History: 'إزالة سجل المشاهدة'
+    Are you sure you want to remove your entire watch history?: 'هل أنت متأكد من أنك
+      تريد إزالة سجل المشاهدة بالكامل؟'
+    Watch history has been cleared: 'تم مسح سجل المشاهدة'
+    Are you sure you want to remove all subscriptions and profiles?  This cannot be undone.: هل
+      أنت متأكد أنك تريد إزالة جميع الاشتراكات والملفات الشخصية؟ لا يمكن التراجع عن
+      هذا.
+    Remove All Subscriptions / Profiles: إزالة جميع الاشتراكات \ الملفات الشخصية
+    Automatically Remove Video Meta Files: إزالة ملفات تعريف الفيديو تلقائيًا
+  Subscription Settings:
+    Subscription Settings: 'إعدادات الاشتراك'
+    Hide Videos on Watch: 'أخفِ الفيديوهات عند مشاهدتها'
+    Fetch Feeds from RSS: 'جلب المحتوى عن طريق RSS'
+    Subscriptions Export Format:
+      Subscriptions Export Format: 'صيغة تصدير الاشتراكات'
+      #& Freetube
+      Newpipe: 'Newpipe'
+      OPML: 'OPML'
+    Manage Subscriptions: 'إدارة الاشتراكات'
+    Import Subscriptions: 'استيراد الاشتراكات'
+    Export Subscriptions: 'تصدير الاشتراكات'
+    How do I import my subscriptions?: 'كيف استورد اشتراكاتي؟'
+  Advanced Settings:
+    Advanced Settings: 'الإعدادات المتقدمة'
+    Enable Debug Mode (Prints data to the console): 'تمكين وضع التنقيح (يطبع البيانات
+      على الكونسول)'
+    'Proxy Address (Example: SOCKS5://127.0.0.1:9050 )': 'عنوان البروكسي ( مثال :
+      SOCKS5://127.0.0.1:9050 )'
+    'Clicking "TEST PROXY" button will send a request to https://ipinfo.io/json': 'يؤدي
+      النقر فوق زر"اختبار Proxy" إلى إرسال طلب إلى https://ipinfo.io/json'
+    Use Tor / Proxy for API calls: 'استخدم Tor / Proxy لطلبات ال API'
+    TEST PROXY: 'اختبار Proxy'
+    #& Invidious Instance (Default is https://invidious.snopyta.org)
+    See Public Instances: 'اطّلع على الحالات العامة'
+    Clear History:
+      Clear History: 'محو السجلّ'
+      # On Click
+      Are you sure you want to delete your history?: 'هل أنت متأكد أنك تريد حذف السجلّ
+        الخاص بك؟'
+      #& Yes
+      #& No
+    Clear Subscriptions:
+      Clear Subscriptions: 'محو الاشتراكات'
+      # On Click
+      Are you sure you want to remove all subscriptions?: 'هل أنت متأكد أنك تريد إزالة
+        كافة الاشتراكات؟'
+      #& Yes
+      #& No
+
+  Data Settings:
+    How do I import my subscriptions?: كيف استورد اشتراكاتي؟
+    Unknown data key: مفتاح البيانات مجهول
+    Unable to write file: غير قادر على كتابة الملف
+    Unable to read file: غير قادر على قراءة الملف
+    All watched history has been successfully exported: تم تصدير السجلّ بنجاح
+    All watched history has been successfully imported: تم استيراد السجلّ بنجاح
+    History object has insufficient data, skipping item: لا يحتوي عنصر السجلّ على
+      بيانات كافية, تخطي العنصر
+    Subscriptions have been successfully exported: تم تصدير الاشتراكات بنجاح
+    Export History: تصدير السجلّ
+    Import History: استيراد السجلّ
+    Invalid history file: ملف السجلّ غير صالح
+    This might take a while, please wait: قد يستغرق هذا بعض الوقت، يرجى الانتظار
+    Invalid subscriptions file: ملف الاشتراكات غير صالح
+    All subscriptions have been successfully imported: تم استيراد جميع الاشتراكات
+      بنجاح
+    All subscriptions and profiles have been successfully imported: تم استيراد جميع
+      الاشتراكات والملفات الشخصية بنجاح
+    Profile object has insufficient data, skipping item: لا يحتوي عنصر الملف الشخصي
+      على بيانات كافية, تخطي العنصر
+    Export NewPipe: تصدير NewPipe
+    Export YouTube: تصدير Youtube
+    Export FreeTube: تصدير FreeTube
+    Export Subscriptions: تصدير الاشتراكات
+    Import NewPipe: استيراد NewPipe
+    Import YouTube: استيراد YouTube
+    Import FreeTube: استيراد FreeTube
+    Import Subscriptions: استيراد الاشتراكات
+    Select Export Type: حدّد نوع التصدير
+    Select Import Type: حدّد نوع الاستيراد
+    Data Settings: إعدادات البيانات
+    One or more subscriptions were unable to be imported: تعذر استيراد واحد أو أكثر
+      من الاشتراكات
+    Check for Legacy Subscriptions: تحقق من وجود اشتراكات بالصيغة القديمة
+    Manage Subscriptions: إدارة الإشتراكات
+    All playlists has been successfully imported: تم استيراد جميع قوائم التشغيل بنجاح
+    Playlist insufficient data: بيانات غير كافية لقائمة التشغيل "$"، تخطي العنصر
+    All playlists has been successfully exported: تم تصدير جميع قوائم التشغيل بنجاح
+    Import Playlists: استيراد قوائم التشغيل
+    Export Playlists: تصدير قوائم التشغيل
+  Distraction Free Settings:
+    Hide Live Chat: اخفي الدردشة المباشرة
+    Hide Popular Videos: اخفي الفيديوهات الأكثر شعبية
+    Hide Trending Videos: اخفي الفيديوهات الرائجة
+    Hide Recommended Videos: اخفي الفيديوهات الموصّى بها
+    Hide Comment Likes: اخفي اعجابات التعليقات
+    Hide Channel Subscribers: اخف عدد اشتراكات القناة
+    Hide Video Views: اخف عدد مشاهدات الفيديو
+    Hide Video Likes And Dislikes: إخفاء الإعجاب وعدم الإعجاب للفيديو
+    Distraction Free Settings: إعدادات عدم الإزعاج
+    Hide Active Subscriptions: اخفي الإشتراكات الناشطة
+    Hide Playlists: إخفاء قوائم التشغيل
+  The app needs to restart for changes to take effect. Restart and apply change?: البرنامج
+    يحتاج لإعادة التشغيل كي يسري مفعول التغييرات. هل تريد إعادة التشغيل و تطبيق التغييرات؟
+  Proxy Settings:
+    City: المدينة
+    Region: المنطقة
+    Country: البلد
+    Ip: عنوان الإيبي
+    Your Info: معلوماتك
+    Test Proxy: اختبار البروكسي
+    Proxy Port Number: رقم منفذ البروكسي
+    Proxy Host: خادوم البروكسي
+    Proxy Protocol: بروتوكول البروكسي
+    Enable Tor / Proxy: تفعيل تور / البروكسي
+    Proxy Settings: خيارات البروكسي
+    Error getting network information. Is your proxy configured properly?: هنالك خطأ
+      في جلب معلومات الشبكة. هل ضبطت إعدادات وكيلك بصورة صحيحة؟
+    Clicking on Test Proxy will send a request to: النقر على اختبار البروكسي سيؤدي
+      إلى إرسال طلب إلى
+  SponsorBlock Settings:
+    Notify when sponsor segment is skipped: تنبيه عندما يتم تخطي شريحة الراعي
+    'SponsorBlock API Url (Default is https://sponsor.ajay.app)': SponsorBlock API
+      عنوان (الافتراضي هو https://sponsor.ajay.app)
+    Enable SponsorBlock: تفعيل حجب الرعاة
+    SponsorBlock Settings: إعدادات حظر الرعاة
+  External Player Settings:
+    External Player: المشغل الخارجي
+    Custom External Player Arguments: وسيطات المشغل الخارجي المخصصة
+    Custom External Player Executable: مشغل خارجي مخصص قابل للتنفيذ
+    Ignore Unsupported Action Warnings: تجاهل تحذيرات الإجراءات غير المدعومة
+    External Player Settings: إعدادات المشغل الخارجي
+  Download Settings:
+    Download Settings: إعدادات التنزيل
+    Choose Path: اختر المسار
+    Ask Download Path: اطلب مسار التنزيل
+About:
+  #On About page
+  About: 'حول'
+  #& About
+  'This software is FOSS and released under the GNU Affero General Public License v3.0.': 'هذا
+    البرنامج متروك الحقوق مرخّص بحرية AGPL-3.0.'
+
+  'Found a bug? Want to suggest a feature? Want to help out? Check out our GitHub page. Pull requests are welcome.': >-
+    وجدت خطأ؟ تريد اقتراح ميزة؟ تريد المساعدة؟ تحقق من صفحة GitHub الخاصة بنا. طلبات
+    الإضافة مرحب بها.
+
+  Thank you very much to the People and Projects that make FreeTube possible!: 'شكراً
+    جزيلاً للأشخاص والمشاريع التي جعلت FreeTube ممكنًا!'
+
+  'Want to chat? Join our Element / Matrix Server . Please check the rules before joining.': 'هل
+    تريد الدردشة؟ انضم إلى سيرفرنا على Element / Matrix. يرجى التحقق من القواعد قبل
+    الانضمام.'
+
+  'Looking for help? Check out our Wiki page.': 'هل تبحث عن المساعدة؟ اطّلع على صفحة
+    الويكي الخاصة بنا.'
+
+  Check out our Firefox extension!: 'تفقّد إضافتنا على فايرفوكس!'
+
+  'If you enjoy using FreeTube, consider donating via Liberapay or through our Bitcoin address.': 'إذا
+    كنت تستمتع باستخدام FreeTube، ففكر في التبرع عبر Liberapay أو من خلال عنوان Bitcoin
+    الخاص بنا.'
+
+  #~ 'BTC: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS'
+
+  Latest FreeTube News: 'آخر أخبار FreeTube'
+
+  Donate: التبرع
+  Translate: ساعدنا في ترجمة Freetube
+  Chat on Matrix: الدردشة على ماتريكس
+  Mastodon: ماستدون
+  Email: البريد الإلكتروني
+  Blog: المدوّنة
+  Website: موقع الويب
+  Report a problem: الإبلاغ عن مشكلة
+  FAQ: الأسئلة المتداولة
+  Help: المساعدة
+  View License: اعرض الرخصة
+  Source code: الشفرة المصدرية
+  Beta: تجريبي
+  these people and projects: هؤلاء الناس والمشاريع
+  FreeTube is made possible by: Freetube أصبح ممكنا بواسطة
+  Credits: الاعتمادات
+  room rules: قواعد الغرفة
+  Please read the: يرجى قراءة
+  Please check for duplicates before posting: يرجى التحقق من التكرارات قبل النشر
+  GitHub issues: مشاكل GitHub
+  FreeTube Wiki: ويكي Freetube
+  GitHub releases: إصدارات GitHub
+  Downloads / Changelog: التحميلات\التغييرات
+  Licensed under the AGPLv3: مرخّص تحت رخصة أفيرو جيبيإل النسخة الثالثة
+Profile:
+  All Channels: 'جميع القنوات'
+  Profile Manager: 'مدير الملف الشخصي'
+  Create New Profile: 'إنشاء ملف شخصي جديد'
+  Edit Profile: 'تعديل الملف الشخصي'
+  Color Picker: 'أداة انتقاء اللون'
+  Custom Color: 'لون مخصص'
+  Profile Preview: 'معاينة الملف الشخصي'
+  Create Profile: 'إنشاء ملف شخصي'
+  Update Profile: 'تحديث الملف الشخصي'
+  Make Default Profile: 'اجعله ملف شخصي افتراضي'
+  Delete Profile: 'حذف الملف الشخصي'
+  Are you sure you want to delete this profile?: 'هل أنت متأكد أنك تريد حذف هذا الملف
+    الشخصي؟'
+  All subscriptions will also be deleted.: 'ستُمحى جميع الاشتراكات أيضاً.'
+  Profile could not be found: 'لم يتم العثور على الملف الشخصي'
+  Your profile name cannot be empty: 'لا يمكن أن يكون اسم ملفك الشخصي فارغاً'
+  Profile has been created: 'تم إنشاء الملف الشخصي'
+  Profile has been updated: 'تم تحديث الملف الشخصي'
+  Your default profile has been set to $: 'تم تعيين $ كملف شخصي افتراضي'
+  Removed $ from your profiles: 'تم إزالة $ من ملفاتك الشخصية'
+  Your default profile has been changed to your primary profile: 'تم تغيير ملفك الشخصي
+    الافتراضي إلى ملفك الشخصي الأساسي'
+  $ is now the active profile: '$ هو الآن الملف الشخصي النشط'
+#On Channel Page
+  Profile Select: اختيار الملف الشخصي
+  Are you sure you want to delete the selected channels?  This will not delete the channel from any other profile.: هل
+    أنت متأكد أنك تريد حذف القنوات المُحددة؟ لن يؤدي هذا إلى حذف القناة من أي ملف
+    شخصي آخر.
+  ? This is your primary profile.  Are you sure you want to delete the selected channels?  The
+    same channels will be deleted in any profile they are found in.
+  : هذا هو ملفك الشخصي الأساسي. هل أنت متأكد أنك تريد حذف القنوات المُحددة؟ سيتم حذف
+    القنوات نفسها إن وجدت في أي ملف شخصي.
+  No channel(s) have been selected: لم يتم تحديد أي قناة/قنوات
+  Add Selected To Profile: إضافة المُحدد إلى الملف الشخصي
+  Delete Selected: حذف المُحدد
+  Select None: إلغاء التحديد
+  Select All: تحديد الكل
+  $ selected: $ تم اختياره
+  Other Channels: قنوات أُخرى
+  Subscription List: قائمة الاشتراكات
+  Profile Filter: مرشح الملف الشخصي
+  Profile Settings: إعدادات الملف الشخصي
+Channel:
+  Subscriber: 'مُشترِك'
+  Subscribers: 'مُشترِكين'
+  Subscribe: 'اشتراك'
+  Unsubscribe: 'إلغاء الاشتراك'
+  Search Channel: 'ابحث في القناة'
+  Your search results have returned 0 results: 'لم تُعد نتيجة بحثك أي نتائج'
+  Sort By: 'فرز بحسب'
+  Videos:
+    Videos: 'الفيديوهات'
+    This channel does not currently have any videos: 'لا تحتوي هذه القناة على أي فيديوهات
+      حالياً'
+    Sort Types:
+      Newest: 'الأحدث'
+      Oldest: 'الأقدم'
+      Most Popular: 'الأكثر شهرة'
+  Playlists:
+    Playlists: 'قوائم التشغيل'
+    This channel does not currently have any playlists: 'لا تحتوي هذه القناة حالياً
+      على أي قوائم تشغيل'
+    Sort Types:
+      Last Video Added: 'آخر فيديو تمت إضافته'
+      Newest: 'الأحدث'
+      Oldest: 'الأقدم'
+  About:
+    About: 'حول'
+    Channel Description: 'وصف القناة'
+    Featured Channels: 'القنوات المميزة'
+  Added channel to your subscriptions: تم إضافة القناة إلى اشتراكاتك
+  Removed subscription from $ other channel(s): تم إزالة الاشتراك من $ قناة/قنوات
+    أخرى
+  Channel has been removed from your subscriptions: تمت إزالة القناة من اشتراكاتك
+Video:
+  Mark As Watched: 'علّمه كفيديو تمت مشاهدته'
+  Remove From History: 'إزالة من سجلّ المشاهدة'
+  Video has been marked as watched: 'تم تعليم الفيديو كمُشاهد'
+  Video has been removed from your history: 'تم إزالة الفيديو من سجّلك'
+  Open in YouTube: 'افتح في اليوتيوب'
+  Copy YouTube Link: '‫انسخ رابط اليوتيوب'
+  Open YouTube Embedded Player: 'افتح في مشغّل اليوتيوب المُضمّن'
+  Copy YouTube Embedded Player Link: 'انسخ رابط مشغل اليوتيوب المُضمّن'
+  Open in Invidious: 'إفتح على انفيديوس'
+  Copy Invidious Link: 'انسخ رابط انفيديوس'
+  View: 'عرض'
+  Views: 'مشاهدات'
+  # Context is "X People Watching"
+  Watching: 'يتم مشاهدته'
+  Watched: 'مُشاهد'
+  # As in a Live Video
+  Live: '‏‏‪مُباشر'
+  Live Now: 'مُباشر الآن'
+  Live Chat: 'محادثة مباشرة'
+  Enable Live Chat: 'فعّل المحادثة المباشرة'
+  Live Chat is currently not supported in this build.: 'المحادثة المباشرة غير مدعومة
+    حالياً في هذا الإصدار.'
+  'Chat is disabled or the Live Stream has ended.': 'المحادثة معطلة أو انتهى البث
+    المباشر.'
+  Live chat is enabled.  Chat messages will appear here once sent.: 'تم تمكين المحادثة
+    المباشرة. ستظهر رسائل المحادثة هنا بمجرد إرسالها.'
+  'Live Chat is currently not supported with the Invidious API.  A direct connection to YouTube is required.': 'المحادثة
+    المباشرة غير مدعومة حالياً مع Invidious API. يلزم الاتصال المباشر بيوتيوب.'
+  Published:
+    Jan: 'يناير'
+    Feb: 'فبراير'
+    Mar: 'مارس'
+    Apr: 'أبريل'
+    May: 'مايو'
+    Jun: 'يونيو'
+    Jul: 'يوليو'
+    Aug: 'أغسطس'
+    Sep: 'سبتمبر'
+    Oct: 'أكتوبر'
+    Nov: 'نوفمبر'
+    Dec: 'ديسمبر'
+    Second: 'ثانية'
+    Seconds: 'ثواني'
+    Minute: 'دقيقة'
+    Minutes: 'دقائق'
+    Hour: 'ساعة'
+    Hours: 'ساعات'
+    Day: 'يوم'
+    Days: 'أيام'
+    Week: 'أسبوع'
+    Weeks: 'أسابيع'
+    Month: 'شهر'
+    Months: 'شهور'
+    Year: 'سنة'
+    Years: 'سنوات'
+    Ago: 'منذ'
+    Upcoming: 'يبدأ العرض'
+  Published on: 'نُشر في'
+  # $ is replaced with the number and % with the unit (days, hours, minutes...)
+  Publicationtemplate: 'قبل $ %'
+#& Videos
+  Autoplay: تشغيل تلقائي
+  Play Previous Video: شغل الفيديو السابق
+  Play Next Video: شغل الفيديو التالي
+  Reverse Playlist: عكس قائمة التشغيل
+  Shuffle Playlist: ‮خلط قائمة التشغيل
+  Loop Playlist: تكرار قائمة التشغيل
+  Starting soon, please refresh the page to check again: سيبدأ قريباً ، يرجى تحديث
+    الصفحة للتحقق مرة أخرى
+  Audio:
+    Best: الأفضل
+    High: عال
+    Medium: متوسط
+    Low: منخفض
+  audio only: الصوت فقط
+  video only: الفيديو فقط
+  Download Video: تحميل الفيديو
+  Started streaming on: بدأ البث على
+  Streamed on: تبث على
+  Copy Invidious Channel Link: انسخ رابط قناة انفيديوس
+  Open Channel in Invidious: افتح القناة على انفيديوس
+  Copy YouTube Channel Link: انسخ رابط قناة اليوتيوب
+  Open Channel in YouTube: افتح القناة على يوتيوب
+  Video has been saved: تم حفظ الفيديو
+  Save Video: احفظ الفيديو
+  Video has been removed from your saved list: تمت إزالة الفيديو من قائمتك المحفوظة
+  translated from English: مترجمة من الإنجليزية
+  Sponsor Block category:
+    music offtopic: موسيقى خارجة عن المألوف
+    interaction: تفاعل
+    self-promotion: الترويج الذاتي
+    outro: الخاتمة
+    intro: المقدمة
+    sponsor: الراعي
+  Skipped segment: تم تخطي المقطع
+  External Player:
+    Unsupported Actions:
+      looping playlists: تكرار قوائم التشغيل
+      shuffling playlists: خلط قوائم التشغيل
+      reversing playlists: عكس قوائم التشغيل
+      opening specific video in a playlist (falling back to opening the video): فتح
+        فيديو محدد في قائمة التشغيل (العودة إلى فتح الفيديو)
+      opening playlists: فتح قوائم التشغيل
+      setting a playback rate: ضبط معدل التشغيل
+      starting video at offset: بدء تشغيل الفيديو عند الإزاحة
+    UnsupportedActionTemplate: '$ لا يدعم: ٪'
+    OpeningTemplate: فتح $ في ٪...
+    playlist: قائمة التشغيل
+    video: فيديو
+    OpenInTemplate: فتح في $
+  Premieres on: العرض الأول بتاريخ
+  Stats:
+    video id: معرف الفيديو (يوتيوب)
+    player resolution: المعاينه
+    fps: معدل الإطارات
+    frame drop: إسقاط الإطار
+    buffered: مخزنة
+    out of: خارج عن
+    bandwidth: سرعة الاتصال
+    volume: الصوت
+    Video statistics are not available for legacy videos: إحصائيات الفيديو غير متوفرة
+      لمقاطع الفيديو القديمة
+    Video ID: معرف الفيديو
+    Resolution: الدقة
+    Bitrate: معدل البت
+    Player Dimensions: عدد اللاعبين
+    Volume: الصوت
+    Bandwidth: عرض النطاق الترددي
+    Buffered: مخزنة
+    Dropped / Total Frames: إسقاط / إجمالي الإطارات
+    Mimetype: نمط ميمي
+Videos:
+  #& Sort By
+  Sort By:
+    Newest: 'الأحدث'
+    Oldest: 'الأقدم'
+    #& Most Popular
+#& Playlists
+Playlist:
+  #& About
+  View Full Playlist: 'عرض قائمة التشغيل بالكامل'
+  Videos: 'الفيديوهات'
+  View: 'عرض'
+  Views: 'مشاهدات'
+  Last Updated On: 'تم إجراء التعديل الأخير في'
+  Share Playlist:
+    Share Playlist: 'مشاركة قائمة التشغيل'
+    Copy YouTube Link: '‫انسخ رابط اليوتيوب'
+    Open in YouTube: 'افتح في اليوتيوب'
+    Copy Invidious Link: 'انسخ رابط Invidious'
+    Open in Invidious: 'فتح في Invidious'
+
+# On Video Watch Page
+#* Published
+#& Views
+  Playlist: قائمة التشغيل
+Toggle Theatre Mode: 'تمكين وضع المسرح'
+Change Format:
+  Change Video Formats: 'تغيير تنسيقات الفيديو'
+  Use Dash Formats: 'استخدم تنسيقات DASH'
+  Use Legacy Formats: 'استخدم التنسيقات التراثية'
+  Use Audio Formats: 'استخدم تنسيقات الصوت'
+  Audio formats are not available for this video: تنسيقات الصوت غير متوفرة لهذا الفيديو
+  Dash formats are not available for this video: تنسيقات DASH غير متوفرة لهذا الفيديو
+Share:
+  Share Video: 'شارك الفيديو'
+  Copy Link: 'انسخ الرابط'
+  Open Link: 'افتح الرابط'
+  Copy Embed: 'انسخ المُضمّن'
+  Open Embed: 'افتح التضمين'
+  # On Click
+  Invidious URL copied to clipboard: 'تم نسخ رابط Invidious إلى الحافظة'
+  Invidious Embed URL copied to clipboard: 'تم نسخ رابط Invidious المُضمّن إلى الحافظة'
+  YouTube URL copied to clipboard: 'تم نسخ رابط اليوتيوب إلى الحافظة'
+  YouTube Embed URL copied to clipboard: 'تم نسخ رابط يوتيوب المُضمّن إلى الحافظة'
+  Include Timestamp: تضمين الختم الزمني
+  YouTube Channel URL copied to clipboard: تم نسخ رابط قناة اليوتيوب
+  Invidious Channel URL copied to clipboard: تم نسخ رابط قناة انفيديوس
+Mini Player: 'المشغل المصغّر'
+Comments:
+  Comments: 'التعليقات'
+  Click to View Comments: 'انقر لمشاهدة التعليقات'
+  Getting comment replies, please wait: 'جاري الحصول على ردود التعليق, يرجى الانتظار'
+  Show Comments: 'إظهار التعليقات'
+  Hide Comments: 'إخفاء التعليقات'
+  # Context: View 10 Replies, View 1 Reply
+  View: 'عرض'
+  Hide: 'إخفاء'
+  Replies: 'رداً'
+  Reply: 'ردّ'
+  There are no comments available for this video: 'لا يتوفر تعليقات لهذا الفيديو'
+  Load More Comments: 'تحميل المزيد من التعليقات'
+  There are no more comments for this video: لا يوجد المزيد من التعليقات لهذا الفيديو
+  No more comments available: لا يتوفر المزيد من التعليقات
+  Newest first: الأحدث أولاً
+  Top comments: أهم التعليقات
+  Sort by: الترتيب حسب
+  Show More Replies: إظهار المزيد من الردود
+  Pinned by: تم التثبيت بواسطة
+  And others: و اخرين
+  From $channelName: من $ channelName
+  Member: عضو
+Up Next: 'التالي'
+
+# Toast Messages
+Local API Error (Click to copy): 'خطأ API المحلي (انقر للنسخ)'
+Invidious API Error (Click to copy): 'خطأ Invidious API ( انقر للنسخ)'
+Falling back to Invidious API: 'التراجع إلى Invidious API'
+Falling back to the local API: 'التراجع إلى API المحلي'
+Subscriptions have not yet been implemented: 'لم يتم تنفيذ الاشتراكات بعد'
+Loop is now disabled: 'تم تعطيل التكرار'
+Loop is now enabled: 'تم تمكين التكرار'
+Shuffle is now disabled: 'تم تعطيل التبديل العشوائي'
+Shuffle is now enabled: 'تم تمكين التبديل العشوائي'
+Playing Next Video: 'جاري تشغيل الفيديو التالي'
+Playing Previous Video: 'جاري تشغيل الفيديو السابق'
+Playing next video in 5 seconds.  Click to cancel: 'سيتم تشغيل الفيديو التالي في 5
+  ثوان. انقر للإلغاء.'
+Canceled next video autoplay: 'تم إلغاء التشغيل التلقائي للفيديو التالي'
+'The playlist has ended.  Enable loop to continue playing': 'انتهت قائمة التشغيل.
+  قم بتمكن التكرار لمواصلة التشغيل'
+
+Yes: 'نعم'
+No: 'لا'
+The playlist has been reversed: تم عكس قائمة التشغيل
+A new blog is now available, $. Click to view more: مدوّنة جديدة متاحة الآن، $. انقر
+  لعرض المزيد
+Download From Site: تنزيل من الموقع
+Version $ is now available!  Click for more details: الإصدار $ متاح الآن! انقر للحصول
+  على المزيد من التفاصيل
+Tooltips:
+  General Settings:
+    Thumbnail Preference: كلّ الصّور المصغّرة في FreeTube سيتمّ استبدالها بإطار من
+      الفيديو بدل من الصّورة المصغّرة الافتراضيّة.
+    Preferred API Backend: اختر الواجهة الخلفية التي يستخدمها FreeTube لجلب البيانات.
+      الواجهة البرمجية المحلية للتطبيق هي مستخرج محلي. الواجهة البرمجية للتطبيق التابعة
+      لInvidious (بديل لموقع يوتيوب) يتطلب التواصل مع خادم شبكة Invidious.
+    Invidious Instance: مثيل Invidious الذي سيتصل به FreeTube لاستدعاءات API.
+    Fallback to Non-Preferred Backend on Failure: عند التفعيل اذا واجه الAPI المفضّل
+      لديك أيّ مشكلة، سيحاول FreeTube استخدام الAPI الغير مفضّل لديك تلقائيّاً كإجراء
+      التراجع.
+    Region for Trending: الانتشار المحلي (Trend) يسمح لك بأن تشاهد الفيديوهات الأكثر
+      انتشارا حسب الدولة. ليست كل الدول المعروضة في هذه القائمة مدعومة من طرف يوتيوب.
+    External Link Handling: "اختر السلوك الافتراضي عند النقر فوق رابط، لا يمكن فتحه\
+      \ في FreeTube.\nبشكل افتراضي، سيفتح FreeTube الرابط الذي تم النقر عليه في المتصفح\
+      \ الافتراضي.\n"
+  Player Settings:
+    Proxy Videos Through Invidious: سيتم الاتصال ب Invidious لتقديم مقاطع الفيديو
+      بدلاً من إجراء اتصال مباشر مع يوتيوب. يلغي تفضيل الواجهة البرمجية.
+    Force Local Backend for Legacy Formats: تعمل فقط عندما تكون واجهة Invidious البرمجية
+      هي الاختيار الافتراضي . عند تفعيل هذا الخيار ، ستعمل الواجهة البرمجية المحلية
+      باستخدام التنسيقات القديمة التي تم إرجاعها من قبلها بدلاً من أن تستخدم الصيغ
+      التي تم إرجاعها من قبل Invidious . يساعد هذا الخيار عندما لا تعمل الفيديوهات
+      التي تم إرجاعها من قبل Invidious بسبب قيود البلد.
+    Default Video Format: حدّد التنسيقات المستخدمة عند تشغيل الفيديو. تنسيق داش (التدفق
+      الميكانيكي المتكيّف عبر بروتوكول نقل النص التشعبي) يمكنها أن تُشغِّل جودات أعلى.
+      التنسيقات القديمة محدودة بجودة 720p كحدّ أقصى لكنها تستخدم عرضًا أقل للنطاق.
+      التنسيقات الصوتية هي للتدفق الصوتي فقط.
+    Scroll Playback Rate Over Video Player: أثناء وجود المؤشر فوق الفيديو، اضغط مع
+      الاستمرار على مفتاح التحكم (مفتاح القيادة على Mac) ومرر عجلة الماوس للأمام أو
+      للخلف للتحكم في معدل التشغيل. اضغط مع الاستمرار على مفتاح التحكم (مفتاح الأوامر
+      على Mac) ثم انقر فوق الماوس للعودة بسرعة إلى معدل التشغيل الافتراضي (1x ما لم
+      يتم تغييره في الإعدادات).
+  Privacy Settings:
+    Remove Video Meta Files: عندما يمكن، يحذف Freetube تلقائيًا ملفات التعريف التي
+      تم إنشاؤها أثناء تشغيل الفيديو ، عندما تكون صفحة المشاهدة مغلقة.
+  Subscription Settings:
+    Fetch Feeds from RSS: عند تفعيلها، سوف يستخدم فريتيوب طريقة RSS بدلًا من طريقته
+      المعتادة لجلب صفحة اشتراكاتك. طريقة RSS أسرع وتتخطى حجب الآي بي IP، لكنها لا
+      تقدّم معلومات معينة مثل مدّة الفيديو أو حالة البث المباشر
+  External Player Settings:
+    Custom External Player Arguments: أي وسيطات سطر أوامر مخصصة مفصولة بفواصل منقوطة
+      (';')، تريد تمريرها إلى المشغل الخارجي.
+    Ignore Warnings: منع التحذيرات عندما لا يدعم اللاعب الخارجي الحالي الإجراء الحالي
+      (على سبيل المثال، عكس قوائم التشغيل، وما إلى ذلك).
+    Custom External Player Executable: بشكل افتراضي ، ستفترض FreeTube أنه يمكن العثور
+      على المشغل الخارجي المختار عبر متغير بيئة PATH. إذا لزم الأمر ، يمكن تعيين مسار
+      مخصص هنا.
+    External Player: سيؤدي اختيار مشغل خارجي إلى عرض رمز لفتح الفيديو (قائمة التشغيل
+      إذا كان مدعوما) في المشغل الخارجي، على الصورة المصغرة.
+    DefaultCustomArgumentsTemplate: "(الافتراضي: '$')"
+This video is unavailable because of missing formats. This can happen due to country unavailability.: هذا
+  الفيديو غير متاح الآن لعدم وجود ملفات فيديو . هذا قد يكون بسبب أن الفيديو غير متاح
+  في بلدك.
+More: المزيد
+Playing Next Video Interval: سيتم تشغيل الفيديو التالي على الفور.| إضغط للإلغاء.|
+  سيبدأ الفيديو التالي في {nextVideoInterval} ثانية.| إضغط للإلغاء.
+Hashtags have not yet been implemented, try again later: لم يتم تنفيذ علامات التصنيف
+  بعد، حاول مرة أخرى لاحقا
+Unknown YouTube url type, cannot be opened in app: نوع URL غير معروف على YouTube،
+  لا يمكن فتحه في التطبيق
+Open New Window: افتح نافذة جديدة
+Default Invidious instance has been cleared: تم مسح مثيل Invidious الافتراضي
+Default Invidious instance has been set to $: تم تعيين المثيل الافتراضي Invidious
+  إلى $
+Search Bar:
+  Clear Input: مسح المدخلات
+External link opening has been disabled in the general settings: تم تعطيل فتح الارتباط
+  الخارجي في الإعدادات العامة
+Are you sure you want to open this link?: هل أنت متأكد أنك تريد فتح هذا الرابط؟
+Downloading has completed: انتهى "$" من التنزيل
+Downloading failed: حدثت مشكلة أثناء تنزيل "$"
+Download folder does not exist: دليل التحميل "$" غير موجود. الرجوع إلى وضع "طلب المجلد".
+Downloading canceled: تم إلغاء التحميل من قبل المستخدم
+Starting download: بدء تنزيل "$"
