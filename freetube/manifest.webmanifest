@@ -4,9 +4,9 @@
     "display": "standalone",
     "icons": [
       {
-        "src": "_icons/icon.ico",
+        "src": "_icons/256x256.png",
         "sizes": "256x256",
-        "type": "image/ico"
+        "type": "image/png"
       }
     ],
     "name": "FreeTube",
