@@ -1,11 +1,30 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>MarmadileManteater</title>
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <style>
+            .flex-block {
+                display: flex;
+            }
+            .flex-block > div {
+                margin: 6px;
+            }
+        </style>
     </head>
     <body>
         <h1>Hello World</h1>
-        <a href="https://marmadilemanteater.github.io/freetube/#/">FreeTube for Web</a> 
+        <div class="flex-block" >
+            <div>
+                <p><img id="face-image" width="200" /></p>
+            </div>
+            <div>
+                <p>Hello! I'm <span id="variation-name"></span>. My real name is <span id="name"></span>, and you can look it up. That's an actual picture of me!</p>
+                <a href="https://marmadilemanteater.github.io/freetube/#/">FreeTube for Web</a> 
+            </div>
+        </div>
+
+        <script src="./hello-world.js"></script>
     </body>
 </html>
