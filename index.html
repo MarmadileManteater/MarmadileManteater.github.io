@@ -5,29 +5,170 @@
         <title>MarmadileManteater</title>
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
         <style>
+            body {
+                font-family: sans-serif;
+            }
+
             .flex-block {
                 display: flex;
             }
+
             .flex-block > div {
                 margin: 6px;
+            }
+
+            a {
+                text-decoration: none;
+                vertical-align: middle;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .card-list {
+			    display: flex;
+			    flex-wrap: wrap;
+			    justify-content: space-evenly;
+			    max-width: 1200px;
+			}
+			
+			.card .inner {
+			    width: 100%;
+			    padding: 20px;
+			    background-color: #eee;
+			    margin: 10px 0px;
+			    border-radius: 5px;
+			    box-sizing: border-box;
+			}
+			
+			.card .outer {
+			    padding-right: 15px;
+			}
+			
+			.card img, .card audio {
+			    margin-bottom: 15px;
+			    max-height: 163px;
+                width: auto;
+                vertical-align: middle;
+			}
+			
+			.card p {
+			    padding: 0;
+			    margin: 0;
+			    min-height: 2.5rem;
+			}
+			
+			.card img + h1 + p,
+			.card audio + h1 + p {
+			    min-height: 0;
+			}
+			
+			.card h1 {
+			    margin: 0;
+			}
+			
+			.card[data-col="12"] {
+			    width: 100%;
+			}
+			
+			.card[data-col="6"] {
+			    width: 50%;
+			}
+
+            .user-card {
+                position: fixed;
+                top: 0;
+                right: 0;
+                padding: 20px;
+                background-color: #efefef;
+                border-radius: 0px 0px 0px 5px;
+            }
+
+            .user-card img {
+                border-radius: 50%;
+                width: 50px;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: #1d1d1d;
+                    color: white;
+                }
+                .card .inner {
+                    background-color: #333;
+                }
+                a {
+                    color: #99f;
+                }
+                .user-card {
+                    background-color: #333;
+                }
+            }
+
+			@media (max-width: 1400px) {
+			    .user-card {
+			        background-color: #c9c9c9;
+			    }
+			    @media (prefers-color-scheme: dark) {
+			        .user-card {
+			            background-color: #212121;
+			        }
+			    }
+			}
+
+            @media (max-width: 700px) {
+			    .card[data-col="6"] {
+			        width: 100%;
+			    }
+			
+			    .card .outer {
+			        padding-right: 0px;
+			    }
             }
         </style>
     </head>
     <body>
-        <h1>Hello World</h1>
-        <div class="flex-block" >
-            <div>
-                <p><img id="face-image" width="200" /></p>
+        <div class="card-list">
+            <div class="card" data-col="12">
+                <div class="outer">
+                    <div class="inner ">
+                        <h1>Hello World!</h1>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>Hello! I'm <span id="variation-name"></span>. My real name is <span id="name"></span>, and you can look it up. That's an actual picture of me!</p>
+            <div class="card" data-col="6">
+                <div class="outer">
+                    <div class="inner ">
+                        <ul>
+                            <li><a href="https://marmadilemanteater.github.io/freetube/#/">FreeTube for web</a></li>
+                            <li><a href="https://marmadilemanteater.github.io/javascriptlink/">JavaScriptLink example</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card" data-col="6" >
+                <div class="outer" >
+                    <div class="inner">
+                        <div class="flex-block">
+                            <div>
+                                <p><img id="face-image" width="200" /></p>
+                            </div>
+                            <div>
+                                <p>Hello! I'm <span id="variation-name"></span>. My real name is <span id="name"></span>, and you can look it up. That's an actual picture of me!</p>
+                                <br/>
+                                <p><a href="mailto:marmadilemanteater@proton.me"><img src="images/email6.gif" style="margin-bottom:0" /><span style="vertical-align:middle;">Email me</span></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div>
-            <ul>
-                <li><a href="https://marmadilemanteater.github.io/freetube/#/">FreeTube for web</a></li>
-                <li><a href="https://marmadilemanteater.github.io/javascriptlink/">JavaScriptLink example</a></li>
-            </ul>
+
+        <div class="user-card">
+            <a href="https://github.com/MarmadileManteater"><img src="https://avatars.githubusercontent.com/u/106682128" alt=""><span>@MarmadileManteater</span></a>
         </div>
 
         <script src="./hello-world.js"></script>
