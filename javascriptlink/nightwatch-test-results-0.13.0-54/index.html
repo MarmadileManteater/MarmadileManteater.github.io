@@ -1,0 +1,728 @@
+  <head>
+    <title>Nightwatch Reporter</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id="wrap">
+      <div id="main">
+        <section id="navigation">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="https://nightwatchjs.org" target="_blank"><div class="logo"></div></a>
+            </nav>
+          </div>
+        </section>
+        <section id="auxbar">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer">
+                  <div class="auxbox autobox">
+                  </div>
+                </div>
+              </div>
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer align-h-center">
+                  <h1>Nightwatch.js – <strong>Test Report</strong></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="sessions">
+          <div class="row">
+          <div class="col-md-12">
+          <div class="container-fluid">
+            
+                <div id="s1" class="sessionbox">
+                  
+  <div class="sessionbox-indicator indicator-success sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-success">Success</div>
+      </div>
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             nightwatch-tests
+          </div>
+        </div>
+        <div id="tabs-s1" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s1-t1-tab" data-bs-toggle="tab" href="#nav-s1-t1" role="tab" aria-controls="nav-s1-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s1-t3-tab" data-bs-toggle="tab" href="#nav-s1-t3" role="tab" aria-controls="nav-s1-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s1-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">PASSED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">1</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">\nightwatch-tests.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">61.97 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s1-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session  </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'firefox'<span style="color:#FFF">,
+       alwaysMatch: { acceptInsecureCerts: <span style="color:#A50">true<span style="color:#FFF">, <span style="color:#0A0">'moz:firefoxOptions'<span style="color:#FFF">: { args: [] } },
+       name: <span style="color:#0A0">'test'<span style="color:#FFF">
+     },
+     capabilities: { alwaysMatch: { browserName: <span style="color:#0A0">'firefox'<span style="color:#FFF"> } }
+  }</span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session  (retry 1) </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'firefox'<span style="color:#FFF">,
+       alwaysMatch: { acceptInsecureCerts: <span style="color:#A50">true<span style="color:#FFF">, <span style="color:#0A0">'moz:firefoxOptions'<span style="color:#FFF">: { args: [] } },
+       name: <span style="color:#0A0">'test'<span style="color:#FFF">
+     },
+     capabilities: { alwaysMatch: { browserName: <span style="color:#0A0">'firefox'<span style="color:#FFF"> } }
+  }</span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session (60379ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'3a19a79e-89fb-4252-83fc-d4c73361f016'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'firefox'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'101.0.1'<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:accessibilityChecks'<span style="color:#FFF">: <span style="color:#A50">false<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:buildID'<span style="color:#FFF">: <span style="color:#0A0">'20220608170832'<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:geckodriverVersion'<span style="color:#FFF">: <span style="color:#0A0">'0.30.0'<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:headless'<span style="color:#FFF">: <span style="color:#A50">false<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:processID'<span style="color:#FFF">: <span style="color:#A50">1564<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:profile'<span style="color:#FFF">: <span style="color:#0A0">'C:\\Users\\RUNNER~1\\AppData\\Local\\Temp\\rust_mozprofile8cBBxH'<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:shutdownTimeout'<span style="color:#FFF">: <span style="color:#A50">60000<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:useNonSpecCompliantPointerOrigin'<span style="color:#FFF">: <span style="color:#A50">false<span style="color:#FFF">,
+         <span style="color:#0A0">'moz:webdriverClick'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'windows'<span style="color:#FFF">,
+         platformVersion: <span style="color:#0A0">'10.0'<span style="color:#FFF">,
+         proxy: {},
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/url  </div><div>{
+     url: <span style="color:#0A0">'file:///D:/a/JavaScriptLink/JavaScriptLink/output/output.html'<span style="color:#FFF">
+  }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/url (7298ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.card'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/elements (12836ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'3118df7c-177c-4891-84ea-cbfc970cf5f2'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'84f0db0b-3cc2-4555-addf-aa0c02cd66ce'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'4dc4431c-3352-42a0-9bf8-3cf5baa6dc4a'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'44f7a793-5f5b-4e19-b5f5-18ce829b7610'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'fcd1eb0e-a18b-473e-980b-49912ca18b6d'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'8c3641f6-1bdd-4c84-b2cd-4c9b2616fc42'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'32222979-59e7-4347-8bda-4817b7ad2e67'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'c234feac-84b7-4cd7-bdd8-4aee6214a9b2'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'5b8ebbe8-997b-47e1-b6dd-efd75112ffab'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'87a0c5d7-6a11-4dca-818b-33fed6912a4a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'3118df7c-177c-4891-84ea-cbfc970cf5f2'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'3118df7c-177c-4891-84ea-cbfc970cf5f2'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/execute/sync (8619ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.card-list [class="card"]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/elements (6846ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'3118df7c-177c-4891-84ea-cbfc970cf5f2'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'84f0db0b-3cc2-4555-addf-aa0c02cd66ce'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'4dc4431c-3352-42a0-9bf8-3cf5baa6dc4a'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'44f7a793-5f5b-4e19-b5f5-18ce829b7610'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'fcd1eb0e-a18b-473e-980b-49912ca18b6d'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'8c3641f6-1bdd-4c84-b2cd-4c9b2616fc42'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'32222979-59e7-4347-8bda-4817b7ad2e67'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'c234feac-84b7-4cd7-bdd8-4aee6214a9b2'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'5b8ebbe8-997b-47e1-b6dd-efd75112ffab'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'87a0c5d7-6a11-4dca-818b-33fed6912a4a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(1) h1'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (8581ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'d1e0655a-7ebf-4d26-b3f4-c0cd7a4e506e'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/d1e0655a-7ebf-4d26-b3f4-c0cd7a4e506e/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/d1e0655a-7ebf-4d26-b3f4-c0cd7a4e506e/text (693ms)</div><div>{ value: <span style="color:#0A0">'JavaScript Link Example'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(1) p'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (410ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b483cb31-b5de-4638-9b00-48f3e944eeca'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/b483cb31-b5de-4638-9b00-48f3e944eeca/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/b483cb31-b5de-4638-9b00-48f3e944eeca/text (201ms)</div><div>{
+     value: <span style="color:#0A0">'A CLI tool for transpiling a directory of resources into a target output file\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'View on GitHub»'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(1) img'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (1039ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(1) img'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(1) textarea'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (368ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(1) textarea'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(1) audio'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (376ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(1) audio'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(2) h1'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (578ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'00916b0f-c445-4b72-8595-d642963a17b8'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/00916b0f-c445-4b72-8595-d642963a17b8/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/00916b0f-c445-4b72-8595-d642963a17b8/text (135ms)</div><div>{ value: <span style="color:#0A0">'Usage:'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(2) p'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (153ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(2) p'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(2) img'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (488ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(2) img'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(2) textarea'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (78ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'e3ea8086-0e79-4f08-8d59-1c343683038c'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/e3ea8086-0e79-4f08-8d59-1c343683038c/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/e3ea8086-0e79-4f08-8d59-1c343683038c/text (641ms)</div><div>{
+     value: <span style="color:#0A0">'# @param {string} input-directory - directory to check for source files\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'# @param {string} output-dir...'<span style="color:#FFF">,
+     suppressBase64Data: <span style="color:#A50">true<span style="color:#FFF">
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(2) audio'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (49ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(2) audio'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(3) h1'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (97ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'f1bd685f-a3f4-4dde-9335-fde722ce26a9'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/f1bd685f-a3f4-4dde-9335-fde722ce26a9/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/f1bd685f-a3f4-4dde-9335-fde722ce26a9/text (115ms)</div><div>{ value: <span style="color:#0A0">''<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(3) p'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (1142ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'ec09f9ec-1e21-4e2f-8b24-bc6ffa28ef0b'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/ec09f9ec-1e21-4e2f-8b24-bc6ffa28ef0b/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/ec09f9ec-1e21-4e2f-8b24-bc6ffa28ef0b/text (153ms)</div><div>{
+     value: <span style="color:#0A0">'You can load data using the same notation as the text plugin in RequireJS.\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'This is how to retrieve d...'<span style="color:#FFF">,
+     suppressBase64Data: <span style="color:#A50">true<span style="color:#FFF">
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(3) img'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (43ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(3) img'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(3) textarea'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (410ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'5ec62657-47b6-466e-aaf2-c576b2fff06a'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/5ec62657-47b6-466e-aaf2-c576b2fff06a/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/5ec62657-47b6-466e-aaf2-c576b2fff06a/text (124ms)</div><div>{
+     value: <span style="color:#0A0">'require(["text!data/swords.json"], function (swordsJSON) {\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'  console.log(swordsJSON);\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'});'<span style="color:#FFF">
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(3) audio'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (450ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(3) audio'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(4) h1'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (192ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'da8764f8-c204-4372-8386-009a481627b4'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/da8764f8-c204-4372-8386-009a481627b4/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/da8764f8-c204-4372-8386-009a481627b4/text (94ms)</div><div>{ value: <span style="color:#0A0">''<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(4) p'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (564ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'face3922-6bc5-4007-ae03-f25c615f4308'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/face3922-6bc5-4007-ae03-f25c615f4308/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/face3922-6bc5-4007-ae03-f25c615f4308/text (972ms)</div><div>{ value: <span style="color:#0A0">'This is a list loaded from JSON:'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(4) img'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (42ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(4) img'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(4) textarea'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (481ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'e3449adb-10db-4456-8033-adab58b86898'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/e3449adb-10db-4456-8033-adab58b86898/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/e3449adb-10db-4456-8033-adab58b86898/text (988ms)</div><div>{
+     value: <span style="color:#0A0">'[\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'  {\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'    "name": "Magic Blade",\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'    "might": 25,\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'    "hit": 100,\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'    "description": "Wow, shiny!"\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">' ...'<span style="color:#FFF">,
+     suppressBase64Data: <span style="color:#A50">true<span style="color:#FFF">
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(4) audio'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (70ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(4) audio'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(5) h1'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (143ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'297f72cf-6b39-49ce-b341-f64c2fed0cfc'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/297f72cf-6b39-49ce-b341-f64c2fed0cfc/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/297f72cf-6b39-49ce-b341-f64c2fed0cfc/text (368ms)</div><div>{ value: <span style="color:#0A0">''<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(5) p'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (69ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'07500496-4396-4ffd-b269-cd0d90a93516'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/07500496-4396-4ffd-b269-cd0d90a93516/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/07500496-4396-4ffd-b269-cd0d90a93516/text (985ms)</div><div>{
+     value: <span style="color:#0A0">'This is how to set and get data from the storage associated with your export type.'<span style="color:#FFF">
+  }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(5) img'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (324ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(5) img'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(5) textarea'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (264ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'08912cd6-ab25-420e-b177-ff4cbea2d36f'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/08912cd6-ab25-420e-b177-ff4cbea2d36f/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/08912cd6-ab25-420e-b177-ff4cbea2d36f/text (626ms)</div><div>{
+     value: <span style="color:#0A0">'require(["builtins/storage"], async function (storage) {\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'  await storage.set("test-field", { locatio...'<span style="color:#FFF">,
+     suppressBase64Data: <span style="color:#A50">true<span style="color:#FFF">
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(5) audio'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (34ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(5) audio'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(6) h1'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (1883ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'db392f68-e9a7-4545-99f9-9c8c3a4422eb'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/db392f68-e9a7-4545-99f9-9c8c3a4422eb/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/db392f68-e9a7-4545-99f9-9c8c3a4422eb/text (826ms)</div><div>{ value: <span style="color:#0A0">''<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(6) p'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (9ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'10f7ed1f-9630-418b-8740-be2e3bc04356'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/10f7ed1f-9630-418b-8740-be2e3bc04356/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/10f7ed1f-9630-418b-8740-be2e3bc04356/text (6ms)</div><div>{ value: <span style="color:#0A0">'This is a piece of data stored in local storage:'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(6) img'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(6) img'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(6) textarea'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (33ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'3b662b44-157f-48dd-a0b6-d3cddb48535e'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/3b662b44-157f-48dd-a0b6-d3cddb48535e/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/3b662b44-157f-48dd-a0b6-d3cddb48535e/text (85ms)</div><div>{
+     value: <span style="color:#0A0">'{\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'  "location": "file:///D:/a/JavaScriptLink/JavaScriptLink/output/output.html",\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'  "integer": 23\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'}'<span style="color:#FFF">
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(6) audio'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (112ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(6) audio'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(7) h1'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (5ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'7fbecf4f-4c9a-4adb-a5f5-e67805a27b18'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/7fbecf4f-4c9a-4adb-a5f5-e67805a27b18/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/7fbecf4f-4c9a-4adb-a5f5-e67805a27b18/text (5ms)</div><div>{ value: <span style="color:#0A0">''<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(7) p'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (6ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b6757a52-b338-4b4f-ae57-1bf7cc745180'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/b6757a52-b338-4b4f-ae57-1bf7cc745180/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/b6757a52-b338-4b4f-ae57-1bf7cc745180/text (7ms)</div><div>{ value: <span style="color:#0A0">'This is how to display a linked image.'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(7) img'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (4ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(7) img'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(7) textarea'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (4ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'110d4ed7-54ad-476f-95b9-1ec8ddb016d4'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/110d4ed7-54ad-476f-95b9-1ec8ddb016d4/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/110d4ed7-54ad-476f-95b9-1ec8ddb016d4/text (5ms)</div><div>{
+     value: <span style="color:#0A0">'require(["data-uri!img/parallax-forest-preview.png"], async function (forestPreview) {\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'  var image =...'<span style="color:#FFF">,
+     suppressBase64Data: <span style="color:#A50">true<span style="color:#FFF">
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(7) audio'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(7) audio'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(8) h1'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (4ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'8cd7c98f-47f2-4e54-979c-2d3abdd5f4a0'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/8cd7c98f-47f2-4e54-979c-2d3abdd5f4a0/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/8cd7c98f-47f2-4e54-979c-2d3abdd5f4a0/text (4ms)</div><div>{ value: <span style="color:#0A0">''<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(8) p'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'27e3d3b5-5f04-42f0-bdc7-158b53d84fa1'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/27e3d3b5-5f04-42f0-bdc7-158b53d84fa1/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/27e3d3b5-5f04-42f0-bdc7-158b53d84fa1/text (4ms)</div><div>{ value: <span style="color:#0A0">''<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(8) img'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'a1aa68be-616b-4a35-95bb-73b910f7a8ab'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/a1aa68be-616b-4a35-95bb-73b910f7a8ab/attribute/src  </div><div><span style="color:#555">undefined<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/a1aa68be-616b-4a35-95bb-73b910f7a8ab/attribute/src (4ms)</div><div>{
+     value: <span style="color:#0A0">'data:image/png;base64,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'<span style="color:#FFF">... 6166 more characters
+  }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(8) textarea'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(8) textarea'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(8) audio'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(8) audio'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(9) h1'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'4316a30b-1bca-4956-b9ef-dc47a22021a5'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/4316a30b-1bca-4956-b9ef-dc47a22021a5/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/4316a30b-1bca-4956-b9ef-dc47a22021a5/text (5ms)</div><div>{ value: <span style="color:#0A0">''<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(9) p'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'4e0f3915-0e6a-4f26-82fe-ba65fd3a7c22'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/4e0f3915-0e6a-4f26-82fe-ba65fd3a7c22/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/4e0f3915-0e6a-4f26-82fe-ba65fd3a7c22/text (5ms)</div><div>{ value: <span style="color:#0A0">'This is how to display a linked audio file.'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(9) img'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(9) img'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(9) textarea'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'d2c29fd2-d116-47c5-8b05-486aa1dc4587'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/d2c29fd2-d116-47c5-8b05-486aa1dc4587/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/d2c29fd2-d116-47c5-8b05-486aa1dc4587/text (4ms)</div><div>{
+     value: <span style="color:#0A0">'require(["data-uri!music/desert_loop.mp3"], async function (desertLoop) {\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'  var audio = document.cre...'<span style="color:#FFF">,
+     suppressBase64Data: <span style="color:#A50">true<span style="color:#FFF">
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(9) audio'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(9) audio'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(10) h1'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (4ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'caff8f44-b16e-4e49-aa05-8e645f57ff40'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/caff8f44-b16e-4e49-aa05-8e645f57ff40/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/caff8f44-b16e-4e49-aa05-8e645f57ff40/text (4ms)</div><div>{ value: <span style="color:#0A0">''<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(10) p'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'d84af06d-73fd-44fc-a097-9d6aaccd2c57'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/d84af06d-73fd-44fc-a097-9d6aaccd2c57/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/d84af06d-73fd-44fc-a097-9d6aaccd2c57/text (4ms)</div><div>{ value: <span style="color:#0A0">''<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(10) img'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(10) img'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(10) textarea'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 404 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (3ms)</div><div>{
+     value: {
+       error: <span style="color:#0A0">'no such element'<span style="color:#FFF">,
+       message: <span style="color:#0A0">'Unable to locate element: .card-list [class="card"]:nth-child(10) textarea'<span style="color:#FFF">,
+       stacktrace: <span style="color:#0A0">''<span style="color:#FFF">
+     }
+  }</span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element  </div><div>{
+     using: <span style="color:#0A0">'css selector'<span style="color:#FFF">,
+     value: <span style="color:#0A0">'.card-list [class="card"]:nth-child(10) audio'<span style="color:#FFF">
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element (4ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'f9eaf3d0-e4fb-460f-a7b2-475e407a1780'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/f9eaf3d0-e4fb-460f-a7b2-475e407a1780/attribute/src  </div><div><span style="color:#555">undefined<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /session/3a19a79e-89fb-4252-83fc-d4c73361f016/element/f9eaf3d0-e4fb-460f-a7b2-475e407a1780/attribute/src (133ms)</div><div>{
+     value: <span style="color:#0A0">'data:audio/mp3;base64,SUQzAwAAAAAAVlRQRTEAAAALAAAAQXJvbiBFbGFsAFRZRVIAAAAGAAAAMjAyMgBUQlBNAAAABQAAADEyMABUU1NFAAAAGAAAAFN0dWRpbyBPbmUgNS41LjEuODU3OTIA//vgRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASW5mbwAAAA8AAAmTACcYKAADBQgKDQ8SFBcZHB4hIyYoLC4xMzY4Oz1AQkVHSkxPUVRXWlxfYWRmaWtucHN1eHp9gIOFiIqNj5KUl5mcnqGjpqisrrGztri7vcDCxcfKzM/R1Nfa3N/h5Obp6+7w8/X4+v0AAAA6TEFNRTMuMTAwAc0AAAAAAAAAADT/JAJATQABQAAnGChuKxAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//vgZAAAB8xmzT1h4ABnwfkTrDAALMIvUbm8AAKkMKs/MLAAIFJG56Yg+0+AF2MEkrvsYMSD7091N5y17B7ViA1AwAgAUAYBDBMC4IYhisNM60PQ8Q8hZ1vjkFzIWo4785y3kLLmdBoE4HoHoHoHoFsFwCRkLJ2aZpmmW80zrNA0CcD0D0D0EIOiqcZKv3+4CcNATcTcXMnZ1q+eAhhczTUavV6vV7O3EHIWaaHq9nj7+WNDzTNND47AaA9Y9ajZ497w0+aBoKCrGh6jZ7yn+N8TccaPbDkOh/H3RgVigZMsCsVisZKZsrDTUbYWweghB0ODGDkBUCYFwUESGnydhqBcEIgnOTsnZ1zsbPHxAePImsU183fnwf/BAaCBwACRENAA0kArONzvU3nQraIWUNqzWkDHWvJFyKkZZVAEAIIh5U7Mz+x2Zn68LAg4EAQDEEAxbwQcCFYfWfygfU7iAEHAh/+XfLqB9/8EInD4jB/iAEC4Pn4neoH3iA4UBDg////y4PvABajbJqVYsDQxEIYCAMLIA45HBc1wMMBlSYvJmMWFjVzowQYJg8IcTBxQBCoqQgoAMvDQw4FUqri319nsY0dOAs0FDMsQoMxBYIy8e0tKwVAv+XJCMA7jWC+g6pIkbeX8hUEOG4ye4ykvWFhsmUzLkKDqRSLZY2B5GxwdKnpYuozmlfAiBNkz6srVaDpsWYvGlRpBM0fa/L3YaYXUdx2GYIHvY76NQslQV+5XF5z5PI7FdT7YYeiTWGGMKZTGqy4HVpmAxttp8u1NxBlkAqGPJJIMeuAHpVgUeYarA+NuGHIh+bYGXFeNOJbyzRpDtRWBJI3tBKjGNy10OpILbJLVPP7k0N10OatWoRBW5K/EgjUsquTEHDHAyB+Ycjc7E2vOG/0thmXRfv7+vWvc1+8/7+H///////8BPrLJXZoZXd1TpIU9Wdjc+/sD7//////h6K5yqJvGt5p119WDvrUttpGHKTVnwMnMmE1YYQXQKy4IxYEB4FV3SLfKWoGOYclBYFSRv/E1vtL7uNywcjgaTSzcah2jqpzWG8LQ9aziE1fbE7hh2H0yO9vL+2Oabm5POdOjZX9s4fbGWTJhsUXM32++/XTs2o0KGujOW273eyK959bZZ/Tv+mNkse3lU9CI7BOhI+FZeCGOvXZPkgQAMEMTLzpYTHUaHqp+dpJkzOanf/23Yf+DZM6fhcCOBlUCeEeGUSkjZQKMdkzLYoFXRzLwdAQnYm4Z1HAtxMGHDEpswMYgwmjMJmZiZGMiwAZAHmIEorQ3HEkgh6Jqwq/U+VhXKZVKsi4KRMuQml+IeQWTcYc9EPF9YFcFkRcVu7d2WS5SpTJfSmqxnC6zqFL1om9cdqRIBS5AC9iE0vej//viZD+ACoGC0/9vAAK471pc7CwAYr2vVe1l6wojNCw9kxY0a3ZnyPTbvq4KmKuXFj0fonkqShvV3MJR3UFb9iJayGInLo/Eos11vZp2nuwhUqmn0fSP0jrS+EXXSmp7KHpdelTYtVL+DC1AIu4N+pRPEp2hTm110ZLINLqcZPRejZmWyKGX6yzmmyTTe32aN3WBkLutBd2LwNLYKpoDiDcrtNEZK0GkkUXkUVvTNHEoXrOrF7rd3Om4zN1o6yxwmRIc7chudlNqHpbljbdl9KSGInas1eUs1lM2cX+l1bKml9LFYfz7O1c7N+1STNumdbVy/gyAIEQCQAIAVEWjX+lVIXMYSPIexkTOJG+1PGZm7LVDNJnlhqb019RdPNJNEnbj1zbdk/t2z0x5VemYGhnTllnah64u9Gs3jhpshcWX+c0lHaDj7TxrLLThJ62u53fOpdbR6FGyWoUokEFwVNqWnHYSlUz47U6g7Q7rq+U11OT5IXPxfNTMMVQLF+uVoheb/MJ5jtjieVKEk+rDUqJxxMmgEEMP5e46uq+Kq5ck1qQ6iSQh7JsqvTJnjQNYeYmWi/2SpwRbRNq/Buh5nuDVzdhzWJjBzzWPzOsDNVyREg8DZwh8wiQ1dpwO5QvAiC+VNV6NVCrCXygCayb7Y/JcvEhBtAVxCSUmkUQJpXklcYYkqAR531Tw6i3EFQxSHOoDsYw/wxpxhDTH+p1yWIWEpD5UKUJEqEclFe4JFKnamYosgfYQkK011yWAQgbDIkVStdgY2BjX0NWzSb1apWsTFYPNtdn7GjUtmHNt1HY35yxDmQ6Ac2FSolUqG14rULRBbiDE9J8ZZCh0CxOkPTqRTUikbaQnGDDQ2C+VacamBy7DFs9XzxczSeqthVeGbT7Nos7lBgMcWDAcnrwtoxX286jVY4GPym4Np70bmbb9fwbiL5TNbzEb+RsKSpcSwAjjBYytiVSNLNpbDlSKIpvVOSmUy6Yh24LKdM8ACkaVpjdiREnZMWRaGhSC1Jy3/nXY5i7KMMcFLcmzKv7f9B5h1xNV5TW3ZO5SkIhv/xgsplLQgEOhRFjMPcpQY405x70VWqrIcglOOqsYZww1XJ+mcwszoNSUPBz5IOpOVbW1yIkQFnQEYa4I5rBaHcQMfHKG+Pp2ZOd47mkJZ44aeSUmdDod8jxIFXIyYjMRLGGGKnCMIyHhQcMkTIEGRBb0ASmIs1LYusr00HSvWGByk/S8EXAK0Jr8oiA4KxI3FGSsohD0MnXsgDLjsoaGVAIvI5MOXmi694sYuKWzRZL4mUKkAfEs01dXq52kvw8LXX4jjfMdLgOuzkIGk6bHDqkjzXxBhPI2Dg1gw1NWgBKBxVjlwWToMNXXTA0Wagqk4y9hL6N6vP/74mRkAAtFgU7rm8DizM0qX2kP1ig97z2uaySKXrDotZeKKEmWAw5bjcphiNNahmw9yOLJW97E67PasmgldqELotksBYCseKgxCBHovwup6kqkHGnIxMNSFTpXTMMNcVxIKl2ESa8yObUta23Zd0NuDFYFr0rAomrDEHzY9SxmTU1NamoFoa9JFp6NS573wa/GXeo68tsU2NLTZ52qeHa8Vl8Qh2BcbWrVbX0NiepYdbrhMPFDsbjMZs9pp/V3PKmqdARZKzTcKyttgwpYFQpvQBq1p0EhjVJmg6SRhwILcAr4YAYGMBogLNkq1A39f0aDsMZ8utyZVqPReNNioo66bttdirZJLZdF2Yo8LtRyPT8RoKaSxvWM1B1/NVEVSmiwbEAGwJarUnyo26t+kGC7wS9HN8rdNzNfPF1/xseua1zTTNPueGy216qUR1FaU0HvE8j4C3AgsRM0ahKhgK7cqnQ2K9gp1WKZeQ17NIhWre7NhEoTWHlWxGWu/reNQaSzW3WC914PrshIPNO8lLFiwOSrddcYIRUMe2g/gYTORfMUNo2GmQcJTzsDajzQDjzkjlyQUsEtQS8TZiFwsMK1DapvlAIMREUjWAaYjmBglTg0N/EJrJ3WfjqqbdpxTRAckKlcWgSxYdDLi00GrUGRG+lbWXjlDstYhplt5gbVIJTATkXuOCoS0BDFWmtlVO8zLV3yJznahN12NPrTNVUFSpYYQBlzy+K7U8x4KdgOWxl1L78NntSyYiGn9i7kNPfkv41t2qkRadjuHJLTxR0q6q0hgtrEBwvF2vfqNv8x2NQHGk32jug+KDKpCEMLBLNcZAxv043AlsifWISWPNPkMxXdWtLIbbKsyGHIiMYr7l8tgOOS201eih2kpY7L7kciMofq/TWb9JEae0z2LOrUt4a+9/7321PbvWaC7jqrj3fLPOV5dclvZfM2KXrk/SQ9lkHVb7a+5kIJkL5jxGOgbpxbQCvjwJogMrZ02gwEUQBCiXZd9YJqiQ0C9S3SBkJ9OI6GlUOckPSLpCjYDcFeaTmUyhJctpxKRGRlQ+rGyqx3qFdr3AbG3qNXsgIQHNNEHs3e9CGcEEFOw2iOj95ejnb/VlrqzdZSiUjWGM4YDNFxDtMtWyoO4Qdzt1oKKxr+RwQH6FBv6//VAmeIWIh/9IbZwvCnHJmWZccJjuwmLkCbHGRr8QmDWUYuJByqokbJRoPTg0kbsuYBUdEMZ5GFgiNICQmQI4c2hB0iE6FYuJHlVWEITCZa3BoCz1qBVYACOhCykT0gIAWkwJuaESY6p3xLlNNdNu8ViD6u86ylbkI1kyQYFQNdKDQIKJPbmYgoVvIsM61BFKZQB8mWPEyTObb0OYmitBVxflUgcNpMQiyvVcr/++JkVQAKWHrQ+5rCMrdK2atvLB4ndeM/recKiskxaL23oimbqJQlhMGO897dmdwdckLuiFAADDblwy7uWF1/IacZ7o2kOpuBDKiZktNnLBFmNPnmuuut+9AbC0jn1brVVMXsb5fKh0AFlEtFBE0e2J6doKV7IP3Sv9epkxmPpFsha7Fm/jUVpXLg9uTS5h3Io2CT/QzEMLCVnfWO5Fidp4aeaSuWzqOyHHL//8//H8O63zX/q7z//mGFvedr99qvq3ybmwBIUDERAMBTym8BUJg0SSWioZyXi/gWcMEotwMHI5xVGxPZN6w98VRppXSXwg4oSFAepROVE9E6JA9Feg/D2iurfWtl5iR4PlS8n3pW+XvknCP2LMnRYsVlvd7bcHqz9lXWiMKysSzQPjMPFz7rzzkNmt6lc+/+VTrqTaZz9OUKlKL3WUK14+23TPUbiYU6fusJXzNttqZ75z+/Ohhx5ztYzc1YGPfRI3hMAkWrI6wAYGDEplXF5gKf+77XYoKTG0/xsq+BW4xnQOUCDuV032VCJs0FSNmRQ6VMBCTR9OLADlhQAExHMeNSCFsHShvrdhCUcKycGEZWEFR9SsY0KARLVCibJ0K2awYX7QKItI+r1dlm7kw2hggnLJJcqxvRt/ovG2LP09CzHgfxh7rpbsKGlslU7ZGoO87hvy/LPWCy6ZeSgQPhyCEi1jK8YeQieEDJLau81ytMs6XjjK6aiopi7HaKM1oNZg2KLvxSasQDDbquq7voCkAIgCnIxWNt6/0BtOl+nWZC4DlQxDTAXDeVdsOhU4kGHGIrISJYMxOVxmHZThP3pc/GGnt6lQzR/EkF3Rr1qyyVR13Yw+q6mmRu9buSnCxDWo0vJ5nJoIlbwpad2asIlmeH9y/W7Xd1LX28Nf+Gf7///WNnGinx/7spxkhGVS5tDxbfBJsBS4bRzUQIwNUKgQqc2okNuMQ4sNDEBAIAAUZU8DIUA7LLSEotnQAoGBTCYHsWxVC6BvN4ekmk3sZ0rn8z1IltgwfAfwZXllbul1IizoeITCfpc3YYkhtBIJQocMGBIxVnFNPeZyiug3Fhbf1K/77j+CxtW/EVfuHosw26uo+eOZgOGEa7BQFmODJRookN/MjCh4lEQGQAp9jaaHXi2W6WvrKFA/RM/9HZqhVlmLqHe7JBp4wyOjeqIM1ms4eVTGuweAxr7MaADWk4xS7NDnjZTc1BJMgqzQLQe4jHCgYGUIEyR4uGhAWAFmipUmGyFKYzDJmoiLRYTBSgw96gLfOwpYtVWMMclE/oQB4mAKvX8tFEZczjrvqytW2SPGt6IuU1BEhQSFPqtYeqWnXKt8Ok67UI1ATZXHgxpMLkTXqGmaymAlUhilcX/R9ausK2lxoKykum//viZFUACb5wUPubwPinytntbYWeMMYLJzXdAAsHq6e+t4AAtuO8NPxoWUtgdtI0ulNqGUwYGlcKpobnH4bVaVuqlC7qCimqw01TXnJm8oNZwovcvS5/GJqwPJJ0x3kUIS0pQShJAuEplG6Nv5nvIQ/8xTPNQprMOW+RKkqx4mrd8PWvlLwvjJmxxdusxfp7+3XfxnDuPNPxurbkM7ELTx6x3//////cyzuhB5foOuT2IDj8tabapnLZg4qcyWGUDhmbWIhcdCQ4oJgIzMvMcXYkp0m8YCCgEQZ2XhTtVfKmsOTK5NSSslHQNli4pL0ln1fCCclxeGnxTVO1KWmTMZ+PUNB9upPgZlsfcqjctx7T+nOklKIj3GUgTgiBYKQECMgCUr02K5r1GlMokbUStlcNZ0Tj1h33Kt4uYvTqmrEOiEMcTUBRcREdt7MrHKwqdUzUrgmYd7PWsAkWVQAI3Rco6vTEy0YY4eIM1HOQwYEUzZAMHCQYZCCY/hIYrlAFAKMDBCEQYGLYMmDIcmFIXmAgHGTFmxAmHBFQah0QRmBTlFBeSkFlF+liJWpMtbQlrTVwoMyMRhUr5UhwQqY0hSFRMvYOoIFgjUXFeFGNWBYxIBCARghBjwyJgVCtQLhmNLAY2ZIKACohHsnAS4FHy9a9061Y1bC66whfcwAUWHLHMgVCDjihh8QAhbGZk4bSoW3OOkHCoqBLKrUlSlZEFTjeV+IfWxFWgskYa7rwyRYwYCSSlcSdOPxC20xYJwogksBhoJAhgRQJQuEwxSJ23qeJzKgzyOwthUbkNzgYcCLUU0MCDbmsIUDVqpg4MoeiUtb3AEncaJRe0sEgaW7LbjRlSKg1M1mZcuDYu2z/oKRKUOi/jxXIxE3QcR0nQaBFYPvVoDsxGPVY/LLrjTMYsU+ctnd07hMHuKOtIprX24tOY2I/GK037uva1CajEBP5HL1DlQTPdwHqs/Uhll2/OaEj4bqqa4adJmr9p0ykY6gmeBTJ0mxIVZiIkYxA6AKWAAdH1IaARkDAQ4YqCoZsMGRwRBkNOatZ2G8iLuU7tLFi0IfaIvY8USoZXF2WT72qNZQirRU1NGXs/9c3zf/zeDXoCiEsYK/l6ku3KsYl9SNS24/0vyk0y8j6q3xRlsxKKbvyiTyaXW6kfrWp+mrTGcZis7hjU//7z8/yqZ75//lzX///v9Y8u/3DWffy////////3WnNX6XRj+RNf+nt//6aEBI0lpNnlmiHlrcACbSFsPUCjq10UrTT0IH/5qJgaCDmRhphYEaGBmNCpoq0a4IGtvJqQoYuMGougiP1BE6WvCQA3zwVCB7QyoFAONKBJbBxhR4sBHQaV7A0VBZEKFkhl6GCCkIABA2XGEBKAO+3ZosKsP/74mQ5gAsni8/+b0AAxaw6Dc28ACoWL1f5rIACwD6qvzDQAJWDwBB0YBuvBK4Et3ccpIJupKFfmRO2/kPBgIMEvuraW7LNmIAID2uV5I0AtgMCFLIenm6NASVhot/K4yzyWP8X6YVMPZlXh++0+UyikZPHb2L6sWhypKWaUvpWSaKBBSB4Yhxcr/015mTpO03J6sXaa1J5bKo0zaOsxdiLFvFySyQxeci+cspKV+mT0KRjLnUppuBJh/oBjuqS61i+7YsChvtNA+60okWolF3od+AUZ1rVUN3+cSbg9vIvO5/z87kps/3lvL8ctWf///////+au5UFvD/1c3hvff//////z1KLFJVt5U8+seB8pfr3XmJYSI1db99f/uwkgNAmAicIIBxebqAkSEBDYiCAoNiwqYYHvMRADKBJAAoQBAkwgDBwoy0bBIk2QEAQJ0DKMEICEdEmTxpi9HeGYX4sjPMkMRJHknl2oiWHRHWZmFDS9nmdSER1diM3etMb/h6VrvWIjxzj0xmMrzvVddZnhZeYxXMsuIirziaKqIVzfm+/aa+W//6x4nrHxjHl1Fznw86tmV7mFmrzX+/jH1//6f/////N/Bz/j///53jc5f6xn/8b01f6y7aSAZl5eLmJp4ZdbUqBAGBCTgnAzCaYEsKYseLEwkODU5x2AkPDqRjTBmCgOQCEioAg45ocYXjT4MKoSJAhaYDD8QCUpcXhUBLzKZt8QDOIim48qRlZlWcdKmQvgsBOteRXcFpC6mNQCwJyppiLHnfAACcLW0BzXYxBbaLrgGHcIch50bDuqDsIDhG5FUClLR34Vclz/tOgelpKtDDGcNKhkikH1jTJUb01DDJrymJuS7sNQw5EBwbhB9FXcqKvpLCYyCYqzGNLHfyUQmVv421HGIhI4vOQ925Rxh5rtPnDsZqzv4yx64Vg1hyH8l7doEfGHrLN5VafGPTUMVZ6ngKXRWK2aWllNSNWKSZzwxysPzKKKLSyxfs8ww38MORSa+n1IH7//////+fq1rdqYlNa5B8A3aSzFKtK1a///////UtW4a7Xr2Y/LXGztWb2GDzZgAIr0SVVRSqyVtAACuaoAIFtpC4Ng53lhJQpZD60S3Sj5WPDGgnRzBBALgAOAi4GkzMycXBNBPUZ1JBRmblwik6sutOUi+ipJS1KUi8wZ0m2T6CS/ZSnXepM2f0GSJVRQMUjUd48A5bomZIkqXjAehPIqBaeTHEakgaBCD3NSRJIc5cOFiZcE6MiQHYUyGaEtKjcwNlpzVFbV//+tX1f//bf/qQ+z//+vdfbPfqyR7TVQ2mIh3RK4WAEToYM20PMhJjDIQxcWNJBDYTkxEdAKoX0MjMQxJh5IUFHAsRoDU1goeAl6p1xdnz/++JkHAAJpIPSf28AAJgI+n/tvAAmkg87jmnjgpbAZzWllnmlavWbdUBXw15uUOu40F34/DcO0tp9qF2X1etnL+OVHpQ/EFs1nd'<span style="color:#FFF">... 3406270 more characters
+  }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request DELETE /session/3a19a79e-89fb-4252-83fc-d4c73361f016  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /session/3a19a79e-89fb-4252-83fc-d4c73361f016 (874ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s0ac1" aria-expanded="false" aria-controls="s0ac1">
+          do the page logs match what should be expected given the example folder?
+        </button>
+      </h5>
+    </div>
+
+    <div id="s0ac1" class="collapse" aria-labelledby="s0ah1" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Element &lt;.card&gt; was visible after 21464 milliseconds.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Just the right amount of logs based on the example folder</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Title of card #1</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Description of card #1</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Title of card #2</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Textarea of card #2</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Title of card #3</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Description of card #3</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Textarea of card #3</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Title of card #4</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Description of card #4</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Textarea of card #4</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Title of card #5</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Description of card #5</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Textarea of card #5</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Title of card #6</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Description of card #6</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Textarea of card #6</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Title of card #7</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Description of card #7</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Textarea of card #7</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Title of card #8</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Description of card #8</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Image of card #8</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Title of card #9</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Description of card #9</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Textarea of card #9</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Title of card #10</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Description of card #10</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Audio of card #10</div></pre></div></div>
+
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+          </div>
+          </div>
+         </div>
+        </section>
+      </div>
+    </div>
+
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row footerstarbg">
+          <div class="col-md-12">
+            <nav class="footer-box">
+              <div class="footer-links">
+                  <a class="cr" href="https://nightwatchjs.org" target="_blank">© 2022 Nightwatch.js</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
