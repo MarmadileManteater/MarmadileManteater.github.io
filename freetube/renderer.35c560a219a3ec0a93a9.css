@@ -3407,41 +3407,43 @@ to {
   font-family: Roboto;
   src: url(fonts/Roboto-Regular--font.ttf);
 }
-#app[data-v-7468ebdb] {
+#app[data-v-4e5a7f68] {
   display: flex;
   flex-wrap: wrap;
   font-family: 'Roboto', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
-.routerView[data-v-7468ebdb] {
+.routerView[data-v-4e5a7f68] {
   flex: 1 1 0%;
   margin: 18px 10px;
 }
-.banner[data-v-7468ebdb] {
-  width: 85%;
+.banner[data-v-4e5a7f68] {
+  margin: 16px auto 0 auto;
+  width: 90%;
 }
-.flexBox[data-v-7468ebdb] {
-  margin-top: 60px;
-  margin-bottom: -75px;
+.flexBox[data-v-4e5a7f68] {
+  margin: 0;
+  flex: 1 1 0%;
+  flex-direction: column;
 }
-#changeLogText[data-v-7468ebdb] {
+#changeLogText[data-v-4e5a7f68] {
   overflow-y: scroll;
   height: 40vh;
   display: block
 }
-.fade-enter-active[data-v-7468ebdb], .fade-leave-active[data-v-7468ebdb] {
+.fade-enter-active[data-v-4e5a7f68], .fade-leave-active[data-v-4e5a7f68] {
   transition: opacity .15s;
 }
-.fade-enter[data-v-7468ebdb], .fade-leave-to[data-v-7468ebdb] /* .fade-leave-active below version 2.1.8 */ {
+.fade-enter[data-v-4e5a7f68], .fade-leave-to[data-v-4e5a7f68] /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
 @media only screen and (max-width: 680px) {
-.routerView[data-v-7468ebdb] {
+.routerView[data-v-4e5a7f68] {
     margin: 68px 8px 68px;
 }
-.banner[data-v-7468ebdb] {
+.banner[data-v-4e5a7f68] {
     width: 90%;
 }
-.flexBox[data-v-7468ebdb] {
+.flexBox[data-v-4e5a7f68] {
     margin-top: 60px;
     margin-bottom: -75px;
 }
