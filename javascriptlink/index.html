@@ -140,7 +140,7 @@
 ]";
 				});
 				
-				require(["text!data/swords.json", "builtins/storage", "builtins/loader", "data-uri!img/parallax-forest-preview.png", "data-uri!music/desert_loop.mp3", "text!templates/card.html"], async function (swordsJSON, storage, loader, imageUri , desertLoopUri, cardHTML) {
+				require(["text!data/swords.json", "builtins/storage", "builtins/loader", "builtins/http-request", "data-uri!img/parallax-forest-preview.png", "data-uri!music/desert_loop.mp3", "text!templates/card.html"], async function (swordsJSON, storage, loader, httpRequest, imageUri , desertLoopUri, cardHTML) {
 				    var createElementsFromHTML = function (html) {
 				        var div = document.createElement("div");
 				        div.innerHTML = html;
@@ -237,8 +237,13 @@
 				        print("", null, imageUri, 6, { "author": "ansimuz", "source": "https://opengameart.org/content/forest-background" });
 				        print("This is how to display a linked audio file.", null, `require(["data-uri!music/desert_loop.mp3"], async function (desertLoop) {\r  var audio = document.createElement('audio');\r  audio.src = desertLoop;\r  document.body.appendChild(audio);\r});`, 6);
 				        print("", null, desertLoopUri, 6, { "author": "iamoneabe", "source": "https://opengameart.org/content/desert-loop" });
+				        try {
+				            console.log(await httpRequest(window.location.href));
+				        } catch (exception) {
+				            document.querySelector('.errors').setAttribute('data-exception', exception);
+				        }
 				    });
-				
+				    
 				});
 				
 				define("data-uri!img/parallax-forest-preview.png", [], function () {
@@ -366,6 +371,75 @@
 					return {
 						onload: onload
 					};
+				});
+			
+				define("builtins/http-request", [], 	function () {
+					 var parseHeaders = function (headers) {
+						  var headerParts = headers.split("\r\n");
+						  var headerObject = {};
+						  for (var i = 0; i < headerParts.length; i++) {
+								var headerPart = headerParts[i];
+								var keyValuePair = headerPart.split(": ");
+								var key = keyValuePair[0];
+								var value = keyValuePair[1];
+								if (key !== "") {
+									 headerObject[key.toLowerCase()] = value;
+								}
+						  }
+						  return headerObject;
+					 }
+					 if (typeof window === 'undefined') {
+						  // nodejs
+						  var url = require('url');
+						  var request = function (uri, method = 'GET', body = "") {
+								return new Promise(function (resolve, reject) {
+									 var parsed = url.parse(uri);
+									 var protocol = (parsed.protocol == "http") ? require('http') : require('https');
+									 
+									 const options = {
+										  hostname: parsed.hostname,
+										  port: parsed.port,
+										  path: parsed.pathname,
+										  method: method,
+										  port: parsed.port,
+										  body: body
+									 };
+					 
+									 const req = protocol.request(options, res => {
+										  res.on('data', d => {
+												resolve({ response: d.toString(), status: res.statusCode, headers: res.headers });
+										  });
+									 });
+									 req.write(body);
+									 req.on('error', error => {
+										  reject({ response: error.toString(), status: res.statusCode, headers: res.headers  });
+									 });
+					 
+									 req.end();
+								});
+						  }
+						  return request;
+					 } else {
+						  var request = function (uri, method = 'GET', body = undefined) {
+								return new Promise(function (resolve, reject) {
+									 if (window.location.href.startsWith("file://")) {
+										  return reject("The request to " + uri + " can not be processed from the local filesystem.");
+									 }
+									 var xmlHttpRequest = new XMLHttpRequest();
+									 xmlHttpRequest.onreadystatechange = function () {
+										  if (this.readyState === 4 && this.status === 200) {
+												resolve({ body: this.response, headers: parseHeaders(this.getAllResponseHeaders()), status: this.status });
+										  } else if (this.readyState === 4) {
+												// if ready and not 200 status
+												reject({ body: this.response, headers: parseHeaders(this.getAllResponseHeaders()), status: this.status });
+										  }
+									 }
+									 xmlHttpRequest.open(method, uri);
+									 xmlHttpRequest.send(body);
+								});
+						  };
+						  return request;
+					 }
 				});
 			// javascript-link@0.13.0
 			}())
@@ -545,5 +619,7 @@
         <div class="user-card">
             <a href="https://github.com/MarmadileManteater"><img src="https://avatars.githubusercontent.com/u/106682128" alt="" /><span>@MarmadileManteater</span></a>
         </div>
+        <!-- non-visible section for logging of errors to be used in testing -->
+        <span class="errors" ></span>
     </body>
 </html>
