@@ -1521,3 +1521,72 @@ textarea {
   text-align: center;
   margin-bottom: 10px;
 }
+
+@media (prefers-color-scheme: dark) {
+
+    #main, body {
+        background-color: #1d1d1d;
+    }
+
+    #auxbar {
+        background-color: #333;
+        border-bottom: none;
+    }
+
+    #auxbar h1 {
+        color: white;
+    }
+
+    #s1 {
+        background-color: #333;
+        border: #333;
+    }
+
+    #sessionfull-accordion .card {
+        background-color: #212529;
+        color: white;
+    }
+
+    #sessionfull-accordion .card button,
+    #sessionfull-accordion .card button:hover {
+        color: white;
+    }
+
+    #sessionfull-accordion .card button:hover {
+        text-decoration: underline;
+    }
+
+    #sessionfull-accordion .card > .card-header {
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav-item.nav-link.active {
+        background-color: transparent;
+        color: white;
+    }
+
+    .sessionbox-head {
+        color: white;
+    }
+
+    .sessionbox-tabs .nav-item:hover {
+        color: #fd7e14;
+        text-decoration: underline;
+        border-bottom: solid 1px #333 !important;
+    }
+
+    .nav-item.nav-link.active:hover {
+        color: white;
+    }
+
+    .stat-sessionfull {
+        color: white;
+    }
+
+    #navigation {
+        border-color: black;
+    }
+
+}
