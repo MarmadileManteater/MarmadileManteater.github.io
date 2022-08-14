@@ -4869,7 +4869,7 @@ hr[data-v-ad1625d0] {
   overflow-wrap: anywhere;
 }
 
-.getCommentsTitle[data-v-5d0d5670] {
+.getCommentsTitle[data-v-63396efa] {
   height: 10px;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -4878,23 +4878,23 @@ hr[data-v-ad1625d0] {
   cursor: pointer;
   color: var(--title-color);
 }
-.center[data-v-5d0d5670] {
+.center[data-v-63396efa] {
   text-align: center;
 }
-.commentSort[data-v-5d0d5670] {
+.commentSort[data-v-63396efa] {
   float: right;
 }
-.comment[data-v-5d0d5670] {
+.comment[data-v-63396efa] {
   padding: 15px;
   position: relative;
 }
-.hideComments[data-v-5d0d5670] {
+.hideComments[data-v-63396efa] {
   font-size: 13px;
   text-decoration: underline;
   cursor: pointer;
   color: var(--title-color);
 }
-.commentThumbnail[data-v-5d0d5670] {
+.commentThumbnail[data-v-63396efa] {
   float: left;
   width: 60px;
   height: 60px;
@@ -4902,7 +4902,7 @@ hr[data-v-ad1625d0] {
   -webkit-border-radius: 200px 200px 200px 200px;
   cursor: pointer;
 }
-.commentAuthorWrapper[data-v-5d0d5670] {
+.commentAuthorWrapper[data-v-63396efa] {
   font-weight: bold;
   font-size: 14px;
   margin-left: 68px;
@@ -4910,22 +4910,22 @@ hr[data-v-ad1625d0] {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.commentOwner[data-v-5d0d5670] {
+.commentOwner[data-v-63396efa] {
   background-color: var(--scrollbar-color);
   border-radius: 10px;
   padding: 0 10px;
 }
-.commentAuthor[data-v-5d0d5670] {
+.commentAuthor[data-v-63396efa] {
   cursor: pointer;
 }
-.commentText[data-v-5d0d5670] {
+.commentText[data-v-63396efa] {
   white-space: pre-wrap;
   font-size: 14px;
   margin-top: -10px;
   margin-left: 70px;
   word-wrap: break-word;
 }
-.commentPinned[data-v-5d0d5670] {
+.commentPinned[data-v-63396efa] {
   font-weight: normal;
   font-size: 12px;
   margin-block-end: 0;
@@ -4933,22 +4933,22 @@ hr[data-v-ad1625d0] {
   margin-left: 68px;
   margin-bottom: 5px;
 }
-.commentDate[data-v-5d0d5670] {
+.commentDate[data-v-63396efa] {
   font-weight: normal;
   margin-left: 5px;
   font-size: 12px;
 }
-.commentMemberIcon[data-v-5d0d5670] {
+.commentMemberIcon[data-v-63396efa] {
   margin-left: 5px;
   width: 14px;
   height: 14px;
 }
-.commentLikeCount[data-v-5d0d5670] {
+.commentLikeCount[data-v-63396efa] {
   font-size: 11px;
   margin-left: 70px;
   margin-top: 0px;
 }
-.commentHeartBadge[data-v-5d0d5670] {
+.commentHeartBadge[data-v-63396efa] {
   display: inline-block;
   position: relative;
   width: 25px;
@@ -4956,7 +4956,7 @@ hr[data-v-ad1625d0] {
   margin-left: 10px;
   margin-bottom: -7px;
 }
-.commentHeartBadgeImg[data-v-5d0d5670] {
+.commentHeartBadgeImg[data-v-63396efa] {
   position: absolute;
   left: 0;
   width: 15px;
@@ -4964,7 +4964,7 @@ hr[data-v-ad1625d0] {
   border-radius: 50%;
   -webkit-border-radius: 50%;
 }
-.commentHeartBadgeWhite[data-v-5d0d5670] {
+.commentHeartBadgeWhite[data-v-63396efa] {
   position: absolute;
   left: 9px;
   bottom: 1px;
@@ -4972,7 +4972,7 @@ hr[data-v-ad1625d0] {
   height: 11px;
   z-index: 1;
 }
-.commentHeartBadgeRed[data-v-5d0d5670] {
+.commentHeartBadgeRed[data-v-63396efa] {
   position: absolute;
   color: var(--red-500);
   left: 10px;
@@ -4981,23 +4981,23 @@ hr[data-v-ad1625d0] {
   height: 9px;
   z-index: 2;
 }
-.commentMoreReplies[data-v-5d0d5670] {
+.commentMoreReplies[data-v-63396efa] {
   font-size: 11px;
   margin-left: 5px;
   text-decoration: underline;
   cursor: pointer;
   color: var(--title-color);
 }
-.commentReplies[data-v-5d0d5670] {
+.commentReplies[data-v-63396efa] {
   margin-left: 30px;
 }
-.showMoreReplies[data-v-5d0d5670] {
+.showMoreReplies[data-v-63396efa] {
   margin-left: 30px;
   font-size: 15px;
   cursor: pointer;
   text-decoration: underline;
 }
-.getMoreComments[data-v-5d0d5670] {
+.getMoreComments[data-v-63396efa] {
   height: 10px;
   margin-top: 5px;
   margin-bottom: 10px;
