@@ -4682,16 +4682,17 @@ hr[data-v-ad1625d0] {
 .playlistInfo[data-v-015d635a] {
   background-color: var(--card-bg-color);
   box-sizing: border-box;
-  height: calc(100vh - 96px);
+  height: calc(100vh - 132px);
   margin-right: 1em;
   overflow-y: auto;
   padding: 10px;
   position: sticky;
-  top: 78px;
+  top: 96px;
   width: 30%;
 }
 .playlistItems[data-v-015d635a] {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-gap: 10px;
   margin: 0;
   padding: 10px;
@@ -5188,21 +5189,38 @@ hr[data-v-ad1625d0] {
   top: 0.45rem;
 }
 
-.pointer[data-v-3103be9e] {
+.pointer[data-v-14b8ade4] {
   cursor: pointer;
 }
-.channelName[data-v-3103be9e] {
+.channelName[data-v-14b8ade4] {
   font-size: 15px;
   cursor: pointer;
   position: relative;
   bottom: 15px;
 }
-.playlistIndex[data-v-3103be9e] {
+.playlistIndex[data-v-14b8ade4] {
   position: relative;
   bottom: 15px;
   color: var(--tertiary-text-color);
 }
-.playlistIcon[data-v-3103be9e] {
+.playlistProgressBar[data-v-14b8ade4] {
+  margin-left: 10px;
+  /* > In order to let ::-webkit-progress-value take effect, appearance needs to be set to none on the <progress> element. */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-progress-value */
+  appearance: none;
+}
+.playlistProgressBar[data-v-14b8ade4]::-webkit-progress-value {
+  /* Color for filled part */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-progress-value */
+  /* background-color is required to be declared here to prevent color being green */
+  background-color: var(--accent-color);
+}
+.playlistProgressBar[data-v-14b8ade4]::-webkit-progress-bar {
+  /* Color for unfilled part */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-progress-bar */
+  background-color: var(--secondary-text-color);
+}
+.playlistIcon[data-v-14b8ade4] {
   font-size: 20px;
   padding: 10px;
   margin-top: -25px;
@@ -5211,41 +5229,41 @@ hr[data-v-ad1625d0] {
   color: var(--tertiary-text-color);
   transition: background 0.2s ease-out;
 }
-.playlistIcon[data-v-3103be9e]:hover {
+.playlistIcon[data-v-14b8ade4]:hover {
   background-color: var(--side-nav-hover-color);
   transition: background 0.2s ease-in;
 }
-.playlistIconActive[data-v-3103be9e] {
+.playlistIconActive[data-v-14b8ade4] {
   color: var(--accent-color)
 }
-.playlistItems[data-v-3103be9e] {
+.playlistItems[data-v-14b8ade4] {
   overflow-y: auto;
   height: 360px;
 }
-.playlistItem[data-v-3103be9e] {
+.playlistItem[data-v-14b8ade4] {
   display: grid;
   grid-template-columns: 30px 1fr;
   align-items: center;
   transition: background 0.2s ease-out;
 }
-.playlistItem[data-v-3103be9e]:not(:last-child) {
+.playlistItem[data-v-14b8ade4]:not(:last-child) {
   margin-bottom: 8px;
 }
-.playlistItem[data-v-3103be9e]:hover {
+.playlistItem[data-v-14b8ade4]:hover {
   background-color: var(--side-nav-hover-color);
   transition: background 0.2s ease-in;
 }
-.videoIndexContainer[data-v-3103be9e] {
+.videoIndexContainer[data-v-14b8ade4] {
   text-align: center;
 }
-.videoIndex[data-v-3103be9e] {
+.videoIndex[data-v-14b8ade4] {
   color: var(--tertiary-text-color);
 }
-.videoIndexIcon[data-v-3103be9e] {
+.videoIndexIcon[data-v-14b8ade4] {
   font-size: 14px;
   color: var(--tertiary-text-color);
 }
-.videoInfo[data-v-3103be9e] {
+.videoInfo[data-v-14b8ade4] {
   margin-left: 30px;
   position: relative;
   bottom: 7px;
