@@ -4,9 +4,20 @@
     <head>
         <title>MarmadileManteater</title>
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r94/three.min.js" integrity="sha512-ZGgXd6TB5qjtvTU6Q5o/LJM4pwLNy8U8XXJh+vJZDXp2wC8ASrl4WOeivaq2fpYc3TnTCLzyDvVjY8YhvNYaXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <style>
+
             body {
                 font-family: sans-serif;
+                min-height: 100vh;
+                margin: 0;
+                padding: 5px;
+                background-image: url(images/grid-color-light.png);
+                animation-name: backgroundMove;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                background-size: 100px;
             }
 
             .flex-block {
@@ -31,8 +42,10 @@
 			    flex-wrap: wrap;
 			    justify-content: space-evenly;
 			    max-width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
 			}
-			
+
 			.card .inner {
 			    width: 100%;
 			    padding: 20px;
@@ -41,6 +54,10 @@
 			    border-radius: 5px;
 			    box-sizing: border-box;
 			}
+
+            .card.thirsty-plant .inner {
+                background-color: #BDCCC1;
+            }
 			
 			.card .outer {
 			    padding-right: 15px;
@@ -71,11 +88,15 @@
 			.card[data-col="12"] {
 			    width: 100%;
 			}
-			
+            .card[data-col="7"] {
+			    width: 55%;
+			}
 			.card[data-col="6"] {
 			    width: 50%;
 			}
-
+            .card[data-col="5"] {
+			    width: 43%;
+			}
             .user-card {
                 position: fixed;
                 top: 0;
@@ -92,19 +113,29 @@
                 margin-right: 10px;
             }
 
+            .dark {
+                display: none;
+            }
             @media (prefers-color-scheme: dark) {
+                .light {
+                    display: none;
+                }
+                .dark {
+                    display: block;
+                }
                 body {
                     background-color: #1d1d1d;
                     color: white;
+                    background-image: url(images/grid-color.png);
                 }
-                .card .inner {
-                    background-color: #333;
+                .card .inner, .card.thirsty-plant .inner  {
+                    background-color: #222222;
                 }
                 a {
                     color: #99f;
                 }
                 .user-card {
-                    background-color: #333;
+                    background-color: #161616;
                 }
             }
 
@@ -119,14 +150,7 @@
 			    }
 			}
 
-            @media (max-width: 700px) {
-			    .card[data-col="6"] {
-			        width: 100%;
-			    }
-			
-			    .card .outer {
-			        padding-right: 0px;
-			    }
+            @media (max-width: 1250px) {
                 .user-card {
                     bottom: 0;
                     left: 0;
@@ -136,43 +160,97 @@
 
                 }
             }
+
+            @media (max-width: 900px) {
+			    .card[data-col="6"], .card[data-col="7"], .card[data-col="5"] {
+			        width: 100%;
+			    }
+			
+			    .card .outer {
+			        padding-right: 0px;
+			    }
+
+            }
+            @keyframes backgroundMove {
+                from {
+                    background-position: 0px 0px; 
+                }
+                to {
+                    background-position: 100px 100px;
+                }
+            }
+
+            iframe {
+                max-width: 100%;
+                width: 600px;
+            }
+            .game-title {
+                display: none;
+            }
+            @media (max-width: 376px) {
+                .game-title {
+                    display: block;
+                    margin-bottom: 0;
+                }
+                .game-title a {
+                    color: black;
+                }
+                @media (prefers-color-scheme: dark) {
+                    .game-title a {
+                        color: white;
+                    }
+                }
+            }
+            canvas[id="3dcanvas"] {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-bottom: -29px;
+            }
         </style>
     </head>
     <body>
+        <canvas id="3dcanvas"></canvas>
         <div class="card-list">
-            <div class="card" data-col="12">
-                <div class="outer">
-                    <div class="inner ">
-                        <h1>Hello World!</h1>
+            <div class="card" data-col="5" style="margin-bottom: -10px">
+                <div class="card">
+                    <div class="outer">
+                        <div class="inner">
+                            <ul>
+                                <li><a href="freetube/#/">FreeTube for web</a></li>
+                                <li><a href="javascriptlink/">JavaScriptLink example</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card" data-col="6">
-                <div class="outer">
-                    <div class="inner ">
-                        <ul>
-                            <li><a href="freetube/#/">FreeTube for web</a></li>
-                            <li><a href="javascriptlink/">JavaScriptLink example</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="card" data-col="6" >
-                <div class="outer" >
-                    <div class="inner">
-                        <div class="flex-block">
-                            <div>
-                                <p><img id="face-image" width="200" /></p>
-                            </div>
-                            <div>
-                                <p>Hello! I'm <span id="variation-name"></span>. My real name is <span id="name"></span>, and you can look it up. That's an actual picture of me!</p>
-                                <br/>
-                                <p><a href="mailto:marmadilemanteater@proton.me"><img src="images/email6.gif" style="margin-bottom:0" /><span style="vertical-align:middle;">Email me</span></a></p>
+                <div class="card" >
+                    <div class="outer">
+                        <div class="inner">
+                            <div class="flex-block">
+                                <div>
+                                    <p><img id="face-image" width="200"></p>
+                                </div>
+                                <div>
+                                    <p>Hello! I'm <span id="variation-name"></span>. My real name is <span id="name">Sharon Martinez</span>, and you can look it up. That's an actual picture of me!</p>
+                                    <br>
+                                    <p><a href="mailto:marmadilemanteater@proton.me"><img src="images/email6.gif" style="margin-bottom:0"><span style="vertical-align:middle;">Email me</span></a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div data-col="7" class="card thirsty-plant">
+                <div class="outer">
+                    <div class="inner">
+                        <iframe class="light" src="https://itch.io/embed/1671315?bg_color=BDCCC1&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=BDCCC1" width="552" height="167" frameborder="0"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts">The Very Thirsty Plant &amp; the Labyrinth of Ghosts by MarmadileManteater</a></iframe>
+                        <iframe class="dark" src="https://itch.io/embed/1671315?bg_color=222222&amp;fg_color=FFFFFF&amp;link_color=FFFFFF&amp;border_color=222222" width="552" height="167" frameborder="0"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts">The Very Thirsty Plant &amp; the Labyrinth of Ghosts by MarmadileManteater</a></iframe>
+                        <h3 class="game-title"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" target="_blank">The Very Thirsty Plant and the Labyrinth of Ghosts</a></h3>
+                    </div>
+                </div>
+            </div>
+            
+            
         </div>
 
         <div class="user-card">
