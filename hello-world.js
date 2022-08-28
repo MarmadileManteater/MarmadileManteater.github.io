@@ -309,7 +309,7 @@
       requestAnimationFrame(animate.bind(null, render));
       render();
     };
-    init("FFFFFF", "/fonts/droid_sans_regular.typeface.json", username);
+    init("FFFFFF", "fonts/droid_sans_regular.typeface.json", username);
     const resize = function () {
         if (window.innerWidth < 1200) {
             renderer.setSize(window.innerWidth, window.innerWidth * (height/width));
