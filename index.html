@@ -47,6 +47,7 @@
 			}
 
 			.card .inner {
+                overflow:hidden;
 			    width: 100%;
 			    padding: 20px;
 			    background-color: #eee;
@@ -196,8 +197,8 @@
 
             @media (max-width: 550px) {
                 .mobile-image {
-                    padding: 14px 0px 0px 11px;
-                    margin-bottom: -7px !important;
+                    padding: 1px 0px 0px 11px;
+                    margin-bottom: 0px !important;
                     margin-left: auto;
                     margin-right: auto;
                     display: block;
@@ -221,13 +222,32 @@
             .game-title {
                 display: none;
             }
-            @media (max-width: 376px) {
-                .mobile-image {
+            .itch-button {
+                display: none;
+                padding: 10px;
+                background-color: #fa5c5c;
+                border-radius: 5px;
+                color: white;
+                font-weight: bold;
+            }
+            .itch-button:hover {
+                text-decoration: none;
+            }
+            @media (max-width: 500px) {
+                .mobile-link {
+                    display: block;
+                    text-align: center;
+                }
+                body iframe.dark, body iframe {
                     display: none;
                 }
+                 .mobile-image, .itch-button {
+                    display: inline-block;
+                }
+               
                 .game-title {
                     display: block;
-                    margin-bottom: 0;
+                    margin-bottom: 12px;
                 }
                 .game-title a {
                     color: black;
@@ -235,6 +255,10 @@
                 @media (prefers-color-scheme: dark) {
                     .game-title a {
                         color: white;
+                    }
+                    .itch-button {
+                        background-color: white;
+                        color: black;
                     }
                 }
             }
@@ -281,10 +305,11 @@
             <div data-col="7" class="card thirsty-plant">
                 <div class="outer">
                     <div class="inner">
-                        <img class="mobile-image" src="https://img.itch.zone/aW1nLzk4NzcyODUucG5n/315x250%23c/m1WJNB.png" />
+                        <a class="mobile-link" href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" target="_blank"><img class="mobile-image" src="https://img.itch.zone/aW1nLzk4NzcyODUucG5n/315x250%23c/m1WJNB.png" /></a>
                         <iframe class="light" src="https://itch.io/embed/1671315?bg_color=BDCCC1&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=BDCCC1" width="552" height="167" frameborder="0"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts">The Very Thirsty Plant &amp; the Labyrinth of Ghosts by MarmadileManteater</a></iframe>
                         <iframe class="dark" src="https://itch.io/embed/1671315?bg_color=222222&amp;fg_color=FFFFFF&amp;link_color=FFFFFF&amp;border_color=222222" width="552" height="167" frameborder="0"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts">The Very Thirsty Plant &amp; the Labyrinth of Ghosts by MarmadileManteater</a></iframe>
-                        <h3 class="game-title"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" target="_blank">The Very Thirsty Plant and the Labyrinth of Ghosts</a></h3>
+                        <h3 class="game-title"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" target="_blank">The Very Thirsty Plant & the Labyrinth of Ghosts</a></h3>
+                        <a target="_blank" href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" class="itch-button">Play on itch.io</a>
                     </div>
                 </div>
             </div>
