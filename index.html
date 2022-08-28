@@ -161,7 +161,25 @@
                 }
             }
 
+            .mobile-image {
+                display: none;
+            }
+            @media (max-width: 1019px) {
+                .mobile-image {
+                    padding: 14px 0px 0px 11px;
+                    margin-bottom: -7px !important;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    z-index: 1000;
+                    position: relative;
+                }
+            }
+
             @media (max-width: 900px) {
+                .mobile-image {
+                    display: none;
+                }
 			    .card[data-col="6"], .card[data-col="7"], .card[data-col="5"] {
 			        width: 100%;
 			    }
@@ -170,6 +188,18 @@
 			        padding-right: 0px;
 			    }
 
+            }
+
+            @media (max-width: 550px) {
+                .mobile-image {
+                    padding: 14px 0px 0px 11px;
+                    margin-bottom: -7px !important;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    z-index: 1000;
+                    position: relative;
+                }
             }
             @keyframes backgroundMove {
                 from {
@@ -188,6 +218,9 @@
                 display: none;
             }
             @media (max-width: 376px) {
+                .mobile-image {
+                    display: none;
+                }
                 .game-title {
                     display: block;
                     margin-bottom: 0;
@@ -244,6 +277,7 @@
             <div data-col="7" class="card thirsty-plant">
                 <div class="outer">
                     <div class="inner">
+                        <img class="mobile-image" src="https://img.itch.zone/aW1nLzk4NzcyODUucG5n/315x250%23c/m1WJNB.png" />
                         <iframe class="light" src="https://itch.io/embed/1671315?bg_color=BDCCC1&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=BDCCC1" width="552" height="167" frameborder="0"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts">The Very Thirsty Plant &amp; the Labyrinth of Ghosts by MarmadileManteater</a></iframe>
                         <iframe class="dark" src="https://itch.io/embed/1671315?bg_color=222222&amp;fg_color=FFFFFF&amp;link_color=FFFFFF&amp;border_color=222222" width="552" height="167" frameborder="0"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts">The Very Thirsty Plant &amp; the Labyrinth of Ghosts by MarmadileManteater</a></iframe>
                         <h3 class="game-title"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" target="_blank">The Very Thirsty Plant and the Labyrinth of Ghosts</a></h3>
