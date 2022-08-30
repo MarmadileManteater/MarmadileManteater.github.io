@@ -30,6 +30,7 @@
             a {
                 text-decoration: none;
                 vertical-align: middle;
+                color: #87022a;
             }
 
             a:hover {
@@ -49,10 +50,10 @@
 			.card .inner {
                 overflow:hidden;
 			    width: 100%;
-			    padding: 20px;
-			    background-color: #eee;
+			    padding: 20px 20px 10px 20px;
+			    background-color: white;
 			    margin: 10px 0px;
-			    border-radius: 5px;
+			    border-radius: 10px;
 			    box-sizing: border-box;
 			}
 
@@ -74,7 +75,6 @@
 			.card p {
 			    padding: 0;
 			    margin: 0;
-			    min-height: 2.5rem;
 			}
 			
 			.card img + h1 + p,
@@ -89,21 +89,27 @@
 			.card[data-col="12"] {
 			    width: 100%;
 			}
+            .card[data-col="9"] {
+			    width: 75%;
+			}
             .card[data-col="7"] {
-			    width: 55%;
+			    width: 60%;
 			}
 			.card[data-col="6"] {
 			    width: 50%;
 			}
             .card[data-col="5"] {
-			    width: 43%;
+			    width: 39%;
+			}
+            .card[data-col="3"] {
+			    width: 24%;
 			}
             .user-card {
                 position: fixed;
                 top: 0;
                 right: 0;
                 padding: 20px;
-                background-color: #efefef;
+                background-color: white;
                 border-radius: 0px 0px 0px 5px;
                 z-index: 100000;
             }
@@ -113,6 +119,114 @@
                 width: 50px;
                 vertical-align: middle;
                 margin-right: 10px;
+            }
+
+            canvas[id="3dcanvas"] {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-bottom: -29px; 
+                max-width: 100%;
+            }
+            .tags {
+                margin-bottom: -10px;
+            }
+            .tags span a {
+                background-color: rgba(107, 107, 107, 0.25);
+                border-radius: 10px;
+                padding: 10px;
+                margin-right: 5px;
+                vertical-align: middle; 
+                line-height: 49px;
+                color: black;
+            }
+            .tags span.javascript a {
+                background-image: url('images/js-logo.png');
+                font-size: 0;
+                background-size: 100% 100%;
+                width: 26px;
+                height: 26px;
+                display: inline-block;
+                background-color: transparent;
+                border-radius: 0;
+                padding: 10px;
+            }
+            .tags span.csharp a {
+                background-image: url('images/csharp-logo.png');
+                font-size: 0;
+                background-size: 100% 100%;
+                width: 26px;
+                height: 26px;
+                display: inline-block;
+                background-color: transparent;
+                border-radius: 0;
+                padding: 10px;
+            }
+            .tags span.python a {
+                background-image: url('images/python-logo.png');
+                font-size: 0;
+                background-size: 100% 100%;
+                width: 27px;
+                height: 32px;
+                display: inline-block;
+                background-color: transparent;
+                border-radius: 0;
+                padding: 10px;
+                margin-top: 8px;
+            }
+            .project {
+                display: flex;
+            }
+            .project h2 {
+                
+                overflow: hidden;
+                text-overflow: "..."; 
+            }
+            .project h2 a {
+                color: black;
+            }
+            .left {
+                margin-right: 25px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                min-width: 200px;
+                text-align: center;
+            }
+            .left > *, .right > *, .center > * {
+                display: block;
+            }
+
+            .project .buttons {
+                margin-top: 20px;
+            }
+            .project .buttons a {
+                border-radius: 5px;
+                background-color: #9596d2;
+                color: white;
+                padding: 13px;
+                display: inline-block;
+                margin-right: 10px;
+                margin-bottom: 16px;
+            }
+            .project .buttons a:after {
+                content: ' »'
+            }
+            .project .buttons a + a {
+                background-color: #b95162;
+            }
+
+            .thirsty-plant .project .buttons a {
+                background-color: #1c4b1c;
+            }
+            
+            .thirsty-plant .project .buttons a + a {
+                background-color: #6daf6d;
+            }
+            .sanity-cover {
+                /*background-color: rgba(0,0,0,0.99);*/
+                padding-bottom: 20px;
+                margin-top: 10px;
             }
 
             .dark {
@@ -139,52 +253,53 @@
                 .user-card {
                     background-color: #161616;
                 }
+                .tags span a {
+                    background-color: rgb(57, 57, 57);
+                    color: white;
+                }
+                .project .buttons a,
+                .project .buttons a + a,
+                .thirsty-plant .project .buttons a,
+                .thirsty-plant .project .buttons a + a {
+                    background-color: white;
+                    color: black;
+                }
+                .project h2 a {
+                    color: white;
+                }
             }
 
 			@media (max-width: 1400px) {
-			    .user-card {
-			        background-color: #c9c9c9;
-			    }
-			    @media (prefers-color-scheme: dark) {
-			        .user-card {
-			            background-color: #212121;
-			        }
-			    }
-			}
-
-            @media (max-width: 1250px) {
                 .user-card {
                     bottom: 0;
                     left: 0;
                     top: initial;
                     width: 100%;
                     border-radius: 0px;
+                    border-top: 1px solid #efefef;
+                }
+                .sanity-cover {
+                    padding-bottom: 112px;
+                }
+			}
 
+            @media (max-width: 1250px) {
+                .project {
+                    flex-direction: column;
                 }
             }
 
-            .mobile-image {
-                display: none;
-            }
-            @media (max-width: 1019px) {
-                .mobile-image {
-                    padding: 14px 0px 0px 11px;
-                    margin-bottom: -7px !important;
-                    margin-left: auto;
-                    margin-right: auto;
+            @media (max-width: 950px) {
+                .flex-block {
                     display: block;
-                    z-index: 1000;
-                    position: relative;
                 }
             }
 
             @media (max-width: 900px) {
-                body {
-                    margin-bottom: 92px;
+                .flex-block {
+                    display: flex;
                 }
-                .mobile-image {
-                    display: none;
-                }
+
 			    .card[data-col="6"], .card[data-col="7"], .card[data-col="5"] {
 			        width: 100%;
 			    }
@@ -193,19 +308,22 @@
 			        padding-right: 0px;
 			    }
 
-            }
-
-            @media (max-width: 550px) {
-                .mobile-image {
-                    padding: 1px 0px 0px 11px;
-                    margin-bottom: 0px !important;
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: block;
-                    z-index: 1000;
-                    position: relative;
+                .project {
+                    flex-direction: row;
                 }
             }
+
+            @media (max-width: 700px) {
+                .project {
+                    flex-direction: column;
+                }
+                .card .inner {
+                    overflow:hidden;
+                    width: 100%;
+                    padding: 40px 20px 20px 20px;
+                }
+            }
+
             @keyframes backgroundMove {
                 from {
                     background-position: 0px 0px; 
@@ -214,109 +332,146 @@
                     background-position: 100px 100px;
                 }
             }
-
-            iframe {
-                max-width: 100%;
-                width: 600px;
-            }
-            .game-title {
-                display: none;
-            }
-            .itch-button {
-                display: none;
-                padding: 10px;
-                background-color: #fa5c5c;
-                border-radius: 2px;
-                color: white;
-                font-size: 14px;
-            }
-            .itch-button:hover {
-                text-decoration: none;
-            }
-            @media (max-width: 500px) {
-                .mobile-link {
-                    display: block;
-                    text-align: center;
-                }
-                body iframe.dark, body iframe {
-                    display: none;
-                }
-                 .mobile-image, .itch-button {
-                    display: inline-block;
-                }
-               
-                .game-title {
-                    display: block;
-                    margin-bottom: 12px;
-                    font-size: 15px;
-                }
-                .game-title a {
-                    color: black;
-                }
-                @media (prefers-color-scheme: dark) {
-                    .game-title a {
-                        color: white;
-                    }
-                    .itch-button {
-                        background-color: white;
-                        color: black;
-                    }
-                }
-            }
-            canvas[id="3dcanvas"] {
-                margin-left: auto;
-                margin-right: auto;
-                display: block;
-                margin-bottom: -29px; 
-                max-width: 100%;
-            }
         </style>
     </head>
     <body>
         <canvas id="3dcanvas"></canvas>
-        <div class="card-list">
-            <div class="card" data-col="5" style="margin-bottom: -10px">
-                <div class="card">
-                    <div class="outer">
-                        <div class="inner">
-                            <ul>
-                                <li><a href="freetube/#/">FreeTube for web</a></li>
-                                <li><a href="javascriptlink/">JavaScriptLink example</a></li>
-                            </ul>
+        <div class="sanity-cover">
+            <div class="card-list">
+
+                <div class="card" data-col="7" style="margin-bottom: -10px">
+                    <div class="card thirsty-plant">
+                        <div class="outer">
+                            <div class="inner">
+                                <div class="project">
+                                    <div class="left">
+                                    <a class="mobile-link" href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" target="_blank"><img src="https://img.itch.zone/aW1nLzk4NzcyODUucG5n/315x250%23c/m1WJNB.png" /></a>
+                                    </div>
+                                    <div class="right">
+                                        <div class="tags">
+                                            <span class="javascript"><a href="https://github.com/topics/javascript" target="_blank">javascript</a></span>
+                                            <span><a href="https://webpack.js.org/" target="_blank">webpack</a></span>
+                                            <span><a href="https://www.electronjs.org/" target="_blank">electron</a></span>
+                                            <span><a href="https://www.mapeditor.org/" target="_blank">tiled</a></span>
+                                            <span><a href="https://knockoutjs.com/" target="_blank">knockoutjs</a></span>
+                                        </div>
+                                        <h2><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" target="_blank">The Very Thirsty Plant & the Labyrinth of Ghosts</a></h2>
+                                        <p class="summary">This is a game about retrieving water for a plant.</p>
+                                        <div class="buttons">
+                                            <a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labyrinth-of-ghosts">Play on <strong>itch.io</strong></a>
+                                            <a href="https://github.com/MarmadileManteater/TheVeryThirstyPlantAndTheLabyrinthOfGhosts">View on <strong>GitHub</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="outer">
+                            <div class="inner">
+                                <div class="project">
+                                    <div class="left">
+                                        <a class="mobile-link" href="freetube/#/" target="_blank"><img src="https://raw.githubusercontent.com/MarmadileManteater/FreeTubeCordova/development/_icons/.icon-set/iconColor_256.png" /></a>
+                                    </div>
+                                    <div class="right">
+                                        <div class="tags">
+                                            <span class="javascript"><a href="https://github.com/topics/javascript" target="_blank">javascript</a></span>
+                                            <span><a href="https://webpack.js.org/" target="_blank">webpack</a></span>
+                                            <span><a href="https://cordova.apache.org/" target="_blank">cordova</a></span>
+                                            <span><a href="https://invidious.io/" target="_blank" >invidious</a></span>
+                                        </div>
+                                        <h2><a href="https://github.com/MarmadileManteater/FreeTubeCordova" target="_blank">FreeTubeCordova</a></h2>
+                                        <p>This is a fork of FreeTube which squashes everything into a web app and exports it to Android via Cordova.</p>
+                                        <div class="buttons">
+                                            <a href="freetube/#/" target="_blank" >View the <strong>web version</strong></a>
+                                            <a href="https://github.com/MarmadileManteater/FreeTubeCordova" target="_blank">View on <strong>GitHub</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="outer">
+                            <div class="inner">
+                                <div class="project">
+                                    <div class="left">
+                                        <a class="mobile-link" href="https://www.nuget.org/packages/InvidiousClient/" target="_blank"><img src="https://raw.githubusercontent.com/MarmadileManteater/InvidiousClientDotNet/development/icons/invidious.png" /></a>
+                                    </div>
+                                    <div class="right">
+                                        <div class="tags">
+                                            <span class="csharp"><a href="https://github.com/topics/csharp" target="_blank">c#</a></span>
+                                            <span><a href="https://invidious.io/" target="_blank" >invidious</a></span>
+                                        </div>
+                                        <h2><a href="https://github.com/MarmadileManteater/InvidiousClientDotNet" target="_blank">InvidiousClientDotNet</a></h2>
+                                        <p>This is a library which allows you to easily interface with the Invidious API using .NET 6.0.</p>
+                                        <div class="buttons">
+                                            <a href="https://www.nuget.org/packages/InvidiousClient/" target="_blank" >View on the <strong>nuget gallery</strong></a>
+                                            <a href="https://github.com/MarmadileManteater/InvidiousClientDotNet" target="_blank">View on <strong>GitHub</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="outer">
+                            <div class="inner">
+                                <div class="project">
+                                    <div class="left">
+                                        <a class="mobile-link" href="https://github.com/MarmadileManteater/SimpleRemoteKeyboardAndMouse" target="_blank"><img src="https://raw.githubusercontent.com/MarmadileManteater/SimpleRemoteKeyboardAndMouse/main/screenshots/screenshot1.png" /></a>
+                                    </div>
+                                    <div class="right">
+                                        <div class="tags">
+                                            <span class="python"><a href="https://github.com/topics/python" target="_blank">python3</a></span>
+                                            <span class="javascript"><a href="https://github.com/topics/javascript" target="_blank">javascript</a></span>
+                                            <span><a href="https://github.com/asweigart/pyautogui" target="_blank">pyautogui</a></span>
+                                            <span><a href="https://bottlepy.org" target="_blank">bottle</a></span>
+                                        </div>
+                                        <h2><a href="https://github.com/MarmadileManteater/SimpleRemoteKeyboardAndMouse" target="_blank">SimpleRemoteKeyboardAndMouse</a></h2>
+                                        <p>This is a simple remote keyboard and mouse application written in python.</p>
+                                        <div class="buttons">
+                                            <a href="https://github.com/MarmadileManteater/SimpleRemoteKeyboardAndMouse" target="_blank">View on <strong>GitHub</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card" >
-                    <div class="outer">
-                        <div class="inner">
-                            <div class="flex-block">
-                                <div>
-                                    <p><img id="face-image" width="200"></p>
-                                </div>
-                                <div>
-                                    <p>Hello! I'm <span id="variation-name"></span>. My real name is <span id="name">Sharon Martinez</span>, and you can look it up. That's an actual picture of me!</p>
-                                    <br>
-                                    <p><a href="mailto:marmadilemanteater@proton.me"><img src="images/email6.gif" style="margin-bottom:0"><span style="vertical-align:middle;">Email me</span></a></p>
+                <div class="card" data-col="5" >
+                    <div class="card">
+                        <div class="outer">
+                            <div class="inner">
+                                <h3 style="margin: 0;">Find me on other websites:</h3>
+                                <ul>
+                                    <li><a href="https://marmadilemanteater.itch.io/" target="_blank">itch.io</a></li>
+                                    <li><a href="https://opengameart.org/users/marmadilemanteater" target="_blank">OpenGameArt.org</a></li>
+                                    <li><a href="https://jsfiddle.net/user/MarmadileManteater/fiddles/" target="_blank">JSFiddle</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" >
+                        <div class="outer">
+                            <div class="inner">
+                                <div class="flex-block">
+                                    <div>
+                                        <p><img id="face-image" width="200"></p>
+                                    </div>
+                                    <div>
+                                        <p>Hello! I'm <span id="variation-name"></span>. My real name is <span id="name"></span>, and you can look it up. That's an actual picture of me!</p>
+                                        <br>
+                                        <p><a href="mailto:marmadilemanteater@proton.me"><img src="images/email6.gif" style="margin-bottom:0"><span style="vertical-align:middle;">Email me</span></a></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div data-col="7" class="card thirsty-plant">
-                <div class="outer">
-                    <div class="inner">
-                        <a class="mobile-link" href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" target="_blank"><img class="mobile-image" src="https://img.itch.zone/aW1nLzk4NzcyODUucG5n/315x250%23c/m1WJNB.png" /></a>
-                        <iframe class="light" src="https://itch.io/embed/1671315?bg_color=BDCCC1&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=BDCCC1" width="552" height="167" frameborder="0"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts">The Very Thirsty Plant &amp; the Labyrinth of Ghosts by MarmadileManteater</a></iframe>
-                        <iframe class="dark" src="https://itch.io/embed/1671315?bg_color=222222&amp;fg_color=FFFFFF&amp;link_color=FFFFFF&amp;border_color=222222" width="552" height="167" frameborder="0"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts">The Very Thirsty Plant &amp; the Labyrinth of Ghosts by MarmadileManteater</a></iframe>
-                        <h3 class="game-title"><a href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" target="_blank">The Very Thirsty Plant & the Labyrinth of Ghosts</a></h3>
-                        <a target="_blank" href="https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labrynth-of-ghosts" class="itch-button">Play on <strong>itch.io</strong></a>
-                    </div>
-                </div>
-            </div>
-            
-            
         </div>
+ 
 
         <div class="user-card">
             <a href="https://github.com/MarmadileManteater"><img src="https://avatars.githubusercontent.com/u/106682128" alt=""><span>@MarmadileManteater</span></a>
