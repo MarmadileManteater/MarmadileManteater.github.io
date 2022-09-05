@@ -1,116 +1,8 @@
 (async function () {
-    var firstNames = [
-        "Emma"
-      ];
-    var lastNames = [
-        "Smith",
-        "Johnson",
-        "Williams",
-        "Brown",
-        "Jones",
-        "Garcia",
-        "Miller",
-        "Davis",
-        "Rodriguez",
-        "Martinez",
-        "Hernandez",
-        "Lopez",
-        "Gonzales",
-        "Wilson",
-        "Anderson",
-        "Thomas",
-        "Taylor",
-        "Moore",
-        "Jackson",
-        "Martin",
-        "Lee",
-        "Perez",
-        "Thompson",
-        "White",
-        "Harris",
-        "Sanchez",
-        "Clark",
-        "Ramirez",
-        "Lewis",
-        "Robinson",
-        "Walker",
-        "Young",
-        "Allen",
-        "King",
-        "Wright",
-        "Scott",
-        "Torres",
-        "Nguyen",
-        "Hill",
-        "Flores",
-        "Green",
-        "Adams",
-        "Nelson",
-        "Baker",
-        "Hall",
-        "Rivera",
-        "Campbell",
-        "Mitchell",
-        "Carter",
-        "Roberts",
-        "Gomez",
-        "Phillips",
-        "Evans",
-        "Turner",
-        "Diaz",
-        "Parker",
-        "Cruz",
-        "Edwards",
-        "Collins",
-        "Reyes",
-        "Stewart",
-        "Morris",
-        "Morales",
-        "Murphy",
-        "Cook",
-        "Rogers",
-        "Gutierrez",
-        "Ortiz",
-        "Morgan",
-        "Cooper",
-        "Peterson",
-        "Bailey",
-        "Reed",
-        "Kelly",
-        "Howard",
-        "Ramos",
-        "Kim",
-        "Cox",
-        "Ward",
-        "Richardson",
-        "Watson",
-        "Brooks",
-        "Chavez",
-        "Wood",
-        "James",
-        "Bennet",
-        "Gray",
-        "Mendoza",
-        "Ruiz",
-        "Hughes",
-        "Price",
-        "Alvarez",
-        "Castillo",
-        "Sanders",
-        "Patel",
-        "Myers",
-        "Long",
-        "Ross",
-        "Foster",
-        "Jimenez"
-      ];
+
     
     var getRandomFromArray = function (array) {
         return array[Math.floor(Math.random()*array.length)];
-    }
-    
-    var getRandomName = function () {
-        return getRandomFromArray(firstNames) + " " + getRandomFromArray(lastNames);
     }
 
     var usernames = [
@@ -121,8 +13,6 @@
 
     let username = getRandomFromArray(usernames);
     document.getElementById('variation-name').innerHTML = username;
-
-    document.getElementById('name').innerHTML = getRandomName();
 
     // This is roughly based on https://github.com/thegiffactory/3d-text-gif-generator
     var width = 1200;
