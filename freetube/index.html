@@ -1,5 +1,5 @@
-<!doctype html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="manifest" href="manifest.webmanifest" /><title></title><link rel="shortcut icon" href="https://raw.githubusercontent.com/MarmadileManteater/MarmadileManteater.github.io/development/freetube/_icons/icon.ico" /><script src="browserfs/dist/browserfs.js"></script><script defer="defer" src="renderer.js"></script><link href="renderer.edc6a593b5b735201739.css" rel="stylesheet"></head><body><div id="app"></div><script>try {
-      if (process.env.NODE_ENV !== 'development')
+<!doctype html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="manifest" href="manifest.webmanifest" /><title></title><link rel="shortcut icon" href="https://raw.githubusercontent.com/MarmadileManteater/MarmadileManteater.github.io/development/freetube/_icons/icon.ico" /><script src="browserfs/dist/browserfs.js"></script><script defer="defer" src="renderer.js"></script><link href="renderer.3ea2dc60591eab7ac8ff.css" rel="stylesheet"></head><body><div id="app"></div><script>try {
+      if ('production' !== 'development')
         window.__static = require('path')
           .join(__dirname, '/static')
           .replace(/\\/g, '\\\\')
@@ -8,7 +8,7 @@
     // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
 
     // Check compatibility for the browser we're running this in
-    if ("serviceWorker" in navigator && (window && window.process && window.process.type !== 'renderer')) {
+    if ("serviceWorker" in navigator && !false) {
       if (navigator.serviceWorker.controller) {
         console.log("[PWA Builder] active service worker found, no need to register");
       } else {
