@@ -80,5 +80,3 @@ PERFORMANCE OF THIS SOFTWARE.
 /*! @name videojs-overlay @version 2.1.5 @license Apache-2.0 */
 
 /*! http://mths.be/fromcodepoint v0.1.0 by @mathias */
-
-/*! js-yaml 4.1.0 https://github.com/nodeca/js-yaml @license MIT */
