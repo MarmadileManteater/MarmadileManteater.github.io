@@ -1,0 +1,1 @@
+import{c as e,q as t,_ as a}from"./q-5a792cad.js";import{f as o}from"./q-8e5b1889.js";const s=e(t(()=>a(()=>import("./q-489e7663.js"),["build/q-489e7663.js","build/q-5a792cad.js","build/q-807dcf5d.js"]),"s_xYL1qOwPyDI")),n={title:"MarmadileManteater",links:[{rel:"icon",href:o,type:"image/png",sizes:"250x250"}]};export{s as default,n as head};
