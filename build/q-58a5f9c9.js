@@ -1,0 +1,1 @@
+import{j as e,h as t}from"./q-35eca250.js";const c=({link:b,target:n,index:r=0})=>e("a",{href:b,target:n,class:`p-3 inline-block hover:underline ${r%2===0?"dark:bg-zinc-900":"dark:bg-zinc-700"} ${r%2===0?"bg-blue-400":"bg-red-400"}  text-white dark:bg-zinc-600 rounded-lg mr-5 mb-3`,children:[e(t,{})," \xBB"]});export{c as s_X6QyrpPJpcI};
