@@ -10,7 +10,7 @@
     <link>https://marmadilemanteater.pythonanywhere.com/blog/writing-the-same-trivial-site-in-astro-and-qwik</link>
     <guid>https://marmadilemanteater.pythonanywhere.com/blog/writing-the-same-trivial-site-in-astro-and-qwik</guid>
     <description>I wrote this whole trivial site with two very similar but different stacks.</description>
-    <pubDate>Tue, 20 Dec 2022 21:16:18 GMT</pubDate>
+    <pubDate>Wed, 21 Dec 2022 14:24:06 GMT</pubDate>
     <content:encoded><![CDATA[<root xmlns="http://www.w3.org/1999/xhtml">
   
   
@@ -28,16 +28,24 @@
     <p class="text-lg pb-4">For instance, if you want to keep your layout on the page while the page content is the only thing that needs to change, all you need to do is add the following code to your `layout.astro` file:</p>
     <h4 class="font-bold"></h4><em>javascript:</em>
     <pre>
-      <div><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> turbo <span class="hljs-keyword">from</span> <span class="hljs-string">'@hotwire/turbo'</span>
-turbo.<span class="hljs-keyword">start</span>()</div>
+      <div>import<span class="hljs-operator"> * </span><span class="hljs-keyword">as</span> turbo from '@hotwire/turbo'
+turbo.start<span class="hljs-literal">()</span>
+<span class="hljs-comment">// everything below this is just to handle window scrolling</span>
+const beforeRender =<span class="hljs-function"> <span class="hljs-params">()</span> =&gt;</span> {
+  document.remove<span class="hljs-constructor">EventListener('<span class="hljs-params">turbo</span>:<span class="hljs-params">before</span>-<span class="hljs-params">render</span>', <span class="hljs-params">beforeRender</span>)</span>
+  <span class="hljs-comment">// scrolls the page to the top</span>
+  window.scroll<span class="hljs-constructor">To(0, 0)</span>
+}
+document.add<span class="hljs-constructor">EventListener('<span class="hljs-params">turbo</span>:<span class="hljs-params">load</span>', ()</span> =&gt; {
+  document.add<span class="hljs-constructor">EventListener('<span class="hljs-params">turbo</span>:<span class="hljs-params">before</span>-<span class="hljs-params">render</span>', <span class="hljs-params">beforeRender</span>)</span>
+})
+</div>
     </pre>
     <h4 class="font-bold"></h4><em>html:</em>
     <pre>
       <div><span class="hljs-comment">&lt;!-- 
   data-turbo-action="advance"
   - makes the back button work
-  data-autoscroll-behavior="start"
-  - makes the window scroll to the top
 --&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">turbo-frame</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"main-content"</span> <span class="hljs-attr">data-turbo-action</span>=<span class="hljs-string">"advance"</span> <span class="hljs-attr">data-autoscroll-behavior</span>=<span class="hljs-string">"start"</span>&gt;</span>
   <span class="hljs-comment">&lt;!-- Surround the things that you want to change on your page with this element --&gt;</span>
