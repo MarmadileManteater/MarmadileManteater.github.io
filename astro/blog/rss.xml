@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Emma&apos;s Blog!</title><description>my blog; 🤷‍♀️i guess</description><link>https://marmadilemanteater.pythonanywhere.com/astro/blog/</link><language>en-us</language><item><title>Writing the same trivial site in 👩‍🚀Astro &amp; ⚡Qwik</title><link>https://marmadilemanteater.pythonanywhere.com/astro/blog/writing-the-same-trivial-site-in-astro-and-qwik/</link><guid>https://marmadilemanteater.pythonanywhere.com/astro/blog/writing-the-same-trivial-site-in-astro-and-qwik/</guid><description>I wrote this whole trivial site with two very similar but different stacks.</description><pubDate>Tue, 20 Dec 2022 21:16:18 GMT</pubDate><content:encoded>
+  
+  
+  
+  &lt;div&gt;
+    &lt;p&gt;&quot;&lt;em&gt;Now, wait a minute . . .&lt;/em&gt;&quot; you might be saying to yourself, &lt;br /&gt;&quot;&lt;em&gt;Is it really fair to compare a framework that is production ready with one that is not production ready?&lt;/em&gt;&quot;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;🤷‍♀️Probably not&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;However, I am not going to let that stop me from having a little fun. I created two repos about a month ago: &lt;a href=&quot;https://github.com/MarmadileManteater/AstroVueStaticSite&quot; target=&quot;_blank&quot;&gt;AstroVueStaticSite&lt;/a&gt; and &lt;a href=&quot;https://github.com/MarmadileManteater/QwikStaticSite&quot; target=&quot;_blank&quot;&gt;QwikStaticSite&lt;/a&gt;. They are two different versions of my website. In most ways, they are indistinguishable, but they aren&apos;t exactly the same.&lt;/p&gt;
+    &lt;h3&gt;&lt;strong&gt;Attempting to reach feature parity&lt;/strong&gt;&lt;/h3&gt;
+    &lt;p&gt;Qwik isn&apos;t even v1 yet, but it does have a lot of &lt;span&gt;🔔bells&lt;/span&gt; and &lt;span&gt;🎷whistles&lt;/span&gt; that make it more appealing &lt;em&gt;(to me)&lt;/em&gt; over Astro. Despite Qwik&apos;s lack of a hydration step, it generates MPAs with client side navigation that takes over after the first load, and this is because it introduces this entirely new concept of &lt;a href=&quot;https://www.builder.io/blog/hydration-is-pure-overhead&quot; target=&quot;_blank&quot;&gt;resumability&lt;/a&gt;. If you haven&apos;t &lt;span&gt;👂heard&lt;/span&gt; of it, it makes &lt;span&gt;💧hydration&lt;/span&gt; feel archaic. It makes me &lt;span&gt;🤔wonder&lt;/span&gt; why a lot of JavaScript meta-frameworks server-side render only to dispose of the current state and &lt;span&gt;💦rehydrate&lt;/span&gt; on the client. It just seems &lt;span&gt;🗑wasteful&lt;/span&gt;. On the other hand, resumuability is quite conservative with its waste; the browser picks up with the framework right where the server left off. &lt;span&gt;🥤Rehydration&lt;/span&gt; isn&apos;t necessary because the state is serialized into the HTML; there is no need to regenerate the shadow DOM because the real DOM is already the truth.
+    &lt;/p&gt;
+    &lt;p&gt;That all being said, Astro is production ready, and while it doesn&apos;t do everything that Qwik does out of the box📦, it knows its scope. It solves the problem of generating static sites. It doesn&apos;t attempt to change anything about the paradigms of how JavaScript frameworks work, and in fact, it works with existing frontend UI frameworks such as Vue and Svelte.  It introduces the idea of 🏝islands, but it doesn&apos;t fundementally change hydration; it only makes it an &lt;span&gt;opt-in&lt;/span&gt; process on a component level.&lt;/p&gt;
+    &lt;p&gt;How do we get client side navigation in Astro?&lt;/p&gt;
+    &lt;p&gt;There is this JavaScript library known as &lt;a target=&quot;_blank&quot; href=&quot;https://turbo.hotwired.dev/&quot;&gt;@hotwire/turbo&lt;/a&gt;. It isn&apos;t anything 🎁new, but dang it, it handles client side navigation in a way which easily snaps into any existing MPA.&lt;/p&gt;
+    &lt;p&gt;For instance, if you want to keep your layout on the page while the page content is the only thing that needs to change, all you need to do is add the following code to your `layout.astro` file:&lt;/p&gt;
+    &lt;h4&gt;&lt;/h4&gt;&lt;em&gt;javascript:&lt;/em&gt;
+    &lt;pre&gt;
+      &lt;div&gt;&lt;span&gt;import&lt;/span&gt; * &lt;span&gt;as&lt;/span&gt; turbo &lt;span&gt;from&lt;/span&gt; &lt;span&gt;&apos;@hotwire/turbo&apos;&lt;/span&gt;
+turbo.&lt;span&gt;start&lt;/span&gt;()&lt;/div&gt;
+    &lt;/pre&gt;
+    &lt;h4&gt;&lt;/h4&gt;&lt;em&gt;html:&lt;/em&gt;
+    &lt;pre&gt;
+      &lt;div&gt;&lt;span&gt;&amp;lt;!-- 
+  data-turbo-action=&quot;advance&quot;
+  - makes the back button work
+  data-autoscroll-behavior=&quot;start&quot;
+  - makes the window scroll to the top
+--&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;&lt;span&gt;turbo-frame&lt;/span&gt; &lt;span&gt;id&lt;/span&gt;=&lt;span&gt;&quot;main-content&quot;&lt;/span&gt; &lt;span&gt;data-turbo-action&lt;/span&gt;=&lt;span&gt;&quot;advance&quot;&lt;/span&gt; &lt;span&gt;data-autoscroll-behavior&lt;/span&gt;=&lt;span&gt;&quot;start&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+  &lt;span&gt;&amp;lt;!-- Surround the things that you want to change on your page with this element --&amp;gt;&lt;/span&gt;
+  &lt;span&gt;&amp;lt;&lt;span&gt;slot&lt;/span&gt;/&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;/&lt;span&gt;turbo-frame&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/pre&gt;
+    &lt;p&gt;Everything outside this frame will not change on page navigation.&lt;/p&gt;
+    &lt;p&gt;Of course, there are other more complicated ways to use this powerful library, but I just wanted to demonstrate a very specific example. If you are interested in learning more about turbo-frames, &lt;a href=&quot;https://turbo.hotwired.dev/handbook/frames&quot; target=&quot;_blank&quot;&gt;this documentation&lt;/a&gt; was very helpful for me. There is also a quite &lt;a href=&quot;https://youtu.be/6mv0_jsWhoE&quot; target=&quot;_blank&quot;&gt;informational video&lt;/a&gt; on how to do something similar to this with both this library and the &lt;a href=&quot;https://developer.chrome.com/docs/web-platform/view-transitions/&quot; target=&quot;_blank&quot;&gt;Shared Element Transistion API&lt;/a&gt; available in Chrome.&lt;/p&gt;
+    &lt;h3&gt;&lt;strong&gt;More similar than you might think&lt;/strong&gt;&lt;/h3&gt;
+    &lt;p&gt;Both use vite, both use directory based routing with square brackets for url parameters, both use JSX-like syntax to some extent, and because of this, a lot of things were very &lt;span&gt;&quot;✂copy&lt;/span&gt; and &lt;span&gt;📋paste.&quot;&lt;/span&gt;&lt;/p&gt;
+    &lt;p&gt;I used Vue along with Astro in order to achieve some of the client-side functionality I achieved with Qwik components, but I also used it because I &lt;span&gt;❤like&lt;/span&gt; Vue. At the end of the day, this is the biggest difference between the repos: Vue vs JSX syntax.&lt;/p&gt;
+    &lt;p&gt;Honestly, my biggest gripe about Qwik so far is it&apos;s insistence on being &quot;React-like.&quot; As someone who is not a &lt;span&gt;⚛React&lt;/span&gt; developer, for &lt;span&gt;🎉fun&lt;/span&gt; or for &lt;span&gt;💶profit&lt;/span&gt;, I feel like there are things I like about this syntax, but there are also things I find unintuitive about it such as `useWatch$` or I &lt;span&gt;🤔guess&lt;/span&gt; now `useTask$` in the latest development version of Qwik.&lt;/p&gt;
+    &lt;p&gt;That is another thing. I would not recommend using Qwik at this point in time because it is not ready for production. If you start building a Qwik app at this point it time, you will have to make many revisions before a production ready version is released, and as such, I would highly recommend anyone interested in using Qwik to build an app, at this point in time, to seriously consider Astro + their favourite frontend framework instead. It is more stable. It is production ready now. It &lt;em&gt;(probably)&lt;/em&gt; won&apos;t have major breaking changes before you release.&lt;/p&gt;
+    &lt;p&gt;That all being said. I think Qwik is 🔥dank af, and resumability is the future of web frameworks.&lt;/p&gt;
+  &lt;/div&gt;
+</content:encoded></item></channel></rss>
