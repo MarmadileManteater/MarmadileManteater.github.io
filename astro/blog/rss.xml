@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Emma&apos;s Blog!</title><description>my blog; 🤷‍♀️i guess</description><link>https://marmadilemanteater.pythonanywhere.com/astro/blog/</link><language>en-us</language><item><title>Writing the same trivial site in 👩‍🚀Astro &amp; ⚡Qwik</title><link>https://marmadilemanteater.pythonanywhere.com/astro/blog/writing-the-same-trivial-site-in-astro-and-qwik/</link><guid>https://marmadilemanteater.pythonanywhere.com/astro/blog/writing-the-same-trivial-site-in-astro-and-qwik/</guid><description>I wrote this whole trivial site with two very similar but different stacks.</description><pubDate>Tue, 20 Dec 2022 21:16:18 GMT</pubDate><content:encoded>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Emma&apos;s Blog!</title><description>my blog; 🤷‍♀️i guess</description><link>https://marmadilemanteater.pythonanywhere.com/astro/blog/</link><language>en-us</language><item><title>Writing the same trivial site in 👩‍🚀Astro &amp; ⚡Qwik</title><link>https://marmadilemanteater.pythonanywhere.com/astro/blog/writing-the-same-trivial-site-in-astro-and-qwik/</link><guid>https://marmadilemanteater.pythonanywhere.com/astro/blog/writing-the-same-trivial-site-in-astro-and-qwik/</guid><description>I wrote this whole trivial site with two very similar but different stacks.</description><pubDate>Wed, 21 Dec 2022 14:24:06 GMT</pubDate><content:encoded>
   
   
   
@@ -16,15 +16,23 @@
     &lt;h4&gt;&lt;/h4&gt;&lt;em&gt;javascript:&lt;/em&gt;
     &lt;pre&gt;
       &lt;div&gt;&lt;span&gt;import&lt;/span&gt; * &lt;span&gt;as&lt;/span&gt; turbo &lt;span&gt;from&lt;/span&gt; &lt;span&gt;&apos;@hotwire/turbo&apos;&lt;/span&gt;
-turbo.&lt;span&gt;start&lt;/span&gt;()&lt;/div&gt;
+turbo.&lt;span&gt;start&lt;/span&gt;()
+&lt;span&gt;// everything below this is just to handle window scrolling&lt;/span&gt;
+&lt;span&gt;const&lt;/span&gt; &lt;span&gt;beforeRender&lt;/span&gt; = (&lt;span&gt;&lt;/span&gt;) =&amp;gt; {
+  &lt;span&gt;document&lt;/span&gt;.&lt;span&gt;removeEventListener&lt;/span&gt;(&lt;span&gt;&apos;turbo:before-render&apos;&lt;/span&gt;, beforeRender)
+  &lt;span&gt;// scrolls the page to the top&lt;/span&gt;
+  &lt;span&gt;window&lt;/span&gt;.&lt;span&gt;scrollTo&lt;/span&gt;(&lt;span&gt;0&lt;/span&gt;, &lt;span&gt;0&lt;/span&gt;)
+}
+&lt;span&gt;document&lt;/span&gt;.&lt;span&gt;addEventListener&lt;/span&gt;(&lt;span&gt;&apos;turbo:load&apos;&lt;/span&gt;, &lt;span&gt;() =&amp;gt;&lt;/span&gt; {
+  &lt;span&gt;document&lt;/span&gt;.&lt;span&gt;addEventListener&lt;/span&gt;(&lt;span&gt;&apos;turbo:before-render&apos;&lt;/span&gt;, beforeRender)
+})
+&lt;/div&gt;
     &lt;/pre&gt;
     &lt;h4&gt;&lt;/h4&gt;&lt;em&gt;html:&lt;/em&gt;
     &lt;pre&gt;
       &lt;div&gt;&lt;span&gt;&amp;lt;!-- 
   data-turbo-action=&quot;advance&quot;
   - makes the back button work
-  data-autoscroll-behavior=&quot;start&quot;
-  - makes the window scroll to the top
 --&amp;gt;&lt;/span&gt;
 &lt;span&gt;&amp;lt;&lt;span&gt;turbo-frame&lt;/span&gt; &lt;span&gt;id&lt;/span&gt;=&lt;span&gt;&quot;main-content&quot;&lt;/span&gt; &lt;span&gt;data-turbo-action&lt;/span&gt;=&lt;span&gt;&quot;advance&quot;&lt;/span&gt; &lt;span&gt;data-autoscroll-behavior&lt;/span&gt;=&lt;span&gt;&quot;start&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
   &lt;span&gt;&amp;lt;!-- Surround the things that you want to change on your page with this element --&amp;gt;&lt;/span&gt;
