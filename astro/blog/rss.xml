@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Emma&apos;s Blog!</title><description>my blog; 🤷‍♀️i guess</description><link>https://marmadilemanteater.pythonanywhere.com/astro/blog/</link><language>en-us</language><item><title>Writing the same trivial site in 👩‍🚀Astro &amp; ⚡Qwik</title><link>https://marmadilemanteater.pythonanywhere.com/astro/blog/writing-the-same-trivial-site-in-astro-and-qwik/</link><guid>https://marmadilemanteater.pythonanywhere.com/astro/blog/writing-the-same-trivial-site-in-astro-and-qwik/</guid><description>I wrote this whole trivial site with two very similar but different stacks.</description><pubDate>Wed, 21 Dec 2022 14:24:06 GMT</pubDate><content:encoded>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Emma&apos;s Blog!</title><description>my blog; 🤷‍♀️i guess</description><link>https://marmadilemanteater.pythonanywhere.com/astro/blog/</link><language>en-us</language><item><title>Writing the same trivial site in 👩‍🚀Astro &amp; ⚡Qwik</title><link>https://marmadilemanteater.pythonanywhere.com/astro/blog/writing-the-same-trivial-site-in-astro-and-qwik/</link><guid>https://marmadilemanteater.pythonanywhere.com/astro/blog/writing-the-same-trivial-site-in-astro-and-qwik/</guid><description>I wrote this whole trivial site with two very similar but different stacks.</description><pubDate>Wed, 21 Dec 2022 16:20:49 GMT</pubDate><content:encoded>
   
   
   
@@ -34,7 +34,7 @@ turbo.&lt;span&gt;start&lt;/span&gt;()
   data-turbo-action=&quot;advance&quot;
   - makes the back button work
 --&amp;gt;&lt;/span&gt;
-&lt;span&gt;&amp;lt;&lt;span&gt;turbo-frame&lt;/span&gt; &lt;span&gt;id&lt;/span&gt;=&lt;span&gt;&quot;main-content&quot;&lt;/span&gt; &lt;span&gt;data-turbo-action&lt;/span&gt;=&lt;span&gt;&quot;advance&quot;&lt;/span&gt; &lt;span&gt;data-autoscroll-behavior&lt;/span&gt;=&lt;span&gt;&quot;start&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span&gt;&amp;lt;&lt;span&gt;turbo-frame&lt;/span&gt; &lt;span&gt;id&lt;/span&gt;=&lt;span&gt;&quot;main-content&quot;&lt;/span&gt; &lt;span&gt;data-turbo-action&lt;/span&gt;=&lt;span&gt;&quot;advance&quot;&lt;/span&gt; &amp;gt;&lt;/span&gt;
   &lt;span&gt;&amp;lt;!-- Surround the things that you want to change on your page with this element --&amp;gt;&lt;/span&gt;
   &lt;span&gt;&amp;lt;&lt;span&gt;slot&lt;/span&gt;/&amp;gt;&lt;/span&gt;
 &lt;span&gt;&amp;lt;/&lt;span&gt;turbo-frame&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;
