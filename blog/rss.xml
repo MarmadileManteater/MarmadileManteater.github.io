@@ -28,16 +28,16 @@
     <p class="text-lg pb-4">For instance, if you want to keep your layout on the page while the page content is the only thing that needs to change, all you need to do is add the following code to your `layout.astro` file:</p>
     <h4 class="font-bold"></h4><em>javascript:</em>
     <pre>
-      <div>import<span class="hljs-operator"> * </span><span class="hljs-keyword">as</span> turbo from '@hotwire/turbo'
-turbo.start<span class="hljs-literal">()</span>
+      <div><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> turbo <span class="hljs-keyword">from</span> <span class="hljs-string">'@hotwire/turbo'</span>
+turbo.<span class="hljs-title function_">start</span>()
 <span class="hljs-comment">// everything below this is just to handle window scrolling</span>
-const beforeRender =<span class="hljs-function"> <span class="hljs-params">()</span> =&gt;</span> {
-  document.remove<span class="hljs-constructor">EventListener('<span class="hljs-params">turbo</span>:<span class="hljs-params">before</span>-<span class="hljs-params">render</span>', <span class="hljs-params">beforeRender</span>)</span>
+<span class="hljs-keyword">const</span> <span class="hljs-title function_">beforeRender</span> = (<span class="hljs-params"></span>) =&gt; {
+  <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">removeEventListener</span>(<span class="hljs-string">'turbo:before-render'</span>, beforeRender)
   <span class="hljs-comment">// scrolls the page to the top</span>
-  window.scroll<span class="hljs-constructor">To(0, 0)</span>
+  <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">scrollTo</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>)
 }
-document.add<span class="hljs-constructor">EventListener('<span class="hljs-params">turbo</span>:<span class="hljs-params">load</span>', ()</span> =&gt; {
-  document.add<span class="hljs-constructor">EventListener('<span class="hljs-params">turbo</span>:<span class="hljs-params">before</span>-<span class="hljs-params">render</span>', <span class="hljs-params">beforeRender</span>)</span>
+<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">'turbo:load'</span>, <span class="hljs-function">() =&gt;</span> {
+  <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">'turbo:before-render'</span>, beforeRender)
 })
 </div>
     </pre>
