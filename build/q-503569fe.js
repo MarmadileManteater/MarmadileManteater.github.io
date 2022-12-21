@@ -1,1 +1,0 @@
-import{c as e,q as o,_ as t}from"./q-88f109af.js";import{f as r}from"./q-8e5b1889.js";const a=e(o(()=>t(()=>import("./q-95df7625.js"),["build/q-95df7625.js","build/q-88f109af.js","build/q-1725d2fd.js"]),"s_tsVulGJuuSY")),n={title:"Projects",links:[{rel:"icon",href:r,type:"image/png",sizes:"250x250"}]};export{a as default,n as head};
