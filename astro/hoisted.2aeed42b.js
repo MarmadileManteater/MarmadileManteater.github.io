@@ -23,4 +23,4 @@
 
         ——
         Suppress this warning by adding a "data-turbo-suppress-warning" attribute to: %s
-      `,s.outerHTML);s=s.parentElement}})();window.Turbo=_t;K();K();const ge=s=>{document.removeEventListener("turbo:before-render",ge),document.title=s.detail.newBody.querySelector("main").getAttribute("data-title")};document.addEventListener("turbo:load",()=>{document.addEventListener("turbo:before-render",ge)});
+      `,s.outerHTML);s=s.parentElement}})();window.Turbo=_t;K();K();const ge=s=>{document.removeEventListener("turbo:before-render",ge),window.scrollTo(0,0),document.title=s.detail.newBody.querySelector("main").getAttribute("data-title")};document.addEventListener("turbo:load",()=>{document.addEventListener("turbo:before-render",ge)});
