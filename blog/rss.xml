@@ -10,7 +10,7 @@
     <link>https://marmadilemanteater.pythonanywhere.com/blog/writing-the-same-trivial-site-in-astro-and-qwik</link>
     <guid>https://marmadilemanteater.pythonanywhere.com/blog/writing-the-same-trivial-site-in-astro-and-qwik</guid>
     <description>I wrote this whole trivial site with two very similar but different stacks.</description>
-    <pubDate>Wed, 21 Dec 2022 14:24:06 GMT</pubDate>
+    <pubDate>Wed, 21 Dec 2022 16:20:49 GMT</pubDate>
     <content:encoded><![CDATA[<root xmlns="http://www.w3.org/1999/xhtml">
   
   
@@ -47,7 +47,7 @@ document.add<span class="hljs-constructor">EventListener('<span class="hljs-para
   data-turbo-action="advance"
   - makes the back button work
 --&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">turbo-frame</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"main-content"</span> <span class="hljs-attr">data-turbo-action</span>=<span class="hljs-string">"advance"</span> <span class="hljs-attr">data-autoscroll-behavior</span>=<span class="hljs-string">"start"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">turbo-frame</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"main-content"</span> <span class="hljs-attr">data-turbo-action</span>=<span class="hljs-string">"advance"</span> &gt;</span>
   <span class="hljs-comment">&lt;!-- Surround the things that you want to change on your page with this element --&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">slot</span>/&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">turbo-frame</span>&gt;</span></div>
