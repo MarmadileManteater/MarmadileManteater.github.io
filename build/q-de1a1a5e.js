@@ -1,0 +1,1 @@
+import{a as t,X as n}from"./q-1e781b9d.js";const e=()=>t(n,{children:t("div",{style:"text-align: center;padding-bottom: 30px;padding-top: 30px",children:"Loading . . ."})},"XD_0");export{e as s_tX1hFYkswtQ};
