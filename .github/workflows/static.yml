@@ -31,4 +31,4 @@ jobs:
       - name: Add known hosts
         run: ssh-keyscan -H ${{ secrets.SSH_SERVER }} >> ~/.ssh/known_hosts
       - name: 🚀Deploy with scp
-        run: scp -r ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:~/MarmadileManteater.github.io/
+        run: scp -r $(pwd) ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:~/MarmadileManteater.github.io/
