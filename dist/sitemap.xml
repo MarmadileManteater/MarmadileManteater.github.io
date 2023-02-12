@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://marmadilemanteater.pythonanywhere.com/projects/</loc></url>
+<url><loc>https://marmadilemanteater.pythonanywhere.com/blog/it-works-in-dev-why-not-in-prod/</loc></url>
+<url><loc>https://marmadilemanteater.pythonanywhere.com/</loc></url>
+<url><loc>https://marmadilemanteater.pythonanywhere.com/blog/writing-the-same-trivial-site-in-astro-and-qwik/</loc></url>
+<url><loc>https://marmadilemanteater.pythonanywhere.com/404.html</loc></url>
+<url><loc>https://marmadilemanteater.pythonanywhere.com/blog/</loc></url>
+</urlset>

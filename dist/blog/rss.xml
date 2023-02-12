@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+      <title>Emma&apos;s Blog!</title>
+      <description>my blog; 🤷‍♀️i guess</description>
+      <link>https://marmadilemanteater.github.io/blog/</link>
+      <language>en-us</language>
+  <item>
+    <title>It works in dev. Why doesn't it work in prod?</title>
+    <link>https://marmadilemanteater.github.io/blog/it-works-in-dev-why-not-in-prod</link>
+    <guid>https://marmadilemanteater.github.io/blog/it-works-in-dev-why-not-in-prod</guid>
+    <description>What is that? That little 😈insidious thing that happens when you 🚀deploy code that you&apos;ve solidly vetted into your production environment. Where does that come from?</description>
+    <pubDate>Thu, 22 Dec 2022 21:50:53 GMT</pubDate>
+    <content:encoded><![CDATA[<root xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+  
+  <div>
+    <p class="text-lg pb-4">I enjoy a solid code <span style="white-space: nowrap;">📄review</span>, but I am not always working with other <span style="white-space: nowrap;">🫂people</span> when I code. Either way, I <span style="white-space: nowrap;">😣dislike</span> the feeling of accidentally introducing <span style="white-space: nowrap;">🐛bugs</span> with my code. I've done it before, and I am the type of person to wake up in a 🧊cold sweat in the middle of the <span style="white-space: nowrap;">🌔night</span> wondering why that page just doesn't quite scroll to the top in the right way.</p>
+    <p class="text-lg pb-4">It is even more <span style="white-space: nowrap;">👻soul</span> crushing when that issue doesn't even happen until the code has gone through a <span style="white-space: nowrap;">🔁continuous</span> integration workflow and ended up in some data center somewhere; oh, and also, all of the source maps are gone. This isn't even considering that you might be working on something highly <span style="white-space: nowrap;">👁visible</span> that you wouldn't really want to be working on in production while there are people actively interacting with it.</p>
+    <h4 class="text-xl pb-4"><em>Why doesn't it work?</em></h4>
+    <p class="text-lg pb-4">Maybe, it is a bad <span style="white-space: nowrap;">⚙config</span>, or <em>maybe</em>, the thing you designed is fundamentally incompatible with the thing you are hosting it on, or <em>maybe</em>, it is just a bad <span style="white-space: nowrap;">⚙config</span>. It is really hard to tell🤔. Is it even <span style="white-space: nowrap;">🚀deploying?</span> Hold on, let me read the logs.</p>
+    <h4 class="text-xl pb-4"><em>Oh, I think I fixed it!</em></h4>
+    <p class="text-lg pb-4">Oh, wait, no. It was just cached from before it broke.</p>
+    <h4 class="text-lg pb-4"><em>Is this just a part of being human?</em></h4>
+    <p class="text-lg pb-4">Am I doomed to fail? Is acceptance of my humanity the only thing that will relieve me from my <span style="white-space: nowrap;">😣suffering?</span> I don't know. I <em>can't</em> say for sure, but I do know that, as a <span style="white-space: nowrap;">👩human</span>, I am bound to make <span style="white-space: nowrap;">❌mistakes</span>. I am getting better at not ruminating on the past, but my progress isn't a straight <span style="white-space: nowrap;">📈line</span>. Growth is all about making mistakes. You can't learn how to do something unless you try. You can't know if something works in production unless you put it in production.</p>
+    <h4 class="text-xl">So, go ahead! Press that 🚀deploy button!</h4>
+    <p class="text-lg pb-4"><em>Unless, that is a bad idea for you; idk your life🤷‍♀️</em></p>
+  </div>
+</root>]]></content:encoded>
+  </item>
+<item>
+    <title>Writing the same trivial site in 👩‍🚀Astro &amp; ⚡Qwik</title>
+    <link>https://marmadilemanteater.github.io/blog/writing-the-same-trivial-site-in-astro-and-qwik</link>
+    <guid>https://marmadilemanteater.github.io/blog/writing-the-same-trivial-site-in-astro-and-qwik</guid>
+    <description>I wrote this whole trivial site with two very similar but different stacks.</description>
+    <pubDate>Wed, 21 Dec 2022 16:20:49 GMT</pubDate>
+    <content:encoded><![CDATA[<root xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+  
+  <div>
+    <p class="text-xl pb-4">"<em>Now, wait a minute . . .</em>" you might be saying to yourself, <br class="mb-4"/>"<em>Is it really fair to compare a framework that is production ready with one that is not production ready?</em>"</p>
+    <p class="text-xl pb-4"><strong>🤷‍♀️Probably not</strong></p>
+    <p class="text-lg pb-4">However, I am not going to let that stop me from having a little fun. I created two repos about a month ago: <a href="https://github.com/MarmadileManteater/AstroVueStaticSite" target="_blank" class="hover:underline text-blue-600 dark:text-red-300">AstroVueStaticSite</a> and <a href="https://github.com/MarmadileManteater/QwikStaticSite" target="_blank" class="hover:underline text-blue-600 dark:text-red-300">QwikStaticSite</a>. They are two different versions of my website. In most ways, they are indistinguishable, but they aren't exactly the same.</p>
+    <h3 class="text-xl pb-4" id="attempting-to-reach-feature"><strong>Attempting to reach feature parity</strong></h3>
+    <p class="text-lg pb-4">Qwik isn't even v1 yet, but it does have a lot of <span style="white-space: nowrap;">🔔bells</span> and <span style="white-space: nowrap;">🎷whistles</span> that make it more appealing <em class="text-zinc-600 dark:text-zinc-400">(to me)</em> over Astro. Despite Qwik's lack of a hydration step, it generates MPAs with client side navigation that takes over after the first load, and this is because it introduces this entirely new concept of <a href="https://www.builder.io/blog/hydration-is-pure-overhead" class="hover:underline text-blue-600 dark:text-red-300" target="_blank">resumability</a>. If you haven't <span style="white-space: nowrap;">👂heard</span> of it, it makes <span style="white-space: nowrap;">💧hydration</span> feel archaic. It makes me <span style="white-space: nowrap;">🤔wonder</span> why a lot of JavaScript meta-frameworks server-side render only to dispose of the current state and <span style="white-space: nowrap;">💦rehydrate</span> on the client. It just seems <span style="white-space: nowrap;">🗑wasteful</span>. On the other hand, resumuability is quite conservative with its waste; the browser picks up with the framework right where the server left off. <span style="white-space: nowrap;">🥤Rehydration</span> isn't necessary because the state is serialized into the HTML; there is no need to regenerate the shadow DOM because the real DOM is already the truth.
+    </p>
+    <p class="text-lg pb-4">That all being said, Astro is production ready, and while it doesn't do everything that Qwik does out of the box📦, it knows its scope. It solves the problem of generating static sites. It doesn't attempt to change anything about the paradigms of how JavaScript frameworks work, and in fact, it works with existing frontend UI frameworks such as Vue and Svelte.  It introduces the idea of 🏝islands, but it doesn't fundementally change hydration; it only makes it an <span style="white-space: nowrap;">opt-in</span> process on a component level.</p>
+    <p class="text-xl pb-4">How do we get client side navigation in Astro?</p>
+    <p class="text-lg pb-4">There is this JavaScript library known as <a target="_blank" href="https://turbo.hotwired.dev/" class="hover:underline text-blue-600 dark:text-red-300">@hotwire/turbo</a>. It isn't anything 🎁new, but dang it, it handles client side navigation in a way which easily snaps into any existing MPA.</p>
+    <p class="text-lg pb-4">For instance, if you want to keep your layout on the page while the page content is the only thing that needs to change, all you need to do is add the following code to your `layout.astro` file:</p>
+    <h4 class="font-bold"></h4><em>javascript:</em>
+    <pre>
+      <div><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> turbo <span class="hljs-keyword">from</span> <span class="hljs-string">'@hotwire/turbo'</span>
+turbo.<span class="hljs-title function_">start</span>()
+<span class="hljs-comment">// everything below this is just to handle window scrolling</span>
+<span class="hljs-keyword">const</span> <span class="hljs-title function_">beforeRender</span> = (<span class="hljs-params"></span>) =&gt; {
+  <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">removeEventListener</span>(<span class="hljs-string">'turbo:before-render'</span>, beforeRender)
+  <span class="hljs-comment">// scrolls the page to the top</span>
+  <span class="hljs-variable language_">window</span>.<span class="hljs-title function_">scrollTo</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>)
+}
+<span class="hljs-variable language_">document</span>.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">'turbo:load'</span>, <span class="hljs-function">() =&gt;</span> {
+  <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">'turbo:before-render'</span>, beforeRender)
+})
+</div>
+    </pre>
+    <h4 class="font-bold"></h4><em>html:</em>
+    <pre>
+      <div><span class="hljs-comment">&lt;!-- 
+  data-turbo-action="advance"
+  - makes the back button work
+--&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">turbo-frame</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"main-content"</span> <span class="hljs-attr">data-turbo-action</span>=<span class="hljs-string">"advance"</span> &gt;</span>
+  <span class="hljs-comment">&lt;!-- Surround the things that you want to change on your page with this element --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">slot</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">turbo-frame</span>&gt;</span></div>
+</pre>
+    <p class="text-lg pb-4 pt-6">Everything outside this frame will not change on page navigation.</p>
+    <p class="text-lg pb-4">Of course, there are other more complicated ways to use this powerful library, but I just wanted to demonstrate a very specific example. If you are interested in learning more about turbo-frames, <a href="https://turbo.hotwired.dev/handbook/frames" class="hover:underline text-blue-600 dark:text-red-300" target="_blank">this documentation</a> was very helpful for me. There is also a quite <a href="https://youtu.be/6mv0_jsWhoE" class="hover:underline text-blue-600 dark:text-red-300" target="_blank">informational video</a> on how to do something similar to this with both this library and the <a href="https://developer.chrome.com/docs/web-platform/view-transitions/" class="hover:underline text-blue-600 dark:text-red-300" target="_blank">Shared Element Transistion API</a> available in Chrome.</p>
+    <h3 class="text-xl pb-4"><strong>More similar than you might think</strong></h3>
+    <p class="text-lg pb-4">Both use vite, both use directory based routing with square brackets for url parameters, both use JSX-like syntax to some extent, and because of this, a lot of things were very <span style="white-space: nowrap;">"✂copy</span> and <span style="white-space: nowrap;">📋paste."</span></p>
+    <p class="text-lg pb-4">I used Vue along with Astro in order to achieve some of the client-side functionality I achieved with Qwik components, but I also used it because I <span style="white-space: nowrap;">❤like</span> Vue. At the end of the day, this is the biggest difference between the repos: Vue vs JSX syntax.</p>
+    <p class="text-lg pb-4">Honestly, my biggest gripe about Qwik so far is it's insistence on being "React-like." As someone who is not a <span style="white-space: nowrap;">⚛React</span> developer, for <span style="white-space: nowrap;">🎉fun</span> or for <span style="white-space: nowrap;">💶profit</span>, I feel like there are things I like about this syntax, but there are also things I find unintuitive about it such as `useWatch$` or I <span style="white-space: nowrap;">🤔guess</span> now `useTask$` in the latest development version of Qwik.</p>
+    <p class="text-lg pb-4">That is another thing. I would not recommend using Qwik at this point in time because it is not ready for production. If you start building a Qwik app at this point it time, you will have to make many revisions before a production ready version is released, and as such, I would highly recommend anyone interested in using Qwik to build an app, at this point in time, to seriously consider Astro + their favourite frontend framework instead. It is more stable. It is production ready now. It <em class="text-zinc-600 dark:text-zinc-400">(probably)</em> won't have major breaking changes before you release.</p>
+    <p class="text-lg pb-4">That all being said. I think Qwik is 🔥dank af, and resumability is the future of web frameworks.</p>
+  </div>
+</root>]]></content:encoded>
+  </item>
+    </channel>
+  </rss>
