@@ -99,6 +99,11 @@ jobs:
           sed -i 's@="./astro/freetube@="/freetube@g' *.html
           sed -i 's@(/@(/astro/@g' */*.css
           
+      - name: 🚚 Move old javascript link pages into output
+        run: |
+          mkdir ./pages/javascriptlink
+          mv javascriptlink/* ./pages/javascriptlink
+          
       - name: 🤐 Zip up build directory for 🏎faster uploads
         uses: montudor/action-zip@v1
         with:
@@ -110,10 +115,6 @@ jobs:
           name: MarmadileManteater.github.io
           path: pages.zip
 
-      - name: 🚚 Move old javascript link pages into output
-        run: |
-          mkdir ./pages/javascriptlink
-          mv javascriptlink/* ./pages/javascriptlink
       
 #      - name: Setup Pages
 #        uses: actions/configure-pages@v3
