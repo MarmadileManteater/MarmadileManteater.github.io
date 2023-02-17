@@ -62,7 +62,7 @@ jobs:
           workflow: main.yml 
           workflow_conclusion: success
           branch: development
-          path: ./pages
+          path: .
           repo: MarmadileManteater/AstroVueStaticSite
           check_artifacts:  false
           search_artifacts: false
