@@ -51,6 +51,7 @@ jobs:
           
       - name: Rename artifact folder
         run: |
+          mkdir ./pages
           mv ./dist/* ./pages
           
       - name: ⬇ Download AstroVueStaticSite artifact 
