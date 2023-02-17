@@ -34,7 +34,7 @@ jobs:
       - name: ⬇ Download QwikStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
         with:
-          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github_token: ${{ GITHUB_TOKEN }}
           workflow: main.yml 
           workflow_conclusion: success
           branch: development
@@ -52,7 +52,7 @@ jobs:
       - name: ⬇ Download AstroVueStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
         with:
-          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github_token: ${{ GITHUB_TOKEN }}
           workflow: main.yml 
           workflow_conclusion: success
           branch: development
