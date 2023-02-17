@@ -53,6 +53,7 @@ jobs:
         run: |
           mkdir ./pages
           mv ./dist/* ./pages
+          rm ./dist
           
       - name: ⬇ Download AstroVueStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
@@ -70,7 +71,7 @@ jobs:
           
       - name: 🤐 Unzip AstroVueStaticSite artifact 
         run:
-          unzip -qq MarmadileManteaterAstroVue/dist.zip -d ./dist
+          unzip -qq MarmadileManteaterAstroVue/dist.zip -d .
       
       - name: Rename artifact folder
         run: |
