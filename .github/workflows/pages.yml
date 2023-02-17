@@ -48,11 +48,12 @@ jobs:
       - name: 🤐 Unzip QwikStaticSite artifact 
         run: |
           mkdir pages
-          unzip -qq MarmadileManteaterQwik/dist.zip -d ./pages/dist
+          unzip -qq MarmadileManteaterQwik/dist.zip -d .
           
       - name: Rename artifact folder
         run: |
-          mv ./pages/dist/* ./pages
+          mkdir ./pages
+          mv ./dist/* ./pages
           
       - name: ⬇ Download AstroVueStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
