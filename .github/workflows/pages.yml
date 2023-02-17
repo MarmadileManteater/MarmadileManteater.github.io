@@ -51,7 +51,6 @@ jobs:
           
       - name: Rename artifact folder
         run: |
-          mkdir ./pages
           mv ./dist/* ./pages/
           
       - name: ⬇ Download AstroVueStaticSite artifact 
@@ -74,7 +73,6 @@ jobs:
       
       - name: Rename artifact folder
         run: |
-          mkdir ./pages/astro
           mv ./dist/* ./pages/astro       
     
       - name: 🤐 Zip up build directory for 🏎faster uploads
