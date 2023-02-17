@@ -47,7 +47,6 @@ jobs:
 
       - name: 🤐 Unzip QwikStaticSite artifact 
         run: |
-          mkdir pages
           unzip -qq MarmadileManteaterQwik/dist.zip -d .
           
       - name: Rename artifact folder
