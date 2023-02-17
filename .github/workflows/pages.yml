@@ -51,7 +51,7 @@ jobs:
           
       - name: Rename artifact folder
         run: |
-          mv ./dist/* ./pages/
+          mv ./dist/* ./pages
           
       - name: ⬇ Download AstroVueStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
@@ -78,7 +78,7 @@ jobs:
       - name: 🤐 Zip up build directory for 🏎faster uploads
         uses: montudor/action-zip@v1
         with:
-          args: zip -r pages.zip ./pages
+          args: zip -r pages.zip ./pages/*
     
       - name: 📦 Publish artifact
         uses: actions/upload-artifact@v3
