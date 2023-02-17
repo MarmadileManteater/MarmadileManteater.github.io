@@ -107,15 +107,21 @@ jobs:
       - name: 📦 Publish artifact
         uses: actions/upload-artifact@v3
         with:
-          name: MarmadileManteaterQwik
+          name: MarmadileManteater.github.io
           path: pages.zip
+
+      - name: 🚚 Move old javascript link pages into output
+        run: |
+          mkdir ./pages/javascriptlink
+          mv javascriptlink/* ./pages/javascriptlink
+      
 #      - name: Setup Pages
 #        uses: actions/configure-pages@v3
 #      - name: Upload artifact
 #        uses: actions/upload-pages-artifact@v1
 #        with:
           # Upload entire repository
-#          path: '.'
+#          path: './pages/'
     
 #      - name: Deploy to GitHub Pages
 #        id: deployment
