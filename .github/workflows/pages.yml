@@ -71,7 +71,7 @@ jobs:
           
       - name: 🤐 Unzip AstroVueStaticSite artifact 
         run:
-          unzip -qq MarmadileManteaterAstroVue/dist.zip -d .
+          unzip -qq MarmadileManteaterAstroVue/dist.zip -d ./dist
       
       - name: Rename artifact folder
         run: |
