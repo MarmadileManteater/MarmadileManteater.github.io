@@ -53,7 +53,7 @@ jobs:
         run: |
           mkdir ./pages
           mv ./dist/* ./pages
-          rm ./dist
+          rm ./dist -r
           
       - name: ⬇ Download AstroVueStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
