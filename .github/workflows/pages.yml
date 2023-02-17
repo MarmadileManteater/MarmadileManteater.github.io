@@ -47,8 +47,13 @@ jobs:
 
       - name: 🤐 Unzip QwikStaticSite artifact 
         run:
-          unzip -qq MarmadileManteaterQwik/dist.zip -d ./pages
-
+          unzip -qq MarmadileManteaterQwik/dist.zip -d ./dist
+          
+      - name: Rename artifact folder
+        run: |
+          mkdir ./pages
+          mv ./dist/* ./pages/
+          
       - name: ⬇ Download AstroVueStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
         with:
@@ -65,7 +70,12 @@ jobs:
           
       - name: 🤐 Unzip AstroVueStaticSite artifact 
         run:
-          unzip -qq MarmadileManteaterAstroVue/dist.zip -d ./pages/astro
+          unzip -qq MarmadileManteaterAstroVue/dist.zip -d ./dist
+      
+      - name: Rename artifact folder
+        run: |
+          mkdir ./pages/astro
+          mv ./dist/* ./pages/astro       
     
       - name: 🤐 Zip up build directory for 🏎faster uploads
         uses: montudor/action-zip@v1
