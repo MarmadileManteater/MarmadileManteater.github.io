@@ -31,6 +31,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Get the latest FT Cordova release
+        run: |
+          FT_DOWNLOAD_URL=$(curl --request GET --url "https://api.github.com/repos/MarmadileManteater/FreeTubeCordova/releases" --header "Authorization: Bearer ${{ secrets.PERSONAL_ACCESS_TOKEN }}" | jq '.[0].assets[1].browser_download_url')
+          curl -L --request GET --url ${FT_DOWNLOAD_URL:1:-1} --header "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -o ftc.zip
+      - name: 🤐 Unzip FreeTubeCordova artifact 
+        run: |
+          mkdir ./pages
+          unzip -qq ./ftc.zip -d ./pages/freetube
+          
+      - name: Make hrefs in FTcordova absolute links
+        run: |
+          sed -i -e 's@href="@href="/freetube/@g' ./artifacts/public/freetube/index.html
+          sed -i -e 's@src="@src="/freetube/@g' ./artifacts/public/freetube/index.html
+
       - name: ⬇ Download QwikStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
         with:
@@ -51,7 +65,6 @@ jobs:
           
       - name: Rename artifact folder
         run: |
-          mkdir ./pages
           mv ./dist/* ./pages
           rm ./dist -r
           
