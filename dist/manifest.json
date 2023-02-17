@@ -1,9 +1,0 @@
-{
-  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "MarmadileManteater",
-  "short_name": "MarmadileManteater",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#000",
-  "description": "Hello! I'm MarmadileManteater. My real name is Emma, and you can look it up. This is actually my website!"
-}
