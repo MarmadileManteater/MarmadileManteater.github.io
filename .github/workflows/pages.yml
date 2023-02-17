@@ -75,8 +75,17 @@ jobs:
       
       - name: Rename artifact folder
         run: |
-          mv ./dist/* ./pages/astro      
-    
+          mv ./dist/* ./pages/astro     
+          
+      - name: Make hrefs in FTcordova absolute links
+        run: |
+          cd ./pages/astro
+          sed -i 's@="/@="/astro/@g' *.html */*.html */*/*.html
+          sed -i 's@="./@="/astro/@g' *.html
+          sed -i 's@="/astro/freetube@="/freetube@g' *.html */*.html
+          sed -i 's@="./astro/freetube@="/freetube@g' *.html
+          sed -i 's@(/@(/astro/@g' */*.css
+          
       - name: 🤐 Zip up build directory for 🏎faster uploads
         uses: montudor/action-zip@v1
         with:
