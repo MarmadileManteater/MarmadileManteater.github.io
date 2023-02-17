@@ -52,7 +52,9 @@ jobs:
       - name: Rename artifact folder
         run: |
           mkdir ./pages
-          mv ./dist/* ./pages
+          mv ./dist/* ./pages/qwik
+          mv ./pages/qwik/* ./pages/
+          rm ./pages/qwik
           
       - name: ⬇ Download AstroVueStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
