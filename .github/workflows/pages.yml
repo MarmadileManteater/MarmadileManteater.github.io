@@ -46,7 +46,7 @@ jobs:
           if_no_artifact_found: fail
 
       - name: 🤐 Unzip QwikStaticSite artifact 
-        run:
+        run: |
           mkdir pages
           unzip -qq MarmadileManteaterQwik/dist.zip -d ./pages/dist
           
