@@ -78,7 +78,7 @@ jobs:
       - name: 🤐 Zip up build directory for 🏎faster uploads
         uses: montudor/action-zip@v1
         with:
-          args: zip -r pages.zip ./pages/*
+          args: zip -r pages.zip . -i ./pages/*
     
       - name: 📦 Publish artifact
         uses: actions/upload-artifact@v3
