@@ -60,13 +60,8 @@ jobs:
           if_no_artifact_found: fail
 
       - name: 🤐 Unzip QwikStaticSite artifact 
-        run: |
-          unzip -qq MarmadileManteaterQwik/dist.zip -d .
-          
-      - name: Rename artifact folder
-        run: |
-          mv ./dist/* ./pages
-          rm ./dist -r
+        run:
+          unzip -qq MarmadileManteaterQwik/marmadilemanteater.dev.zip -d ./pages
           
       - name: ⬇ Download AstroVueStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
