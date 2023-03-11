@@ -1,10 +1,10 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Test deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["development"]
+    branches: ["test-new-ci"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -60,13 +60,8 @@ jobs:
           if_no_artifact_found: fail
 
       - name: 🤐 Unzip QwikStaticSite artifact 
-        run: |
-          unzip -qq MarmadileManteaterQwik/dist.zip -d .
-          
-      - name: Rename artifact folder
-        run: |
-          mv ./dist/* ./pages
-          rm ./dist -r
+        run:
+          unzip -qq MarmadileManteaterQwik/marmadilemanteater.dev.zip -d ./pages
           
       - name: ⬇ Download AstroVueStaticSite artifact 
         uses: dawidd6/action-download-artifact@v2
@@ -116,14 +111,14 @@ jobs:
           path: pages.zip
 
       
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          # Upload entire repository
-          path: './pages/'
+#      - name: Setup Pages
+#        uses: actions/configure-pages@v3
+#      - name: Upload artifact
+#        uses: actions/upload-pages-artifact@v1
+#        with:
+#          # Upload entire repository
+#          path: './pages/'
     
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+#      - name: Deploy to GitHub Pages
+#        id: deployment
+#       uses: actions/deploy-pages@v1
