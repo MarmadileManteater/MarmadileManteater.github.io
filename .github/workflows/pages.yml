@@ -44,54 +44,28 @@ jobs:
           sed -i -e 's@href="@href="/freetube/@g' ./pages/freetube/index.html
           sed -i -e 's@src="@src="/freetube/@g' ./pages/freetube/index.html
 
-      - name: ⬇ Download QwikStaticSite artifact 
+      - name: ⬇ Download SvelteKitSite artifact 
         uses: dawidd6/action-download-artifact@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           workflow: main.yml 
           workflow_conclusion: success
           branch: development
           path: .
-          repo: MarmadileManteater/QwikStaticSite
+          repo: MarmadileManteater/SvelteKitSiteStatic
           check_artifacts:  false
           search_artifacts: false
           skip_unpack: false
           if_no_artifact_found: fail
 
-      - name: 🤐 Unzip QwikStaticSite artifact 
-        run:
-          unzip -qq MarmadileManteaterQwik/marmadilemanteater.dev.zip -d ./pages
-          
-      - name: ⬇ Download AstroVueStaticSite artifact 
-        uses: dawidd6/action-download-artifact@v2
+      - name: 🤐 Unzip SvelteKitSite artifact 
+        uses: montudor/action-zip@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          workflow: main.yml 
-          workflow_conclusion: success
-          branch: development
-          path: .
-          repo: MarmadileManteater/AstroVueStaticSite
-          check_artifacts:  false
-          search_artifacts: false
-          skip_unpack: false
-          if_no_artifact_found: fail
+          args: unzip -qq MarmadileManteaterSvelteStatic/static-adapter.zip -d ./static-adapter
           
-      - name: 🤐 Unzip AstroVueStaticSite artifact 
-        run:
-          unzip -qq MarmadileManteaterAstroVue/dist.zip -d ./dist
-      
       - name: Rename artifact folder
         run: |
-          mv ./dist/* ./pages/astro     
-          
-      - name: Make hrefs in FTcordova absolute links
-        run: |
-          cd ./pages/astro
-          sed -i 's@="/@="/astro/@g' *.html */*.html */*/*.html
-          sed -i 's@="./@="/astro/@g' *.html
-          sed -i 's@="/astro/freetube@="/freetube@g' *.html */*.html
-          sed -i 's@="./astro/freetube@="/freetube@g' *.html
-          sed -i 's@(/@(/astro/@g' */*.css
+          mv ./static-adapter ./pages
           
       - name: 🚚 Move old javascript link pages into output
         run: |
@@ -108,7 +82,6 @@ jobs:
         with:
           name: MarmadileManteater.github.io
           path: pages.zip
-
       
       - name: Setup Pages
         uses: actions/configure-pages@v3
