@@ -73,6 +73,7 @@ jobs:
       - name: Rename artifact folder
         run: |
           ls -la
+          sudo chown -R $(whoami) .
           mv ./static-adapter/* ./pages
           
       - name: 🚚 Move old javascript link pages into output
