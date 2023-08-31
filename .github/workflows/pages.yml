@@ -58,7 +58,7 @@ jobs:
           workflow_conclusion: success
           branch: development
           path: .
-          repo: MarmadileManteater/SvelteKitSiteStatic
+          repo: MarmadileManteater/SvelteKitSite
           check_artifacts:  false
           search_artifacts: false
           skip_unpack: false
