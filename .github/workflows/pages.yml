@@ -72,7 +72,7 @@ jobs:
           
       - name: Rename artifact folder
         run: |
-          mv ./static-adapter ./pages
+          mv ./static-adapter/* ./pages
           
       - name: 🚚 Move old javascript link pages into output
         run: |
