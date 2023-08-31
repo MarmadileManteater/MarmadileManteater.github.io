@@ -65,8 +65,9 @@ jobs:
           skip_unpack: false
           if_no_artifact_found: fail
 
-      - name: Rename artifact folder
+      - name: ls
         run: |
+          ls
           ls MarmadileManteaterSvelteStatic
           
 
