@@ -7,7 +7,13 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
+    inputs:
+      lets-go:
+        required: true
+        type: choice
+        options:
+        - Dry Run
+        - Actually Deploy
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -82,15 +88,22 @@ jobs:
         with:
           name: MarmadileManteater.github.io
           path: pages.zip
+
+      - name: Actually Deploy
+        if: ${{ github.event.inputs.lets-go }} === "Actually Deploy"
+        run: echo "not actually but testing"
       
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          # Upload entire repository
-          path: './pages/'
+#      - name: Setup Pages
+#        if: ${{ github.event.inputs.lets-go }} === "Actually Deploy"
+#        uses: actions/configure-pages@v3
+#        
+#      - name: Upload artifact
+#        if: ${{ github.event.inputs.lets-go }} === "Actually Deploy"
+#        uses: actions/upload-pages-artifact@v1
+#        with:
+#          # Upload entire repository
+#          path: './pages/'
     
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+#      - name: Deploy to GitHub Pages
+#        id: deployment
+#        uses: actions/deploy-pages@v1
