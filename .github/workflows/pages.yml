@@ -65,6 +65,11 @@ jobs:
           skip_unpack: false
           if_no_artifact_found: fail
 
+      - name: Rename artifact folder
+        run: |
+          ls MarmadileManteaterSvelteStatic
+          
+
       - name: 🤐 Unzip SvelteKitSite artifact 
         uses: montudor/action-zip@v1
         with:
