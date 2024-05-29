@@ -36,7 +36,7 @@ const firstStars = projects[index]
 
 <MasterTemplate title='MarmadileManteater'>
   <section class='info-and-links'>
-    <section class='info'>
+    <section class='info border-when-light break-on-mobile'>
       <div class='wrapper'>
         <div class='portrait'>
           <img 
@@ -53,19 +53,21 @@ const firstStars = projects[index]
         </summary>
       </div>
     </section>
-    <Links links={allLinks} />
+    <Links links={allLinks} class="border-when-light break-on-mobile" />
     <img src={demon} width='128' height='212' class='demon-sign' />
   </section>
-  <ProjectList
-    projects={[firstFeatured, firstUpdated, firstStars]}
-    tags={allTags}
-    class='break-on-mobile'
-    startOffset={1}
-  />
-  <footer id='projects'>
-    <a href="/projects">View more &raquo;</a>
-  </footer>
-  <header id='social-posts'>
+  <div class="border-when-light card-top tnb-on-tablet break-on-mobile">
+    <ProjectList
+      projects={[firstFeatured, firstUpdated, firstStars]}
+      tags={allTags}
+      class='break-on-mobile'
+      startOffset={1}
+    />
+    <footer id='projects'>
+      <a href="/projects">View more &raquo;</a>
+    </footer>
+  </div>
+  <header id='social-posts' class='border-when-light break-on-tablet'>
     <a href='/feed' ><Emoji emoji='💬' /> my social feed &raquo;</a>
     <a href='/feed/feed.xml'>rss&nbsp;<Emoji emoji='📰' /></a>
   </header>

@@ -12,15 +12,29 @@ const { socialPosts }: Props = Astro.props
 ---
 <section class='social-post-list'>
   <SocialProfile />
-  <Foreach
-    list={socialPosts}
-  >
-    {(post: SocialPost) => <SocialPostComponent truncateLongPost={false} post={post} />}
-  </Foreach>
+  <div class="posts">
+    <Foreach
+      list={socialPosts}
+    >
+      {(post: SocialPost) => <SocialPostComponent truncateLongPost={false} post={post} />}
+    </Foreach>
+  </div>
 </section>
 
 <style lang='less' is:global>
   @import url('../../variables.less');
+  .social-post-list .posts {
+    @media (max-width: @lg-breakpoint) {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      overflow: hidden;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+      @media (prefers-color-scheme: dark) {
+        border: none;
+      }
+    }
+  }
   .social-post-list .social-post {
     margin-bottom: 1.5em;
     @media (max-width: @lg-breakpoint) {

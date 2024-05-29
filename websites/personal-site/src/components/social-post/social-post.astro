@@ -3,6 +3,7 @@ import { Foreach, If } from '@marmadilemanteater/astro-logic-components'
 import type { SocialPost, Media } from '@marmadilemanteater/dataservice/social-posts'
 import Time from '../time.astro'
 import Emoji from '../emoji.astro'
+// @ts-ignore
 import { JSDOM } from 'jsdom'
 
 interface Props {
@@ -55,7 +56,7 @@ if (platformUrl.startsWith('https://opengameart.org')) {
 ---
 <div>
   <article 
-    class='social-post'
+    class='social-post border-when-light break-on-tablet'
     data-length={truncateContent ? 'long' : 'short'}
     data-platform={platformUrl}
     >
@@ -162,7 +163,7 @@ if (platformUrl.startsWith('https://opengameart.org')) {
       display: none;    
     }
     @media (prefers-color-scheme: light) {
-      background: linear-gradient(#ffffff00, #4f4f4f);
+      background: linear-gradient(#ffffff00, #e1e1e1);
     }
   }
   article.social-post[data-length="long"] .content .show-more-button a {
@@ -171,6 +172,9 @@ if (platformUrl.startsWith('https://opengameart.org')) {
     text-align: center;
     bottom: 10px;
     color: white;
+    @media (prefers-color-scheme: light) {
+      color: black;
+    }
   }
   
   article.social-post[data-platform="https://opengameart.org"] .media-gallery {

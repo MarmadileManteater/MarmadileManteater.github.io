@@ -23,6 +23,9 @@ section.info-and-links {
   @media (max-width: @md-breakpoint) {
     display: block;
     margin-bottom: 0;
+    border-top: 1px solid black;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
   }
 }
 section.info-and-links .info {
@@ -122,6 +125,12 @@ section.info-and-links .demon-sign {
 footer#projects {
   padding: 1em;
   background-color: @bg-light-2;
+  @media (max-width: @md-breakpoint) {
+    border-bottom: 1px solid;
+    @media (prefers-color-scheme: dark) {
+      border-bottom: 0;
+    }
+  }
   @media (prefers-color-scheme: dark) {
     background-color: @bg-dark-1;
   }
@@ -130,18 +139,25 @@ header#social-posts {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-  margin-top: 1.5em;
+  margin-top: 1em;
   margin-bottom: 1em;
   border-radius: 10px;
   padding: 1em;
-  background-color: @bg-light-2;
+  background-color: @bg-light-1;
   @media (prefers-color-scheme: dark) {
     background-color: @bg-dark-1;
   }
   @media (max-width: @lg-breakpoint) {
+    background-color: @bg-light-2;
+    margin-top: 2em;
     margin-bottom: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    border-top: 1px solid black;
+    @media (prefers-color-scheme: dark) {
+      border-top: none;
+      background-color: @bg-dark-1;
+    }
   }
 }
 footer#projects a, footer#projects a:visited, 

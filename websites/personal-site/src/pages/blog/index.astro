@@ -9,7 +9,7 @@ const allPosts = await Promise.all(ids.map((id) => blogPostRepository.getBlogPos
 ---
 
 <MasterTemplate title='MarmadileManteater - Blog'>
-  <BlogPostList posts={allPosts} tags={allTags} class='card-top'>
+  <BlogPostList posts={allPosts} tags={allTags} class='card-top border-when-light tnb-on-tablet'>
     <p slot='top' class='rss-link'><a href='/blog/rss.xml'><Emoji emoji='📰' /> rss</a></p>
   </BlogPostList>
 </MasterTemplate>

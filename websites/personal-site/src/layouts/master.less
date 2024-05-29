@@ -2,8 +2,7 @@
 body {
   margin: 0;
   background-attachment: fixed;
-  background-color: black;
-  background-image: url(/images/sno-who-knows.png);
+  background-image: url(/images/sno-who-knows-light.png);
   background-size: 820px;
   font-size: 1.05em;
   font-family: system-ui,
@@ -27,6 +26,8 @@ body {
   min-height: 100vh;
   flex-direction: column;
   @media (prefers-color-scheme: dark) {
+    background-color: black;
+    background-image: url(/images/sno-who-knows-light.png);
     color: white;
   }
 }
@@ -74,6 +75,30 @@ a, a:visited {
 a:hover {
   text-decoration: underline;
 }
+.border-when-light {
+  @media (prefers-color-scheme: light) {
+    border: 1px solid black;
+  }
+  &.break-on-tablet {
+    @media (max-width: @lg-breakpoint) {
+      border: none;
+    }
+  }
+
+  &.tnb-on-tablet {
+    @media (max-width: @lg-breakpoint) {
+      border: none;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+  }
+  
+  &.break-on-mobile {
+    @media (max-width: @md-breakpoint) {
+      border: none;
+    }
+  }
+}
 .card-top {
   overflow: hidden;
   border-top-left-radius: 1em;
@@ -90,7 +115,7 @@ main {
 }
 .header-image {
   max-width: 100%;
-  filter: hue-rotate(220deg) brightness(1.1);
+  filter: invert(1) hue-rotate(29deg) brightness(1.3);
   @media (prefers-color-scheme: dark) {
     filter: none;
   }

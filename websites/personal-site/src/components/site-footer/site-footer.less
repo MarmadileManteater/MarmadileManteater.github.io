@@ -23,6 +23,10 @@ header#main img {
 header#main img.username {
   position: relative;
   left: -24px;
+  filter: invert(1);
+  @media (prefers-color-scheme: dark) {
+    filter: none;
+  }
   @media (max-width: @lg-breakpoint) {
     left: 0;
   }

@@ -10,13 +10,18 @@ import jsLogo from '../../../../../packages/static-data/public/images/logos/js-l
 import csharpLogo from '../../../../../packages/static-data/public/images/logos/csharp-logo.png?format=webp&w=40&h=40'
 // @ts-ignore
 import pythonLogo from '../../../../../packages/static-data/public/images/logos/python-logo.png?format=webp&w=40&h=40'
+// @ts-ignore
+import kotlinLogo from '../../../../../packages/static-data/public/images/logos/kotlin-logo.png?format=webp&w=40&h=40'
 import { sourceUrlBase } from '../../dataservice'
 
 const logos: Record<string, any> = {
+  
+  'kotlin': kotlinLogo,
   'javascript': jsLogo,
   'csharp': csharpLogo,
   'python': pythonLogo,
-  'rust': '/images/logos/rust-logo-blk.svg'
+  'rust': '/images/logos/rust-logo-blk.svg',
+
 }
 
 interface Props extends HTMLAttributes<'p'> {

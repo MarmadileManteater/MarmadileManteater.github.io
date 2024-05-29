@@ -58,7 +58,7 @@ if (sortType !== 'featured' && sortType !== undefined) {
   data-sort-type={sortType}
   data-start-offset={startOffset}
   {...rest}
-  class={`project-list card-top ${Astro.props.class || ''}`}
+  class={`project-list ${sortType !== undefined ? 'border-when-light tnb-on-tablet' : ''} card-top ${Astro.props.class || ''}`}
 >
   <Fragment set:html={`<!-- component source: ${new URL('src/components/project-list/project-list.astro', sourceUrlBase)} -->`} />
   <If condition={sortType !== undefined}>

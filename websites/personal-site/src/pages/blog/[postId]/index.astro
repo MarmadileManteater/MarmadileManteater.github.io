@@ -29,7 +29,7 @@ const longDate = formatLongDate(date)
 ---
 
 <MasterTemplate title={post.title} pathname='/blog/[postId]/'>
-  <article class='card-top blog-post'>
+  <article class='card-top blog-post border-when-light tnb-on-tablet'>
     <h1><Emoji>{post.title}</Emoji></h1>
     <If condition={postTags.length !== 0}>
       <TagList tags={postTags} />
