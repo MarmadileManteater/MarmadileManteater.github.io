@@ -134,7 +134,7 @@ export async function update(projects, environmentFile = './environment.json', d
             
             updated = true
             project.lastUpdateUrl = html_url
-            await log(`\`lastUpdateUrl\` -> \`${project.lastUpdateUrl}\`\r\n`)
+            await log(`\`lastUpdateUrl\` -> ${project.lastUpdateUrl}\r\n`)
           }
         }
       }
@@ -150,7 +150,7 @@ export async function update(projects, environmentFile = './environment.json', d
           if (project.lastUpdateUrl !== releases[0].html_url) {
             updated = true
             project.lastUpdateUrl = releases[0].html_url
-            await log(`\`lastUpdateUrl\` -> \`${project.lastUpdateUrl}\`\r\n`)
+            await log(`\`lastUpdateUrl\` -> ${project.lastUpdateUrl}\r\n`)
           }
         }
       }
