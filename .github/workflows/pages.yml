@@ -45,6 +45,10 @@ jobs:
           sed -i -e 's@href="@href="/freetube/@g' ./pages/freetube/index.html
           sed -i -e 's@src="@src="/freetube/@g' ./pages/freetube/index.html
 
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 8
+
       - name: 👩‍🔧 Install dependencies
         run: |
           pnpm install
