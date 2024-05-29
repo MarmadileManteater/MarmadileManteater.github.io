@@ -25,6 +25,10 @@
     "hashtags": ["cordova"]
   },
   {
+    "name": "kotlin",
+    "link": "https://github.com/topics/kotlin"
+  },
+  {
     "name": "invidious",
     "link": "https://invidious.io/"
   },

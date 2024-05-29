@@ -63,15 +63,15 @@
   },
   {
     "type": "Project",
-    "title": "FreeTubeCordova",
-    "ghFullName": "MarmadileManteater/FreeTubeCordova",
+    "title": "FreeTubeAndroid",
+    "ghFullName": "MarmadileManteater/FreeTubeAndroid",
     "tags": [
       "javascript",
+      "kotlin",
       "webpack",
-      "cordova",
       "invidious"
     ],
-    "summary": "This is a fork of FreeTube which squashes everything into a web app and exports it to Android via Cordova.",
+    "summary": "This is a fork of FreeTube which squashes everything into a web app and exports it to Android. (previously FreeTubeCordova)",
     "buttons": [
       {
         "prefix": "View the",
