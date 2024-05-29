@@ -69,7 +69,7 @@ if (action === 'update-projects') {
     }
     const numberOfChanges = changes.length
     const numberOfProjects = Object.keys(startsWith).length
-    await writeFile(outputFile, `Pulled ${numberOfChanges} changes for ${numberOfProjects} projects\r\n\r\n${outputLog}`)
+    await writeFile(outputFile, `Pull ${numberOfChanges} changes for ${numberOfProjects} projects\r\n\r\n${outputLog}`)
   }
   if (!dryRun) {
     await writeAllProjects(updatedProjects)
