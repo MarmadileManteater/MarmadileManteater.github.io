@@ -26,7 +26,7 @@ export function cleanUpImagesIn(directories, recursive = false, debug = false) {
         for (const file of outputFiles) {
           const htmlAsString = (await readFile(file)).toString()
           if (htmlAsString.indexOf('background-image:url') !== -1) {
-            imagesFound.push(Array.from(htmlAsString.matchAll(/background-image:url\(([^)]*?)\)/g)).map(regex => regex[1])[0]);
+            imagesFound.push(...Array.from(htmlAsString.matchAll(/background-image:url\(([^)]*?)\)/g)).map(regex => regex[1]));
           }
           const dom = new JSDOM(htmlAsString)
           const images = Array.from(dom.window.document.querySelectorAll(directories.map(directory => `[src^="/${directory}"]`).join(', '))).map(element => element.getAttribute('src'))
