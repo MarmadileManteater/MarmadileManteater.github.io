@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 manifest.webmanifest
 */manifest.webmanifest
 freetube/manifest.webmanifest
-=======
 node_modules
 dist
 *.log
->>>>>>> new-dev/development
+commit.txt
