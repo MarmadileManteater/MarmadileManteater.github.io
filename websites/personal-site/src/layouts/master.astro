@@ -10,10 +10,14 @@ interface Props {
 }
 const { title, pathname } = Astro.props
 
+let path = pathname || Astro.url.pathname
+if (!path.endsWith('/')) {
+  path += '/'
+}
 ---
 <!DOCTYPE HTML>
 <html>
-  <Fragment set:html={`<!-- page source: ${new URL(`./src/pages${pathname || Astro.url.pathname}index.astro`, sourceUrlBase)} -->`} />
+  <Fragment set:html={`<!-- page source: ${new URL(`./src/pages${path}index.astro`, sourceUrlBase)} -->`} />
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="/favicon.ico" />
