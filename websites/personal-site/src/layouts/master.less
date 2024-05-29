@@ -27,13 +27,16 @@ body {
   flex-direction: column;
   @media (prefers-color-scheme: dark) {
     background-color: black;
-    background-image: url(/images/sno-who-knows-light.png);
+    background-image: url(/images/sno-who-knows.png);
     color: white;
   }
 }
 body::before {
   content: ' ';
-  background-image: url(/images/sno-who-knows.png);
+  background-image: url(/images/sno-who-knows-light.png);
+  @media (prefers-color-scheme: dark) {
+    background-image: url(/images/sno-who-knows.png);
+  }
   background-size: 410px;
   position: fixed;
   top: 0;
