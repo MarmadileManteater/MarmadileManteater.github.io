@@ -1,0 +1,19 @@
+{
+  "name": "@marmadilemanteater/static-data-updater",
+  "version": "2.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "undici": "^5.23.0",
+    "@marmadilemanteater/dataservice": "workspace:^",
+    "sharp": "^0.32.6"
+  }
+}

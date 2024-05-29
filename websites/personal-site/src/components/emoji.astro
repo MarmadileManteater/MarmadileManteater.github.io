@@ -1,0 +1,33 @@
+---
+import { parseEmojiInString } from '@marmadilemanteater/emoji-to-othermoji'
+import { readdir } from 'fs/promises'
+
+interface Props {
+  emoji?: string
+}
+
+const { emoji }: Props = Astro.props
+
+export const dirListings = [
+  (await readdir('../../packages/static-data/public/images/emoji/mutantstd')).map(file => `/images/emoji/mutantstd/${file}`),
+  (await readdir('../../packages/static-data/public/images/emoji/twemoji')).map(file => `/images/emoji/twemoji/${file}`)
+]
+
+export function parseEmoji(emojiString: string) {
+  return parseEmojiInString(emojiString, dirListings, 
+  // @ts-ignore
+  (unicode) => {
+    if (unicode.startsWith('1f441-fe0f-200d-1f5e8-fe0f')) // 👁‍🗨
+      return '/images/emoji/mutantstd/1f441-200d-1f5e8.svg'
+    if (unicode === '1f4f7') // 📷
+      return '/images/emoji/mutantstd/1f4f7-fe0f.svg'
+    if (unicode === '2665' || unicode === '2764') // ♥
+      return '/images/emoji/mutantstd/2663-fe0f.svg'
+    if (unicode === '1f4ec') // 📬
+      return '/images/emoji/mutantstd/1f4ec-fe0f.svg'
+  })
+}
+
+const html = Astro.slots.has('default') ? parseEmoji(await Astro.slots.render('default')) : (emoji !== undefined ? parseEmoji(emoji) : '')
+---
+<Fragment set:html={html} />

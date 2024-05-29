@@ -1,0 +1,55 @@
+name: 👆 Update social feed + gh data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+  
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v3.0.0
+      with:
+        version: 8
+      
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: ⬇ Download depedencies
+      run: |
+        pnpm install
+    - name: 🚧 Setup environment
+      run: |
+       pnpm run setup
+
+    - name: 🐶 Fetch gh static data
+      run: |
+        pnpm update-projects --access-token=${{ secrets.ACCESS_TOKEN }} --output-file=./static-data.log
+        cat static-data.log
+        git add .
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git commit -F ./static-data.log || true
+        git push
+
+#    - name: Fetch w/ Syndication 🚂Junction
+#      run: |
+#        cd ./packages/social-feed/
+#        pnpm fetch
+
+#    - name: Output feed from Syndication 🚂Junction
+#      run: |
+#        cd ./packages/social-feed/
+#        pnpm output

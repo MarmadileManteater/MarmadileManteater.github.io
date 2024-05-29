@@ -1,0 +1,90 @@
+[
+  {
+    "name": "javascript",
+    "link": "https://github.com/topics/javascript"
+  },
+  {
+    "name": "webpack",
+    "link": "https://webpack.js.org/"
+  },
+  {
+    "name": "electron",
+    "link": "https://www.electronjs.org/"
+  },
+  {
+    "name": "tiled",
+    "link": "https://www.mapeditor.org/"
+  },
+  {
+    "name": "knockoutjs",
+    "link": "https://knockoutjs.com/"
+  },
+  {
+    "name": "cordova",
+    "link": "https://cordova.apache.org/",
+    "hashtags": ["cordova"]
+  },
+  {
+    "name": "invidious",
+    "link": "https://invidious.io/"
+  },
+  {
+    "name": "csharp",
+    "link": "https://github.com/topics/csharp"
+  },
+  {
+    "name": "python",
+    "link": "https://github.com/topics/python"
+  },
+  {
+    "name": "pyautogui",
+    "link": "https://github.com/asweigart/pyautogui"
+  },
+  {
+    "name": "bottle",
+    "link": "https://bottlepy.org/"
+  },
+  {
+    "name": "godot",
+    "link": "https://godotengine.org/",
+    "hashtags": ["GodotEngine"]
+  },
+  {
+    "name": "spooky-2d-jam-2022",
+    "link": "https://itch.io/jam/spooky-2d-jam-2022",
+    "hashtags": ["Spooky2DJam"]
+  },
+  {
+    "name": "astro",
+    "link": "https://astro.build/"
+  },
+  {
+    "name": "qwik",
+    "link": "https://qwik.builder.io/"
+  },
+  {
+    "name": "rust",
+    "link": "https://github.com/topics/rust"
+  },
+  {
+    "name": "actix-web",
+    "link": "https://actix.rs/"
+  },
+  {
+    "name": "summer-fediverse-jam",
+    "link": "https://itch.io/jam/summer-fediverse-jam"
+  },
+  {
+    "name": "lively-wallpaper",
+    "link": "https://github.com/rocksdanister/lively"
+  },
+  {
+    "name": "sveltekit",
+    "link": "https://kit.svelte.dev"
+  },
+  {
+    "name": "spooky-2d-jam-2023",
+    "link": "https://itch.io/jam/spooky-2d-jam-23",
+    "hashtags": ["Spooky2DJam"]
+  }
+]

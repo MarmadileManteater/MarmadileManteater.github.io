@@ -1,0 +1,15 @@
+---
+import './styles.less'
+import MasterTemplate from '../../layouts/master.astro'
+import Emoji from '../../components/emoji.astro'
+import BlogPostList from '../../components/blog-post-list/blog-post-list.astro'
+import { blogPostRepository, allTags } from '../../dataservice'
+const ids = await blogPostRepository.getAllIdsSorted()
+const allPosts = await Promise.all(ids.map((id) => blogPostRepository.getBlogPost(id)))
+---
+
+<MasterTemplate title='MarmadileManteater - Blog'>
+  <BlogPostList posts={allPosts} tags={allTags} class='card-top'>
+    <p slot='top' class='rss-link'><a href='/blog/rss.xml'><Emoji emoji='📰' /> rss</a></p>
+  </BlogPostList>
+</MasterTemplate>

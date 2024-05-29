@@ -1,0 +1,270 @@
+[
+  {
+    "type": "Project",
+    "title": "Out of the Darkness",
+    "ghFullName": "MarmadileManteater/OutOfTheDarkness",
+    "tags": [
+      "csharp",
+      "godot",
+      "spooky-2d-jam-2023"
+    ],
+    "summary": "This is a game about extraterrestrial life, justice and a massive seussian pipe.",
+    "buttons": [
+      {
+        "prefix": "Play on",
+        "locationName": "itch.io",
+        "link": "https://marmadilemanteater.itch.io/out-of-the-darkness",
+        "target": "_blank"
+      },
+      {
+        "prefix": "View on",
+        "locationName": "GitHub",
+        "link": "https://github.com/MarmadileManteater/OutOfTheDarkness",
+        "target": "_blank"
+      }
+    ],
+    "thumbnail": "https://img.itch.zone/aW1nLzEzNzc4ODg1LnBuZw==/315x250%23c/T4UvGB.png",
+    "lastUpdate": "2023-10-22T13:27:36Z",
+    "pullUpdatedInfoFrom": "commits",
+    "ghStars": 0,
+    "ghForks": 0,
+    "lastUpdateUrl": "https://github.com/MarmadileManteater/OutOfTheDarkness/commit/9746a8d98e395cf56fd9d5c9a2cb85da49fe9539"
+  },
+  {
+    "type": "Project",
+    "title": "Just Three Blocks Background",
+    "ghFullName": "MarmadileManteater/JustThreeBlocksBackground",
+    "tags": [
+      "csharp",
+      "godot",
+      "lively-wallpaper"
+    ],
+    "summary": "This is a background scene for my website. You can also use it in Lively Wallpaper.",
+    "buttons": [
+      {
+        "prefix": "Download for",
+        "locationName": "Lively Wallpaper",
+        "link": "https://github.com/MarmadileManteater/JustThreeBlocksBackground/releases",
+        "target": "_blank"
+      },
+      {
+        "prefix": "View on",
+        "locationName": "GitHub",
+        "link": "https://github.com/MarmadileManteater/JustThreeBlocksBackground",
+        "target": "_blank"
+      }
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/MarmadileManteater/JustThreeBlocksBackground/development/lively/thumbnail.jpg",
+    "lastUpdate": "2023-06-11T21:38:44Z",
+    "pullUpdatedInfoFrom": "releases",
+    "ghStars": 1,
+    "ghForks": 1,
+    "lastUpdateUrl": "https://github.com/MarmadileManteater/JustThreeBlocksBackground/releases/tag/v1.0.0"
+  },
+  {
+    "type": "Project",
+    "title": "FreeTubeCordova",
+    "ghFullName": "MarmadileManteater/FreeTubeCordova",
+    "tags": [
+      "javascript",
+      "webpack",
+      "cordova",
+      "invidious"
+    ],
+    "summary": "This is a fork of FreeTube which squashes everything into a web app and exports it to Android via Cordova.",
+    "buttons": [
+      {
+        "prefix": "View the",
+        "locationName": "web version",
+        "link": "https://marmadilemanteater.dev/freetube/#/",
+        "target": "_blank"
+      },
+      {
+        "prefix": "View on",
+        "locationName": "GitHub",
+        "link": "https://github.com/MarmadileManteater/FreeTubeCordova",
+        "target": "_blank"
+      }
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/MarmadileManteater/FreeTubeCordova/development/_icons/.icon-set/iconColor_256.png",
+    "lastUpdate": "2023-10-20T23:18:06Z",
+    "pullUpdatedInfoFrom": "releases",
+    "ghStars": 108,
+    "ghForks": 2,
+    "lastUpdateUrl": "https://github.com/MarmadileManteater/FreeTubeCordova/releases/tag/0.19.1.109"
+  },
+  {
+    "type": "Project",
+    "title": "How was I supposed to know my roommate was a dimension hopping witch!?",
+    "ghFullName": "MarmadileManteater/HowWasISupposedToKnowMyRoommateWasADimensionHoppingWitch",
+    "tags": [
+      "csharp",
+      "godot",
+      "summer-fediverse-jam"
+    ],
+    "summary": "This is a game about having a roommate.",
+    "buttons": [
+      {
+        "prefix": "Play on",
+        "locationName": "itch.io",
+        "link": "https://marmadilemanteater.itch.io/how-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch",
+        "target": "_blank"
+      },
+      {
+        "prefix": "View on",
+        "locationName": "GitHub",
+        "link": "https://github.com/MarmadileManteater/HowWasISupposedToKnowMyRoommateWasADimensionHoppingWitch",
+        "target": "_blank"
+      }
+    ],
+    "thumbnail": "https://img.itch.zone/aW1nLzEyODkzODE3LnBuZw==/315x250%23c/TZlzHP.png",
+    "lastUpdate": "2023-07-31T15:07:44Z",
+    "pullUpdatedInfoFrom": "commits",
+    "ghStars": 2,
+    "ghForks": 0,
+    "lastUpdateUrl": "https://github.com/MarmadileManteater/HowWasISupposedToKnowMyRoommateWasADimensionHoppingWitch/commit/e1121d08e51614de137c42aa6be11b37958b21ac"
+  },
+  {
+    "type": "Project",
+    "title": "SimpleReverseProxy",
+    "ghFullName": "MarmadileManteater/SimpleReverseProxy",
+    "tags": [
+      "rust",
+      "actix-web"
+    ],
+    "summary": "This is a simple reverse proxy that I threw together.",
+    "buttons": [
+      {
+        "prefix": "View on",
+        "locationName": "GitHub",
+        "link": "https://github.com/MarmadileManteater/SimpleReverseProxy",
+        "target": "_blank"
+      }
+    ],
+    "thumbnail": "/images/thumbnails/simple-reverse-proxy.png",
+    "lastUpdate": "2023-07-05T13:00:09Z",
+    "pullUpdatedInfoFrom": "commits",
+    "ghStars": 3,
+    "ghForks": 0,
+    "lastUpdateUrl": "https://github.com/MarmadileManteater/SimpleReverseProxy/commit/f40cc211ed381416cd624c61b232aa926234e5b9"
+  },
+  {
+    "type": "Project",
+    "title": "What Is Hiding In The Dark",
+    "ghFullName": "MarmadileManteater/WhatIsHidingInTheDark",
+    "tags": [
+      "csharp",
+      "godot",
+      "spooky-2d-jam-2022"
+    ],
+    "summary": "This is a game about answering the door and keeping yourself occupied.",
+    "buttons": [
+      {
+        "prefix": "Play on",
+        "locationName": "itch.io",
+        "link": "https://marmadilemanteater.itch.io/what-is-hiding-in-the-dark",
+        "target": "_blank"
+      },
+      {
+        "prefix": "View on",
+        "locationName": "GitHub",
+        "link": "https://github.com/MarmadileManteater/WhatIsHidingInTheDark",
+        "target": "_blank"
+      }
+    ],
+    "thumbnail": "https://github.com/MarmadileManteater/WhatIsHidingInTheDark/raw/development/screenshots/title.png",
+    "lastUpdate": "2023-03-03T13:06:07Z",
+    "pullUpdatedInfoFrom": "commits",
+    "ghStars": 0,
+    "ghForks": 0,
+    "lastUpdateUrl": "https://github.com/MarmadileManteater/WhatIsHidingInTheDark/commit/7d70fbca3b5b21a4d9e03a46f5269715c904cebd"
+  },
+  {
+    "type": "Project",
+    "title": "The Very Thirsty Plant & the Labyrinth of Ghosts",
+    "ghFullName": "MarmadileManteater/TheVeryThirstyPlantAndTheLabyrinthOfGhosts",
+    "tags": [
+      "javascript",
+      "tiled",
+      "webpack",
+      "knockoutjs"
+    ],
+    "summary": "This is a game about retrieving water for a plant.",
+    "buttons": [
+      {
+        "prefix": "Play on",
+        "locationName": "itch.io",
+        "link": "https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labyrinth-of-ghosts",
+        "target": "_blank"
+      },
+      {
+        "prefix": "View on",
+        "locationName": "GitHub",
+        "link": "https://github.com/MarmadileManteater/TheVeryThirstyPlantAndTheLabyrinthOfGhosts",
+        "target": "_blank"
+      }
+    ],
+    "thumbnail": "https://img.itch.zone/aW1nLzk4NzcyODUucG5n/315x250%23c/m1WJNB.png",
+    "lastUpdate": "2022-08-28T22:30:51Z",
+    "pullUpdatedInfoFrom": "releases",
+    "ghStars": 0,
+    "ghForks": 0,
+    "lastUpdateUrl": "https://github.com/MarmadileManteater/TheVeryThirstyPlantAndTheLabyrinthOfGhosts/releases/tag/1.1.1-7"
+  },
+  {
+    "type": "Project",
+    "title": "InvidiousClientDotNet",
+    "ghFullName": "MarmadileManteater/InvidiousClientDotNet",
+    "tags": [
+      "csharp",
+      "invidious"
+    ],
+    "summary": "This is a library which allows you to easily interface with the Invidious API using .NET 6.0.",
+    "buttons": [
+      {
+        "prefix": "View on the",
+        "locationName": "nuget gallery",
+        "link": "https://www.nuget.org/packages/InvidiousClient/",
+        "target": "_blank"
+      },
+      {
+        "prefix": "View on",
+        "locationName": "GitHub",
+        "link": "https://github.com/MarmadileManteater/InvidiousClientDotNet",
+        "target": "_blank"
+      }
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/MarmadileManteater/InvidiousClientDotNet/development/icons/invidious.png",
+    "lastUpdate": "2022-08-16T10:41:59Z",
+    "pullUpdatedInfoFrom": "releases",
+    "ghStars": 3,
+    "ghForks": 0,
+    "lastUpdateUrl": "https://github.com/MarmadileManteater/InvidiousClientDotNet/releases/tag/1.2.37"
+  },
+  {
+    "type": "Project",
+    "title": "SimpleRemoteKeyboardAndMouse",
+    "ghFullName": "MarmadileManteater/SimpleRemoteKeyboardAndMouse",
+    "tags": [
+      "python",
+      "javascript",
+      "pyautogui",
+      "bottle"
+    ],
+    "summary": "This is a simple remote keyboard and mouse application.",
+    "buttons": [
+      {
+        "prefix": "View on",
+        "locationName": "GitHub",
+        "link": "https://github.com/MarmadileManteater/SimpleRemoteKeyboardAndMouse",
+        "target": "_blank"
+      }
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/MarmadileManteater/SimpleRemoteKeyboardAndMouse/main/screenshots/screenshot1.png",
+    "lastUpdate": "2023-06-27T12:56:34Z",
+    "pullUpdatedInfoFrom": "commits",
+    "ghStars": 1,
+    "ghForks": 1,
+    "lastUpdateUrl": "https://github.com/MarmadileManteater/SimpleRemoteKeyboardAndMouse/commit/0f741c2cf2b72e268b4dd02ad6da92253af84ce0"
+  }
+]

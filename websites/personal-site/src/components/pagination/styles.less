@@ -1,0 +1,43 @@
+
+@import url('../../variables.less');
+
+div.pagination-wrapper {
+  @media (max-width: @lg-breakpoint) {
+    text-align: center;
+  }
+}
+
+div.pagination {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: inline-block;
+  padding: 0 1em;
+  border-radius: 10px;
+  background-color: @bg-light-1;
+  @media (prefers-color-scheme: dark) {
+    background-color: @bg-dark-1;
+  }
+}
+
+a.paginate {
+  padding: 1em;
+  display: inline-block;
+  background-color: @bg-light-1;
+  color: black;
+  @media (prefers-color-scheme: dark) {
+    background-color: @bg-dark-1;
+    color: white;
+  }
+}
+
+a.paginate:hover, a.paginate[data-focus="true"] {
+  background-color: @bg-light-2;
+  @media (prefers-color-scheme: dark) {
+    background-color: @bg-dark-2;
+  }
+}
+
+a.paginate[data-focus="true"] {
+  font-weight: bold;
+  text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+---
+import './master.less'
+import { If } from '@marmadilemanteater/astro-logic-components'
+import SiteFooter from '../components/site-footer/site-footer.astro'
+import { sourceUrlBase } from '../dataservice'
+
+interface Props {
+  title?: string
+  pathname?: string
+}
+const { title, pathname } = Astro.props
+
+---
+<!DOCTYPE HTML>
+<html>
+  <Fragment set:html={`<!-- page source: ${new URL(`./src/pages${pathname || Astro.url.pathname}index.astro`, sourceUrlBase)} -->`} />
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <If condition={title !== undefined}>
+      <title>{title}</title>
+    </If>
+    <slot name="head" />
+  </head>
+  <body>
+    <div id='pre-footer' >
+      <header id="main">
+        <a href='/' >
+          <img src='/images/name-pink.gif' class='header-image' alt='emma' />
+          <img src='/images/username.gif' class='username' />
+        </a>
+      </header>
+      <main>
+        <slot />
+      </main>
+    </div>
+    <SiteFooter />
+  </body>
+</html>

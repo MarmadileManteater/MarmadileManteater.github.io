@@ -1,0 +1,46 @@
+---
+import './blog-post-list.less'
+import type { BlogPost } from '@marmadilemanteater/dataservice/blog-posts'
+import { If, Foreach } from '@marmadilemanteater/astro-logic-components'
+import TagList from '../tag-list/tag-list.astro'
+import type { Tag } from '@marmadilemanteater/dataservice/tags'
+import Time from '../time.astro'
+import Emoji from '../emoji.astro'
+import type { HTMLAttributes } from 'astro/types'
+import { sourceUrlBase } from '../../dataservice'
+
+interface Props extends HTMLAttributes<'section'> {
+  posts: BlogPost[],
+  tags: Tag[],
+  class: string|undefined
+}
+
+const { posts, tags, ...rest }: Props = Astro.props
+// this is to prevent duplicate `class` attributes
+delete rest['class']
+---
+<section 
+  {...rest}
+  class={`blog-post-list ${Astro.props.class || ''}`}
+>
+  <Fragment set:html={`<!-- component source: ${new URL('src/components/blog-post-list/blog-post-list.astro', sourceUrlBase)} -->`} />
+  <slot name='top' />
+  <Foreach
+    list={posts}
+  >
+    {(post: BlogPost, i: number) => {
+      const postTags = tags.filter(({name} : Tag) => post.tags.indexOf(name) !== -1)
+      const date = new Date(post.gitDate)
+      return <article
+        data-even={i % 2 === 0 ? 'true' : 'false'}
+      >
+        <If condition={postTags.length > 0} >
+          <TagList tags={postTags} />
+        </If>
+        <h1><a href={`/blog/${post.id}`}><Emoji>{post.title}</Emoji></a></h1>
+        <summary><Emoji>{post.shortDescription}</Emoji></summary>
+        <p class='date-text'><em>Last updated: <Time datetime={date} /></em></p>
+      </article>
+    }}
+  </Foreach>
+</section>

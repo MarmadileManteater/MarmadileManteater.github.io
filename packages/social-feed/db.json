@@ -1,0 +1,867 @@
+{
+  "rss": {
+    "https://gamemaking.social/@emma.rss": {
+      "rss": {
+        "channel": {
+          "title": "Emma <MarmadileManteater>",
+          "link": "https://gamemaking.social/@emma",
+          "item": [
+            {
+              "guid": "https://gamemaking.social/@emma/110843247087678659",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110843247087678659",
+              "description": "<p>batting tee <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a> <a href=\"https://gamemaking.social/tags/AnotherDayAnotherProject\" class=\"mention hashtag\" rel=\"tag\">#<span>AnotherDayAnotherProject</span></a></p>",
+              "author": null,
+              "pubDate": "Sun, 06 Aug 2023 14:55:26 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/843/127/739/503/761/original/0c16940bb236d0c6.mp4",
+                  "media:description": "a 2d sprite of a person walks up to a batting tee and swings a baseball bat at the ball causing it to fly off the screen",
+                  "@type": "video/mp4",
+                  "@fileSize": "851660",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110820417072529066",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110820417072529066",
+              "description": "<p>I have been struggling with my pixels not aligning in godot, and I don't like it, but I found this reddit comment: <a href=\"https://reddit.com/r/godot/comments/fah25e/best_way_to_achieve_pixel_perfect_rendering/fiydmwz/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">reddit.com/r/godot/comments/fa</span><span class=\"invisible\">h25e/best_way_to_achieve_pixel_perfect_rendering/fiydmwz/</span></a> which seems to have helped 🤷‍♀️ <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a> <a href=\"https://gamemaking.social/tags/AnotherDayAnotherProject\" class=\"mention hashtag\" rel=\"tag\">#<span>AnotherDayAnotherProject</span></a></p>",
+              "author": null,
+              "pubDate": "Wed, 02 Aug 2023 14:09:27 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/820/355/110/020/368/original/c5ccf372506c87fd.mp4",
+                  "media:description": "a 2d sprite of a person walking against different objects (trees, houses) in order to demonstrate that the pixels of the player sprite are not misaligned with the pixels of the tilemap",
+                  "@type": "video/mp4",
+                  "@fileSize": "709765",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110816161644012119",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110816161644012119",
+              "description": "<p>I ran into a problem today with re-parenting nodes within an Area2D.body_entered signal. My game was just crashing abruptly when attempting to re-parent the player node during a scene change. Then, I found an issue on GH that looks similar to what I was experiencing: <a href=\"https://github.com/godotengine/godot/issues/34207\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/godotengine/godot/i</span><span class=\"invisible\">ssues/34207</span></a> (even if this is technically 3d, not 2d 🤷‍♀️), and I discovered that I could fix my problem by deferring the re-parenting of the player node with a timer⏳. <br><img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a> <a href=\"https://gamemaking.social/tags/AnotherDayAnotherProject\" class=\"mention hashtag\" rel=\"tag\">#<span>AnotherDayAnotherProject</span></a></p>",
+              "author": null,
+              "pubDate": "Tue, 01 Aug 2023 20:07:15 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/815/995/448/519/006/original/3b79312ba5153bc4.mp4",
+                  "media:description": "a 2d sprite of a person walking into and out of a building; when the person enters the building, the building is visible, and when the person is outside the building, only the outside is visible.",
+                  "@type": "video/mp4",
+                  "@fileSize": "376148",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110809536705630990",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110809536705630990",
+              "description": "<p>Well, it seems now that the Summer Fediverse Jam is truly over, but I have one more update. Since my submission, I worked to add 🖱 mouse controls to my game in order to accommodate someone in my life, so if using a mouse is more comfortable for you than using a controller or keyboard, this is the post jam update for you~! (also, I added an 📱android version)</p><p><a href=\"https://marmadilemanteater.itch.io/how-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch/devlog/568255/post-jam-update\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">marmadilemanteater.itch.io/how</span><span class=\"invisible\">-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch/devlog/568255/post-jam-update</span></a></p><p><a href=\"https://github.com/MarmadileManteater/HowWasISupposedToKnowMyRoommateWasADimensionHoppingWitch/releases/tag/v1.1\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/MarmadileManteater/</span><span class=\"invisible\">HowWasISupposedToKnowMyRoommateWasADimensionHoppingWitch/releases/tag/v1.1</span></a></p><p>🎮 Play on itch:<br><a href=\"https://marmadilemanteater.itch.io/how-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">marmadilemanteater.itch.io/how</span><span class=\"invisible\">-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch</span></a></p><p><img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Mon, 31 Jul 2023 16:02:26 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/809/515/465/189/472/original/8240394b4cb401cf.png",
+                  "media:description": "A field of floating islands with the player character facing another character.\nA dialog box displays the text \"What are you doing here exactly?\"",
+                  "@type": "image/png",
+                  "@fileSize": "164323",
+                  "@medium": "image"
+                },
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/809/515/987/912/630/original/0206eced40821c32.png",
+                  "media:description": "the player character is walking through the perpendicular dimension; there is a long path with 3 paths perpendicular to it",
+                  "@type": "image/png",
+                  "@fileSize": "360484",
+                  "@medium": "image"
+                },
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/809/516/925/317/666/original/2cece68252fab9c1.png",
+                  "media:description": "the player character is facing the roommate and the text box displays the text \"You are so immature!\"",
+                  "@type": "image/png",
+                  "@fileSize": "133939",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110774545151937051",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110774545151937051",
+              "description": "<p>This is an animation I made for my summer fediverse jam submission, but I never actually made it trigger-able within the game because I didn't flesh out the battle mechanic as much as I wanted to.</p><p><img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Tue, 25 Jul 2023 11:43:37 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/774/496/932/182/083/original/94ddff6d290fed82.mp4",
+                  "media:description": "on the left is the game preview window, and on the right is the Godot inspector;\n\nthe mouse toggles a script variable in the inspector causing a platform to ascend and descend in to and out of the view in the game preview window",
+                  "@type": "video/mp4",
+                  "@fileSize": "417277",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110761861543150910",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110761861543150910",
+              "description": "<p><img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":acnl_proud:\" title=\":acnl_proud:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/097/original/acnl_proud.png\"> The page for my Summer Fediverse Jam submission \"How was I supposed to know my roommate was a dimension hopping witch!?\" is now 📢public: <a href=\"https://marmadilemanteater.itch.io/how-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">marmadilemanteater.itch.io/how</span><span class=\"invisible\">-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch</span></a></p><p>I didn't want to wait until the deadline to make sure my submission was in because I will likely be <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":acnl_sleepy:\" title=\":acnl_sleepy:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/129/original/acnl_sleepy.png\">  asleep when the jam ends.</p><p>The code for my submission is also available on my gh: <a href=\"https://github.com/MarmadileManteater/HowWasISupposedToKnowMyRoommateWasADimensionHoppingWitch\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/MarmadileManteater/</span><span class=\"invisible\">HowWasISupposedToKnowMyRoommateWasADimensionHoppingWitch</span></a><br><img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Sun, 23 Jul 2023 05:58:01 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/761/836/796/457/982/original/2d72ef22a071fa71.mp4",
+                  "media:description": "A 2d sprite of a character is walking into a a portal. The screen scales down to 0 on the x axis, and when it expands again, a new location is revealed.",
+                  "@type": "video/mp4",
+                  "@fileSize": "355013",
+                  "@medium": "image"
+                },
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/761/848/756/102/084/original/340f013644f81d64.png",
+                  "media:description": "\"How was I supposed to know my roommate was a dimension hopping witch!?\"",
+                  "@type": "image/png",
+                  "@fileSize": "12688",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110761087970189169",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110761087970189169",
+              "description": "<p>only 15 hours left to go🤺 <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Sun, 23 Jul 2023 02:41:17 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/761/078/672/768/502/original/0bf6e87bae108202.mp4",
+                  "media:description": "an eyeball monster is on the screen and there is a battle menu with an HP readout of 4/10;\n\nthe player selects \"Fight\", the screen flashes, and then, the text is displayed \"the foe was defeated\"",
+                  "@type": "video/mp4",
+                  "@fileSize": "81103",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110758860241867594",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110758860241867594",
+              "description": "<p>my my how the ⌛ time does fly </p><p>only 1 day left<br><img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Sat, 22 Jul 2023 17:14:45 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/758/848/943/780/270/original/f498951ff3a231a4.mp4",
+                  "media:description": "a 2d sprite of a person at a desk\na dialog box is displayed that says \n\"I guess I should be getting to work . . .\"\nThe screen fades back in and the sky outside the window is visibly darker",
+                  "@type": "video/mp4",
+                  "@fileSize": "76571",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110754421522366284",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110754421522366284",
+              "description": "<p>I'm starting to really feel things coming together. <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":acnl_proud:\" title=\":acnl_proud:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/097/original/acnl_proud.png\"> <br><img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Fri, 21 Jul 2023 22:25:55 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/754/414/817/524/009/original/807275ebf044e2a4.png",
+                  "media:description": "a 24x24 tile room with two sprites depicting people looking at each other; there is a dialog box that says: \"You are a plant murderer!\"",
+                  "@type": "image/png",
+                  "@fileSize": "38088",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110752936640991143",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110752936640991143",
+              "description": "<p>I can not believe that there are only 50 more hours left in this jam.</p><p>polishing things up and patching things together<br><img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Fri, 21 Jul 2023 16:08:18 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/752/921/833/652/420/original/cc30cf414ce4e124.mp4",
+                  "media:description": "a 2d sprite walks up to a building;\na dialog box displays the text:\n\"There is a sign on the door.\"\n\"The Perpendicular Shop is closed at the moment . . . It will be open again sometime between now and never.\"",
+                  "@type": "video/mp4",
+                  "@fileSize": "223913",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110749645277571093",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110749645277571093",
+              "description": "<p>a 🌟new area <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Fri, 21 Jul 2023 02:11:16 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/749/592/403/543/644/original/b3c844280e6c8c47.mp4",
+                  "media:description": "a 2D sprite walking around floating islands; a dialog box displays the text \"Woah! What is this place?\"",
+                  "@type": "video/mp4",
+                  "@fileSize": "323589",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110743494463041888",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110743494463041888",
+              "description": "<p>It is neat that you can export variables from your scripts and toggle them in the Godot editor while the game is running to quickly see what changing the state would do at any given moment. It's something I haven't really played with too much before, but I find it useful now that I am dipping my toes in that 🌊water. <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Thu, 20 Jul 2023 00:07:02 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/743/453/807/262/532/original/6c7db4c39a98003f.mp4",
+                  "media:description": "two windows side by side. On the left, the game window displays a menu with items that bob up and down when they are selected. On the right, the godot editor's inspector panel is displayed. The value of a script variable is changed, and this causes the choice in the menu to change.",
+                  "@type": "video/mp4",
+                  "@fileSize": "81057",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110738262636354836",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110738262636354836",
+              "description": "<p>I'm opening doors w/ plants &amp; feeling good about the level of abstraction that I am achieving in my code. <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Wed, 19 Jul 2023 01:56:30 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/738/225/641/625/313/original/fc0100c3b32a843f.png",
+                  "media:description": "a screenshot of C# code; it contains a method named \"Activate\" which opens a dialog with the text \"ker-chunk\" and plays the door opening animation",
+                  "@type": "image/png",
+                  "@fileSize": "27494",
+                  "@medium": "image"
+                },
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/738/226/286/866/370/original/8e084842defe2e03.mp4",
+                  "media:description": "a 2D sprite of a person pushing a plant onto a rug; after the plant is pushed onto the rug, a dialog is displayed that says \"ker-chunk\" and a door opens",
+                  "@type": "video/mp4",
+                  "@fileSize": "195904",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110732832978886052",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110732832978886052",
+              "description": "<p>infinite inertia V. finite inertia w/ a kinematic body &amp; rigid bodies<br><img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Tue, 18 Jul 2023 02:55:40 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/732/532/661/620/499/original/b6fffe7faedea5c5.mp4",
+                  "media:description": "a sprite of a character with a kinematic body colliding with a plant sprite with a rigid body with infinite inertia enabled (the default setting); the plant gets pushed out of bounds when pushed against the walls",
+                  "@type": "video/mp4",
+                  "@fileSize": "322126",
+                  "@medium": "image"
+                },
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/732/533/477/952/383/original/87c14807839e17f8.mp4",
+                  "media:description": "a sprite of a character with a kinematic body colliding with a plant sprite with a rigid body with a finite amount of inertia; the plant gets pushed into the wall, but doesn't go out of bounds.",
+                  "@type": "video/mp4",
+                  "@fileSize": "381769",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110727080091129388",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110727080091129388",
+              "description": "<p>you always have to remember to turn the 💡lights off when you leave the room; you just have to 🔦 🤫<br><img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Mon, 17 Jul 2023 02:32:38 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/727/030/165/113/465/original/e57279a5cbd51de8.mp4",
+                  "media:description": "a 2d sprite of a woman walking into a kitchen which is illuminated and then goes dark when she leaves the room",
+                  "@type": "video/mp4",
+                  "@fileSize": "141730",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110721061621556107",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110721061621556107",
+              "description": "<p>currently colliding with a waste basket🗑 at a diagonal in order to ensure that the screen does not flicker✨ <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":fediverse:\" title=\":fediverse:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/032/117/original/e5d41cca11cb59c2.png\"> <a href=\"https://gamemaking.social/tags/FediverseJam\" class=\"mention hashtag\" rel=\"tag\">#<span>FediverseJam</span></a> <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":godot:\" title=\":godot:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/095/original/godot.png\"> <a href=\"https://gamemaking.social/tags/GodotEngine\" class=\"mention hashtag\" rel=\"tag\">#<span>GodotEngine</span></a></p>",
+              "author": null,
+              "pubDate": "Sun, 16 Jul 2023 01:02:04 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/720/997/521/644/977/original/6b2596f87620b6be.mp4",
+                  "media:description": "an animated sprite of a person walking around in a room colliding into a waste basket",
+                  "@type": "video/mp4",
+                  "@fileSize": "825026",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110695996804908029",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110695996804908029",
+              "description": "<p>I wish my laundry app didn't require knowing my location to connect to the laundry machine. <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":acnl_thinking:\" title=\":acnl_thinking:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/124/original/acnl_thinking.png\"> Why is that important? The machine won't start if no one's at it pressing the \"start\" button. Are they afraid someone is going to remotely give out free washes to a random person who is at the machine? <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":acnl_disbelief:\" title=\":acnl_disbelief:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/115/original/acnl_disbelief.png\"> They already require that Bluetooth is enabled. They could be using that to detect what machines are nearest to me, but they still require location services. <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":acnl_sigh:\" title=\":acnl_sigh:\" src=\"https://cdn.masto.host/gamemaking/custom_emojis/images/000/003/111/original/acnl_sigh.png\"></p>",
+              "author": null,
+              "pubDate": "Tue, 11 Jul 2023 14:47:45 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": null,
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110679906333537658",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110679906333537658",
+              "description": "<p>Here are some 🖼screenshots from some games that I have worked on / am 🔨working on.</p><p>First screenshot: Untitled 👿demon game <a href=\"https://github.com/MarmadileManteater/MyDemonBestiary\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/MarmadileManteater/</span><span class=\"invisible\">MyDemonBestiary</span></a></p><p>Second screenshot: The Very Thirsty Plant &amp; the Labyrinth of Ghosts (my submission for kenneyjam 2022) <a href=\"https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labyrinth-of-ghosts\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">marmadilemanteater.itch.io/the</span><span class=\"invisible\">-very-thirsty-plant-the-labyrinth-of-ghosts</span></a></p><p>Third screenshot: What Is Hiding In The Dark (my submission for spooky2d jam 2022) <a href=\"https://marmadilemanteater.itch.io/what-is-hiding-in-the-dark\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">marmadilemanteater.itch.io/wha</span><span class=\"invisible\">t-is-hiding-in-the-dark</span></a></p>",
+              "author": null,
+              "pubDate": "Sat, 08 Jul 2023 18:35:44 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/679/872/942/130/360/original/61d5f12cc9f816e0.png",
+                  "media:description": "a 2.5D game at a cocked perspective showing two demons in a red forest with a black background with floating red platforms around them",
+                  "@type": "image/png",
+                  "@fileSize": "77333",
+                  "@medium": "image"
+                },
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/679/875/781/202/230/original/89e8710dc4e2eb53.png",
+                  "media:description": "a 2D game where a person is walking through a forest labyrinth filled with ghost",
+                  "@type": "image/png",
+                  "@fileSize": "5231",
+                  "@medium": "image"
+                },
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/110/679/878/330/589/710/original/b2a3b93cd1e64e35.png",
+                  "media:description": "a screen from a 2D game that says \"A Ghost appeared! What are you going to do?\" with the options for responses being \"Spook, Sqeak & Speak\"",
+                  "@type": "image/png",
+                  "@fileSize": "73549",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/110679816747302169",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/110679816747302169",
+              "description": "<p>Hi, I&#39;m Emma 👋</p><p>I 💼work as a full-stack dotnet developer, and I am an 🌠aspiring 🕹️gamedev. I ❤️love to participate in game jams. I enjoy 🧟‍♀️horror media, and all things ghoulish, creepy or otherwise unsettling. In my free time, I work on FreeTubeCordova (an android fork of FreeTube, the 👁️‍🗨️privacy focused YT app). I am a Satanist and a witch, but don&#39;t worry, I don&#39;t 🧛‍♀️bite and am always 🕵️‍♀️looking for friends (especially if you want to 👥group up for a game jam). <a href=\"https://gamemaking.social/tags/introductions\" class=\"mention hashtag\" rel=\"tag\">#<span>introductions</span></a></p>",
+              "author": null,
+              "pubDate": "Sat, 08 Jul 2023 18:12:57 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": null,
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/111269988179574868",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/111269988179574868",
+              "description": "<p>I finally got around to releasing a 🌟new version of FreeTubeCordova (v0.19.1.109) which is up to date with the latest upstream FreeTube release.</p><p><a href=\"https://github.com/MarmadileManteater/FreeTubeCordova/releases/tag/0.19.1.109\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/MarmadileManteater/</span><span class=\"invisible\">FreeTubeCordova/releases/tag/0.19.1.109</span></a></p><p>It includes a fix for the issue that causes the video title, channel name, and download links to not be present on the video page (see screenshots).</p><p>It also adds support for hosting the PWA using a docker image thanks to Owen Truong: (<a href=\"https://github.com/MarmadileManteater/FreeTubeCordova/pull/153\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/MarmadileManteater/</span><span class=\"invisible\">FreeTubeCordova/pull/153</span></a>)</p><p><a href=\"https://github.com/MarmadileManteater/FreeTubeCordova/pkgs/container/freetubecordova\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/MarmadileManteater/</span><span class=\"invisible\">FreeTubeCordova/pkgs/container/freetubecordova</span></a></p><p><a href=\"https://gamemaking.social/tags/FreeTubeCordova\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeTubeCordova</span></a> <a href=\"https://gamemaking.social/tags/cordova\" class=\"mention hashtag\" rel=\"tag\">#<span>cordova</span></a></p>",
+              "author": null,
+              "pubDate": "Fri, 20 Oct 2023 23:41:18 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/111/269/951/893/609/702/original/f354c8e7e42578f3.png",
+                  "media:description": "before this change: the video title, channel name, and download links are not appearing on the video page",
+                  "@type": "image/png",
+                  "@fileSize": "251583",
+                  "@medium": "image"
+                },
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/111/269/952/071/421/975/original/e92e5cf14fb1ccbe.png",
+                  "media:description": "after this change: the video title, channel name, and download links are appearing on the video page",
+                  "@type": "image/png",
+                  "@fileSize": "187694",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            },
+            {
+              "guid": "https://gamemaking.social/@emma/111279899532070077",
+              "title": null,
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://gamemaking.social/@emma/111279899532070077",
+              "description": "<p>I went into this year&#39;s 🎃<a href=\"https://gamemaking.social/tags/Spooky2DJam\" class=\"mention hashtag\" rel=\"tag\">#<span>Spooky2DJam</span></a> without knowing for sure if I was going to end up submitting anything. I didn&#39;t stress about it too much, and as a result, I ended up having a ☺great time working on my submission: Out of the Darkness.</p><p>Play on itch.io: <a href=\"https://marmadilemanteater.itch.io/out-of-the-darkness\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">marmadilemanteater.itch.io/out</span><span class=\"invisible\">-of-the-darkness</span></a></p><p>View source on github:<br /><a href=\"https://github.com/MarmadileManteater/OutOfTheDarkness\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/MarmadileManteater/</span><span class=\"invisible\">OutOfTheDarkness</span></a></p>",
+              "author": null,
+              "pubDate": "Sun, 22 Oct 2023 17:41:53 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": [
+                {
+                  "@url": "https://cdn.masto.host/gamemaking/media_attachments/files/111/279/857/389/408/121/original/b74df48abdea1177.png",
+                  "media:description": "the classic depiction of aliens as little green men except that they are on the news protesting outside of Area 51",
+                  "@type": "image/png",
+                  "@fileSize": "55443",
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": null
+            }
+          ]
+        },
+        "@version": "2.0",
+        "@xmlns:webfeeds": "http://webfeeds.org/rss/1.0",
+        "@xmlns:media": "http://search.yahoo.com/mrss/",
+        "@xmlns:content": null
+      },
+      "manipulate_input": "",
+      "retain_all_entries": true,
+      "title": "@emma@gamemaking.social",
+      "link": "https://gamemaking.social/@emma"
+    },
+    "https://itch.io/games/newest/by-marmadilemanteater.xml": {
+      "rss": {
+        "channel": {
+          "title": "Latest games by Emma - itch.io",
+          "link": "https://itch.io/games/newest/by-marmadilemanteater",
+          "item": [
+            {
+              "guid": "https://marmadilemanteater.itch.io/how-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch",
+              "title": "How Was I Supposed to Know My Roommate Was a Dimension Hopping Witch!? [Free] [Role Playing] [Windows] [Android]",
+              "plainTitle": "How Was I Supposed to Know My Roommate Was a Dimension Hopping Witch!?",
+              "imageurl": "https://img.itch.zone/aW1nLzEyODkzODE3LnBuZw==/315x250%23c/TZlzHP.png",
+              "link": "https://marmadilemanteater.itch.io/how-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch",
+              "description": "This is a game about being roommates. Awake and face your day along side the person who shares your living space!\n<br/><br/> <img src=\"https://img.itch.zone/aW1nLzEyODkzODE3LnBuZw==/315x250%23c/TZlzHP.png\" alt=\"How Was I Supposed to Know My Roommate Was a Dimension Hopping Witch!?\"/>",
+              "author": null,
+              "pubDate": "Sun, 23 Jul 2023 04:41:19 GMT",
+              "createDate": "Sun, 23 Jul 2023 04:41:19 GMT",
+              "updateDate": "Mon, 31 Jul 2023 15:30:01 GMT",
+              "media:content": null,
+              "content:encoded": null
+            },
+            {
+              "guid": "https://marmadilemanteater.itch.io/what-is-hiding-in-the-dark",
+              "title": "What Is Hiding In The Dark [Free] [Other] [Windows]",
+              "plainTitle": "What Is Hiding In The Dark",
+              "imageurl": "https://img.itch.zone/aW1nLzEwMzQ0NjM1LnBuZw==/315x250%23c/eQ0Ugs.png",
+              "link": "https://marmadilemanteater.itch.io/what-is-hiding-in-the-dark",
+              "description": "This is a game about answering the door and keeping yourself occupied.\n<br/><br/> <img src=\"https://img.itch.zone/aW1nLzEwMzQ0NjM1LnBuZw==/315x250%23c/eQ0Ugs.png\" alt=\"What Is Hiding In The Dark\"/>",
+              "author": null,
+              "pubDate": "Sun, 23 Oct 2022 15:50:40 GMT",
+              "createDate": "Sun, 23 Oct 2022 15:50:40 GMT",
+              "updateDate": "Sat, 29 Oct 2022 11:39:48 GMT",
+              "media:content": null,
+              "content:encoded": null
+            },
+            {
+              "guid": "https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labyrinth-of-ghosts",
+              "title": "The Very Thirsty Plant & the Labyrinth of Ghosts [Free] [Windows]",
+              "plainTitle": "The Very Thirsty Plant & the Labyrinth of Ghosts",
+              "imageurl": "https://img.itch.zone/aW1nLzk4NzcyODUucG5n/315x250%23c/m1WJNB.png",
+              "link": "https://marmadilemanteater.itch.io/the-very-thirsty-plant-the-labyrinth-of-ghosts",
+              "description": "This is a game about retrieving water for a plant.\n<br/><br/> <img src=\"https://img.itch.zone/aW1nLzk4NzcyODUucG5n/315x250%23c/m1WJNB.png\" alt=\"The Very Thirsty Plant &amp; the Labyrinth of Ghosts\"/>",
+              "author": null,
+              "pubDate": "Sun, 21 Aug 2022 05:10:36 GMT",
+              "createDate": "Sun, 21 Aug 2022 05:10:36 GMT",
+              "updateDate": "Sun, 28 Aug 2022 22:35:02 GMT",
+              "media:content": null,
+              "content:encoded": null
+            },
+            {
+              "guid": "https://marmadilemanteater.itch.io/out-of-the-darkness",
+              "title": "Out of the Darkness [Free] [Windows]",
+              "plainTitle": "Out of the Darkness",
+              "imageurl": "https://img.itch.zone/aW1nLzEzNzc4ODg1LnBuZw==/315x250%23c/T4UvGB.png",
+              "link": "https://marmadilemanteater.itch.io/out-of-the-darkness",
+              "description": "It is a game about extraterrestrial life, justice and a massive seussian pipe.\n<br/><br/> <img src=\"https://img.itch.zone/aW1nLzEzNzc4ODg1LnBuZw==/315x250%23c/T4UvGB.png\" alt=\"Out of the Darkness\"/>",
+              "author": null,
+              "pubDate": "Sun, 22 Oct 2023 07:22:53 GMT",
+              "createDate": "Sun, 22 Oct 2023 07:22:53 GMT",
+              "updateDate": "Sun, 22 Oct 2023 07:44:00 GMT",
+              "media:content": null,
+              "content:encoded": null
+            }
+          ]
+        },
+        "@version": "2.0",
+        "@xmlns:webfeeds": null,
+        "@xmlns:media": null,
+        "@xmlns:content": null
+      },
+      "manipulate_input": "node ./scripts/itch.js",
+      "retain_all_entries": true,
+      "title": "Emma <MarmadileManteater> on itch.io",
+      "link": "https://marmadilemanteater.itch.io"
+    },
+    "https://marmadilemanteater.dev/blog/rss.xml": {
+      "rss": {
+        "channel": {
+          "title": "Emma's Blog!",
+          "link": "https://marmadilemanteater.dev/blog/",
+          "item": [
+            {
+              "guid": "https://marmadilemanteater.dev/blog/it-works-in-dev-why-not-in-prod",
+              "title": "It works in dev. Why doesn't it work in prod?",
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://marmadilemanteater.dev/blog/it-works-in-dev-why-not-in-prod",
+              "description": "What is that? That little 😈insidious thing that happens when you 🚀deploy code that you've solidly vetted into your production environment. Where does that come from?",
+              "author": null,
+              "pubDate": "Thu, 22 Dec 2022 21:50:53 GMT",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": null,
+              "content:encoded": "<root xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n  \n  \n  <div>\n    <p class=\"text-lg pb-4\">I enjoy a solid code <span style=\"white-space: nowrap;\">📄review</span>, but I am not always working with other <span style=\"white-space: nowrap;\">🫂people</span> when I code. Either way, I <span style=\"white-space: nowrap;\">😣dislike</span> the feeling of accidentally introducing <span style=\"white-space: nowrap;\">🐛bugs</span> with my code. I've done it before, and I am the type of person to wake up in a 🧊cold sweat in the middle of the <span style=\"white-space: nowrap;\">🌔night</span> wondering why that page just doesn't quite scroll to the top in the right way.</p>\n    <p class=\"text-lg pb-4\">It is even more <span style=\"white-space: nowrap;\">👻soul</span> crushing when that issue doesn't even happen until the code has gone through a <span style=\"white-space: nowrap;\">🔁continuous</span> integration workflow and ended up in some data center somewhere; oh, and also, all of the source maps are gone. This isn't even considering that you might be working on something highly <span style=\"white-space: nowrap;\">👁visible</span> that you wouldn't really want to be working on in production while there are people actively interacting with it.</p>\n    <h4 class=\"text-xl pb-4\"><em>Why doesn't it work?</em></h4>\n    <p class=\"text-lg pb-4\">Maybe, it is a bad <span style=\"white-space: nowrap;\">⚙config</span>, or <em>maybe</em>, the thing you designed is fundamentally incompatible with the thing you are hosting it on, or <em>maybe</em>, it is just a bad <span style=\"white-space: nowrap;\">⚙config</span>. It is really hard to tell🤔. Is it even <span style=\"white-space: nowrap;\">🚀deploying?</span> Hold on, let me read the logs.</p>\n    <h4 class=\"text-xl pb-4\"><em>Oh, I think I fixed it!</em></h4>\n    <p class=\"text-lg pb-4\">Oh, wait, no. It was just cached from before it broke.</p>\n    <h4 class=\"text-lg pb-4\"><em>Is this just a part of being human?</em></h4>\n    <p class=\"text-lg pb-4\">Am I doomed to fail? Is acceptance of my humanity the only thing that will relieve me from my <span style=\"white-space: nowrap;\">😣suffering?</span> I don't know. I <em>can't</em> say for sure, but I do know that, as a <span style=\"white-space: nowrap;\">👩human</span>, I am bound to make <span style=\"white-space: nowrap;\">❌mistakes</span>. I am getting better at not ruminating on the past, but my progress isn't a straight <span style=\"white-space: nowrap;\">📈line</span>. Growth is all about making mistakes. You can't learn how to do something unless you try. You can't know if something works in production unless you put it in production.</p>\n    <h4 class=\"text-xl\">So, go ahead! Press that 🚀deploy button!</h4>\n    <p class=\"text-lg pb-4\"><em>Unless, that is a bad idea for you; idk your life🤷‍♀️</em></p>\n  </div>\n</root>"
+            },
+            {
+              "guid": "https://marmadilemanteater.dev/blog/writing-the-same-trivial-site-in-astro-and-qwik",
+              "title": "Writing the same trivial site in 👩‍🚀Astro & ⚡Qwik",
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://marmadilemanteater.dev/blog/writing-the-same-trivial-site-in-astro-and-qwik",
+              "description": "I wrote this whole trivial site with two very similar but different stacks.",
+              "author": null,
+              "pubDate": "Wed, 21 Dec 2022 16:20:49 GMT",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": null,
+              "content:encoded": "<root xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n  \n  \n  <div>\n    <p class=\"text-xl pb-4\">\"<em>Now, wait a minute . . .</em>\" you might be saying to yourself, <br class=\"mb-4\"/>\"<em>Is it really fair to compare a framework that is production ready with one that is not production ready?</em>\"</p>\n    <p class=\"text-xl pb-4\"><strong>🤷‍♀️Probably not</strong></p>\n    <p class=\"text-lg pb-4\">However, I am not going to let that stop me from having a little fun. I created two repos about a month ago: <a href=\"https://github.com/MarmadileManteater/AstroVueStaticSite\" target=\"_blank\" class=\"hover:underline text-blue-600 dark:text-red-300\">AstroVueStaticSite</a> and <a href=\"https://github.com/MarmadileManteater/QwikStaticSite\" target=\"_blank\" class=\"hover:underline text-blue-600 dark:text-red-300\">QwikStaticSite</a>. They are two different versions of my website. In most ways, they are indistinguishable, but they aren't exactly the same.</p>\n    <h3 class=\"text-xl pb-4\" id=\"attempting-to-reach-feature\"><strong>Attempting to reach feature parity</strong></h3>\n    <p class=\"text-lg pb-4\">Qwik isn't even v1 yet, but it does have a lot of <span style=\"white-space: nowrap;\">🔔bells</span> and <span style=\"white-space: nowrap;\">🎷whistles</span> that make it more appealing <em class=\"text-zinc-600 dark:text-zinc-400\">(to me)</em> over Astro. Despite Qwik's lack of a hydration step, it generates MPAs with client side navigation that takes over after the first load, and this is because it introduces this entirely new concept of <a href=\"https://www.builder.io/blog/hydration-is-pure-overhead\" class=\"hover:underline text-blue-600 dark:text-red-300\" target=\"_blank\">resumability</a>. If you haven't <span style=\"white-space: nowrap;\">👂heard</span> of it, it makes <span style=\"white-space: nowrap;\">💧hydration</span> feel archaic. It makes me <span style=\"white-space: nowrap;\">🤔wonder</span> why a lot of JavaScript meta-frameworks server-side render only to dispose of the current state and <span style=\"white-space: nowrap;\">💦rehydrate</span> on the client. It just seems <span style=\"white-space: nowrap;\">🗑wasteful</span>. On the other hand, resumuability is quite conservative with its waste; the browser picks up with the framework right where the server left off. <span style=\"white-space: nowrap;\">🥤Rehydration</span> isn't necessary because the state is serialized into the HTML; there is no need to regenerate the shadow DOM because the real DOM is already the truth.\n    </p>\n    <p class=\"text-lg pb-4\">That all being said, Astro is production ready, and while it doesn't do everything that Qwik does out of the box📦, it knows its scope. It solves the problem of generating static sites. It doesn't attempt to change anything about the paradigms of how JavaScript frameworks work, and in fact, it works with existing frontend UI frameworks such as Vue and Svelte.  It introduces the idea of 🏝islands, but it doesn't fundementally change hydration; it only makes it an <span style=\"white-space: nowrap;\">opt-in</span> process on a component level.</p>\n    <p class=\"text-xl pb-4\">How do we get client side navigation in Astro?</p>\n    <p class=\"text-lg pb-4\">There is this JavaScript library known as <a target=\"_blank\" href=\"https://turbo.hotwired.dev/\" class=\"hover:underline text-blue-600 dark:text-red-300\">@hotwire/turbo</a>. It isn't anything 🎁new, but dang it, it handles client side navigation in a way which easily snaps into any existing MPA.</p>\n    <p class=\"text-lg pb-4\">For instance, if you want to keep your layout on the page while the page content is the only thing that needs to change, all you need to do is add the following code to your `layout.astro` file:</p>\n    <h4 class=\"font-bold\"></h4><em>javascript:</em>\n    <pre>\n      <div><span class=\"hljs-keyword\">import</span> * <span class=\"hljs-keyword\">as</span> turbo <span class=\"hljs-keyword\">from</span> <span class=\"hljs-string\">'@hotwire/turbo'</span>\nturbo.<span class=\"hljs-title function_\">start</span>()\n<span class=\"hljs-comment\">// everything below this is just to handle window scrolling</span>\n<span class=\"hljs-keyword\">const</span> <span class=\"hljs-title function_\">beforeRender</span> = (<span class=\"hljs-params\"></span>) =&gt; {\n  <span class=\"hljs-variable language_\">document</span>.<span class=\"hljs-title function_\">removeEventListener</span>(<span class=\"hljs-string\">'turbo:before-render'</span>, beforeRender)\n  <span class=\"hljs-comment\">// scrolls the page to the top</span>\n  <span class=\"hljs-variable language_\">window</span>.<span class=\"hljs-title function_\">scrollTo</span>(<span class=\"hljs-number\">0</span>, <span class=\"hljs-number\">0</span>)\n}\n<span class=\"hljs-variable language_\">document</span>.<span class=\"hljs-title function_\">addEventListener</span>(<span class=\"hljs-string\">'turbo:load'</span>, <span class=\"hljs-function\">() =&gt;</span> {\n  <span class=\"hljs-variable language_\">document</span>.<span class=\"hljs-title function_\">addEventListener</span>(<span class=\"hljs-string\">'turbo:before-render'</span>, beforeRender)\n})\n</div>\n    </pre>\n    <h4 class=\"font-bold\"></h4><em>html:</em>\n    <pre>\n      <div><span class=\"hljs-comment\">&lt;!-- \n  data-turbo-action=\"advance\"\n  - makes the back button work\n--&gt;</span>\n<span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">turbo-frame</span> <span class=\"hljs-attr\">id</span>=<span class=\"hljs-string\">\"main-content\"</span> <span class=\"hljs-attr\">data-turbo-action</span>=<span class=\"hljs-string\">\"advance\"</span> &gt;</span>\n  <span class=\"hljs-comment\">&lt;!-- Surround the things that you want to change on your page with this element --&gt;</span>\n  <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">slot</span>/&gt;</span>\n<span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">turbo-frame</span>&gt;</span></div>\n</pre>\n    <p class=\"text-lg pb-4 pt-6\">Everything outside this frame will not change on page navigation.</p>\n    <p class=\"text-lg pb-4\">Of course, there are other more complicated ways to use this powerful library, but I just wanted to demonstrate a very specific example. If you are interested in learning more about turbo-frames, <a href=\"https://turbo.hotwired.dev/handbook/frames\" class=\"hover:underline text-blue-600 dark:text-red-300\" target=\"_blank\">this documentation</a> was very helpful for me. There is also a quite <a href=\"https://youtu.be/6mv0_jsWhoE\" class=\"hover:underline text-blue-600 dark:text-red-300\" target=\"_blank\">informational video</a> on how to do something similar to this with both this library and the <a href=\"https://developer.chrome.com/docs/web-platform/view-transitions/\" class=\"hover:underline text-blue-600 dark:text-red-300\" target=\"_blank\">Shared Element Transistion API</a> available in Chrome.</p>\n    <h3 class=\"text-xl pb-4\"><strong>More similar than you might think</strong></h3>\n    <p class=\"text-lg pb-4\">Both use vite, both use directory based routing with square brackets for url parameters, both use JSX-like syntax to some extent, and because of this, a lot of things were very <span style=\"white-space: nowrap;\">\"✂copy</span> and <span style=\"white-space: nowrap;\">📋paste.\"</span></p>\n    <p class=\"text-lg pb-4\">I used Vue along with Astro in order to achieve some of the client-side functionality I achieved with Qwik components, but I also used it because I <span style=\"white-space: nowrap;\">❤like</span> Vue. At the end of the day, this is the biggest difference between the repos: Vue vs JSX syntax.</p>\n    <p class=\"text-lg pb-4\">Honestly, my biggest gripe about Qwik so far is it's insistence on being \"React-like.\" As someone who is not a <span style=\"white-space: nowrap;\">⚛React</span> developer, for <span style=\"white-space: nowrap;\">🎉fun</span> or for <span style=\"white-space: nowrap;\">💶profit</span>, I feel like there are things I like about this syntax, but there are also things I find unintuitive about it such as `useWatch$` or I <span style=\"white-space: nowrap;\">🤔guess</span> now `useTask$` in the latest development version of Qwik.</p>\n    <p class=\"text-lg pb-4\">That is another thing. I would not recommend using Qwik at this point in time because it is not ready for production. If you start building a Qwik app at this point it time, you will have to make many revisions before a production ready version is released, and as such, I would highly recommend anyone interested in using Qwik to build an app, at this point in time, to seriously consider Astro + their favourite frontend framework instead. It is more stable. It is production ready now. It <em class=\"text-zinc-600 dark:text-zinc-400\">(probably)</em> won't have major breaking changes before you release.</p>\n    <p class=\"text-lg pb-4\">That all being said. I think Qwik is 🔥dank af, and resumability is the future of web frameworks.</p>\n  </div>\n</root>"
+            },
+            {
+              "guid": "https://marmadilemanteater.dev/blog/sveltekit-is-my-jam(stack)",
+              "title": "SvelteKit is my 🍇Jam!(Stack)",
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://marmadilemanteater.dev/blog/sveltekit-is-my-jam(stack)",
+              "description": "I guess you could say this is the 🌒end of an era. I guess you could say this is the 🌘beginning of a new one.",
+              "author": null,
+              "pubDate": "Fri, 29 Sep 2023 13:44:17 GMT",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": null,
+              "content:encoded": "<root xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n  \n  \n  <div>\n    <p class=\"text-xl pb-4\">I guess you could say this is the <span style=\"white-space: nowrap;\">🌒end</span> of an era. I guess you could say this is the <span style=\"white-space: nowrap;\">🌘beginning</span> of a new one. What can I say? I had multiple versions of the same website, and now, I only have just one, and you barge in here, into my blog, demanding that I explain myself? Well, you have some guts.</p>\n\n    <p class=\"text-xl pb-4\">I have discovered that I am quite a fan of the <a href=\"https://svelte.dev/\" class=\"hover:underline text-blue-600 dark:text-red-300\">Svelte</a> way of doing things. In a lot of ways, it feels kind of like a natural extension of the 🍦vanilla web platform, and that is very much <a href=\"https://kit.svelte.dev/docs/web-standards\" class=\"hover:underline text-blue-600 dark:text-red-300\">by <span style=\"white-space: nowrap;\">📐design</span></a>.</p>\n    <h4 class=\"font-bold\"><em>svelte:</em> <a href=\"https://github.com/MarmadileManteater/SvelteKitSite/blob/development/src/components/media-gallery/media-gallery.svelte\" class=\"hover:underline text-blue-600 dark:text-red-300\">./src/components/media-gallery/media-gallery.svelte</a></h4>\n    <pre class=\"mt-[-15px]\">\n      <div><span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">script</span> <span class=\"hljs-attr\">lang</span>=<span class=\"hljs-string\">'ts'</span>&gt;</span><span class=\"language-javascript\">\n  <span class=\"hljs-keyword\">import</span> type { <span class=\"hljs-title class_\">IMedia</span> } <span class=\"hljs-keyword\">from</span> <span class=\"hljs-string\">'@marmadilemanteater/gh-static-site-lib/src/models/social-posts'</span>\n  <span class=\"hljs-comment\">// component props are just exported variables!? that's 👍neat</span>\n  <span class=\"hljs-keyword\">export</span> <span class=\"hljs-keyword\">let</span> <span class=\"hljs-attr\">medias</span>: <span class=\"hljs-title class_\">IMedia</span>[] = []\n  <span class=\"hljs-keyword\">export</span> <span class=\"hljs-keyword\">let</span> <span class=\"hljs-attr\">descriptionText</span>: string = <span class=\"hljs-string\">''</span>\n  <span class=\"hljs-comment\">// ... omitted for brevity ...</span>\n  <span class=\"hljs-comment\">// computed values just use a prefix, 👀</span>\n  <span class=\"hljs-attr\">$</span>: images = medias.<span class=\"hljs-title function_\">filter</span>(<span class=\"hljs-function\"><span class=\"hljs-params\">media</span> =&gt;</span> !media.<span class=\"hljs-property\">url</span>?.<span class=\"hljs-title function_\">endsWith</span>(<span class=\"hljs-string\">'mp4'</span>)).<span class=\"hljs-title function_\">map</span>(removeGhAssetsLinks)\n  <span class=\"hljs-comment\">// but are otherwise easily readable statements !?!? 😲</span>\n  <span class=\"hljs-attr\">$</span>: videos = medias.<span class=\"hljs-title function_\">filter</span>(<span class=\"hljs-function\"><span class=\"hljs-params\">media</span> =&gt;</span> media.<span class=\"hljs-property\">url</span>?.<span class=\"hljs-title function_\">endsWith</span>(<span class=\"hljs-string\">'mp4'</span>)).<span class=\"hljs-title function_\">map</span>(removeGhAssetsLinks)\n  <span class=\"hljs-comment\">// no `useEffect(() =&gt; {}, [store1, store2, etc])` or anything like that required 🤯</span>\n</span><span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">script</span>&gt;</span>\n<span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">div</span>\n  <span class=\"hljs-attr\">class</span>=<span class=\"hljs-string\">\"overflow-hidden media-grid grid max-w-full {images.length &lt; 2?'flex flex-col justify-center bg-black': ''}\"</span>\n&gt;</span>\n  <span class=\"hljs-comment\">&lt;!-- no janky iteration situations with `.map` !??!? --&gt;</span>\n  <span class=\"hljs-comment\">&lt;!-- because svelte has proper syntax for logic~!!!!🤩 --&gt;</span>\n  {#each images as image, i}\n    <span class=\"hljs-comment\">&lt;!-- \n      proper if statements in templates\n      without a `v-if` on an element \n      or the need for ternary operators !?!?!?🥰\n    --&gt;</span>\n    {#if image.url !== undefined}\n      <span class=\"hljs-comment\">&lt;!-- omitted for brevity --&gt;</span>\n    {/if}\n  {/each}\n<span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">div</span>&gt;</span>\n<span class=\"hljs-comment\">&lt;!-- template code can go at the top level?? no &lt;template&gt; tag required!??!? 💥 --&gt;</span>\n<span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">div</span>\n  <span class=\"hljs-attr\">class</span>=<span class=\"hljs-string\">'overflow-hidden media-grid grid max-w-full flex flex-col justify-center bg-black'</span>\n&gt;</span>\n  <span class=\"hljs-comment\">&lt;!-- omitted for brevity --&gt;</span>\n<span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">div</span>&gt;</span> </div>\n    </pre>\n\n    <p class=\"text-xl pb-4\">This component syntax does everything that I want it to do without me having to put a whole lot of <span style=\"white-space: nowrap;\">🧠thought</span> into it, and I just can't really say that for <span style=\"white-space: nowrap;\">⚛React-like</span> JSX syntax or even Vue syntax. It just feels like what web development should be, out of the <span style=\"white-space: nowrap;\">📦box</span>, and what can I say? I just think it's <span style=\"white-space: nowrap;\">✨neat</span>.</p>\n\n    <p class=\"text-2xl pb-4\">Of course, that's only one piece of this <span style=\"white-space: nowrap;\">🧩puzzle</span>!</p>\n    \n    <p class=\"text-xl pb-4\">So far, I've only been talking about Svelte, the frontend framework, but what about Sveltekit? Even though I could technically be using <span style=\"white-space: nowrap;\">👩‍🚀Astro</span> to do the same thing <em>(because I don't client side render)</em>, I personally prefer Sveltekit for the time being because I like it more than Astro's syntax which isn't JSX, but it is still <em>JSX-like</em> enough that I don't like it. My opinion on this could easily change, but it all comes down to whether or not I even want any <span style=\"white-space: nowrap;\">🥤hydration</span> at all in the future.</p>\n\n    <h3 class=\"text-3xl pb-4\" id=\"stop-doing-client-side-navigation\">STOP DOING CLIENT SIDE NAVIGATION</h3>\n    <ul class=\"list-disc pl-5 pb-4\">\n      <li class=\"text-2xl pb-1\"><strong>WEBSITES</strong> WERE NEVER SUPPOSED TO BE CLIENT SIDE RENDERED</li>\n      <li class=\"text-2xl pb-1\"><u>YEARS</u> OF RENDERING IN THE BROWSER AND <em>YET STILL</em> <strong>NO REAL WORLD USE</strong> FOUND FOR ANYTHING BEYOND HTML &amp; CSS</li>\n      <li class=\"text-2xl pb-1\">Want client side navigation anyway, for a laugh? We had a tool for that: it was called \"<a href=\"https://turbo.hotwired.dev/\" class=\"hover:underline text-blue-600 dark:text-red-300\">@hotwire/turbo</a>\"</li>\n      <li class=\"text-2xl pb-1\">\"Event listeners need to be wrapped with a `$()` so that they can be split into lazy loaded chunks\" - Statements dreamed up by the utterly Deranged</li>\n    </ul>\n\n    <p class=\"text-2xl\">Look at what JAVASCRIPT FRAMEWORKS have been demanding your respect for:</p>\n    <p class=\"text-xl\"><em><strong>(This is real CLIENT SIDE NAVIGATION, done by real JAVASCRIPT FRAMEWORKS)</strong></em></p>\n    <div class=\"lg:flex pt-4 justify-between pb-4\">\n      <div class=\"flex flex-col h-[300px]\">\n        <img src=\"/blog/sveltekit-is-my-jam(stack)/loading-circle.png\" height=\"220\" class=\"h-[220px] self-center\" alt=\"a red loading orb is in the middle of a blank screen\"/>\n        <p class=\"text-red-600 dark:text-red-400 text-center\">Floating orb of nothingness</p>\n      </div>\n      <div class=\"flex flex-col pb-4 h-[300px]\">\n        <img src=\"/blog/sveltekit-is-my-jam(stack)/errored-out-page.png\" height=\"220\" class=\"h-[220px] self-center\" alt=\"pages says 'loading', but console says 'error'\"/>\n        <p class=\"text-red-600 dark:text-red-400 text-center\">Page says 'loading', but is an error</p>\n      </div>      \n      <div class=\"flex flex-col pb-4 mb-[50px] md:mb-0 md:h-[300px] justify-center\">\n        <img src=\"/blog/sveltekit-is-my-jam(stack)/2a10dd424edb118bcbd369794e5f117780671a1438facf4341925895b6766b0b.jpg\" height=\"120\" class=\"h-[100px] self-center\" alt=\"a client side javascript error in a search result\"/>\n        <p class=\"text-red-600 dark:text-red-400 text-center\">????</p>\n      </div>\n    </div>\n    <h4 class=\"text-2xl mt-[-40px] pb-6 text-center\">THEY HAVE PLAYED US ALL FOR <strong>FOOLS!</strong></h4>\n    <p class=\"text-xl pb-4\">There we go. I said it. Finally, I got to the point I was trying to make this whole time.</p>\n    <p class=\"text-xl pb-4\"><strong>Why are you trying to reinvent browser navigation? Browsers already figured out how to do page navigation with good UX! They tell the user if the page is still loading. They might even give the user a little progress bar to let them know it is not just spinning forever.</strong></p>\n    <p class=\"text-xl pb-4\">That's it. That's all I had to say. I might go back to Astro with Svelte eventually to try out <a href=\"https://docs.astro.build/en/guides/view-transitions/\" class=\"hover:underline text-blue-600 dark:text-red-300\">View Transitions</a> which are based on the experimental <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API\" class=\"hover:underline text-blue-600 dark:text-red-300\">View Transitions API</a>. At the very least, it keeps the browser in charge of handling page navigation.</p>\n  </div>\n</root>"
+            }
+          ]
+        },
+        "@version": "2.0",
+        "@xmlns:webfeeds": null,
+        "@xmlns:media": null,
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/"
+      },
+      "manipulate_input": "",
+      "retain_all_entries": true,
+      "title": "Emma <MarmadileManteater>",
+      "link": "https://marmadilemanteater.dev/blog/"
+    },
+    "https://opengameart.org/users/105608/art.xml": {
+      "rss": {
+        "channel": {
+          "title": "Art by MarmadileManteater",
+          "link": "https://opengameart.org/latest/105608",
+          "item": [
+            {
+              "guid": "144054 at https://opengameart.org",
+              "title": "Puny Autumn",
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://opengameart.org/content/puny-autumn",
+              "description": "<div class=\"field field-name-field-art-type field-type-taxonomy-term-reference field-label-above\"><div class=\"field-label\">Art Type:&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/art-search-advanced?field_art_type_tid%5B%5D=9\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">2D Art</a></div></div></div><div class=\"field field-name-field-art-tags field-type-taxonomy-term-reference field-label-above\"><div class=\"field-label\">Tags:&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/art-search-advanced?field_art_tags_tid=16x16\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">16x16</a></div><div class=\"field-item odd\"><a href=\"/art-search-advanced?field_art_tags_tid=jrpg\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">jrpg</a></div><div class=\"field-item even\"><a href=\"/art-search-advanced?field_art_tags_tid=trees\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">trees</a></div><div class=\"field-item odd\"><a href=\"/art-search-advanced?field_art_tags_tid=autumn\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">autumn</a></div></div></div><div class=\"field field-name-field-art-licenses field-type-taxonomy-term-reference field-label-above\"><div class=\"field-label\">License(s):&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><div class='license-icon'><a href='http://creativecommons.org/publicdomain/zero/1.0/' target='_blank'><img src='https://opengameart.org/sites/default/files/license_images/cc0.png' alt='' title=''><div class='license-name'>CC0</div></a></div></div></div></div><div class=\"field field-name-field-art-preview field-type-file field-label-above\"><div class=\"field-label\">Preview:&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><span class=\"file\"> <img src=\"https://opengameart.org/sites/default/files/screenshot-1_5.png\" alt=\"screenshot-1.png\" /> <br/> <a href=\"https://opengameart.org/sites/default/files/screenshot-1_5.png\" type=\"image/png; length=14447\" data-fid=\"201071\" target=\"_blank\" download=\"screenshot-1.png\">screenshot-1.png</a> 14.4 Kb <span class=\"dlcount\">[<span class=\"dlcount-number\" id=\"dlcount-201071\">1</span> download(s)]</span></span></div></div></div><div class=\"field field-name-field-art-files field-type-file field-label-above\"><div class=\"field-label\">File(s):&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><span class=\"file\"> <img src=\"https://opengameart.org/sites/default/files/puny-autumn.png\" alt=\"puny-autumn.png\" /> <br/> <a href=\"https://opengameart.org/sites/default/files/puny-autumn.png\" type=\"image/png; length=44607\" data-fid=\"201298\" target=\"_blank\" download=\"puny-autumn.png\">puny-autumn.png</a> 44.6 Kb <span class=\"dlcount\">[<span class=\"dlcount-number\" id=\"dlcount-201298\">26</span> download(s)]</span></span></div></div></div>",
+              "author": null,
+              "pubDate": "Thu, 27 Oct 2022 22:17:21 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": null,
+              "content:encoded": null
+            },
+            {
+              "guid": "142367 at https://opengameart.org",
+              "title": "Simple aliens with space ship",
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://opengameart.org/content/simple-aliens-with-space-ship",
+              "description": "<div class=\"field field-name-field-art-type field-type-taxonomy-term-reference field-label-above\"><div class=\"field-label\">Art Type:&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/art-search-advanced?field_art_type_tid%5B%5D=9\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">2D Art</a></div></div></div><div class=\"field field-name-field-art-tags field-type-taxonomy-term-reference field-label-above\"><div class=\"field-label\">Tags:&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/art-search-advanced?field_art_tags_tid=16x16\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">16x16</a></div><div class=\"field-item odd\"><a href=\"/art-search-advanced?field_art_tags_tid=space\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">space</a></div><div class=\"field-item even\"><a href=\"/art-search-advanced?field_art_tags_tid=pico-8\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">pico-8</a></div></div></div><div class=\"field field-name-field-art-licenses field-type-taxonomy-term-reference field-label-above\"><div class=\"field-label\">License(s):&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><div class='license-icon'><a href='http://creativecommons.org/publicdomain/zero/1.0/' target='_blank'><img src='https://opengameart.org/sites/default/files/license_images/cc0.png' alt='' title=''><div class='license-name'>CC0</div></a></div></div></div></div><div class=\"field field-name-field-art-preview field-type-file field-label-above\"><div class=\"field-label\">Preview:&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><span class=\"file\"> <img src=\"https://opengameart.org/sites/default/files/16x16-space-ship-and-two-frame-alien-animation-preview.png\" alt=\"16x16-space-ship-and-two-frame-alien-animation-preview.png\" /> <br/> <a href=\"https://opengameart.org/sites/default/files/16x16-space-ship-and-two-frame-alien-animation-preview.png\" type=\"image/png; length=1110\" data-fid=\"198891\" target=\"_blank\" download=\"16x16-space-ship-and-two-frame-alien-animation-preview.png\">16x16-space-ship-and-two-frame-alien-animation-preview.png</a> 1.1 Kb <span class=\"dlcount\">[<span class=\"dlcount-number\" id=\"dlcount-198891\">1</span> download(s)]</span></span></div><div class=\"field-item odd\"><span class=\"file\"> <img src=\"https://opengameart.org/sites/default/files/two-frame-alien-animation.gif\" alt=\"two-frame-alien-animation.gif\" /> <br/> <a href=\"https://opengameart.org/sites/default/files/two-frame-alien-animation.gif\" type=\"image/gif; length=5167\" data-fid=\"198892\" target=\"_blank\" download=\"two-frame-alien-animation.gif\">two-frame-alien-animation.gif</a> 5.2 Kb <span class=\"dlcount\">[<span class=\"dlcount-number\" id=\"dlcount-198892\">1</span> download(s)]</span></span></div></div></div><div class=\"field field-name-field-art-files field-type-file field-label-above\"><div class=\"field-label\">File(s):&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><span class=\"file\"> <img src=\"https://opengameart.org/sites/default/files/16x16-space-ship-and-two-frame-alien-animation.png\" alt=\"16x16-space-ship-and-two-frame-alien-animation.png\" /> <br/> <a href=\"https://opengameart.org/sites/default/files/16x16-space-ship-and-two-frame-alien-animation.png\" type=\"image/png; length=488\" data-fid=\"198893\" target=\"_blank\" download=\"16x16-space-ship-and-two-frame-alien-animation.png\">16x16-space-ship-and-two-frame-alien-animation.png</a> 488 b <span class=\"dlcount\">[<span class=\"dlcount-number\" id=\"dlcount-198893\">25</span> download(s)]</span></span></div></div></div>",
+              "author": null,
+              "pubDate": "Mon, 05 Sep 2022 05:08:07 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": null,
+              "content:encoded": null
+            },
+            {
+              "guid": "142339 at https://opengameart.org",
+              "title": "Puny Trees",
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://opengameart.org/content/puny-trees",
+              "description": "<div class=\"field field-name-field-art-type field-type-taxonomy-term-reference field-label-above\"><div class=\"field-label\">Art Type:&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/art-search-advanced?field_art_type_tid%5B%5D=9\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">2D Art</a></div></div></div><div class=\"field field-name-field-art-tags field-type-taxonomy-term-reference field-label-above\"><div class=\"field-label\">Tags:&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/art-search-advanced?field_art_tags_tid=16x16\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">16x16</a></div><div class=\"field-item odd\"><a href=\"/art-search-advanced?field_art_tags_tid=jrpg\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">jrpg</a></div><div class=\"field-item even\"><a href=\"/art-search-advanced?field_art_tags_tid=trees\" typeof=\"skos:Concept\" property=\"rdfs:label skos:prefLabel\" datatype=\"\">trees</a></div></div></div><div class=\"field field-name-field-art-licenses field-type-taxonomy-term-reference field-label-above\"><div class=\"field-label\">License(s):&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><div class='license-icon'><a href='http://creativecommons.org/publicdomain/zero/1.0/' target='_blank'><img src='https://opengameart.org/sites/default/files/license_images/cc0.png' alt='' title=''><div class='license-name'>CC0</div></a></div></div></div></div><div class=\"field field-name-field-art-preview field-type-file field-label-above\"><div class=\"field-label\">Preview:&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><span class=\"file\"> <img src=\"https://opengameart.org/sites/default/files/preview3_22.png\" alt=\"preview3.png\" /> <br/> <a href=\"https://opengameart.org/sites/default/files/preview3_22.png\" type=\"image/png; length=11298\" data-fid=\"198877\" target=\"_blank\" download=\"preview3.png\">preview3.png</a> 11.3 Kb <span class=\"dlcount\">[<span class=\"dlcount-number\" id=\"dlcount-198877\">1</span> download(s)]</span></span></div><div class=\"field-item odd\"><span class=\"file\"> <img src=\"https://opengameart.org/sites/default/files/puny-trees_0.png\" alt=\"puny-trees.png\" /> <br/> <a href=\"https://opengameart.org/sites/default/files/puny-trees_0.png\" type=\"image/png; length=51461\" data-fid=\"198878\" target=\"_blank\" download=\"puny-trees.png\">puny-trees.png</a> 51.5 Kb <span class=\"dlcount\">[<span class=\"dlcount-number\" id=\"dlcount-198878\">1</span> download(s)]</span></span></div></div></div><div class=\"field field-name-field-art-files field-type-file field-label-above\"><div class=\"field-label\">File(s):&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\"><span class=\"file\"> <img src=\"https://opengameart.org/sites/default/files/puny-trees-tileset.png\" alt=\"puny-trees-tileset.png\" /> <br/> <a href=\"https://opengameart.org/sites/default/files/puny-trees-tileset.png\" type=\"image/png; length=1665\" data-fid=\"198863\" target=\"_blank\" download=\"puny-trees-tileset.png\">puny-trees-tileset.png</a> 1.7 Kb <span class=\"dlcount\">[<span class=\"dlcount-number\" id=\"dlcount-198863\">153</span> download(s)]</span></span></div></div></div>",
+              "author": null,
+              "pubDate": "Sat, 03 Sep 2022 15:57:51 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": null,
+              "content:encoded": null
+            }
+          ]
+        },
+        "@version": "2.0",
+        "@xmlns:webfeeds": null,
+        "@xmlns:media": null,
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/"
+      },
+      "manipulate_input": "node ./scripts/oga.js",
+      "retain_all_entries": true,
+      "title": "Emma <MarmadileManteater> on OpenGameArt.org",
+      "link": "https://opengameart.org/users/MarmadileManteater"
+    },
+    "https://programming.dev/feeds/u/emma.xml?sort=New": {
+      "rss": {
+        "channel": {
+          "title": "programming.dev - emma",
+          "link": "https://programming.dev/u/emma",
+          "item": [
+            {
+              "guid": "https://programming.dev/post/929081",
+              "title": "How Was I Supposed to Know My Roommate Was a Dimension Hopping Witch!? - my submission for Summer Fediverse Jam",
+              "plainTitle": null,
+              "imageurl": null,
+              "link": "https://marmadilemanteater.itch.io/how-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch",
+              "description": "submitted by <a href=\"https://programming.dev/u/emma\">emma</a> to <a href=\"https://programming.dev/c/play_my_game\">play_my_game</a><br>8 points | <a href=\"https://programming.dev/post/929081\">2 comments</a><br><a href=\"https://marmadilemanteater.itch.io/how-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch\">https://marmadilemanteater.itch.io/how-was-i-supposed-to-know-my-roommate-was-a-dimension-hopping-witch</a><p>This is a game about being roommates. Awake and face your day along side the person who shares your living space!</p>\n<p><img src=\"https://programming.dev/pictrs/image/ecfc7da5-2802-43b3-82c1-8c6eabedfd56.png\" alt=\"\" /></p>\n",
+              "author": null,
+              "pubDate": "Tue, 25 Jul 2023 12:27:19 +0000",
+              "createDate": null,
+              "updateDate": null,
+              "media:content": null,
+              "content:encoded": null
+            }
+          ]
+        },
+        "@version": "2.0",
+        "@xmlns:webfeeds": null,
+        "@xmlns:media": null,
+        "@xmlns:content": null
+      },
+      "manipulate_input": "",
+      "retain_all_entries": true,
+      "title": "@emma@programming.dev",
+      "link": "https://programming.dev/u/emma"
+    },
+    "https://pxlmo.com/users/emma.atom": {
+      "rss": {
+        "channel": {
+          "title": "emma on Pixelfed",
+          "link": "https://pxlmo.com/emma",
+          "item": [
+            {
+              "guid": "https://pxlmo.com/p/emma/598284450851876393",
+              "title": "in case of mouse-related emergency, open packaging",
+              "plainTitle": "in case of mouse-related emergency, open packaging",
+              "imageurl": null,
+              "link": "https://pxlmo.com/p/emma/598284450851876393",
+              "description": "in case of mouse-related emergency, open packaging",
+              "author": {
+                "name": "emma",
+                "uri": "https://pxlmo.com/emma"
+              },
+              "pubDate": "Fri, 18 Aug 2023 22:48:48 +0000",
+              "createDate": null,
+              "updateDate": "Fri, 18 Aug 2023 22:48:48 +0000",
+              "media:content": [
+                {
+                  "@url": "https://assets.pxlmo.com/public/m/_v2/501524934713837928/c51ea9690-856390/HrIBVl2aSoYg/xZMdYxhYS6bQTT1FrDbTHQMjuc5zaLbn4D6fwfGN.jpg",
+                  "media:description": null,
+                  "@type": "image/jpeg",
+                  "@fileSize": null,
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": "\n\t\t\t<img id=\"rss_item_598284450851876393\" src=\"https://assets.pxlmo.com/public/m/_v2/501524934713837928/c51ea9690-856390/HrIBVl2aSoYg/xZMdYxhYS6bQTT1FrDbTHQMjuc5zaLbn4D6fwfGN.jpg\" alt=\"a computer mouse in its packaging hung on the wall with the words &quot;In case of mouse-related emergency&quot; above it and the words &quot;open packaging&quot; below it\">\n\t\t\t<p style=\"padding:10px;\">in case of mouse-related emergency, open packaging</p>\n\t\t\t"
+            },
+            {
+              "guid": "https://pxlmo.com/p/emma/501531556242242085",
+              "title": "I dyed my hair last night, and I'm quite happy?with the results! ~also, I just feel really #cute in this dress. #GenderEuphoria #HappyPost #FeltCuteMightDelete",
+              "plainTitle": "I dyed my hair last night, and I'm quite happy?with the results! ~also, I just feel really #cute in this dress. #GenderEuphoria #HappyPost #FeltCuteMightDelete",
+              "imageurl": null,
+              "link": "https://pxlmo.com/p/emma/501531556242242085",
+              "description": "I dyed my hair last night, and I'm quite happy?with the results! ~also, I just feel really <a href=\"https://pxlmo.com/discover/tags/cute?src=hash\" title=\"#cute\" class=\"u-url hashtag\" rel=\"external nofollow noopener\">#cute</a> in this dress. <a href=\"https://pxlmo.com/discover/tags/GenderEuphoria?src=hash\" title=\"#GenderEuphoria\" class=\"u-url hashtag\" rel=\"external nofollow noopener\">#GenderEuphoria</a> <a href=\"https://pxlmo.com/discover/tags/HappyPost?src=hash\" title=\"#HappyPost\" class=\"u-url hashtag\" rel=\"external nofollow noopener\">#HappyPost</a> <a href=\"https://pxlmo.com/discover/tags/FeltCuteMightDelete?src=hash\" title=\"#FeltCuteMightDelete\" class=\"u-url hashtag\" rel=\"external nofollow noopener\">#FeltCuteMightDelete</a>",
+              "author": {
+                "name": "emma",
+                "uri": "https://pxlmo.com/emma"
+              },
+              "pubDate": "Fri, 25 Nov 2022 04:07:21 +0000",
+              "createDate": null,
+              "updateDate": "Fri, 25 Nov 2022 04:07:21 +0000",
+              "media:content": [
+                {
+                  "@url": "https://assets.pxlmo.com/public/m/_v2/501524934713837928/a48ad3dc0-89cf68/rUM3BANwGAOu/4bSh7Iwev3vTLUXMTvOp0FlHJbkNBG5hLa1h6fRq.jpg",
+                  "media:description": null,
+                  "@type": "image/jpeg",
+                  "@fileSize": null,
+                  "@medium": "image"
+                },
+                {
+                  "@url": "https://assets.pxlmo.com/public/m/_v2/501524934713837928/a48ad3dc0-89cf68/NLuJxpJxYiah/j48W4X97k4WjCOZvqmUIWDEotKnTBNzl8wMKHY6x.jpg",
+                  "media:description": null,
+                  "@type": "image/jpeg",
+                  "@fileSize": null,
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": "\n\t\t\t<img id=\"rss_item_501531556242242085\" src=\"https://assets.pxlmo.com/public/m/_v2/501524934713837928/a48ad3dc0-89cf68/rUM3BANwGAOu/4bSh7Iwev3vTLUXMTvOp0FlHJbkNBG5hLa1h6fRq.jpg\" alt=\"a young woman in a dress with her red hair covering her face\"> <img src=\"https://assets.pxlmo.com/public/m/_v2/501524934713837928/a48ad3dc0-89cf68/NLuJxpJxYiah/j48W4X97k4WjCOZvqmUIWDEotKnTBNzl8wMKHY6x.jpg\" alt=\"a young woman in a dress and a cardigan with her red hair covering her face\" />\n\t\t\t<p style=\"padding:10px;\">I dyed my hair last night, and I'm quite happy?with the results! ~also, I just feel really <a href=\"https://pxlmo.com/discover/tags/cute?src=hash\" title=\"#cute\" class=\"u-url hashtag\" rel=\"external nofollow noopener\">#cute</a> in this dress. <a href=\"https://pxlmo.com/discover/tags/GenderEuphoria?src=hash\" title=\"#GenderEuphoria\" class=\"u-url hashtag\" rel=\"external nofollow noopener\">#GenderEuphoria</a> <a href=\"https://pxlmo.com/discover/tags/HappyPost?src=hash\" title=\"#HappyPost\" class=\"u-url hashtag\" rel=\"external nofollow noopener\">#HappyPost</a> <a href=\"https://pxlmo.com/discover/tags/FeltCuteMightDelete?src=hash\" title=\"#FeltCuteMightDelete\" class=\"u-url hashtag\" rel=\"external nofollow noopener\">#FeltCuteMightDelete</a></p>\n\t\t\t"
+            },
+            {
+              "guid": "https://pxlmo.com/p/emma/600288525627715122",
+              "title": "my apartment complex is having some work done on the parking lots, and 🤷‍♀️ i guess they forgot to pick up this water bottle before they started",
+              "plainTitle": "my apartment complex is having some work done on the parking lots, and 🤷‍♀️ i guess they forgot to pick up this water bottle before they started",
+              "imageurl": null,
+              "link": "https://pxlmo.com/p/emma/600288525627715122",
+              "description": "my apartment complex is having some work done on the parking lots, and 🤷‍♀️ i guess they forgot to pick up this water bottle before they started",
+              "author": {
+                "name": "emma",
+                "uri": "https://pxlmo.com/emma"
+              },
+              "pubDate": "Thu, 24 Aug 2023 11:32:17 +0000",
+              "createDate": null,
+              "updateDate": "Thu, 24 Aug 2023 11:32:17 +0000",
+              "media:content": [
+                {
+                  "@url": "https://assets.pxlmo.com/public/m/_v2/501524934713837928/c51ea9690-856390/mB8XgqaBvYT9/Y5SV7FjJaNwJrYeudslpIpcs9KyMI2D5ILgaZqjR.jpg",
+                  "media:description": null,
+                  "@type": "image/jpeg",
+                  "@fileSize": null,
+                  "@medium": "image"
+                },
+                {
+                  "@url": "https://assets.pxlmo.com/public/m/_v2/501524934713837928/c51ea9690-856390/KCBVOeXkgeST/6AkgChQztubcgXsihZh9uaLC7LttzX4VwJ6GxbHZ.jpg",
+                  "media:description": null,
+                  "@type": "image/jpeg",
+                  "@fileSize": null,
+                  "@medium": "image"
+                }
+              ],
+              "content:encoded": "\n\t\t\t<img id=\"rss_item_600288525627715122\" src=\"https://assets.pxlmo.com/public/m/_v2/501524934713837928/c51ea9690-856390/mB8XgqaBvYT9/Y5SV7FjJaNwJrYeudslpIpcs9KyMI2D5ILgaZqjR.jpg\" alt=\"a water bottle is covered in asphalt in a parking lot next to a sidewalk\"> <img src=\"https://assets.pxlmo.com/public/m/_v2/501524934713837928/c51ea9690-856390/KCBVOeXkgeST/6AkgChQztubcgXsihZh9uaLC7LttzX4VwJ6GxbHZ.jpg\" alt=\"null\" />\n\t\t\t<p style=\"padding:10px;\">my apartment complex is having some work done on the parking lots, and 🤷‍♀️ i guess they forgot to pick up this water bottle before they started</p>\n\t\t\t"
+            }
+          ]
+        },
+        "@version": "2.0",
+        "@xmlns:webfeeds": "http://webfeeds.org/rss/1.0",
+        "@xmlns:media": "http://search.yahoo.com/mrss/",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/"
+      },
+      "manipulate_input": "node ./scripts/pixelfed.js",
+      "retain_all_entries": true,
+      "title": "@emma@pxlmo.com",
+      "link": "https://pxlmo.com/emma"
+    }
+  },
+  "output_one_channel": true,
+  "title": "Emma <MarmadileManteater>",
+  "link": "",
+  "include_description_as_title_if_none_given": true,
+  "description_title_word_count": 10,
+  "title_ellipsis": "...",
+  "populate_content_encoded": true,
+  "add_media_to_content_encoded": true,
+  "max_entries_published": -1,
+  "override_item_author": true
+}

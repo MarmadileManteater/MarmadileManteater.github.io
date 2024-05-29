@@ -1,0 +1,113 @@
+@import url('../variables.less');
+body {
+  margin: 0;
+  background-attachment: fixed;
+  background-color: black;
+  background-image: url(/images/sno-who-knows.png);
+  background-size: 820px;
+  font-size: 1.05em;
+  font-family: system-ui,
+              -apple-system,
+              BlinkMacSystemFont,
+              'Segoe UI',
+              Roboto,
+              Oxygen,
+              Ubuntu,
+              Cantarell,
+              'Open Sans',
+              'Helvetica Neue',
+              sans-serif;
+  animation: animatedBackground 15s linear infinite;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;
+  color: black;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  }
+}
+body::before {
+  content: ' ';
+  background-image: url(/images/sno-who-knows.png);
+  background-size: 410px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  animation: animatedBackground 23s linear infinite;
+  z-index: -1;
+}
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 5px 410px;
+  }
+  100% {
+    background-position: 0px 820px;
+  }
+}
+@keyframes animatedBackground2 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -10px 205px;
+  }
+  100% {
+    background-position: 0px 410px;
+  }
+}
+a, a:visited {
+  color: @link-light;
+  text-decoration: none;
+  @media (prefers-color-scheme: dark) {
+    color: @link-dark;
+  }
+}
+a:hover {
+  text-decoration: underline;
+}
+.card-top {
+  overflow: hidden;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+.card-top.break-on-mobile {
+  @media (max-width: @md-breakpoint) {
+    border-radius: 0;
+  }
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header-image {
+  max-width: 100%;
+  filter: hue-rotate(220deg) brightness(1.1);
+  @media (prefers-color-scheme: dark) {
+    filter: none;
+  }
+}
+.emoji {
+  margin-top: -2px;
+}
+.emoji[src^="/images/emoji/twemoji/"] {
+  /* add a drop shadow to all twemoji emoji */
+  filter: drop-shadow(1.5px 0px 0px black) 
+  drop-shadow(0px 1.5px 0px black) 
+  drop-shadow(1.5px 1.5px 0px black) 
+  drop-shadow(-1.5px -1.5px 0px black);
+}
+#pre-footer {
+  flex-grow: 1;
+}
+.nowrap {
+  white-space: nowrap;
+}

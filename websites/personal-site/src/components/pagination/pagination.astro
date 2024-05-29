@@ -1,0 +1,28 @@
+---
+
+import { Foreach } from '@marmadilemanteater/astro-logic-components'
+import './styles.less'
+
+interface Props {
+  baseLink: String
+  pageNums: Array<number>
+  currentPage: number
+}
+
+const { baseLink, pageNums, currentPage } = Astro.props
+---
+
+
+<div class='pagination-wrapper'>
+  <div class='pagination'>
+    <Foreach
+      list={pageNums}
+    >
+      {(pageNum: number) => {
+        return <>
+          <a href={`${baseLink}/${pageNum}`} class='paginate' data-focus={pageNum === currentPage ? 'true' : 'false'}>{pageNum + 1}</a>
+        </>
+      }}
+    </Foreach>
+  </div>
+</div>

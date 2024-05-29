@@ -1,0 +1,73 @@
+---
+import './styles.less'
+import MasterTemplate from '../layouts/master.astro'
+import ProjectList, { getProjectsSort } from '../components/project-list/project-list.astro'
+import SocialPostPreview from '../components/social-post-preview/social-post-preview.astro'
+import Links from '../components/links/links.astro'
+import { allLinks } from '../dataservice'
+import { allTags, projectsRepository } from '../dataservice'
+import Emoji from '../components/emoji.astro'
+// @ts-ignore
+import portrait from '../../../../packages/static-data/public/images/portrait.jpg?w=142&h=190&format=webp'
+// @ts-ignore
+import demon from '../../../../packages/static-data/public/images/demon-sign.png?w=auto'
+import { getSocialPosts } from '@marmadilemanteater/dataservice/social-posts'
+
+const socialPosts = await getSocialPosts(0, 3,`${Astro.url.protocol}//${Astro.url.host}/`)
+
+const { getAllProjects } = projectsRepository
+const projects = await getAllProjects()
+// #region get first of every sort type with no duplicates
+const firstFeatured = projects[0]
+projects.sort(getProjectsSort('updated'))
+let index = 0
+while (projects[index] === firstFeatured) {
+  index++
+}
+const firstUpdated = projects[index]
+projects.sort(getProjectsSort('stars'))
+index = 0
+while (projects[index] === firstFeatured || projects[index] === firstUpdated) {
+  index++
+}
+const firstStars = projects[index]
+// #endregion
+---
+
+<MasterTemplate title='MarmadileManteater'>
+  <section class='info-and-links'>
+    <section class='info'>
+      <div class='wrapper'>
+        <div class='portrait'>
+          <img 
+            src={portrait}
+            alt='a young woman with dyed red hair in a dress (also known as me)'
+          />
+        </div>
+        <summary>
+          Hello! I'm MarmadileManteater. My real name is Emma, and you can look it up. That's an actual picture of me!
+          <address>
+            <a href='https://matrix.to/#/@marmadilemanteater:matrix.org'><Emoji emoji='💬' /> Message me</a> |
+            <a href='mailto:marmadilemanteater@proton.me'><Emoji emoji='📬' /> Email me</a>
+          </address>
+        </summary>
+      </div>
+    </section>
+    <Links links={allLinks} />
+    <img src={demon} width='128' height='212' class='demon-sign' />
+  </section>
+  <ProjectList
+    projects={[firstFeatured, firstUpdated, firstStars]}
+    tags={allTags}
+    class='break-on-mobile'
+    startOffset={1}
+  />
+  <footer id='projects'>
+    <a href="/projects">View more &raquo;</a>
+  </footer>
+  <header id='social-posts'>
+    <a href='/feed' ><Emoji emoji='💬' /> my social feed &raquo;</a>
+    <a href='/feed/feed.xml'>rss&nbsp;<Emoji emoji='📰' /></a>
+  </header>
+  <SocialPostPreview {socialPosts} />
+</MasterTemplate>

@@ -1,0 +1,86 @@
+<root>
+  <h2 id='title'>SvelteKit is my 🍇Jam!(Stack)</h2>
+  <p id='short-description'>I guess you could say this is the 🌒end of an era. I guess you could say this is the 🌘beginning of a new one.</p>
+  <ul id='tags'>
+    <li>javascript</li>
+    <li>sveltekit</li>
+  </ul>
+  <div>
+    <p class='text-xl pb-4'>I guess you could say this is the <span style='white-space: nowrap;'>🌒end</span> of an era. I guess you could say this is the <span style='white-space: nowrap;'>🌘beginning</span> of a new one. What can I say? I had multiple versions of the same website, and now, I only have just one, and you barge in here, into my blog, demanding that I explain myself? Well, you have some guts.</p>
+
+    <p class='text-xl pb-4'>I have discovered that I am quite a fan of the <a href='https://svelte.dev/' class='hover:underline text-blue-600 dark:text-red-300' >Svelte</a> way of doing things. In a lot of ways, it feels kind of like a natural extension of the 🍦vanilla web platform, and that is very much <a href='https://kit.svelte.dev/docs/web-standards' class='hover:underline text-blue-600 dark:text-red-300'>by <span style='white-space: nowrap;'>📐design</span></a>.</p>
+    <h4 class='font-bold'><em>svelte:</em> <a href='https://github.com/MarmadileManteater/SvelteKitSite/blob/development/src/components/media-gallery/media-gallery.svelte' class='hover:underline text-blue-600 dark:text-red-300'>./src/components/media-gallery/media-gallery.svelte</a></h4>
+    <pre class="mt-[-15px]">
+      <code language="html">&lt;script lang='ts'>
+  import type { IMedia } from '@marmadilemanteater/gh-static-site-lib/src/models/social-posts'
+  // component props are just exported variables!? that's 👍neat
+  export let medias: IMedia[] = []
+  export let descriptionText: string = ''
+  // ... omitted for brevity ...
+  // computed values just use a prefix, 👀
+  $: images = medias.filter(media => !media.url?.endsWith('mp4')).map(removeGhAssetsLinks)
+  // but are otherwise easily readable statements !?!? 😲
+  $: videos = medias.filter(media => media.url?.endsWith('mp4')).map(removeGhAssetsLinks)
+  // no `useEffect(() => {}, [store1, store2, etc])` or anything like that required 🤯
+&lt;/script>
+&lt;div
+  class="overflow-hidden media-grid grid max-w-full {images.length < 2?'flex flex-col justify-center bg-black': ''}"
+>
+  &lt;!-- no janky iteration situations with `.map` !??!? -->
+  &lt;!-- because svelte has proper syntax for logic~!!!!🤩 -->
+  {#each images as image, i}
+    &lt;!-- 
+      proper if statements in templates
+      without a `v-if` on an element 
+      or the need for ternary operators !?!?!?🥰
+    -->
+    {#if image.url !== undefined}
+      &lt;!-- omitted for brevity -->
+    {/if}
+  {/each}
+&lt;/div>
+&lt;!-- template code can go at the top level?? no &lt;template> tag required!??!? 💥 -->
+&lt;div
+  class='overflow-hidden media-grid grid max-w-full flex flex-col justify-center bg-black'
+>
+  &lt;!-- omitted for brevity -->
+&lt;/div> </code>
+    </pre>
+
+    <p class='text-xl pb-4'>This component syntax does everything that I want it to do without me having to put a whole lot of <span style='white-space: nowrap;'>🧠thought</span> into it, and I just can't really say that for <span style='white-space: nowrap;'>⚛React-like</span> JSX syntax or even Vue syntax. It just feels like what web development should be, out of the <span style='white-space: nowrap;'>📦box</span>, and what can I say? I just think it's <span style='white-space: nowrap;'>✨neat</span>.</p>
+
+    <p class='text-2xl pb-4'>Of course, that's only one piece of this <span style='white-space: nowrap;'>🧩puzzle</span>!</p>
+    
+    <p class='text-xl pb-4'>So far, I've only been talking about Svelte, the frontend framework, but what about Sveltekit? Even though I could technically be using <span style='white-space: nowrap;'>👩‍🚀Astro</span> to do the same thing <em>(because I don't client side render)</em>, I personally prefer Sveltekit for the time being because I like it more than Astro's syntax which isn't JSX, but it is still <em>JSX-like</em> enough that I don't like it. My opinion on this could easily change, but it all comes down to whether or not I even want any <span style='white-space: nowrap;'>🥤hydration</span> at all in the future.</p>
+
+    <h3 class='text-3xl pb-4' id='stop-doing-client-side-navigation'>STOP DOING CLIENT SIDE NAVIGATION</h3>
+    <ul class='list-disc pl-5 pb-4'>
+      <li class='text-2xl pb-1'><strong>WEBSITES</strong> WERE NEVER SUPPOSED TO BE CLIENT SIDE RENDERED</li>
+      <li class='text-2xl pb-1'><u>YEARS</u> OF RENDERING IN THE BROWSER AND <em>YET STILL</em> <strong>NO REAL WORLD USE</strong> FOUND FOR ANYTHING BEYOND HTML & CSS</li>
+      <li class='text-2xl pb-1'>Want client side navigation anyway, for a laugh? We had a tool for that: it was called "<a href='https://turbo.hotwired.dev/' class='hover:underline text-blue-600 dark:text-red-300'>@hotwire/turbo</a>"</li>
+      <li class='text-2xl pb-1'>"Event listeners need to be wrapped with a `$()` so that they can be split into lazy loaded chunks" - Statements dreamed up by the utterly Deranged</li>
+    </ul>
+
+    <p class='text-2xl'>Look at what JAVASCRIPT FRAMEWORKS have been demanding your respect for:</p>
+    <p class='text-xl'><em><strong>(This is real CLIENT SIDE NAVIGATION, done by real JAVASCRIPT FRAMEWORKS)</strong></em></p>
+    <div class='lg:flex pt-4 justify-between pb-4'>
+      <div class='flex flex-col h-[300px]'>
+        <img src='./loading-circle.png' height='220' class='h-[220px] self-center' alt="a red loading orb is in the middle of a blank screen" />
+        <p class='text-red-600 dark:text-red-400 text-center'>Floating orb of nothingness</p>
+      </div>
+      <div class='flex flex-col pb-4 h-[300px]'>
+        <img src='./errored-out-page.png' height='220' class='h-[220px] self-center' alt="pages says 'loading', but console says 'error'" />
+        <p class='text-red-600 dark:text-red-400 text-center'>Page says 'loading', but is an error</p>
+      </div>      
+      <div class='flex flex-col pb-4 mb-[50px] md:mb-0 md:h-[300px] justify-center'>
+        <img src='./2a10dd424edb118bcbd369794e5f117780671a1438facf4341925895b6766b0b.jpg' height='120' class='h-[100px] self-center' alt="a client side javascript error in a search result" />
+        <p class='text-red-600 dark:text-red-400 text-center'>????</p>
+      </div>
+    </div>
+    <h4 class='text-2xl mt-[-40px] pb-6 text-center'>THEY HAVE PLAYED US ALL FOR <strong>FOOLS!</strong></h4>
+    <p class='text-xl pb-4'>There we go. I said it. Finally, I got to the point I was trying to make this whole time.</p>
+    <p class='text-xl pb-4'><strong>Why are you trying to reinvent browser navigation? Browsers already figured out how to do page navigation with good UX! They tell the user if the page is still loading. They might even give the user a little progress bar to let them know it is not just spinning forever.</strong></p>
+    <p class='text-xl pb-4'>That's it. That's all I had to say. I might go back to Astro with Svelte eventually to try out <a href='https://docs.astro.build/en/guides/view-transitions/'  class='hover:underline text-blue-600 dark:text-red-300'>View Transitions</a> which are based on the experimental <a href='https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API' class='hover:underline text-blue-600 dark:text-red-300'>View Transitions API</a>. At the very least, it keeps the browser in charge of handling page navigation.</p>
+  </div>
+</root>
+

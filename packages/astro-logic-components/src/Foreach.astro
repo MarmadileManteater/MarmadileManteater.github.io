@@ -1,0 +1,21 @@
+---
+import If from './If.astro'
+import For from './For.astro'
+interface Props {
+  list: any[]
+}
+const { list }: Props = Astro.props
+---
+
+<If condition={Astro.slots.has('default')}>
+  <For
+    start={0}
+    endCondition={(i: number) => i < list.length}
+    change={(i: number) => i + 1}
+  >
+    {(i: number) =>
+      <Fragment set:html={(() =>
+        Astro.slots.render('default', [list[i], i])
+      )()} />}
+  </For>
+</If>
