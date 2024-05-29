@@ -3,7 +3,7 @@
 import { parseString } from 'xml2js'
 import { promisify } from 'util'
 
-const BASE_HOST = 'https://raw.githubusercontent.com/MarmadileManteater/MyMonorepo/development/packages/social-feed/'
+const BASE_HOST = 'https://raw.githubusercontent.com/MarmadileManteater/MarmadileManteater.github.io/development/packages/social-feed/'
 
 const pparseString = promisify(parseString)
 // load the social feed in through vite
