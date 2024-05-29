@@ -17,6 +17,8 @@ export function parseEmoji(emojiString: string) {
   return parseEmojiInString(emojiString, dirListings, 
   // @ts-ignore
   (unicode) => {
+    if (unicode === '1f943') // 🥃
+      return '/images/emoji/twemoji/1f943.svg'
     if (unicode.startsWith('1f441-fe0f-200d-1f5e8-fe0f')) // 👁‍🗨
       return '/images/emoji/mutantstd/1f441-200d-1f5e8.svg'
     if (unicode === '1f4f7') // 📷
