@@ -32,7 +32,9 @@ jobs:
 
       - name: Get the latest FT PWA release
         run: |
-          FT_DOWNLOAD_URL=$(curl --request GET --url "https://api.github.com/repos/MarmadileManteater/FreeTubeCordova/releases" --header "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" | jq '.[0].assets[1].browser_download_url')
+          RESPONSE=$(curl --request GET --url "https://api.github.com/repos/MarmadileManteater/FreeTubeCordova/releases" --header "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}")
+          echo $RESPONSE
+          FT_DOWNLOAD_URL=$(echo $RESPONSE | jq '.[0].assets[1].browser_download_url')
           curl -L --request GET --url ${FT_DOWNLOAD_URL:1:-1} --header "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -o ftc.zip
       - name: 🤐 Unzip FreeTubeCordova artifact 
         run: |
