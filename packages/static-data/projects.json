@@ -1,4 +1,36 @@
 [
+  
+  {
+    "type": "Project",
+    "title": "Just Three Blocks Background",
+    "ghFullName": "MarmadileManteater/JustThreeBlocksBackground",
+    "tags": [
+      "csharp",
+      "godot",
+      "lively-wallpaper"
+    ],
+    "summary": "This is a scene of three blocks floating up and down in a void. You can use it in Lively Wallpaper.",
+    "buttons": [
+      {
+        "prefix": "Download for",
+        "locationName": "Lively Wallpaper",
+        "link": "https://github.com/MarmadileManteater/JustThreeBlocksBackground/releases",
+        "target": "_blank"
+      },
+      {
+        "prefix": "View on",
+        "locationName": "GitHub",
+        "link": "https://github.com/MarmadileManteater/JustThreeBlocksBackground",
+        "target": "_blank"
+      }
+    ],
+    "thumbnail": "https://raw.githubusercontent.com/MarmadileManteater/JustThreeBlocksBackground/development/lively/thumbnail.jpg",
+    "lastUpdate": "2023-06-11T21:38:44Z",
+    "pullUpdatedInfoFrom": "releases",
+    "ghStars": 2,
+    "ghForks": 1,
+    "lastUpdateUrl": "https://github.com/MarmadileManteater/JustThreeBlocksBackground/releases/tag/v1.0.0"
+  },
   {
     "type": "Project",
     "title": "Out of the Darkness",
@@ -29,37 +61,6 @@
     "ghStars": 1,
     "ghForks": 0,
     "lastUpdateUrl": "https://github.com/MarmadileManteater/OutOfTheDarkness/commit/9746a8d98e395cf56fd9d5c9a2cb85da49fe9539"
-  },
-  {
-    "type": "Project",
-    "title": "Just Three Blocks Background",
-    "ghFullName": "MarmadileManteater/JustThreeBlocksBackground",
-    "tags": [
-      "csharp",
-      "godot",
-      "lively-wallpaper"
-    ],
-    "summary": "This is a background scene for my website. You can also use it in Lively Wallpaper.",
-    "buttons": [
-      {
-        "prefix": "Download for",
-        "locationName": "Lively Wallpaper",
-        "link": "https://github.com/MarmadileManteater/JustThreeBlocksBackground/releases",
-        "target": "_blank"
-      },
-      {
-        "prefix": "View on",
-        "locationName": "GitHub",
-        "link": "https://github.com/MarmadileManteater/JustThreeBlocksBackground",
-        "target": "_blank"
-      }
-    ],
-    "thumbnail": "https://raw.githubusercontent.com/MarmadileManteater/JustThreeBlocksBackground/development/lively/thumbnail.jpg",
-    "lastUpdate": "2023-06-11T21:38:44Z",
-    "pullUpdatedInfoFrom": "releases",
-    "ghStars": 2,
-    "ghForks": 1,
-    "lastUpdateUrl": "https://github.com/MarmadileManteater/JustThreeBlocksBackground/releases/tag/v1.0.0"
   },
   {
     "type": "Project",
