@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "pnpm clean-images && cd ./packages/emoji-to-othermoji && pnpm clean && cd ../../packages/astro-plugins/ && pnpm clean && cd ../../packages/jsdoc2ts && pnpm clean && cd ../dataservice && pnpm clean && cd ../../websites/personal-site && pnpm clean",
+    "clean": "npx rimraf ./packages/static-data/public/media && pnpm clean-images && cd ./packages/emoji-to-othermoji && pnpm clean && cd ../../packages/astro-plugins/ && pnpm clean && cd ../../packages/jsdoc2ts && pnpm clean && cd ../dataservice && pnpm clean && cd ../../websites/personal-site && pnpm clean",
     "build": "pnpm run setup && cd websites/personal-site/ && pnpm astro build",
     "setup": "cd ./packages/social-feed/ && pnpm copy-feed && cd ../jsdoc2ts && pnpm build && cd ../dataservice && pnpm build && cd ../../ && pnpm optimise-images && cd packages/astro-plugins/ && pnpm build && cd ../../packages/emoji-to-othermoji && pnpm build",
     "update-projects": "node ./packages/static-data-updater update-projects",
