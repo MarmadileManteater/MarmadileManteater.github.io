@@ -44,7 +44,7 @@ export default defineConfig({
       hooks: {
         'astro:build:done': async function (options) {
           const outputDir = fileURLToPath(options.dir)
-          const outputFiles = options.pages.map(({
+          const outputFiles = [...options.pages, { pathname: 'emoji-used' }].map(({
             pathname
           }) => join(outputDir, pathname, 'index.html'))
           for (const file of outputFiles) {
