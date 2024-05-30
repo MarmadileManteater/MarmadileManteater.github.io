@@ -4,7 +4,7 @@ import { Foreach } from '@marmadilemanteater/astro-logic-components'
 import type { Link } from '@marmadilemanteater/dataservice/links'
 import Emoji from '../emoji.astro';
 import type { HTMLAttributes } from 'astro/types'
-import { sourceUrlBase } from '../../dataservice';
+import { sourceUrlBase } from '../../constants';
 
 interface Props extends HTMLAttributes<'section'> {
   links: Link[]

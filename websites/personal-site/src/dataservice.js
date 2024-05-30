@@ -10,5 +10,3 @@ export const projectsRepository = fromJSONFile('../../packages/static-data/proje
 export const blogPostRepository = fromDirectory('../../packages/static-data/posts/', 'vs2015')
 export const allTags = await getAllTagsFromJSONFile('../../packages/static-data/tags.json')
 export const allLinks = await getAllLinksFromJSONFile('../../packages/static-data/links.json')
-export const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-export const sourceUrlBase = 'https://raw.githubusercontent.com/MarmadileManteater/MarmadileManteater.github.io/development/websites/personal-site/'

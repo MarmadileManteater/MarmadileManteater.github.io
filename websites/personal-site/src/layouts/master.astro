@@ -2,13 +2,14 @@
 import './master.less'
 import { If } from '@marmadilemanteater/astro-logic-components'
 import SiteFooter from '../components/site-footer/site-footer.astro'
-import { sourceUrlBase } from '../dataservice'
+import { sourceUrlBase } from '../constants'
 
 interface Props {
   title?: string
   pathname?: string
+  showEmojiLink?: boolean
 }
-const { title, pathname } = Astro.props
+const { title, pathname, showEmojiLink = true } = Astro.props
 
 let path = pathname || Astro.url.pathname
 if (!path.endsWith('/')) {
@@ -40,6 +41,6 @@ if (!path.endsWith('/')) {
         <slot />
       </main>
     </div>
-    <SiteFooter />
+    <SiteFooter {showEmojiLink} />
   </body>
 </html>

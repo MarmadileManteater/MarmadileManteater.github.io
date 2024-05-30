@@ -2,7 +2,15 @@
 import './site-footer.less'
 import Emoji from '../emoji.astro'
 import Time from '../time.astro'
+import { If } from '@marmadilemanteater/astro-logic-components'
 const currentDate = new Date()
+
+interface Props {
+  title?: string
+  pathname?: string
+  showEmojiLink: boolean
+}
+const { showEmojiLink = true } = Astro.props
 ---
 <footer id='main'>
   <section class='left'>
@@ -15,6 +23,11 @@ const currentDate = new Date()
       </p>
       <p>
         <a href='https://twemoji.twitter.com/'><Emoji emoji='🐦' /> Twemoji</a> emoji by <a href='https://github.com/twitter'>Twitter, Inc and other contributors</a> are licensed under <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0 International</a>.</p>
+      <If condition={showEmojiLink}>
+        <p>
+          <a href="/emoji-used">View all emoji used &raquo;</a>
+        </p>
+      </If>
     </section>
   </section>
   <section class='view-source'>

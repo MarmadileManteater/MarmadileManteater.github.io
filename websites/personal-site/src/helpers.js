@@ -1,7 +1,7 @@
 
 // @ts-check
 
-import { months } from "./dataservice"
+import { months } from "./constants"
 
 /**
  * @param {Date} date 

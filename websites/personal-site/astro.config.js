@@ -4,8 +4,9 @@ import { cleanUpImagesIn } from '@marmadilemanteater/astro-plugins/clean-images'
 import prettify from '@liquify/prettify'
 import { fileURLToPath } from 'url'
 import { join } from 'path'
-import { readFile, writeFile } from 'fs/promises'
+import { cp, mkdir, readFile, writeFile } from 'fs/promises'
 import jsdom from 'jsdom'
+import { exec } from 'child_process'
 const { JSDOM } = jsdom
 const SITE_NAME = 'https://marmadilemanteater.dev'
 // https://astro.build/config
@@ -18,6 +19,26 @@ export default defineConfig({
       ['images/'],
       true // check all subfolders
     ),
+    {
+      name: 'Build emoji-used page',
+      hooks: {
+        'astro:build:done': async function (options) {
+          const outputDir = fileURLToPath(options.dir)
+          // build emoji-used page
+          console.log(await new Promise((resolve, reject) => {
+            exec("cd ../emoji-used && pnpm astro build", (error, stdout, stderr) => {
+              if (error) {
+                console.log('Failed to build `emoji-used` page')
+                return reject(stderr)
+              }
+              resolve(stdout)
+            })
+          }))
+          await mkdir(join(outputDir, 'emoji-used'))
+          await cp('../emoji-used/dist/index.html', join(outputDir, 'emoji-used', 'index.html'))
+        }
+      }
+    },
     {
       name: '💄 Pretty print HTML w/ @liquify/prettify',
       hooks: {
@@ -74,10 +95,9 @@ export default defineConfig({
   ],
   vite: {
     plugins: [imagetools()],
+    
     build: {
-      /*
-      assetsInlineLimit: Infinity,
-      */
+      assetsInlineLimit: Infinity
     }
   }
 });

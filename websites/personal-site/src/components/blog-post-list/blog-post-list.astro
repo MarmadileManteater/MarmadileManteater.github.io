@@ -7,7 +7,7 @@ import type { Tag } from '@marmadilemanteater/dataservice/tags'
 import Time from '../time.astro'
 import Emoji from '../emoji.astro'
 import type { HTMLAttributes } from 'astro/types'
-import { sourceUrlBase } from '../../dataservice'
+import { sourceUrlBase } from '../../constants'
 
 interface Props extends HTMLAttributes<'section'> {
   posts: BlogPost[],
