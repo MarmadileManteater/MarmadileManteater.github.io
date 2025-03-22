@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emma (MarmadileManteater)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: sans-serif;
+        font-size: 1.25em;
+        padding: 1em 2em;
+        margin: 0;
+      }
+      #about-me {
+        display: flex;
+        gap: 1em;
+        margin-bottom: 1em;
+      }
+      #profile-pic {
+        border-radius: 50%;
+      }
+      #blurb {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      #links {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 250px;
+        text-align: center;
+      }
+
+      #links a {
+        display: block;
+      }
+      
+      #contact {
+        display: flex;
+        gap: 1em;
+        margin-top: 1em;
+      }
+
+      a {
+        color: #9e2b02;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #0a0a0a;
+          color: white;
+        }
+        a {
+          color: #df3d01;
+        }
+      }
+      @media (max-width: 800px) {
+        #about-me {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        #links {
+          text-align: left;
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 370px) {
+        #contact {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section id="about-me">
+      <img src="./images/profile-pic.webp" id="profile-pic" />
+      <summary id="blurb">Hi~! My name is Emma. I am passionate about helping others, and I create software for personal enjoyment.
+        <div id="contact">
+          <a href="mailto:marmadilemanteater@proton.me">📬 Email me</a>
+          <a href="https://matrix.to/#/@marmadilemanteater:matrix.org">💬 Message me</a>
+        </div>
+      </summary>
+    </section>
+    <section id="links">
+      <a href="https://liberapay.com/MarmadileManteater" rel="me">💕 Donate</a>
+      <a href="https://github.com/MarmadileManteater" rel="me">👩‍💻 GitHub</a>
+      <a href="https://gamemaking.social/@emma" rel="me">🐘 Mastodon</a>
+      <a href="https://marmadilemanteater.itch.io" rel="me">🎮 Itch.io</a>
+      <a href="https://opengameart.org/users/marmadilemanteater" rel="me">🎨 OpenGameArt</a>
+    </section>
+  </body>
+</html>
