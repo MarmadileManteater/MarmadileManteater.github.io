@@ -42,7 +42,7 @@ jobs:
           args: zip -r pages.zip . -i ./pages/*
     
       - name: 📦 Publish artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: MarmadileManteater.github.io
           path: pages.zip
