@@ -1,0 +1,30 @@
+---
+import If from './If.astro'
+interface Props {
+  /**
+   * the start for the sentry
+   */
+  start: number,
+  /**
+   * ends when condition is false
+   */
+  endCondition: (sentry: number) => boolean
+  /**
+   * applies some change to the sentry every iteration
+   */
+  change: (sentry: number) => number
+}
+const { start, endCondition, change } = Astro.props
+let sentry = start
+---
+
+<If condition={Astro.slots.has('default')}>
+  <Fragment set:html={(() => {
+    const slots = []
+    while (endCondition(sentry)) {
+      slots.push(Astro.slots.render('default', [sentry]))
+      sentry = change(sentry)
+    }
+    return slots
+  })()} />
+</If>

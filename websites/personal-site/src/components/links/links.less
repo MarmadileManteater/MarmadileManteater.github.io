@@ -1,0 +1,35 @@
+@import url('../../variables.less');
+
+.link-list {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  background-color: @bg-light-1;
+  border-radius: 1em;
+  padding: 1em;
+  box-sizing: border-box;
+  @media (prefers-color-scheme: dark) {
+    background-color: @bg-dark-2;
+  }
+  @media (max-width: @md-breakpoint) {
+    border-radius: 0;
+    width: 100%;
+    font-size: 1.25em;
+    @media (prefers-color-scheme: dark) {
+      background-color: @bg-dark-1;
+    }
+    @media (prefers-color-scheme: light) {
+      background-color: @bg-light-2;
+    }
+  }
+}
+.link-list a {
+  padding: 0.35em 0 0.45em 0;
+}
+.link-list a:hover {
+  background-color: @tag-light;
+  @media (prefers-color-scheme: dark) {
+    background-color: @tag-dark;
+  }
+}

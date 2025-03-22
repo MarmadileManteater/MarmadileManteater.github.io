@@ -1,0 +1,5 @@
+
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {"moduleResolution": "node", "jsx": "preserve"}
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "emoji": "👩‍💻",
+    "name": "GitHub",
+    "url": "https://github.com/MarmadileManteater"
+  },
+  {
+    "emoji": "🕹",
+    "name": "itch.io",
+    "url": "https://marmadilemanteater.itch.io"
+  },
+  {
+    "emoji": "🎨",
+    "name": "OpenGameArt",
+    "url": "https://opengameart.org/users/marmadilemanteater"
+  },
+  {
+    "emoji": "🐘",
+    "name": "Mastodon",
+    "url": "https://gamemaking.social/@emma"
+  },
+  {
+    "emoji": "📷",
+    "name": "Pixelfed",
+    "url": "https://pxlmo.com/emma"
+  },
+  {
+    "emoji": "📝",
+    "name": "Blog",
+    "url": "/blog/"
+  }
+]

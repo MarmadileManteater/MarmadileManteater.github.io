@@ -1,0 +1,31 @@
+{
+  "name": "@marmadilemanteater/astro-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build -- clean-images && mv ./dist/*/*.* ./dist/ ",
+    "clean": "rimraf ./dist "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  },
+  "devDependencies": {
+    "@marmadilemanteater/jsdocs2dts": "workspace:^",
+    "astro": "^3.4.2",
+    "vite": "^4.4.11"
+  },
+  "exports": {
+    "./clean-images": {
+      "import": "./dist/clean-images.js",
+      "require": "./dist/clean-images.cjs",
+      "node": "./dist/clean-images.cjs",
+      "types": "./clean-images.d.ts",
+      "default": "./dist/clean-images.js"
+    }
+  }
+}

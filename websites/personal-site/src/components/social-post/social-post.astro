@@ -1,0 +1,301 @@
+---
+import { Foreach, If } from '@marmadilemanteater/astro-logic-components'
+import type { SocialPost, Media } from '@marmadilemanteater/dataservice/social-posts'
+import Time from '../time.astro'
+import Emoji from '../emoji.astro'
+// @ts-ignore
+import { JSDOM } from 'jsdom'
+
+interface Props {
+  post: SocialPost,
+  truncateLongPost?: Boolean
+}
+
+function getGridArea(mediaType: String, index: number, length: number) {
+  // always maximize grid area if there is only 1 media item
+  if (length === 1)
+    return 'image3'
+  return `${mediaType}${index}`
+}
+
+const { post, truncateLongPost = true }: Props = Astro.props
+
+let { handle, platformUrl } = post
+let siteName = ''
+let icon = post.platformUrl.indexOf('gamemaking.social') !== -1 ? '🐘' : 
+        post.platformUrl.indexOf('pxlmo.com') !== -1 ? '📷' :
+        post.platformUrl.indexOf('programming.dev') !== -1 ? '🐀' :
+        post.platformUrl.indexOf('marmadilemanteater.dev') !== -1 ? '📝' :
+        post.platformUrl.indexOf('itch.io') !== -1 ? '🕹' :
+        post.platformUrl.indexOf('opengameart.org') !== -1 ? '🎨' :
+        ''
+if (post.handle.indexOf(' on ') !== -1) {
+  const [name, site] = post.handle.split(' on ')
+  handle = name
+  siteName = site
+}
+if (platformUrl.startsWith('https://marmadilemanteater.itch.io')) {
+  platformUrl = 'https://itch.io'
+}
+const descriptionText = post.description.replace(/<\/*?[^>]*?>/g, '')
+const truncateContent = truncateLongPost && descriptionText.length > 250 && post.media[0].url !== undefined || platformUrl.startsWith('https://opengameart.org')
+const showTitle = !post.title.endsWith('...') && !descriptionText.startsWith(post.title)
+const images = post.media.filter((item: Media) => item.url !== undefined && !item.url.endsWith('mp4'))
+const videos = post.media.filter((item: Media) => item.url !== undefined && item.url.endsWith('mp4'))
+if (platformUrl.startsWith('https://opengameart.org')) {
+  // hacky way to make preview image the media associated with the post
+  const dom = new JSDOM(post.content)
+  const thumbnail = dom.window.document.querySelector('span.file img:first-child')
+  images.push({
+    mimeType: 'image/png',
+    medium: 'image',
+    url: thumbnail.getAttribute('src'),
+    alt: thumbnail.getAttribute('alt')
+  } as Media)
+}
+---
+<div>
+  <article 
+    class='social-post border-when-light break-on-tablet'
+    data-length={truncateContent ? 'long' : 'short'}
+    data-platform={platformUrl}
+    >
+    <div class='content'>
+      <div class='author'>
+        <If condition={siteName === ''}>
+          <Emoji emoji={icon} />
+        </If>
+        <a href={post.authorUrl}>{handle}</a>
+        <If condition={siteName !== ''}> on <a href={platformUrl}><Emoji emoji={icon} />{siteName}</a></If>
+      </div>
+      <em><Time datetime={new Date(post.date)} displayUTCTime /></em>
+      <If condition={showTitle}><h3>{post.title}</h3></If>
+      <summary><Emoji><Fragment set:html={post.description} /></Emoji></summary>
+      <If condition={truncateContent}>
+        <div class='show-more-button'>
+          <a href={post.originalUrl}>Show more &raquo;</a></div>
+      </If>
+    </div>
+    <div class='media-gallery'>
+      <If condition={images.length > 0} >
+        <div class='images' data-grid={images.length > 1 ? 'true' : 'false'}>
+          <Foreach
+            list={images}
+          >
+          {(media: Media, i: number) => {
+            let url = media.url
+            try {
+              url = new URL(media.url).pathname
+            } catch {
+
+            }
+            return <a href={url}
+                  data-grid-area={getGridArea('image', i + 1, images.length)} >
+                  <img 
+                    src={`${url}.webp`}
+                    alt={media.alt?media.alt:descriptionText}
+                    title={media.alt?media.alt:descriptionText} />
+                </a>
+          }}
+          </Foreach>
+        </div>
+      </If>
+      <If condition={videos.length > 0} >
+        <div class='videos' data-grid={videos.length > 1 ? 'true' : 'false'}>
+          <Foreach
+            list={videos}
+          >
+            {(media: Media, i: number) => {
+              let url = media.url
+              try {
+                url = new URL(media.url).pathname
+              } catch {
+
+              }
+              return <video 
+                  controls
+                  data-grid-area={getGridArea('video', i + 1, post.media.length)} 
+                  src={url} />
+            }}
+          </Foreach>
+        </div>
+      </If>
+    </div>
+    <footer>
+      <a href={post.originalUrl}><Emoji emoji='🔗' /> Permalink</a>
+    </footer>
+  </article>
+</div>
+<style lang='less' is:global>
+  @import url('../../variables.less');
+  article.social-post {
+    break-inside: avoid-column;
+    width: 320px;
+    box-sizing: border-box;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+    background-color: @bg-light-1;
+    @media (prefers-color-scheme: dark) {
+      background-color: @bg-dark-2;
+    }
+    @media (max-width: @lg-breakpoint) {
+      width: 100%;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+  }
+  article.social-post[data-length="long"] .content {
+    max-height: 200px;
+    overflow: hidden;
+    @media (max-width: @lg-breakpoint) {
+      max-height: 100%;
+    }
+  }
+
+  article.social-post[data-length="long"] .content .show-more-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(#ffffff00,#000000ff);
+    height: 120px;
+    width: 100%;
+    @media (max-width: @lg-breakpoint) {
+      display: none;    
+    }
+    @media (prefers-color-scheme: light) {
+      background: linear-gradient(#ffffff00, #e1e1e1);
+    }
+  }
+  article.social-post[data-length="long"] .content .show-more-button a {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+    color: white;
+    @media (prefers-color-scheme: light) {
+      color: black;
+    }
+  }
+  
+  article.social-post[data-platform="https://opengameart.org"] .media-gallery {
+    @media (max-width: @lg-breakpoint) {
+      /* 
+        opengameart posts display their main image in the media gallery, 
+        but it is also in the content, 
+        so this de-duplicates them 
+      */
+      display: none;
+    }
+  }
+
+  article.social-post div.author {
+    margin-block-start: 0.75em;
+    margin-block-end: 0.75em;
+  }
+  article.social-post div.author,
+  article.social-post time {
+    font-size: 0.85em;
+    color: @date-text-light;
+    @media (prefers-color-scheme: dark) {
+      color: @date-text-dark;
+    }
+  }
+  article.social-post time {
+  }
+  article.social-post .content {
+    padding: 0.75em;
+    padding-top: 0.5em;
+    padding-bottom: 0;
+    position: relative;
+    z-index: 0;
+  }
+  article.social-post summary {
+    margin-top: 1em;
+    margin-bottom: 1.25em;
+  }
+
+  article.social-post summary p {
+    break-inside: avoid-column;
+    margin-bottom: 0;
+  }
+
+  article.social-post summary a {
+    word-wrap: break-word;
+  }
+
+  article.social-post summary p:first-child {
+    margin-top: 0.75em;
+  }
+  article.social-post footer {
+    font-size: 0.8em;
+    padding: 0.75em;
+    position: relative;
+    z-index: 1;
+    background-color: @bg-light-2;
+    @media (prefers-color-scheme: dark) {
+      background-color: @bg-dark-1;
+    }
+  }
+  article.social-post .media-gallery a[data-grid-area="image1"] {
+    grid-area: image1;
+  }
+  article.social-post .media-gallery a[data-grid-area="image1"] img,
+  article.social-post .media-gallery a[data-grid-area="image2"] img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    @media (max-width: @lg-breakpoint) {
+      width: auto;
+      height: auto;
+    }
+  }
+  a[data-grid-area="image2"] {
+    grid-area: image2;
+  }
+  article.social-post .media-gallery a[data-grid-area="image3"] {
+    grid-area: image3;
+  }
+  article.social-post .media-gallery video[data-grid-area="video1"] {
+    grid-area: video1;
+  }
+  article.social-post .media-gallery video[data-grid-area="video1"] {
+    grid-area: video2;
+  }
+  @media (min-width: @lg-breakpoint) {
+    article.social-post .media-gallery a:last-child:not([data-grid-area="image2"]) {
+      max-height: 250px;
+      overflow: hidden;
+    }
+  }
+  article.social-post .media-gallery .videos {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3px;
+    display: grid;
+    grid: 'video1 video1'
+          'video2 video2';
+  }
+  article.social-post .media-gallery .images {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3px;
+    display: grid;
+    grid: 'image1 image2' 'image3 image3' 'image3 image3';
+  }
+  article.social-post .media-gallery .images[data-grid="false"],
+  article.social-post .media-gallery .videos[data-grid="false"] {
+    display: flex;
+    flex-direction: column;
+  }
+  article.social-post .media-gallery {
+    text-align: center;
+    background-color: black;
+  }
+  article.social-post .media-gallery [data-grid="true"] img,
+  article.social-post .media-gallery [data-grid="true"] video {
+    max-width: 100% !important;
+  }
+  article.social-post summary img  {
+    max-width: 100% !important;
+  }
+</style>

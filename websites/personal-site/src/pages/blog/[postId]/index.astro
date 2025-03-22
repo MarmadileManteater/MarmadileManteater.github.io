@@ -1,0 +1,214 @@
+---
+import './styles.less'
+import { If } from '@marmadilemanteater/astro-logic-components'
+import MasterTemplate from '../../../layouts/master.astro'
+import Emoji from '../../../components/emoji.astro'
+import TagList from '../../../components/tag-list/tag-list.astro'
+import { blogPostRepository, allTags } from '../../../dataservice'
+import { formatShortDate, formatLongDate } from '../../../helpers'
+
+export const postIds = await blogPostRepository.getAllIds()
+
+export function getStaticPaths() {
+  return postIds.map((postId) => {
+    return { 
+      params: {
+        postId
+      }
+    }
+  })
+}
+
+const { postId } = Astro.params
+const post = await blogPostRepository.getBlogPost(postId)
+const date = new Date(post.gitDate)
+const usesTailwind = date.getTime() < new Date('2023-10-01').getTime()
+const postTags = allTags.filter((tag) => post.tags.indexOf(tag.name) !== -1)
+const shortDate = formatShortDate(date)
+const longDate = formatLongDate(date)
+---
+
+<MasterTemplate title={post.title} pathname='/blog/[postId]/'>
+  <article class='card-top blog-post border-when-light tnb-on-tablet'>
+    <h1><Emoji>{post.title}</Emoji></h1>
+    <If condition={postTags.length !== 0}>
+      <TagList tags={postTags} />
+    </If>
+    <p class='date-text'><em>Last updated: <time datetime={shortDate}>{longDate}</time></em></p>
+    <div class='content'><Emoji><Fragment set:html={post.html} /></Emoji></div>
+  </article>
+  <If condition={usesTailwind} >
+    <style is:inline>
+      article.blog-post pre,
+      article.blog-post h3,
+      article.blog-post h4,
+      article.blog-post p:not(.tag-list, .date-text),
+      article.blog-post ul {
+        margin: 0;
+        font-weight: normal;
+      }
+      article.blog-post pre {
+        padding-top: 0;
+        padding-bottom: 0.5em;
+        margin-bottom: 3.5em;
+        top: 1.5em;
+        position: relative;
+      }
+      pre + h4 + pre:last-of-type {
+        margin-bottom: 1em;
+      }
+      /** prebaked tailwind which only covers the classes used within my blog posts up until Sept 2023 */
+      .visible {
+        visibility: visible;
+      }
+      .static {
+        position: static;
+      }
+      .fixed {
+        position: fixed;
+      }
+      .mb-4 {
+        margin-bottom: 1rem;
+      }
+      .mb-\[50px\] {
+        margin-bottom: 50px;
+      }
+      .mt-\[-15px\] {
+        margin-top: -15px;
+      }
+      .mt-\[-40px\] {
+        margin-top: -60px !important;
+      }
+      .flex {
+        display: flex;
+      }
+      .grid {
+        display: grid;
+      }
+      .h-\[100px\] {
+        height: 100px;
+      }
+      .h-\[220px\] {
+        height: 220px;
+      }
+      .h-\[300px\] {
+        height: 300px;
+      }
+      .max-w-full {
+        max-width: 100%;
+      }
+      .list-disc {
+        list-style-type: disc;
+      }
+      .flex-col {
+        flex-direction: column;
+      }
+      .justify-center {
+        justify-content: center;
+      }
+      .justify-between {
+        justify-content: space-between;
+      }
+      .self-center {
+        align-self: center;
+      }
+      .overflow-hidden {
+        overflow: hidden;
+      }
+      .bg-black {
+        --tw-bg-opacity: 1;
+        background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+      }
+      .pb-1 {
+        padding-bottom: 0.25rem;
+      }
+      .pb-4 {
+        padding-bottom: 1rem;
+      }
+      .pb-6 {
+        padding-bottom: 1.5rem;
+      }
+      .pl-5 {
+        padding-left: 1.25rem;
+      }
+      .pt-4 {
+        padding-top: 1rem;
+      }
+      .pt-6 {
+        padding-top: 1.5rem;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+      .text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+      }
+      .text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
+      .text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+      .font-bold {
+        font-weight: 700;
+      }
+      .text-blue-600 {
+        --tw-text-opacity: 1;
+        color: rgb(37 99 235 / var(--tw-text-opacity));
+      }
+      .text-red-600 {
+        --tw-text-opacity: 1;
+        color: rgb(220 38 38 / var(--tw-text-opacity));
+      }
+      .text-zinc-600 {
+        --tw-text-opacity: 1;
+        color: rgb(82 82 91 / var(--tw-text-opacity));
+      }
+      .shadow {
+        --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+        --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+      }
+      .filter {
+        filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+      }
+      .hover\:underline:hover {
+        text-decoration-line: underline;
+      }
+      @media (prefers-color-scheme: dark) {
+        .dark\:text-red-300 {
+              --tw-text-opacity: 1;
+              color: rgb(252 165 165 / var(--tw-text-opacity));
+        }
+        .dark\:text-red-400 {
+              --tw-text-opacity: 1;
+              color: rgb(248 113 113 / var(--tw-text-opacity));
+        }
+        .dark\:text-zinc-400 {
+              --tw-text-opacity: 1;
+              color: rgb(161 161 170 / var(--tw-text-opacity));
+        }
+      }
+      @media (min-width: 768px) {
+        .md\:mb-0 {
+              margin-bottom: 0px;
+        }
+        .md\:h-\[300px\] {
+              height: 300px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .lg\:flex {
+              display: flex;
+        }
+      }
+    </style>
+  </If>
+</MasterTemplate>

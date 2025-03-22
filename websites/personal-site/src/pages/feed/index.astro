@@ -1,0 +1,15 @@
+---
+import { getSocialPosts } from '@marmadilemanteater/dataservice/social-posts'
+import SocialPostList from '../../components/social-post-list/social-post-list.astro'
+import MasterTemplate from '../../layouts/master.astro'
+import Pagination from '../../components/pagination/pagination.astro'
+import { PAGE_LENGTH, PAGE_NUMS } from './[pageNum]/index.astro'
+
+const socialPosts = await getSocialPosts(0, PAGE_LENGTH, `${Astro.url.protocol}//${Astro.url.host}/`)
+
+---
+
+<MasterTemplate title="Social Feed">
+  <SocialPostList {socialPosts} />
+  <Pagination pageNums={PAGE_NUMS} currentPage={0} baseLink='/feed' />
+</MasterTemplate>

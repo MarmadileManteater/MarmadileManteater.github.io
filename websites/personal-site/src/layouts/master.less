@@ -1,0 +1,149 @@
+@import url('../variables.less');
+@import url('../utility.less');
+body {
+  margin: 0;
+  background-attachment: fixed;
+  background-image: url(/images/sno-who-knows-light.png);
+  background-size: 820px;
+  font-size: 1.05em;
+  font-family: system-ui,
+              -apple-system,
+              BlinkMacSystemFont,
+              'Segoe UI',
+              Roboto,
+              Oxygen,
+              Ubuntu,
+              Cantarell,
+              'Open Sans',
+              'Helvetica Neue',
+              sans-serif;
+  animation: animatedBackground 15s linear infinite;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;
+  color: black;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  @media (prefers-color-scheme: dark) {
+    background-color: black;
+    background-image: url(/images/sno-who-knows.png);
+    color: white;
+  }
+}
+body::before {
+  content: ' ';
+  background-image: url(/images/sno-who-knows-light.png);
+  @media (prefers-color-scheme: dark) {
+    background-image: url(/images/sno-who-knows.png);
+  }
+  background-size: 410px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  animation: animatedBackground 23s linear infinite;
+  z-index: -1;
+}
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 5px 410px;
+  }
+  100% {
+    background-position: 0px 820px;
+  }
+}
+@keyframes animatedBackground2 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -10px 205px;
+  }
+  100% {
+    background-position: 0px 410px;
+  }
+}
+a, a:visited {
+  color: @link-light;
+  text-decoration: none;
+  @media (prefers-color-scheme: dark) {
+    color: @link-dark;
+  }
+}
+a:hover {
+  text-decoration: underline;
+}
+.border-when-light {
+  @media (prefers-color-scheme: light) {
+    border: 1px solid black;
+  }
+  &.break-on-tablet {
+    @media (max-width: @lg-breakpoint) {
+      border: none;
+    }
+  }
+
+  &.tnb-on-tablet {
+    @media (max-width: @lg-breakpoint) {
+      border: none;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+  }
+  
+  &.break-on-mobile {
+    @media (max-width: @md-breakpoint) {
+      border: none;
+    }
+  }
+}
+.card {
+  background-color: @bg-light-1;
+  padding: 1em;
+  @media (prefers-color-scheme: dark) {
+    background-color: @bg-dark-1;
+  }
+}
+.card-top {
+  overflow: hidden;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+.card-top.break-on-mobile {
+  @media (max-width: @md-breakpoint) {
+    border-radius: 0;
+  }
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header-image {
+  max-width: 100%;
+  filter: invert(1) hue-rotate(29deg) brightness(1.3);
+  @media (prefers-color-scheme: dark) {
+    filter: none;
+  }
+}
+.emoji {
+  margin-top: -2px;
+}
+.emoji[src^="/images/emoji/twemoji/"] {
+  /* add a drop shadow to all twemoji emoji */
+  filter: drop-shadow(1.5px 0px 0px black) 
+  drop-shadow(0px 1.5px 0px black) 
+  drop-shadow(1.5px 1.5px 0px black) 
+  drop-shadow(-1.5px -1.5px 0px black);
+}
+#pre-footer {
+  flex-grow: 1;
+}
+.nowrap {
+  white-space: nowrap;
+}

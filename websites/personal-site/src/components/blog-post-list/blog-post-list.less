@@ -1,0 +1,34 @@
+@import url(../../variables.less);
+
+.blog-post-list {
+  display: flex;
+  flex-direction: column;
+}
+article {
+  padding: 1em;
+  background-color: @bg-light-2;
+  @media (prefers-color-scheme: dark) {
+    background-color: @bg-dark-2;
+  }
+}
+article[data-even="true"] {
+  background-color: @bg-light-1;
+  @media (prefers-color-scheme: dark) {
+    background-color: @bg-dark-1;
+  }
+}
+article .tag-list {
+  margin-bottom: 1em;
+}
+article h1 {
+  font-size: 1.35em;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}
+article .date-text {
+  margin-bottom: 0.5em;
+  color: @date-text-light;
+  @media (prefers-color-scheme: dark) {
+    color: @date-text-dark;
+  }
+}

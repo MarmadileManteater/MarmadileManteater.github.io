@@ -1,0 +1,59 @@
+
+@import url('../../variables.less');
+
+.profile {
+  width: 320px;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+  background-color: @bg-light-1;
+  @media (prefers-color-scheme: dark) {
+    background-color: @bg-dark-2;
+  }
+  @media (max-width: @lg-breakpoint) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+  }
+}
+
+.profile a.rss-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 10px;
+  padding: 12px;
+  color: white;
+  background-color: @button-light;
+  @media (prefers-color-scheme: dark) {
+    background-color: @tag-dark;
+  }
+}
+
+.profile-pic {
+  border-radius: 50%;
+  position: absolute;
+  left: 15px;
+  top: 20px;
+}
+
+.banner {
+  margin-bottom: 1em;
+  min-height: 100px;
+}
+
+.profile .content {
+  padding: 1em;
+  padding-top: 0;
+}
+
+.profile .content p {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.profile .content p:first-child {
+  margin-bottom: -0.5em;
+}

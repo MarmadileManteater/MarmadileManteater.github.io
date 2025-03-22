@@ -1,0 +1,24 @@
+---
+import Emoji from '../emoji.astro'
+// @ts-expect-error
+import portrait from '../../../../../packages/static-data/public/images/profile-pic.png?w=100&h=100&format=webp'
+// @ts-expect-error
+import background from '../../../../../packages/static-data/public/media/opengameart.org/sites/default/files/preview3_22.png?w=320&h=100&format=webp'
+import './styles.less'
+---
+
+<div class='profile border-when-light'>
+  <img src={background} class='banner' />
+  <img src={portrait} class='profile-pic' />
+  <a href='/feed/feed.xml' class='rss-link'><Emoji emoji='📰' />&nbsp;rss</a>
+  <div class='content'>
+    <p><strong>Emma {'<MarmadileManteater>'}</strong></p>
+
+    <p><Emoji emoji="🔥" /> <em>( she / her / hers )</em>&nbsp; <Emoji emoji="🏳️‍⚧️" /> <br/>
+
+    Jill of all trades <Emoji emoji="🧙‍♀️" /> & <br/>
+
+    a master of JavaScript <Emoji emoji="🙃" /></p>
+  </div>
+</div>
+

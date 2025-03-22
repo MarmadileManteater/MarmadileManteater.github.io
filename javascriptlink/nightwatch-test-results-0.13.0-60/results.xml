@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="nightwatch-tests"
+    errors="0" failures="0" hostname="" id="" package="nightwatch-tests" skipped="0"
+    tests="3" time="22.80" timestamp="">
+  
+    <testcase name="Is the generated HTML valid?" classname="nightwatch-tests" time="0.005000" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Do the page logs match what should be expected given the example folder?" classname="nightwatch-tests" time="22.47" assertions="30">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Http(s) request should throw a meaningful error when it is used from the local filesystem" classname="nightwatch-tests" time="0.3250" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

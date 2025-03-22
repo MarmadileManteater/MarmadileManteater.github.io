@@ -1,0 +1,7415 @@
+{
+  "😀": {
+    "unicode": "1f600",
+    "name": "grinning face"
+  },
+  "😃": {
+    "unicode": "1f603",
+    "name": "grinning face with big eyes"
+  },
+  "😄": {
+    "unicode": "1f604",
+    "name": "grinning face with smiling eyes"
+  },
+  "😁": {
+    "unicode": "1f601",
+    "name": "beaming face with smiling eyes"
+  },
+  "😆": {
+    "unicode": "1f606",
+    "name": "grinning squinting face"
+  },
+  "😅": {
+    "unicode": "1f605",
+    "name": "grinning face with sweat"
+  },
+  "🤣": {
+    "unicode": "1f923",
+    "name": "rolling on the floor laughing"
+  },
+  "😂": {
+    "unicode": "1f602",
+    "name": "face with tears of joy"
+  },
+  "🙂": {
+    "unicode": "1f642",
+    "name": "slightly smiling face"
+  },
+  "🙃": {
+    "unicode": "1f643",
+    "name": "upside-down face"
+  },
+  "🫠": {
+    "unicode": "1fae0",
+    "name": "⊛ melting face"
+  },
+  "😉": {
+    "unicode": "1f609",
+    "name": "winking face"
+  },
+  "😊": {
+    "unicode": "1f60a",
+    "name": "smiling face with smiling eyes"
+  },
+  "😇": {
+    "unicode": "1f607",
+    "name": "smiling face with halo"
+  },
+  "🥰": {
+    "unicode": "1f970",
+    "name": "smiling face with hearts"
+  },
+  "😍": {
+    "unicode": "1f60d",
+    "name": "smiling face with heart-eyes"
+  },
+  "🤩": {
+    "unicode": "1f929",
+    "name": "star-struck"
+  },
+  "😘": {
+    "unicode": "1f618",
+    "name": "face blowing a kiss"
+  },
+  "😗": {
+    "unicode": "1f617",
+    "name": "kissing face"
+  },
+  "☺": {
+    "unicode": "263a",
+    "name": "smiling face"
+  },
+  "😚": {
+    "unicode": "1f61a",
+    "name": "kissing face with closed eyes"
+  },
+  "😙": {
+    "unicode": "1f619",
+    "name": "kissing face with smiling eyes"
+  },
+  "🥲": {
+    "unicode": "1f972",
+    "name": "smiling face with tear"
+  },
+  "😋": {
+    "unicode": "1f60b",
+    "name": "face savoring food"
+  },
+  "😛": {
+    "unicode": "1f61b",
+    "name": "face with tongue"
+  },
+  "😜": {
+    "unicode": "1f61c",
+    "name": "winking face with tongue"
+  },
+  "🤪": {
+    "unicode": "1f92a",
+    "name": "zany face"
+  },
+  "😝": {
+    "unicode": "1f61d",
+    "name": "squinting face with tongue"
+  },
+  "🤑": {
+    "unicode": "1f911",
+    "name": "money-mouth face"
+  },
+  "🤗": {
+    "unicode": "1f917",
+    "name": "smiling face with open hands"
+  },
+  "🤭": {
+    "unicode": "1f92d",
+    "name": "face with hand over mouth"
+  },
+  "🫢": {
+    "unicode": "1fae2",
+    "name": "⊛ face with open eyes and hand over mouth"
+  },
+  "🫣": {
+    "unicode": "1fae3",
+    "name": "⊛ face with peeking eye"
+  },
+  "🤫": {
+    "unicode": "1f92b",
+    "name": "shushing face"
+  },
+  "🤔": {
+    "unicode": "1f914",
+    "name": "thinking face"
+  },
+  "🫡": {
+    "unicode": "1fae1",
+    "name": "⊛ saluting face"
+  },
+  "🤐": {
+    "unicode": "1f910",
+    "name": "zipper-mouth face"
+  },
+  "🤨": {
+    "unicode": "1f928",
+    "name": "face with raised eyebrow"
+  },
+  "😐": {
+    "unicode": "1f610",
+    "name": "neutral face"
+  },
+  "😑": {
+    "unicode": "1f611",
+    "name": "expressionless face"
+  },
+  "😶": {
+    "unicode": "1f636",
+    "name": "face without mouth"
+  },
+  "🫥": {
+    "unicode": "1fae5",
+    "name": "⊛ dotted line face"
+  },
+  "😶‍🌫️": {
+    "unicode": "1f636-200d-1f32b-fe0f",
+    "name": "face in clouds"
+  },
+  "😏": {
+    "unicode": "1f60f",
+    "name": "smirking face"
+  },
+  "😒": {
+    "unicode": "1f612",
+    "name": "unamused face"
+  },
+  "🙄": {
+    "unicode": "1f644",
+    "name": "face with rolling eyes"
+  },
+  "😬": {
+    "unicode": "1f62c",
+    "name": "grimacing face"
+  },
+  "😮‍💨": {
+    "unicode": "1f62e-200d-1f4a8",
+    "name": "face exhaling"
+  },
+  "🤥": {
+    "unicode": "1f925",
+    "name": "lying face"
+  },
+  "😌": {
+    "unicode": "1f60c",
+    "name": "relieved face"
+  },
+  "😔": {
+    "unicode": "1f614",
+    "name": "pensive face"
+  },
+  "😪": {
+    "unicode": "1f62a",
+    "name": "sleepy face"
+  },
+  "🤤": {
+    "unicode": "1f924",
+    "name": "drooling face"
+  },
+  "😴": {
+    "unicode": "1f634",
+    "name": "sleeping face"
+  },
+  "😷": {
+    "unicode": "1f637",
+    "name": "face with medical mask"
+  },
+  "🤒": {
+    "unicode": "1f912",
+    "name": "face with thermometer"
+  },
+  "🤕": {
+    "unicode": "1f915",
+    "name": "face with head-bandage"
+  },
+  "🤢": {
+    "unicode": "1f922",
+    "name": "nauseated face"
+  },
+  "🤮": {
+    "unicode": "1f92e",
+    "name": "face vomiting"
+  },
+  "🤧": {
+    "unicode": "1f927",
+    "name": "sneezing face"
+  },
+  "🥵": {
+    "unicode": "1f975",
+    "name": "hot face"
+  },
+  "🥶": {
+    "unicode": "1f976",
+    "name": "cold face"
+  },
+  "🥴": {
+    "unicode": "1f974",
+    "name": "woozy face"
+  },
+  "😵": {
+    "unicode": "1f635",
+    "name": "face with crossed-out eyes"
+  },
+  "😵‍💫": {
+    "unicode": "1f635-200d-1f4ab",
+    "name": "face with spiral eyes"
+  },
+  "🤯": {
+    "unicode": "1f92f",
+    "name": "exploding head"
+  },
+  "🤠": {
+    "unicode": "1f920",
+    "name": "cowboy hat face"
+  },
+  "🥳": {
+    "unicode": "1f973",
+    "name": "partying face"
+  },
+  "🥸": {
+    "unicode": "1f978",
+    "name": "disguised face"
+  },
+  "😎": {
+    "unicode": "1f60e",
+    "name": "smiling face with sunglasses"
+  },
+  "🤓": {
+    "unicode": "1f913",
+    "name": "nerd face"
+  },
+  "🧐": {
+    "unicode": "1f9d0",
+    "name": "face with monocle"
+  },
+  "😕": {
+    "unicode": "1f615",
+    "name": "confused face"
+  },
+  "🫤": {
+    "unicode": "1fae4",
+    "name": "⊛ face with diagonal mouth"
+  },
+  "😟": {
+    "unicode": "1f61f",
+    "name": "worried face"
+  },
+  "🙁": {
+    "unicode": "1f641",
+    "name": "slightly frowning face"
+  },
+  "☹": {
+    "unicode": "2639",
+    "name": "frowning face"
+  },
+  "😮": {
+    "unicode": "1f62e",
+    "name": "face with open mouth"
+  },
+  "😯": {
+    "unicode": "1f62f",
+    "name": "hushed face"
+  },
+  "😲": {
+    "unicode": "1f632",
+    "name": "astonished face"
+  },
+  "😳": {
+    "unicode": "1f633",
+    "name": "flushed face"
+  },
+  "🥺": {
+    "unicode": "1f97a",
+    "name": "pleading face"
+  },
+  "🥹": {
+    "unicode": "1f979",
+    "name": "⊛ face holding back tears"
+  },
+  "😦": {
+    "unicode": "1f626",
+    "name": "frowning face with open mouth"
+  },
+  "😧": {
+    "unicode": "1f627",
+    "name": "anguished face"
+  },
+  "😨": {
+    "unicode": "1f628",
+    "name": "fearful face"
+  },
+  "😰": {
+    "unicode": "1f630",
+    "name": "anxious face with sweat"
+  },
+  "😥": {
+    "unicode": "1f625",
+    "name": "sad but relieved face"
+  },
+  "😢": {
+    "unicode": "1f622",
+    "name": "crying face"
+  },
+  "😭": {
+    "unicode": "1f62d",
+    "name": "loudly crying face"
+  },
+  "😱": {
+    "unicode": "1f631",
+    "name": "face screaming in fear"
+  },
+  "😖": {
+    "unicode": "1f616",
+    "name": "confounded face"
+  },
+  "😣": {
+    "unicode": "1f623",
+    "name": "persevering face"
+  },
+  "😞": {
+    "unicode": "1f61e",
+    "name": "disappointed face"
+  },
+  "😓": {
+    "unicode": "1f613",
+    "name": "downcast face with sweat"
+  },
+  "😩": {
+    "unicode": "1f629",
+    "name": "weary face"
+  },
+  "😫": {
+    "unicode": "1f62b",
+    "name": "tired face"
+  },
+  "🥱": {
+    "unicode": "1f971",
+    "name": "yawning face"
+  },
+  "😤": {
+    "unicode": "1f624",
+    "name": "face with steam from nose"
+  },
+  "😡": {
+    "unicode": "1f621",
+    "name": "pouting face"
+  },
+  "😠": {
+    "unicode": "1f620",
+    "name": "angry face"
+  },
+  "🤬": {
+    "unicode": "1f92c",
+    "name": "face with symbols on mouth"
+  },
+  "😈": {
+    "unicode": "1f608",
+    "name": "smiling face with horns"
+  },
+  "👿": {
+    "unicode": "1f47f",
+    "name": "angry face with horns"
+  },
+  "💀": {
+    "unicode": "1f480",
+    "name": "skull"
+  },
+  "☠": {
+    "unicode": "2620",
+    "name": "skull and crossbones"
+  },
+  "💩": {
+    "unicode": "1f4a9",
+    "name": "pile of poo"
+  },
+  "🤡": {
+    "unicode": "1f921",
+    "name": "clown face"
+  },
+  "👹": {
+    "unicode": "1f479",
+    "name": "ogre"
+  },
+  "👺": {
+    "unicode": "1f47a",
+    "name": "goblin"
+  },
+  "👻": {
+    "unicode": "1f47b",
+    "name": "ghost"
+  },
+  "👽": {
+    "unicode": "1f47d",
+    "name": "alien"
+  },
+  "👾": {
+    "unicode": "1f47e",
+    "name": "alien monster"
+  },
+  "🤖": {
+    "unicode": "1f916",
+    "name": "robot"
+  },
+  "😺": {
+    "unicode": "1f63a",
+    "name": "grinning cat"
+  },
+  "😸": {
+    "unicode": "1f638",
+    "name": "grinning cat with smiling eyes"
+  },
+  "😹": {
+    "unicode": "1f639",
+    "name": "cat with tears of joy"
+  },
+  "😻": {
+    "unicode": "1f63b",
+    "name": "smiling cat with heart-eyes"
+  },
+  "😼": {
+    "unicode": "1f63c",
+    "name": "cat with wry smile"
+  },
+  "😽": {
+    "unicode": "1f63d",
+    "name": "kissing cat"
+  },
+  "🙀": {
+    "unicode": "1f640",
+    "name": "weary cat"
+  },
+  "😿": {
+    "unicode": "1f63f",
+    "name": "crying cat"
+  },
+  "😾": {
+    "unicode": "1f63e",
+    "name": "pouting cat"
+  },
+  "🙈": {
+    "unicode": "1f648",
+    "name": "see-no-evil monkey"
+  },
+  "🙉": {
+    "unicode": "1f649",
+    "name": "hear-no-evil monkey"
+  },
+  "🙊": {
+    "unicode": "1f64a",
+    "name": "speak-no-evil monkey"
+  },
+  "💋": {
+    "unicode": "1f48b",
+    "name": "kiss mark"
+  },
+  "💌": {
+    "unicode": "1f48c",
+    "name": "love letter"
+  },
+  "💘": {
+    "unicode": "1f498",
+    "name": "heart with arrow"
+  },
+  "💝": {
+    "unicode": "1f49d",
+    "name": "heart with ribbon"
+  },
+  "💖": {
+    "unicode": "1f496",
+    "name": "sparkling heart"
+  },
+  "💗": {
+    "unicode": "1f497",
+    "name": "growing heart"
+  },
+  "💓": {
+    "unicode": "1f493",
+    "name": "beating heart"
+  },
+  "💞": {
+    "unicode": "1f49e",
+    "name": "revolving hearts"
+  },
+  "💕": {
+    "unicode": "1f495",
+    "name": "two hearts"
+  },
+  "💟": {
+    "unicode": "1f49f",
+    "name": "heart decoration"
+  },
+  "❣": {
+    "unicode": "2763",
+    "name": "heart exclamation"
+  },
+  "💔": {
+    "unicode": "1f494",
+    "name": "broken heart"
+  },
+  "❤️‍🔥": {
+    "unicode": "2764-fe0f-200d-1f525",
+    "name": "heart on fire"
+  },
+  "❤️‍🩹": {
+    "unicode": "2764-fe0f-200d-1fa79",
+    "name": "mending heart"
+  },
+  "❤": {
+    "unicode": "2764",
+    "name": "red heart"
+  },
+  "🧡": {
+    "unicode": "1f9e1",
+    "name": "orange heart"
+  },
+  "💛": {
+    "unicode": "1f49b",
+    "name": "yellow heart"
+  },
+  "💚": {
+    "unicode": "1f49a",
+    "name": "green heart"
+  },
+  "💙": {
+    "unicode": "1f499",
+    "name": "blue heart"
+  },
+  "💜": {
+    "unicode": "1f49c",
+    "name": "purple heart"
+  },
+  "🤎": {
+    "unicode": "1f90e",
+    "name": "brown heart"
+  },
+  "🖤": {
+    "unicode": "1f5a4",
+    "name": "black heart"
+  },
+  "🤍": {
+    "unicode": "1f90d",
+    "name": "white heart"
+  },
+  "💯": {
+    "unicode": "1f4af",
+    "name": "hundred points"
+  },
+  "💢": {
+    "unicode": "1f4a2",
+    "name": "anger symbol"
+  },
+  "💥": {
+    "unicode": "1f4a5",
+    "name": "collision"
+  },
+  "💫": {
+    "unicode": "1f4ab",
+    "name": "dizzy"
+  },
+  "💦": {
+    "unicode": "1f4a6",
+    "name": "sweat droplets"
+  },
+  "💨": {
+    "unicode": "1f4a8",
+    "name": "dashing away"
+  },
+  "🕳": {
+    "unicode": "1f573",
+    "name": "hole"
+  },
+  "💣": {
+    "unicode": "1f4a3",
+    "name": "bomb"
+  },
+  "💬": {
+    "unicode": "1f4ac",
+    "name": "speech balloon"
+  },
+  "👁️‍🗨️": {
+    "unicode": "1f441-fe0f-200d-1f5e8-fe0f",
+    "name": "eye in speech bubble"
+  },
+  "🗨": {
+    "unicode": "1f5e8",
+    "name": "left speech bubble"
+  },
+  "🗯": {
+    "unicode": "1f5ef",
+    "name": "right anger bubble"
+  },
+  "💭": {
+    "unicode": "1f4ad",
+    "name": "thought balloon"
+  },
+  "💤": {
+    "unicode": "1f4a4",
+    "name": "zzz"
+  },
+  "👋": {
+    "unicode": "1f44b",
+    "name": "waving hand"
+  },
+  "🤚": {
+    "unicode": "1f91a",
+    "name": "raised back of hand"
+  },
+  "🖐": {
+    "unicode": "1f590",
+    "name": "hand with fingers splayed"
+  },
+  "✋": {
+    "unicode": "270b",
+    "name": "raised hand"
+  },
+  "🖖": {
+    "unicode": "1f596",
+    "name": "vulcan salute"
+  },
+  "🫱": {
+    "unicode": "1faf1",
+    "name": "⊛ rightwards hand"
+  },
+  "🫲": {
+    "unicode": "1faf2",
+    "name": "⊛ leftwards hand"
+  },
+  "🫳": {
+    "unicode": "1faf3",
+    "name": "⊛ palm down hand"
+  },
+  "🫴": {
+    "unicode": "1faf4",
+    "name": "⊛ palm up hand"
+  },
+  "👌": {
+    "unicode": "1f44c",
+    "name": "OK hand"
+  },
+  "🤌": {
+    "unicode": "1f90c",
+    "name": "pinched fingers"
+  },
+  "🤏": {
+    "unicode": "1f90f",
+    "name": "pinching hand"
+  },
+  "✌": {
+    "unicode": "270c",
+    "name": "victory hand"
+  },
+  "🤞": {
+    "unicode": "1f91e",
+    "name": "crossed fingers"
+  },
+  "🫰": {
+    "unicode": "1faf0",
+    "name": "⊛ hand with index finger and thumb crossed"
+  },
+  "🤟": {
+    "unicode": "1f91f",
+    "name": "love-you gesture"
+  },
+  "🤘": {
+    "unicode": "1f918",
+    "name": "sign of the horns"
+  },
+  "🤙": {
+    "unicode": "1f919",
+    "name": "call me hand"
+  },
+  "👈": {
+    "unicode": "1f448",
+    "name": "backhand index pointing left"
+  },
+  "👉": {
+    "unicode": "1f449",
+    "name": "backhand index pointing right"
+  },
+  "👆": {
+    "unicode": "1f446",
+    "name": "backhand index pointing up"
+  },
+  "🖕": {
+    "unicode": "1f595",
+    "name": "middle finger"
+  },
+  "👇": {
+    "unicode": "1f447",
+    "name": "backhand index pointing down"
+  },
+  "☝": {
+    "unicode": "261d",
+    "name": "index pointing up"
+  },
+  "🫵": {
+    "unicode": "1faf5",
+    "name": "⊛ index pointing at the viewer"
+  },
+  "👍": {
+    "unicode": "1f44d",
+    "name": "thumbs up"
+  },
+  "👎": {
+    "unicode": "1f44e",
+    "name": "thumbs down"
+  },
+  "✊": {
+    "unicode": "270a",
+    "name": "raised fist"
+  },
+  "👊": {
+    "unicode": "1f44a",
+    "name": "oncoming fist"
+  },
+  "🤛": {
+    "unicode": "1f91b",
+    "name": "left-facing fist"
+  },
+  "🤜": {
+    "unicode": "1f91c",
+    "name": "right-facing fist"
+  },
+  "👏": {
+    "unicode": "1f44f",
+    "name": "clapping hands"
+  },
+  "🙌": {
+    "unicode": "1f64c",
+    "name": "raising hands"
+  },
+  "🫶": {
+    "unicode": "1faf6",
+    "name": "⊛ heart hands"
+  },
+  "👐": {
+    "unicode": "1f450",
+    "name": "open hands"
+  },
+  "🤲": {
+    "unicode": "1f932",
+    "name": "palms up together"
+  },
+  "🤝": {
+    "unicode": "1f91d",
+    "name": "handshake"
+  },
+  "🙏": {
+    "unicode": "1f64f",
+    "name": "folded hands"
+  },
+  "✍": {
+    "unicode": "270d",
+    "name": "writing hand"
+  },
+  "💅": {
+    "unicode": "1f485",
+    "name": "nail polish"
+  },
+  "🤳": {
+    "unicode": "1f933",
+    "name": "selfie"
+  },
+  "💪": {
+    "unicode": "1f4aa",
+    "name": "flexed biceps"
+  },
+  "🦾": {
+    "unicode": "1f9be",
+    "name": "mechanical arm"
+  },
+  "🦿": {
+    "unicode": "1f9bf",
+    "name": "mechanical leg"
+  },
+  "🦵": {
+    "unicode": "1f9b5",
+    "name": "leg"
+  },
+  "🦶": {
+    "unicode": "1f9b6",
+    "name": "foot"
+  },
+  "👂": {
+    "unicode": "1f442",
+    "name": "ear"
+  },
+  "🦻": {
+    "unicode": "1f9bb",
+    "name": "ear with hearing aid"
+  },
+  "👃": {
+    "unicode": "1f443",
+    "name": "nose"
+  },
+  "🧠": {
+    "unicode": "1f9e0",
+    "name": "brain"
+  },
+  "🫀": {
+    "unicode": "1fac0",
+    "name": "anatomical heart"
+  },
+  "🫁": {
+    "unicode": "1fac1",
+    "name": "lungs"
+  },
+  "🦷": {
+    "unicode": "1f9b7",
+    "name": "tooth"
+  },
+  "🦴": {
+    "unicode": "1f9b4",
+    "name": "bone"
+  },
+  "👀": {
+    "unicode": "1f440",
+    "name": "eyes"
+  },
+  "👁": {
+    "unicode": "1f441",
+    "name": "eye"
+  },
+  "👅": {
+    "unicode": "1f445",
+    "name": "tongue"
+  },
+  "👄": {
+    "unicode": "1f444",
+    "name": "mouth"
+  },
+  "🫦": {
+    "unicode": "1fae6",
+    "name": "⊛ biting lip"
+  },
+  "👶": {
+    "unicode": "1f476",
+    "name": "baby"
+  },
+  "🧒": {
+    "unicode": "1f9d2",
+    "name": "child"
+  },
+  "👦": {
+    "unicode": "1f466",
+    "name": "boy"
+  },
+  "👧": {
+    "unicode": "1f467",
+    "name": "girl"
+  },
+  "🧑": {
+    "unicode": "1f9d1",
+    "name": "person"
+  },
+  "👱": {
+    "unicode": "1f471",
+    "name": "person: blond hair"
+  },
+  "👨": {
+    "unicode": "1f468",
+    "name": "man"
+  },
+  "🧔": {
+    "unicode": "1f9d4",
+    "name": "person: beard"
+  },
+  "🧔‍♂️": {
+    "unicode": "1f9d4-200d-2642-fe0f",
+    "name": "man: beard"
+  },
+  "🧔‍♀️": {
+    "unicode": "1f9d4-200d-2640-fe0f",
+    "name": "woman: beard"
+  },
+  "👨‍🦰": {
+    "unicode": "1f468-200d-1f9b0",
+    "name": "man: red hair"
+  },
+  "👨‍🦱": {
+    "unicode": "1f468-200d-1f9b1",
+    "name": "man: curly hair"
+  },
+  "👨‍🦳": {
+    "unicode": "1f468-200d-1f9b3",
+    "name": "man: white hair"
+  },
+  "👨‍🦲": {
+    "unicode": "1f468-200d-1f9b2",
+    "name": "man: bald"
+  },
+  "👩": {
+    "unicode": "1f469",
+    "name": "woman"
+  },
+  "👩‍🦰": {
+    "unicode": "1f469-200d-1f9b0",
+    "name": "woman: red hair"
+  },
+  "🧑‍🦰": {
+    "unicode": "1f9d1-200d-1f9b0",
+    "name": "person: red hair"
+  },
+  "👩‍🦱": {
+    "unicode": "1f469-200d-1f9b1",
+    "name": "woman: curly hair"
+  },
+  "🧑‍🦱": {
+    "unicode": "1f9d1-200d-1f9b1",
+    "name": "person: curly hair"
+  },
+  "👩‍🦳": {
+    "unicode": "1f469-200d-1f9b3",
+    "name": "woman: white hair"
+  },
+  "🧑‍🦳": {
+    "unicode": "1f9d1-200d-1f9b3",
+    "name": "person: white hair"
+  },
+  "👩‍🦲": {
+    "unicode": "1f469-200d-1f9b2",
+    "name": "woman: bald"
+  },
+  "🧑‍🦲": {
+    "unicode": "1f9d1-200d-1f9b2",
+    "name": "person: bald"
+  },
+  "👱‍♀️": {
+    "unicode": "1f471-200d-2640-fe0f",
+    "name": "woman: blond hair"
+  },
+  "👱‍♂️": {
+    "unicode": "1f471-200d-2642-fe0f",
+    "name": "man: blond hair"
+  },
+  "🧓": {
+    "unicode": "1f9d3",
+    "name": "older person"
+  },
+  "👴": {
+    "unicode": "1f474",
+    "name": "old man"
+  },
+  "👵": {
+    "unicode": "1f475",
+    "name": "old woman"
+  },
+  "🙍": {
+    "unicode": "1f64d",
+    "name": "person frowning"
+  },
+  "🙍‍♂️": {
+    "unicode": "1f64d-200d-2642-fe0f",
+    "name": "man frowning"
+  },
+  "🙍‍♀️": {
+    "unicode": "1f64d-200d-2640-fe0f",
+    "name": "woman frowning"
+  },
+  "🙎": {
+    "unicode": "1f64e",
+    "name": "person pouting"
+  },
+  "🙎‍♂️": {
+    "unicode": "1f64e-200d-2642-fe0f",
+    "name": "man pouting"
+  },
+  "🙎‍♀️": {
+    "unicode": "1f64e-200d-2640-fe0f",
+    "name": "woman pouting"
+  },
+  "🙅": {
+    "unicode": "1f645",
+    "name": "person gesturing NO"
+  },
+  "🙅‍♂️": {
+    "unicode": "1f645-200d-2642-fe0f",
+    "name": "man gesturing NO"
+  },
+  "🙅‍♀️": {
+    "unicode": "1f645-200d-2640-fe0f",
+    "name": "woman gesturing NO"
+  },
+  "🙆": {
+    "unicode": "1f646",
+    "name": "person gesturing OK"
+  },
+  "🙆‍♂️": {
+    "unicode": "1f646-200d-2642-fe0f",
+    "name": "man gesturing OK"
+  },
+  "🙆‍♀️": {
+    "unicode": "1f646-200d-2640-fe0f",
+    "name": "woman gesturing OK"
+  },
+  "💁": {
+    "unicode": "1f481",
+    "name": "person tipping hand"
+  },
+  "💁‍♂️": {
+    "unicode": "1f481-200d-2642-fe0f",
+    "name": "man tipping hand"
+  },
+  "💁‍♀️": {
+    "unicode": "1f481-200d-2640-fe0f",
+    "name": "woman tipping hand"
+  },
+  "🙋": {
+    "unicode": "1f64b",
+    "name": "person raising hand"
+  },
+  "🙋‍♂️": {
+    "unicode": "1f64b-200d-2642-fe0f",
+    "name": "man raising hand"
+  },
+  "🙋‍♀️": {
+    "unicode": "1f64b-200d-2640-fe0f",
+    "name": "woman raising hand"
+  },
+  "🧏": {
+    "unicode": "1f9cf",
+    "name": "deaf person"
+  },
+  "🧏‍♂️": {
+    "unicode": "1f9cf-200d-2642-fe0f",
+    "name": "deaf man"
+  },
+  "🧏‍♀️": {
+    "unicode": "1f9cf-200d-2640-fe0f",
+    "name": "deaf woman"
+  },
+  "🙇": {
+    "unicode": "1f647",
+    "name": "person bowing"
+  },
+  "🙇‍♂️": {
+    "unicode": "1f647-200d-2642-fe0f",
+    "name": "man bowing"
+  },
+  "🙇‍♀️": {
+    "unicode": "1f647-200d-2640-fe0f",
+    "name": "woman bowing"
+  },
+  "🤦": {
+    "unicode": "1f926",
+    "name": "person facepalming"
+  },
+  "🤦‍♂️": {
+    "unicode": "1f926-200d-2642-fe0f",
+    "name": "man facepalming"
+  },
+  "🤦‍♀️": {
+    "unicode": "1f926-200d-2640-fe0f",
+    "name": "woman facepalming"
+  },
+  "🤷": {
+    "unicode": "1f937",
+    "name": "person shrugging"
+  },
+  "🤷‍♂️": {
+    "unicode": "1f937-200d-2642-fe0f",
+    "name": "man shrugging"
+  },
+  "🤷‍♀️": {
+    "unicode": "1f937-200d-2640-fe0f",
+    "name": "woman shrugging"
+  },
+  "🧑‍⚕️": {
+    "unicode": "1f9d1-200d-2695-fe0f",
+    "name": "health worker"
+  },
+  "👨‍⚕️": {
+    "unicode": "1f468-200d-2695-fe0f",
+    "name": "man health worker"
+  },
+  "👩‍⚕️": {
+    "unicode": "1f469-200d-2695-fe0f",
+    "name": "woman health worker"
+  },
+  "🧑‍🎓": {
+    "unicode": "1f9d1-200d-1f393",
+    "name": "student"
+  },
+  "👨‍🎓": {
+    "unicode": "1f468-200d-1f393",
+    "name": "man student"
+  },
+  "👩‍🎓": {
+    "unicode": "1f469-200d-1f393",
+    "name": "woman student"
+  },
+  "🧑‍🏫": {
+    "unicode": "1f9d1-200d-1f3eb",
+    "name": "teacher"
+  },
+  "👨‍🏫": {
+    "unicode": "1f468-200d-1f3eb",
+    "name": "man teacher"
+  },
+  "👩‍🏫": {
+    "unicode": "1f469-200d-1f3eb",
+    "name": "woman teacher"
+  },
+  "🧑‍⚖️": {
+    "unicode": "1f9d1-200d-2696-fe0f",
+    "name": "judge"
+  },
+  "👨‍⚖️": {
+    "unicode": "1f468-200d-2696-fe0f",
+    "name": "man judge"
+  },
+  "👩‍⚖️": {
+    "unicode": "1f469-200d-2696-fe0f",
+    "name": "woman judge"
+  },
+  "🧑‍🌾": {
+    "unicode": "1f9d1-200d-1f33e",
+    "name": "farmer"
+  },
+  "👨‍🌾": {
+    "unicode": "1f468-200d-1f33e",
+    "name": "man farmer"
+  },
+  "👩‍🌾": {
+    "unicode": "1f469-200d-1f33e",
+    "name": "woman farmer"
+  },
+  "🧑‍🍳": {
+    "unicode": "1f9d1-200d-1f373",
+    "name": "cook"
+  },
+  "👨‍🍳": {
+    "unicode": "1f468-200d-1f373",
+    "name": "man cook"
+  },
+  "👩‍🍳": {
+    "unicode": "1f469-200d-1f373",
+    "name": "woman cook"
+  },
+  "🧑‍🔧": {
+    "unicode": "1f9d1-200d-1f527",
+    "name": "mechanic"
+  },
+  "👨‍🔧": {
+    "unicode": "1f468-200d-1f527",
+    "name": "man mechanic"
+  },
+  "👩‍🔧": {
+    "unicode": "1f469-200d-1f527",
+    "name": "woman mechanic"
+  },
+  "🧑‍🏭": {
+    "unicode": "1f9d1-200d-1f3ed",
+    "name": "factory worker"
+  },
+  "👨‍🏭": {
+    "unicode": "1f468-200d-1f3ed",
+    "name": "man factory worker"
+  },
+  "👩‍🏭": {
+    "unicode": "1f469-200d-1f3ed",
+    "name": "woman factory worker"
+  },
+  "🧑‍💼": {
+    "unicode": "1f9d1-200d-1f4bc",
+    "name": "office worker"
+  },
+  "👨‍💼": {
+    "unicode": "1f468-200d-1f4bc",
+    "name": "man office worker"
+  },
+  "👩‍💼": {
+    "unicode": "1f469-200d-1f4bc",
+    "name": "woman office worker"
+  },
+  "🧑‍🔬": {
+    "unicode": "1f9d1-200d-1f52c",
+    "name": "scientist"
+  },
+  "👨‍🔬": {
+    "unicode": "1f468-200d-1f52c",
+    "name": "man scientist"
+  },
+  "👩‍🔬": {
+    "unicode": "1f469-200d-1f52c",
+    "name": "woman scientist"
+  },
+  "🧑‍💻": {
+    "unicode": "1f9d1-200d-1f4bb",
+    "name": "technologist"
+  },
+  "👨‍💻": {
+    "unicode": "1f468-200d-1f4bb",
+    "name": "man technologist"
+  },
+  "👩‍💻": {
+    "unicode": "1f469-200d-1f4bb",
+    "name": "woman technologist"
+  },
+  "🧑‍🎤": {
+    "unicode": "1f9d1-200d-1f3a4",
+    "name": "singer"
+  },
+  "👨‍🎤": {
+    "unicode": "1f468-200d-1f3a4",
+    "name": "man singer"
+  },
+  "👩‍🎤": {
+    "unicode": "1f469-200d-1f3a4",
+    "name": "woman singer"
+  },
+  "🧑‍🎨": {
+    "unicode": "1f9d1-200d-1f3a8",
+    "name": "artist"
+  },
+  "👨‍🎨": {
+    "unicode": "1f468-200d-1f3a8",
+    "name": "man artist"
+  },
+  "👩‍🎨": {
+    "unicode": "1f469-200d-1f3a8",
+    "name": "woman artist"
+  },
+  "🧑‍✈️": {
+    "unicode": "1f9d1-200d-2708-fe0f",
+    "name": "pilot"
+  },
+  "👨‍✈️": {
+    "unicode": "1f468-200d-2708-fe0f",
+    "name": "man pilot"
+  },
+  "👩‍✈️": {
+    "unicode": "1f469-200d-2708-fe0f",
+    "name": "woman pilot"
+  },
+  "🧑‍🚀": {
+    "unicode": "1f9d1-200d-1f680",
+    "name": "astronaut"
+  },
+  "👨‍🚀": {
+    "unicode": "1f468-200d-1f680",
+    "name": "man astronaut"
+  },
+  "👩‍🚀": {
+    "unicode": "1f469-200d-1f680",
+    "name": "woman astronaut"
+  },
+  "🧑‍🚒": {
+    "unicode": "1f9d1-200d-1f692",
+    "name": "firefighter"
+  },
+  "👨‍🚒": {
+    "unicode": "1f468-200d-1f692",
+    "name": "man firefighter"
+  },
+  "👩‍🚒": {
+    "unicode": "1f469-200d-1f692",
+    "name": "woman firefighter"
+  },
+  "👮": {
+    "unicode": "1f46e",
+    "name": "police officer"
+  },
+  "👮‍♂️": {
+    "unicode": "1f46e-200d-2642-fe0f",
+    "name": "man police officer"
+  },
+  "👮‍♀️": {
+    "unicode": "1f46e-200d-2640-fe0f",
+    "name": "woman police officer"
+  },
+  "🕵": {
+    "unicode": "1f575",
+    "name": "detective"
+  },
+  "🕵️‍♂️": {
+    "unicode": "1f575-fe0f-200d-2642-fe0f",
+    "name": "man detective"
+  },
+  "🕵️‍♀️": {
+    "unicode": "1f575-fe0f-200d-2640-fe0f",
+    "name": "woman detective"
+  },
+  "💂": {
+    "unicode": "1f482",
+    "name": "guard"
+  },
+  "💂‍♂️": {
+    "unicode": "1f482-200d-2642-fe0f",
+    "name": "man guard"
+  },
+  "💂‍♀️": {
+    "unicode": "1f482-200d-2640-fe0f",
+    "name": "woman guard"
+  },
+  "🥷": {
+    "unicode": "1f977",
+    "name": "ninja"
+  },
+  "👷": {
+    "unicode": "1f477",
+    "name": "construction worker"
+  },
+  "👷‍♂️": {
+    "unicode": "1f477-200d-2642-fe0f",
+    "name": "man construction worker"
+  },
+  "👷‍♀️": {
+    "unicode": "1f477-200d-2640-fe0f",
+    "name": "woman construction worker"
+  },
+  "🫅": {
+    "unicode": "1fac5",
+    "name": "⊛ person with crown"
+  },
+  "🤴": {
+    "unicode": "1f934",
+    "name": "prince"
+  },
+  "👸": {
+    "unicode": "1f478",
+    "name": "princess"
+  },
+  "👳": {
+    "unicode": "1f473",
+    "name": "person wearing turban"
+  },
+  "👳‍♂️": {
+    "unicode": "1f473-200d-2642-fe0f",
+    "name": "man wearing turban"
+  },
+  "👳‍♀️": {
+    "unicode": "1f473-200d-2640-fe0f",
+    "name": "woman wearing turban"
+  },
+  "👲": {
+    "unicode": "1f472",
+    "name": "person with skullcap"
+  },
+  "🧕": {
+    "unicode": "1f9d5",
+    "name": "woman with headscarf"
+  },
+  "🤵": {
+    "unicode": "1f935",
+    "name": "person in tuxedo"
+  },
+  "🤵‍♂️": {
+    "unicode": "1f935-200d-2642-fe0f",
+    "name": "man in tuxedo"
+  },
+  "🤵‍♀️": {
+    "unicode": "1f935-200d-2640-fe0f",
+    "name": "woman in tuxedo"
+  },
+  "👰": {
+    "unicode": "1f470",
+    "name": "person with veil"
+  },
+  "👰‍♂️": {
+    "unicode": "1f470-200d-2642-fe0f",
+    "name": "man with veil"
+  },
+  "👰‍♀️": {
+    "unicode": "1f470-200d-2640-fe0f",
+    "name": "woman with veil"
+  },
+  "🤰": {
+    "unicode": "1f930",
+    "name": "pregnant woman"
+  },
+  "🫃": {
+    "unicode": "1fac3",
+    "name": "⊛ pregnant man"
+  },
+  "🫄": {
+    "unicode": "1fac4",
+    "name": "⊛ pregnant person"
+  },
+  "🤱": {
+    "unicode": "1f931",
+    "name": "breast-feeding"
+  },
+  "👩‍🍼": {
+    "unicode": "1f469-200d-1f37c",
+    "name": "woman feeding baby"
+  },
+  "👨‍🍼": {
+    "unicode": "1f468-200d-1f37c",
+    "name": "man feeding baby"
+  },
+  "🧑‍🍼": {
+    "unicode": "1f9d1-200d-1f37c",
+    "name": "person feeding baby"
+  },
+  "👼": {
+    "unicode": "1f47c",
+    "name": "baby angel"
+  },
+  "🎅": {
+    "unicode": "1f385",
+    "name": "Santa Claus"
+  },
+  "🤶": {
+    "unicode": "1f936",
+    "name": "Mrs. Claus"
+  },
+  "🧑‍🎄": {
+    "unicode": "1f9d1-200d-1f384",
+    "name": "mx claus"
+  },
+  "🦸": {
+    "unicode": "1f9b8",
+    "name": "superhero"
+  },
+  "🦸‍♂️": {
+    "unicode": "1f9b8-200d-2642-fe0f",
+    "name": "man superhero"
+  },
+  "🦸‍♀️": {
+    "unicode": "1f9b8-200d-2640-fe0f",
+    "name": "woman superhero"
+  },
+  "🦹": {
+    "unicode": "1f9b9",
+    "name": "supervillain"
+  },
+  "🦹‍♂️": {
+    "unicode": "1f9b9-200d-2642-fe0f",
+    "name": "man supervillain"
+  },
+  "🦹‍♀️": {
+    "unicode": "1f9b9-200d-2640-fe0f",
+    "name": "woman supervillain"
+  },
+  "🧙": {
+    "unicode": "1f9d9",
+    "name": "mage"
+  },
+  "🧙‍♂️": {
+    "unicode": "1f9d9-200d-2642-fe0f",
+    "name": "man mage"
+  },
+  "🧙‍♀️": {
+    "unicode": "1f9d9-200d-2640-fe0f",
+    "name": "woman mage"
+  },
+  "🧚": {
+    "unicode": "1f9da",
+    "name": "fairy"
+  },
+  "🧚‍♂️": {
+    "unicode": "1f9da-200d-2642-fe0f",
+    "name": "man fairy"
+  },
+  "🧚‍♀️": {
+    "unicode": "1f9da-200d-2640-fe0f",
+    "name": "woman fairy"
+  },
+  "🧛": {
+    "unicode": "1f9db",
+    "name": "vampire"
+  },
+  "🧛‍♂️": {
+    "unicode": "1f9db-200d-2642-fe0f",
+    "name": "man vampire"
+  },
+  "🧛‍♀️": {
+    "unicode": "1f9db-200d-2640-fe0f",
+    "name": "woman vampire"
+  },
+  "🧜": {
+    "unicode": "1f9dc",
+    "name": "merperson"
+  },
+  "🧜‍♂️": {
+    "unicode": "1f9dc-200d-2642-fe0f",
+    "name": "merman"
+  },
+  "🧜‍♀️": {
+    "unicode": "1f9dc-200d-2640-fe0f",
+    "name": "mermaid"
+  },
+  "🧝": {
+    "unicode": "1f9dd",
+    "name": "elf"
+  },
+  "🧝‍♂️": {
+    "unicode": "1f9dd-200d-2642-fe0f",
+    "name": "man elf"
+  },
+  "🧝‍♀️": {
+    "unicode": "1f9dd-200d-2640-fe0f",
+    "name": "woman elf"
+  },
+  "🧞": {
+    "unicode": "1f9de",
+    "name": "genie"
+  },
+  "🧞‍♂️": {
+    "unicode": "1f9de-200d-2642-fe0f",
+    "name": "man genie"
+  },
+  "🧞‍♀️": {
+    "unicode": "1f9de-200d-2640-fe0f",
+    "name": "woman genie"
+  },
+  "🧟": {
+    "unicode": "1f9df",
+    "name": "zombie"
+  },
+  "🧟‍♂️": {
+    "unicode": "1f9df-200d-2642-fe0f",
+    "name": "man zombie"
+  },
+  "🧟‍♀️": {
+    "unicode": "1f9df-200d-2640-fe0f",
+    "name": "woman zombie"
+  },
+  "🧌": {
+    "unicode": "1f9cc",
+    "name": "⊛ troll"
+  },
+  "💆": {
+    "unicode": "1f486",
+    "name": "person getting massage"
+  },
+  "💆‍♂️": {
+    "unicode": "1f486-200d-2642-fe0f",
+    "name": "man getting massage"
+  },
+  "💆‍♀️": {
+    "unicode": "1f486-200d-2640-fe0f",
+    "name": "woman getting massage"
+  },
+  "💇": {
+    "unicode": "1f487",
+    "name": "person getting haircut"
+  },
+  "💇‍♂️": {
+    "unicode": "1f487-200d-2642-fe0f",
+    "name": "man getting haircut"
+  },
+  "💇‍♀️": {
+    "unicode": "1f487-200d-2640-fe0f",
+    "name": "woman getting haircut"
+  },
+  "🚶": {
+    "unicode": "1f6b6",
+    "name": "person walking"
+  },
+  "🚶‍♂️": {
+    "unicode": "1f6b6-200d-2642-fe0f",
+    "name": "man walking"
+  },
+  "🚶‍♀️": {
+    "unicode": "1f6b6-200d-2640-fe0f",
+    "name": "woman walking"
+  },
+  "🧍": {
+    "unicode": "1f9cd",
+    "name": "person standing"
+  },
+  "🧍‍♂️": {
+    "unicode": "1f9cd-200d-2642-fe0f",
+    "name": "man standing"
+  },
+  "🧍‍♀️": {
+    "unicode": "1f9cd-200d-2640-fe0f",
+    "name": "woman standing"
+  },
+  "🧎": {
+    "unicode": "1f9ce",
+    "name": "person kneeling"
+  },
+  "🧎‍♂️": {
+    "unicode": "1f9ce-200d-2642-fe0f",
+    "name": "man kneeling"
+  },
+  "🧎‍♀️": {
+    "unicode": "1f9ce-200d-2640-fe0f",
+    "name": "woman kneeling"
+  },
+  "🧑‍🦯": {
+    "unicode": "1f9d1-200d-1f9af",
+    "name": "person with white cane"
+  },
+  "👨‍🦯": {
+    "unicode": "1f468-200d-1f9af",
+    "name": "man with white cane"
+  },
+  "👩‍🦯": {
+    "unicode": "1f469-200d-1f9af",
+    "name": "woman with white cane"
+  },
+  "🧑‍🦼": {
+    "unicode": "1f9d1-200d-1f9bc",
+    "name": "person in motorized wheelchair"
+  },
+  "👨‍🦼": {
+    "unicode": "1f468-200d-1f9bc",
+    "name": "man in motorized wheelchair"
+  },
+  "👩‍🦼": {
+    "unicode": "1f469-200d-1f9bc",
+    "name": "woman in motorized wheelchair"
+  },
+  "🧑‍🦽": {
+    "unicode": "1f9d1-200d-1f9bd",
+    "name": "person in manual wheelchair"
+  },
+  "👨‍🦽": {
+    "unicode": "1f468-200d-1f9bd",
+    "name": "man in manual wheelchair"
+  },
+  "👩‍🦽": {
+    "unicode": "1f469-200d-1f9bd",
+    "name": "woman in manual wheelchair"
+  },
+  "🏃": {
+    "unicode": "1f3c3",
+    "name": "person running"
+  },
+  "🏃‍♂️": {
+    "unicode": "1f3c3-200d-2642-fe0f",
+    "name": "man running"
+  },
+  "🏃‍♀️": {
+    "unicode": "1f3c3-200d-2640-fe0f",
+    "name": "woman running"
+  },
+  "💃": {
+    "unicode": "1f483",
+    "name": "woman dancing"
+  },
+  "🕺": {
+    "unicode": "1f57a",
+    "name": "man dancing"
+  },
+  "🕴": {
+    "unicode": "1f574",
+    "name": "person in suit levitating"
+  },
+  "👯": {
+    "unicode": "1f46f",
+    "name": "people with bunny ears"
+  },
+  "👯‍♂️": {
+    "unicode": "1f46f-200d-2642-fe0f",
+    "name": "men with bunny ears"
+  },
+  "👯‍♀️": {
+    "unicode": "1f46f-200d-2640-fe0f",
+    "name": "women with bunny ears"
+  },
+  "🧖": {
+    "unicode": "1f9d6",
+    "name": "person in steamy room"
+  },
+  "🧖‍♂️": {
+    "unicode": "1f9d6-200d-2642-fe0f",
+    "name": "man in steamy room"
+  },
+  "🧖‍♀️": {
+    "unicode": "1f9d6-200d-2640-fe0f",
+    "name": "woman in steamy room"
+  },
+  "🧗": {
+    "unicode": "1f9d7",
+    "name": "person climbing"
+  },
+  "🧗‍♂️": {
+    "unicode": "1f9d7-200d-2642-fe0f",
+    "name": "man climbing"
+  },
+  "🧗‍♀️": {
+    "unicode": "1f9d7-200d-2640-fe0f",
+    "name": "woman climbing"
+  },
+  "🤺": {
+    "unicode": "1f93a",
+    "name": "person fencing"
+  },
+  "🏇": {
+    "unicode": "1f3c7",
+    "name": "horse racing"
+  },
+  "⛷": {
+    "unicode": "26f7",
+    "name": "skier"
+  },
+  "🏂": {
+    "unicode": "1f3c2",
+    "name": "snowboarder"
+  },
+  "🏌": {
+    "unicode": "1f3cc",
+    "name": "person golfing"
+  },
+  "🏌️‍♂️": {
+    "unicode": "1f3cc-fe0f-200d-2642-fe0f",
+    "name": "man golfing"
+  },
+  "🏌️‍♀️": {
+    "unicode": "1f3cc-fe0f-200d-2640-fe0f",
+    "name": "woman golfing"
+  },
+  "🏄": {
+    "unicode": "1f3c4",
+    "name": "person surfing"
+  },
+  "🏄‍♂️": {
+    "unicode": "1f3c4-200d-2642-fe0f",
+    "name": "man surfing"
+  },
+  "🏄‍♀️": {
+    "unicode": "1f3c4-200d-2640-fe0f",
+    "name": "woman surfing"
+  },
+  "🚣": {
+    "unicode": "1f6a3",
+    "name": "person rowing boat"
+  },
+  "🚣‍♂️": {
+    "unicode": "1f6a3-200d-2642-fe0f",
+    "name": "man rowing boat"
+  },
+  "🚣‍♀️": {
+    "unicode": "1f6a3-200d-2640-fe0f",
+    "name": "woman rowing boat"
+  },
+  "🏊": {
+    "unicode": "1f3ca",
+    "name": "person swimming"
+  },
+  "🏊‍♂️": {
+    "unicode": "1f3ca-200d-2642-fe0f",
+    "name": "man swimming"
+  },
+  "🏊‍♀️": {
+    "unicode": "1f3ca-200d-2640-fe0f",
+    "name": "woman swimming"
+  },
+  "⛹": {
+    "unicode": "26f9",
+    "name": "person bouncing ball"
+  },
+  "⛹️‍♂️": {
+    "unicode": "26f9-fe0f-200d-2642-fe0f",
+    "name": "man bouncing ball"
+  },
+  "⛹️‍♀️": {
+    "unicode": "26f9-fe0f-200d-2640-fe0f",
+    "name": "woman bouncing ball"
+  },
+  "🏋": {
+    "unicode": "1f3cb",
+    "name": "person lifting weights"
+  },
+  "🏋️‍♂️": {
+    "unicode": "1f3cb-fe0f-200d-2642-fe0f",
+    "name": "man lifting weights"
+  },
+  "🏋️‍♀️": {
+    "unicode": "1f3cb-fe0f-200d-2640-fe0f",
+    "name": "woman lifting weights"
+  },
+  "🚴": {
+    "unicode": "1f6b4",
+    "name": "person biking"
+  },
+  "🚴‍♂️": {
+    "unicode": "1f6b4-200d-2642-fe0f",
+    "name": "man biking"
+  },
+  "🚴‍♀️": {
+    "unicode": "1f6b4-200d-2640-fe0f",
+    "name": "woman biking"
+  },
+  "🚵": {
+    "unicode": "1f6b5",
+    "name": "person mountain biking"
+  },
+  "🚵‍♂️": {
+    "unicode": "1f6b5-200d-2642-fe0f",
+    "name": "man mountain biking"
+  },
+  "🚵‍♀️": {
+    "unicode": "1f6b5-200d-2640-fe0f",
+    "name": "woman mountain biking"
+  },
+  "🤸": {
+    "unicode": "1f938",
+    "name": "person cartwheeling"
+  },
+  "🤸‍♂️": {
+    "unicode": "1f938-200d-2642-fe0f",
+    "name": "man cartwheeling"
+  },
+  "🤸‍♀️": {
+    "unicode": "1f938-200d-2640-fe0f",
+    "name": "woman cartwheeling"
+  },
+  "🤼": {
+    "unicode": "1f93c",
+    "name": "people wrestling"
+  },
+  "🤼‍♂️": {
+    "unicode": "1f93c-200d-2642-fe0f",
+    "name": "men wrestling"
+  },
+  "🤼‍♀️": {
+    "unicode": "1f93c-200d-2640-fe0f",
+    "name": "women wrestling"
+  },
+  "🤽": {
+    "unicode": "1f93d",
+    "name": "person playing water polo"
+  },
+  "🤽‍♂️": {
+    "unicode": "1f93d-200d-2642-fe0f",
+    "name": "man playing water polo"
+  },
+  "🤽‍♀️": {
+    "unicode": "1f93d-200d-2640-fe0f",
+    "name": "woman playing water polo"
+  },
+  "🤾": {
+    "unicode": "1f93e",
+    "name": "person playing handball"
+  },
+  "🤾‍♂️": {
+    "unicode": "1f93e-200d-2642-fe0f",
+    "name": "man playing handball"
+  },
+  "🤾‍♀️": {
+    "unicode": "1f93e-200d-2640-fe0f",
+    "name": "woman playing handball"
+  },
+  "🤹": {
+    "unicode": "1f939",
+    "name": "person juggling"
+  },
+  "🤹‍♂️": {
+    "unicode": "1f939-200d-2642-fe0f",
+    "name": "man juggling"
+  },
+  "🤹‍♀️": {
+    "unicode": "1f939-200d-2640-fe0f",
+    "name": "woman juggling"
+  },
+  "🧘": {
+    "unicode": "1f9d8",
+    "name": "person in lotus position"
+  },
+  "🧘‍♂️": {
+    "unicode": "1f9d8-200d-2642-fe0f",
+    "name": "man in lotus position"
+  },
+  "🧘‍♀️": {
+    "unicode": "1f9d8-200d-2640-fe0f",
+    "name": "woman in lotus position"
+  },
+  "🛀": {
+    "unicode": "1f6c0",
+    "name": "person taking bath"
+  },
+  "🛌": {
+    "unicode": "1f6cc",
+    "name": "person in bed"
+  },
+  "🧑‍🤝‍🧑": {
+    "unicode": "1f9d1-200d-1f91d-200d-1f9d1",
+    "name": "people holding hands"
+  },
+  "👭": {
+    "unicode": "1f46d",
+    "name": "women holding hands"
+  },
+  "👫": {
+    "unicode": "1f46b",
+    "name": "woman and man holding hands"
+  },
+  "👬": {
+    "unicode": "1f46c",
+    "name": "men holding hands"
+  },
+  "💏": {
+    "unicode": "1f48f",
+    "name": "kiss"
+  },
+  "👩‍❤️‍💋‍👨": {
+    "unicode": "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468",
+    "name": "kiss: woman, man"
+  },
+  "👨‍❤️‍💋‍👨": {
+    "unicode": "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468",
+    "name": "kiss: man, man"
+  },
+  "👩‍❤️‍💋‍👩": {
+    "unicode": "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469",
+    "name": "kiss: woman, woman"
+  },
+  "💑": {
+    "unicode": "1f491",
+    "name": "couple with heart"
+  },
+  "👩‍❤️‍👨": {
+    "unicode": "1f469-200d-2764-fe0f-200d-1f468",
+    "name": "couple with heart: woman, man"
+  },
+  "👨‍❤️‍👨": {
+    "unicode": "1f468-200d-2764-fe0f-200d-1f468",
+    "name": "couple with heart: man, man"
+  },
+  "👩‍❤️‍👩": {
+    "unicode": "1f469-200d-2764-fe0f-200d-1f469",
+    "name": "couple with heart: woman, woman"
+  },
+  "👪": {
+    "unicode": "1f46a",
+    "name": "family"
+  },
+  "👨‍👩‍👦": {
+    "unicode": "1f468-200d-1f469-200d-1f466",
+    "name": "family: man, woman, boy"
+  },
+  "👨‍👩‍👧": {
+    "unicode": "1f468-200d-1f469-200d-1f467",
+    "name": "family: man, woman, girl"
+  },
+  "👨‍👩‍👧‍👦": {
+    "unicode": "1f468-200d-1f469-200d-1f467-200d-1f466",
+    "name": "family: man, woman, girl, boy"
+  },
+  "👨‍👩‍👦‍👦": {
+    "unicode": "1f468-200d-1f469-200d-1f466-200d-1f466",
+    "name": "family: man, woman, boy, boy"
+  },
+  "👨‍👩‍👧‍👧": {
+    "unicode": "1f468-200d-1f469-200d-1f467-200d-1f467",
+    "name": "family: man, woman, girl, girl"
+  },
+  "👨‍👨‍👦": {
+    "unicode": "1f468-200d-1f468-200d-1f466",
+    "name": "family: man, man, boy"
+  },
+  "👨‍👨‍👧": {
+    "unicode": "1f468-200d-1f468-200d-1f467",
+    "name": "family: man, man, girl"
+  },
+  "👨‍👨‍👧‍👦": {
+    "unicode": "1f468-200d-1f468-200d-1f467-200d-1f466",
+    "name": "family: man, man, girl, boy"
+  },
+  "👨‍👨‍👦‍👦": {
+    "unicode": "1f468-200d-1f468-200d-1f466-200d-1f466",
+    "name": "family: man, man, boy, boy"
+  },
+  "👨‍👨‍👧‍👧": {
+    "unicode": "1f468-200d-1f468-200d-1f467-200d-1f467",
+    "name": "family: man, man, girl, girl"
+  },
+  "👩‍👩‍👦": {
+    "unicode": "1f469-200d-1f469-200d-1f466",
+    "name": "family: woman, woman, boy"
+  },
+  "👩‍👩‍👧": {
+    "unicode": "1f469-200d-1f469-200d-1f467",
+    "name": "family: woman, woman, girl"
+  },
+  "👩‍👩‍👧‍👦": {
+    "unicode": "1f469-200d-1f469-200d-1f467-200d-1f466",
+    "name": "family: woman, woman, girl, boy"
+  },
+  "👩‍👩‍👦‍👦": {
+    "unicode": "1f469-200d-1f469-200d-1f466-200d-1f466",
+    "name": "family: woman, woman, boy, boy"
+  },
+  "👩‍👩‍👧‍👧": {
+    "unicode": "1f469-200d-1f469-200d-1f467-200d-1f467",
+    "name": "family: woman, woman, girl, girl"
+  },
+  "👨‍👦": {
+    "unicode": "1f468-200d-1f466",
+    "name": "family: man, boy"
+  },
+  "👨‍👦‍👦": {
+    "unicode": "1f468-200d-1f466-200d-1f466",
+    "name": "family: man, boy, boy"
+  },
+  "👨‍👧": {
+    "unicode": "1f468-200d-1f467",
+    "name": "family: man, girl"
+  },
+  "👨‍👧‍👦": {
+    "unicode": "1f468-200d-1f467-200d-1f466",
+    "name": "family: man, girl, boy"
+  },
+  "👨‍👧‍👧": {
+    "unicode": "1f468-200d-1f467-200d-1f467",
+    "name": "family: man, girl, girl"
+  },
+  "👩‍👦": {
+    "unicode": "1f469-200d-1f466",
+    "name": "family: woman, boy"
+  },
+  "👩‍👦‍👦": {
+    "unicode": "1f469-200d-1f466-200d-1f466",
+    "name": "family: woman, boy, boy"
+  },
+  "👩‍👧": {
+    "unicode": "1f469-200d-1f467",
+    "name": "family: woman, girl"
+  },
+  "👩‍👧‍👦": {
+    "unicode": "1f469-200d-1f467-200d-1f466",
+    "name": "family: woman, girl, boy"
+  },
+  "👩‍👧‍👧": {
+    "unicode": "1f469-200d-1f467-200d-1f467",
+    "name": "family: woman, girl, girl"
+  },
+  "🗣": {
+    "unicode": "1f5e3",
+    "name": "speaking head"
+  },
+  "👤": {
+    "unicode": "1f464",
+    "name": "bust in silhouette"
+  },
+  "👥": {
+    "unicode": "1f465",
+    "name": "busts in silhouette"
+  },
+  "🫂": {
+    "unicode": "1fac2",
+    "name": "people hugging"
+  },
+  "👣": {
+    "unicode": "1f463",
+    "name": "footprints"
+  },
+  "🦰": {
+    "unicode": "1f9b0",
+    "name": "red hair"
+  },
+  "🦱": {
+    "unicode": "1f9b1",
+    "name": "curly hair"
+  },
+  "🦳": {
+    "unicode": "1f9b3",
+    "name": "white hair"
+  },
+  "🦲": {
+    "unicode": "1f9b2",
+    "name": "bald"
+  },
+  "🐵": {
+    "unicode": "1f435",
+    "name": "monkey face"
+  },
+  "🐒": {
+    "unicode": "1f412",
+    "name": "monkey"
+  },
+  "🦍": {
+    "unicode": "1f98d",
+    "name": "gorilla"
+  },
+  "🦧": {
+    "unicode": "1f9a7",
+    "name": "orangutan"
+  },
+  "🐶": {
+    "unicode": "1f436",
+    "name": "dog face"
+  },
+  "🐕": {
+    "unicode": "1f415",
+    "name": "dog"
+  },
+  "🦮": {
+    "unicode": "1f9ae",
+    "name": "guide dog"
+  },
+  "🐕‍🦺": {
+    "unicode": "1f415-200d-1f9ba",
+    "name": "service dog"
+  },
+  "🐩": {
+    "unicode": "1f429",
+    "name": "poodle"
+  },
+  "🐺": {
+    "unicode": "1f43a",
+    "name": "wolf"
+  },
+  "🦊": {
+    "unicode": "1f98a",
+    "name": "fox"
+  },
+  "🦝": {
+    "unicode": "1f99d",
+    "name": "raccoon"
+  },
+  "🐱": {
+    "unicode": "1f431",
+    "name": "cat face"
+  },
+  "🐈": {
+    "unicode": "1f408",
+    "name": "cat"
+  },
+  "🐈‍⬛": {
+    "unicode": "1f408-200d-2b1b",
+    "name": "black cat"
+  },
+  "🦁": {
+    "unicode": "1f981",
+    "name": "lion"
+  },
+  "🐯": {
+    "unicode": "1f42f",
+    "name": "tiger face"
+  },
+  "🐅": {
+    "unicode": "1f405",
+    "name": "tiger"
+  },
+  "🐆": {
+    "unicode": "1f406",
+    "name": "leopard"
+  },
+  "🐴": {
+    "unicode": "1f434",
+    "name": "horse face"
+  },
+  "🐎": {
+    "unicode": "1f40e",
+    "name": "horse"
+  },
+  "🦄": {
+    "unicode": "1f984",
+    "name": "unicorn"
+  },
+  "🦓": {
+    "unicode": "1f993",
+    "name": "zebra"
+  },
+  "🦌": {
+    "unicode": "1f98c",
+    "name": "deer"
+  },
+  "🦬": {
+    "unicode": "1f9ac",
+    "name": "bison"
+  },
+  "🐮": {
+    "unicode": "1f42e",
+    "name": "cow face"
+  },
+  "🐂": {
+    "unicode": "1f402",
+    "name": "ox"
+  },
+  "🐃": {
+    "unicode": "1f403",
+    "name": "water buffalo"
+  },
+  "🐄": {
+    "unicode": "1f404",
+    "name": "cow"
+  },
+  "🐷": {
+    "unicode": "1f437",
+    "name": "pig face"
+  },
+  "🐖": {
+    "unicode": "1f416",
+    "name": "pig"
+  },
+  "🐗": {
+    "unicode": "1f417",
+    "name": "boar"
+  },
+  "🐽": {
+    "unicode": "1f43d",
+    "name": "pig nose"
+  },
+  "🐏": {
+    "unicode": "1f40f",
+    "name": "ram"
+  },
+  "🐑": {
+    "unicode": "1f411",
+    "name": "ewe"
+  },
+  "🐐": {
+    "unicode": "1f410",
+    "name": "goat"
+  },
+  "🐪": {
+    "unicode": "1f42a",
+    "name": "camel"
+  },
+  "🐫": {
+    "unicode": "1f42b",
+    "name": "two-hump camel"
+  },
+  "🦙": {
+    "unicode": "1f999",
+    "name": "llama"
+  },
+  "🦒": {
+    "unicode": "1f992",
+    "name": "giraffe"
+  },
+  "🐘": {
+    "unicode": "1f418",
+    "name": "elephant"
+  },
+  "🦣": {
+    "unicode": "1f9a3",
+    "name": "mammoth"
+  },
+  "🦏": {
+    "unicode": "1f98f",
+    "name": "rhinoceros"
+  },
+  "🦛": {
+    "unicode": "1f99b",
+    "name": "hippopotamus"
+  },
+  "🐭": {
+    "unicode": "1f42d",
+    "name": "mouse face"
+  },
+  "🐁": {
+    "unicode": "1f401",
+    "name": "mouse"
+  },
+  "🐀": {
+    "unicode": "1f400",
+    "name": "rat"
+  },
+  "🐹": {
+    "unicode": "1f439",
+    "name": "hamster"
+  },
+  "🐰": {
+    "unicode": "1f430",
+    "name": "rabbit face"
+  },
+  "🐇": {
+    "unicode": "1f407",
+    "name": "rabbit"
+  },
+  "🐿": {
+    "unicode": "1f43f",
+    "name": "chipmunk"
+  },
+  "🦫": {
+    "unicode": "1f9ab",
+    "name": "beaver"
+  },
+  "🦔": {
+    "unicode": "1f994",
+    "name": "hedgehog"
+  },
+  "🦇": {
+    "unicode": "1f987",
+    "name": "bat"
+  },
+  "🐻": {
+    "unicode": "1f43b",
+    "name": "bear"
+  },
+  "🐻‍❄️": {
+    "unicode": "1f43b-200d-2744-fe0f",
+    "name": "polar bear"
+  },
+  "🐨": {
+    "unicode": "1f428",
+    "name": "koala"
+  },
+  "🐼": {
+    "unicode": "1f43c",
+    "name": "panda"
+  },
+  "🦥": {
+    "unicode": "1f9a5",
+    "name": "sloth"
+  },
+  "🦦": {
+    "unicode": "1f9a6",
+    "name": "otter"
+  },
+  "🦨": {
+    "unicode": "1f9a8",
+    "name": "skunk"
+  },
+  "🦘": {
+    "unicode": "1f998",
+    "name": "kangaroo"
+  },
+  "🦡": {
+    "unicode": "1f9a1",
+    "name": "badger"
+  },
+  "🐾": {
+    "unicode": "1f43e",
+    "name": "paw prints"
+  },
+  "🦃": {
+    "unicode": "1f983",
+    "name": "turkey"
+  },
+  "🐔": {
+    "unicode": "1f414",
+    "name": "chicken"
+  },
+  "🐓": {
+    "unicode": "1f413",
+    "name": "rooster"
+  },
+  "🐣": {
+    "unicode": "1f423",
+    "name": "hatching chick"
+  },
+  "🐤": {
+    "unicode": "1f424",
+    "name": "baby chick"
+  },
+  "🐥": {
+    "unicode": "1f425",
+    "name": "front-facing baby chick"
+  },
+  "🐦": {
+    "unicode": "1f426",
+    "name": "bird"
+  },
+  "🐧": {
+    "unicode": "1f427",
+    "name": "penguin"
+  },
+  "🕊": {
+    "unicode": "1f54a",
+    "name": "dove"
+  },
+  "🦅": {
+    "unicode": "1f985",
+    "name": "eagle"
+  },
+  "🦆": {
+    "unicode": "1f986",
+    "name": "duck"
+  },
+  "🦢": {
+    "unicode": "1f9a2",
+    "name": "swan"
+  },
+  "🦉": {
+    "unicode": "1f989",
+    "name": "owl"
+  },
+  "🦤": {
+    "unicode": "1f9a4",
+    "name": "dodo"
+  },
+  "🪶": {
+    "unicode": "1fab6",
+    "name": "feather"
+  },
+  "🦩": {
+    "unicode": "1f9a9",
+    "name": "flamingo"
+  },
+  "🦚": {
+    "unicode": "1f99a",
+    "name": "peacock"
+  },
+  "🦜": {
+    "unicode": "1f99c",
+    "name": "parrot"
+  },
+  "🐸": {
+    "unicode": "1f438",
+    "name": "frog"
+  },
+  "🐊": {
+    "unicode": "1f40a",
+    "name": "crocodile"
+  },
+  "🐢": {
+    "unicode": "1f422",
+    "name": "turtle"
+  },
+  "🦎": {
+    "unicode": "1f98e",
+    "name": "lizard"
+  },
+  "🐍": {
+    "unicode": "1f40d",
+    "name": "snake"
+  },
+  "🐲": {
+    "unicode": "1f432",
+    "name": "dragon face"
+  },
+  "🐉": {
+    "unicode": "1f409",
+    "name": "dragon"
+  },
+  "🦕": {
+    "unicode": "1f995",
+    "name": "sauropod"
+  },
+  "🦖": {
+    "unicode": "1f996",
+    "name": "T-Rex"
+  },
+  "🐳": {
+    "unicode": "1f433",
+    "name": "spouting whale"
+  },
+  "🐋": {
+    "unicode": "1f40b",
+    "name": "whale"
+  },
+  "🐬": {
+    "unicode": "1f42c",
+    "name": "dolphin"
+  },
+  "🦭": {
+    "unicode": "1f9ad",
+    "name": "seal"
+  },
+  "🐟": {
+    "unicode": "1f41f",
+    "name": "fish"
+  },
+  "🐠": {
+    "unicode": "1f420",
+    "name": "tropical fish"
+  },
+  "🐡": {
+    "unicode": "1f421",
+    "name": "blowfish"
+  },
+  "🦈": {
+    "unicode": "1f988",
+    "name": "shark"
+  },
+  "🐙": {
+    "unicode": "1f419",
+    "name": "octopus"
+  },
+  "🐚": {
+    "unicode": "1f41a",
+    "name": "spiral shell"
+  },
+  "🪸": {
+    "unicode": "1fab8",
+    "name": "⊛ coral"
+  },
+  "🐌": {
+    "unicode": "1f40c",
+    "name": "snail"
+  },
+  "🦋": {
+    "unicode": "1f98b",
+    "name": "butterfly"
+  },
+  "🐛": {
+    "unicode": "1f41b",
+    "name": "bug"
+  },
+  "🐜": {
+    "unicode": "1f41c",
+    "name": "ant"
+  },
+  "🐝": {
+    "unicode": "1f41d",
+    "name": "honeybee"
+  },
+  "🪲": {
+    "unicode": "1fab2",
+    "name": "beetle"
+  },
+  "🐞": {
+    "unicode": "1f41e",
+    "name": "lady beetle"
+  },
+  "🦗": {
+    "unicode": "1f997",
+    "name": "cricket"
+  },
+  "🪳": {
+    "unicode": "1fab3",
+    "name": "cockroach"
+  },
+  "🕷": {
+    "unicode": "1f577",
+    "name": "spider"
+  },
+  "🕸": {
+    "unicode": "1f578",
+    "name": "spider web"
+  },
+  "🦂": {
+    "unicode": "1f982",
+    "name": "scorpion"
+  },
+  "🦟": {
+    "unicode": "1f99f",
+    "name": "mosquito"
+  },
+  "🪰": {
+    "unicode": "1fab0",
+    "name": "fly"
+  },
+  "🪱": {
+    "unicode": "1fab1",
+    "name": "worm"
+  },
+  "🦠": {
+    "unicode": "1f9a0",
+    "name": "microbe"
+  },
+  "💐": {
+    "unicode": "1f490",
+    "name": "bouquet"
+  },
+  "🌸": {
+    "unicode": "1f338",
+    "name": "cherry blossom"
+  },
+  "💮": {
+    "unicode": "1f4ae",
+    "name": "white flower"
+  },
+  "🪷": {
+    "unicode": "1fab7",
+    "name": "⊛ lotus"
+  },
+  "🏵": {
+    "unicode": "1f3f5",
+    "name": "rosette"
+  },
+  "🌹": {
+    "unicode": "1f339",
+    "name": "rose"
+  },
+  "🥀": {
+    "unicode": "1f940",
+    "name": "wilted flower"
+  },
+  "🌺": {
+    "unicode": "1f33a",
+    "name": "hibiscus"
+  },
+  "🌻": {
+    "unicode": "1f33b",
+    "name": "sunflower"
+  },
+  "🌼": {
+    "unicode": "1f33c",
+    "name": "blossom"
+  },
+  "🌷": {
+    "unicode": "1f337",
+    "name": "tulip"
+  },
+  "🌱": {
+    "unicode": "1f331",
+    "name": "seedling"
+  },
+  "🪴": {
+    "unicode": "1fab4",
+    "name": "potted plant"
+  },
+  "🌲": {
+    "unicode": "1f332",
+    "name": "evergreen tree"
+  },
+  "🌳": {
+    "unicode": "1f333",
+    "name": "deciduous tree"
+  },
+  "🌴": {
+    "unicode": "1f334",
+    "name": "palm tree"
+  },
+  "🌵": {
+    "unicode": "1f335",
+    "name": "cactus"
+  },
+  "🌾": {
+    "unicode": "1f33e",
+    "name": "sheaf of rice"
+  },
+  "🌿": {
+    "unicode": "1f33f",
+    "name": "herb"
+  },
+  "☘": {
+    "unicode": "2618",
+    "name": "shamrock"
+  },
+  "🍀": {
+    "unicode": "1f340",
+    "name": "four leaf clover"
+  },
+  "🍁": {
+    "unicode": "1f341",
+    "name": "maple leaf"
+  },
+  "🍂": {
+    "unicode": "1f342",
+    "name": "fallen leaf"
+  },
+  "🍃": {
+    "unicode": "1f343",
+    "name": "leaf fluttering in wind"
+  },
+  "🪹": {
+    "unicode": "1fab9",
+    "name": "⊛ empty nest"
+  },
+  "🪺": {
+    "unicode": "1faba",
+    "name": "⊛ nest with eggs"
+  },
+  "🍇": {
+    "unicode": "1f347",
+    "name": "grapes"
+  },
+  "🍈": {
+    "unicode": "1f348",
+    "name": "melon"
+  },
+  "🍉": {
+    "unicode": "1f349",
+    "name": "watermelon"
+  },
+  "🍊": {
+    "unicode": "1f34a",
+    "name": "tangerine"
+  },
+  "🍋": {
+    "unicode": "1f34b",
+    "name": "lemon"
+  },
+  "🍌": {
+    "unicode": "1f34c",
+    "name": "banana"
+  },
+  "🍍": {
+    "unicode": "1f34d",
+    "name": "pineapple"
+  },
+  "🥭": {
+    "unicode": "1f96d",
+    "name": "mango"
+  },
+  "🍎": {
+    "unicode": "1f34e",
+    "name": "red apple"
+  },
+  "🍏": {
+    "unicode": "1f34f",
+    "name": "green apple"
+  },
+  "🍐": {
+    "unicode": "1f350",
+    "name": "pear"
+  },
+  "🍑": {
+    "unicode": "1f351",
+    "name": "peach"
+  },
+  "🍒": {
+    "unicode": "1f352",
+    "name": "cherries"
+  },
+  "🍓": {
+    "unicode": "1f353",
+    "name": "strawberry"
+  },
+  "🫐": {
+    "unicode": "1fad0",
+    "name": "blueberries"
+  },
+  "🥝": {
+    "unicode": "1f95d",
+    "name": "kiwi fruit"
+  },
+  "🍅": {
+    "unicode": "1f345",
+    "name": "tomato"
+  },
+  "🫒": {
+    "unicode": "1fad2",
+    "name": "olive"
+  },
+  "🥥": {
+    "unicode": "1f965",
+    "name": "coconut"
+  },
+  "🥑": {
+    "unicode": "1f951",
+    "name": "avocado"
+  },
+  "🍆": {
+    "unicode": "1f346",
+    "name": "eggplant"
+  },
+  "🥔": {
+    "unicode": "1f954",
+    "name": "potato"
+  },
+  "🥕": {
+    "unicode": "1f955",
+    "name": "carrot"
+  },
+  "🌽": {
+    "unicode": "1f33d",
+    "name": "ear of corn"
+  },
+  "🌶": {
+    "unicode": "1f336",
+    "name": "hot pepper"
+  },
+  "🫑": {
+    "unicode": "1fad1",
+    "name": "bell pepper"
+  },
+  "🥒": {
+    "unicode": "1f952",
+    "name": "cucumber"
+  },
+  "🥬": {
+    "unicode": "1f96c",
+    "name": "leafy green"
+  },
+  "🥦": {
+    "unicode": "1f966",
+    "name": "broccoli"
+  },
+  "🧄": {
+    "unicode": "1f9c4",
+    "name": "garlic"
+  },
+  "🧅": {
+    "unicode": "1f9c5",
+    "name": "onion"
+  },
+  "🍄": {
+    "unicode": "1f344",
+    "name": "mushroom"
+  },
+  "🥜": {
+    "unicode": "1f95c",
+    "name": "peanuts"
+  },
+  "🫘": {
+    "unicode": "1fad8",
+    "name": "⊛ beans"
+  },
+  "🌰": {
+    "unicode": "1f330",
+    "name": "chestnut"
+  },
+  "🍞": {
+    "unicode": "1f35e",
+    "name": "bread"
+  },
+  "🥐": {
+    "unicode": "1f950",
+    "name": "croissant"
+  },
+  "🥖": {
+    "unicode": "1f956",
+    "name": "baguette bread"
+  },
+  "🫓": {
+    "unicode": "1fad3",
+    "name": "flatbread"
+  },
+  "🥨": {
+    "unicode": "1f968",
+    "name": "pretzel"
+  },
+  "🥯": {
+    "unicode": "1f96f",
+    "name": "bagel"
+  },
+  "🥞": {
+    "unicode": "1f95e",
+    "name": "pancakes"
+  },
+  "🧇": {
+    "unicode": "1f9c7",
+    "name": "waffle"
+  },
+  "🧀": {
+    "unicode": "1f9c0",
+    "name": "cheese wedge"
+  },
+  "🍖": {
+    "unicode": "1f356",
+    "name": "meat on bone"
+  },
+  "🍗": {
+    "unicode": "1f357",
+    "name": "poultry leg"
+  },
+  "🥩": {
+    "unicode": "1f969",
+    "name": "cut of meat"
+  },
+  "🥓": {
+    "unicode": "1f953",
+    "name": "bacon"
+  },
+  "🍔": {
+    "unicode": "1f354",
+    "name": "hamburger"
+  },
+  "🍟": {
+    "unicode": "1f35f",
+    "name": "french fries"
+  },
+  "🍕": {
+    "unicode": "1f355",
+    "name": "pizza"
+  },
+  "🌭": {
+    "unicode": "1f32d",
+    "name": "hot dog"
+  },
+  "🥪": {
+    "unicode": "1f96a",
+    "name": "sandwich"
+  },
+  "🌮": {
+    "unicode": "1f32e",
+    "name": "taco"
+  },
+  "🌯": {
+    "unicode": "1f32f",
+    "name": "burrito"
+  },
+  "🫔": {
+    "unicode": "1fad4",
+    "name": "tamale"
+  },
+  "🥙": {
+    "unicode": "1f959",
+    "name": "stuffed flatbread"
+  },
+  "🧆": {
+    "unicode": "1f9c6",
+    "name": "falafel"
+  },
+  "🥚": {
+    "unicode": "1f95a",
+    "name": "egg"
+  },
+  "🍳": {
+    "unicode": "1f373",
+    "name": "cooking"
+  },
+  "🥘": {
+    "unicode": "1f958",
+    "name": "shallow pan of food"
+  },
+  "🍲": {
+    "unicode": "1f372",
+    "name": "pot of food"
+  },
+  "🫕": {
+    "unicode": "1fad5",
+    "name": "fondue"
+  },
+  "🥣": {
+    "unicode": "1f963",
+    "name": "bowl with spoon"
+  },
+  "🥗": {
+    "unicode": "1f957",
+    "name": "green salad"
+  },
+  "🍿": {
+    "unicode": "1f37f",
+    "name": "popcorn"
+  },
+  "🧈": {
+    "unicode": "1f9c8",
+    "name": "butter"
+  },
+  "🧂": {
+    "unicode": "1f9c2",
+    "name": "salt"
+  },
+  "🥫": {
+    "unicode": "1f96b",
+    "name": "canned food"
+  },
+  "🍱": {
+    "unicode": "1f371",
+    "name": "bento box"
+  },
+  "🍘": {
+    "unicode": "1f358",
+    "name": "rice cracker"
+  },
+  "🍙": {
+    "unicode": "1f359",
+    "name": "rice ball"
+  },
+  "🍚": {
+    "unicode": "1f35a",
+    "name": "cooked rice"
+  },
+  "🍛": {
+    "unicode": "1f35b",
+    "name": "curry rice"
+  },
+  "🍜": {
+    "unicode": "1f35c",
+    "name": "steaming bowl"
+  },
+  "🍝": {
+    "unicode": "1f35d",
+    "name": "spaghetti"
+  },
+  "🍠": {
+    "unicode": "1f360",
+    "name": "roasted sweet potato"
+  },
+  "🍢": {
+    "unicode": "1f362",
+    "name": "oden"
+  },
+  "🍣": {
+    "unicode": "1f363",
+    "name": "sushi"
+  },
+  "🍤": {
+    "unicode": "1f364",
+    "name": "fried shrimp"
+  },
+  "🍥": {
+    "unicode": "1f365",
+    "name": "fish cake with swirl"
+  },
+  "🥮": {
+    "unicode": "1f96e",
+    "name": "moon cake"
+  },
+  "🍡": {
+    "unicode": "1f361",
+    "name": "dango"
+  },
+  "🥟": {
+    "unicode": "1f95f",
+    "name": "dumpling"
+  },
+  "🥠": {
+    "unicode": "1f960",
+    "name": "fortune cookie"
+  },
+  "🥡": {
+    "unicode": "1f961",
+    "name": "takeout box"
+  },
+  "🦀": {
+    "unicode": "1f980",
+    "name": "crab"
+  },
+  "🦞": {
+    "unicode": "1f99e",
+    "name": "lobster"
+  },
+  "🦐": {
+    "unicode": "1f990",
+    "name": "shrimp"
+  },
+  "🦑": {
+    "unicode": "1f991",
+    "name": "squid"
+  },
+  "🦪": {
+    "unicode": "1f9aa",
+    "name": "oyster"
+  },
+  "🍦": {
+    "unicode": "1f366",
+    "name": "soft ice cream"
+  },
+  "🍧": {
+    "unicode": "1f367",
+    "name": "shaved ice"
+  },
+  "🍨": {
+    "unicode": "1f368",
+    "name": "ice cream"
+  },
+  "🍩": {
+    "unicode": "1f369",
+    "name": "doughnut"
+  },
+  "🍪": {
+    "unicode": "1f36a",
+    "name": "cookie"
+  },
+  "🎂": {
+    "unicode": "1f382",
+    "name": "birthday cake"
+  },
+  "🍰": {
+    "unicode": "1f370",
+    "name": "shortcake"
+  },
+  "🧁": {
+    "unicode": "1f9c1",
+    "name": "cupcake"
+  },
+  "🥧": {
+    "unicode": "1f967",
+    "name": "pie"
+  },
+  "🍫": {
+    "unicode": "1f36b",
+    "name": "chocolate bar"
+  },
+  "🍬": {
+    "unicode": "1f36c",
+    "name": "candy"
+  },
+  "🍭": {
+    "unicode": "1f36d",
+    "name": "lollipop"
+  },
+  "🍮": {
+    "unicode": "1f36e",
+    "name": "custard"
+  },
+  "🍯": {
+    "unicode": "1f36f",
+    "name": "honey pot"
+  },
+  "🍼": {
+    "unicode": "1f37c",
+    "name": "baby bottle"
+  },
+  "🥛": {
+    "unicode": "1f95b",
+    "name": "glass of milk"
+  },
+  "☕": {
+    "unicode": "2615",
+    "name": "hot beverage"
+  },
+  "🫖": {
+    "unicode": "1fad6",
+    "name": "teapot"
+  },
+  "🍵": {
+    "unicode": "1f375",
+    "name": "teacup without handle"
+  },
+  "🍶": {
+    "unicode": "1f376",
+    "name": "sake"
+  },
+  "🍾": {
+    "unicode": "1f37e",
+    "name": "bottle with popping cork"
+  },
+  "🍷": {
+    "unicode": "1f377",
+    "name": "wine glass"
+  },
+  "🍸": {
+    "unicode": "1f378",
+    "name": "cocktail glass"
+  },
+  "🍹": {
+    "unicode": "1f379",
+    "name": "tropical drink"
+  },
+  "🍺": {
+    "unicode": "1f37a",
+    "name": "beer mug"
+  },
+  "🍻": {
+    "unicode": "1f37b",
+    "name": "clinking beer mugs"
+  },
+  "🥂": {
+    "unicode": "1f942",
+    "name": "clinking glasses"
+  },
+  "🥃": {
+    "unicode": "1f943",
+    "name": "tumbler glass"
+  },
+  "🫗": {
+    "unicode": "1fad7",
+    "name": "⊛ pouring liquid"
+  },
+  "🥤": {
+    "unicode": "1f964",
+    "name": "cup with straw"
+  },
+  "🧋": {
+    "unicode": "1f9cb",
+    "name": "bubble tea"
+  },
+  "🧃": {
+    "unicode": "1f9c3",
+    "name": "beverage box"
+  },
+  "🧉": {
+    "unicode": "1f9c9",
+    "name": "mate"
+  },
+  "🧊": {
+    "unicode": "1f9ca",
+    "name": "ice"
+  },
+  "🥢": {
+    "unicode": "1f962",
+    "name": "chopsticks"
+  },
+  "🍽": {
+    "unicode": "1f37d",
+    "name": "fork and knife with plate"
+  },
+  "🍴": {
+    "unicode": "1f374",
+    "name": "fork and knife"
+  },
+  "🥄": {
+    "unicode": "1f944",
+    "name": "spoon"
+  },
+  "🔪": {
+    "unicode": "1f52a",
+    "name": "kitchen knife"
+  },
+  "🫙": {
+    "unicode": "1fad9",
+    "name": "⊛ jar"
+  },
+  "🏺": {
+    "unicode": "1f3fa",
+    "name": "amphora"
+  },
+  "🌍": {
+    "unicode": "1f30d",
+    "name": "globe showing Europe-Africa"
+  },
+  "🌎": {
+    "unicode": "1f30e",
+    "name": "globe showing Americas"
+  },
+  "🌏": {
+    "unicode": "1f30f",
+    "name": "globe showing Asia-Australia"
+  },
+  "🌐": {
+    "unicode": "1f310",
+    "name": "globe with meridians"
+  },
+  "🗺": {
+    "unicode": "1f5fa",
+    "name": "world map"
+  },
+  "🗾": {
+    "unicode": "1f5fe",
+    "name": "map of Japan"
+  },
+  "🧭": {
+    "unicode": "1f9ed",
+    "name": "compass"
+  },
+  "🏔": {
+    "unicode": "1f3d4",
+    "name": "snow-capped mountain"
+  },
+  "⛰": {
+    "unicode": "26f0",
+    "name": "mountain"
+  },
+  "🌋": {
+    "unicode": "1f30b",
+    "name": "volcano"
+  },
+  "🗻": {
+    "unicode": "1f5fb",
+    "name": "mount fuji"
+  },
+  "🏕": {
+    "unicode": "1f3d5",
+    "name": "camping"
+  },
+  "🏖": {
+    "unicode": "1f3d6",
+    "name": "beach with umbrella"
+  },
+  "🏜": {
+    "unicode": "1f3dc",
+    "name": "desert"
+  },
+  "🏝": {
+    "unicode": "1f3dd",
+    "name": "desert island"
+  },
+  "🏞": {
+    "unicode": "1f3de",
+    "name": "national park"
+  },
+  "🏟": {
+    "unicode": "1f3df",
+    "name": "stadium"
+  },
+  "🏛": {
+    "unicode": "1f3db",
+    "name": "classical building"
+  },
+  "🏗": {
+    "unicode": "1f3d7",
+    "name": "building construction"
+  },
+  "🧱": {
+    "unicode": "1f9f1",
+    "name": "brick"
+  },
+  "🪨": {
+    "unicode": "1faa8",
+    "name": "rock"
+  },
+  "🪵": {
+    "unicode": "1fab5",
+    "name": "wood"
+  },
+  "🛖": {
+    "unicode": "1f6d6",
+    "name": "hut"
+  },
+  "🏘": {
+    "unicode": "1f3d8",
+    "name": "houses"
+  },
+  "🏚": {
+    "unicode": "1f3da",
+    "name": "derelict house"
+  },
+  "🏠": {
+    "unicode": "1f3e0",
+    "name": "house"
+  },
+  "🏡": {
+    "unicode": "1f3e1",
+    "name": "house with garden"
+  },
+  "🏢": {
+    "unicode": "1f3e2",
+    "name": "office building"
+  },
+  "🏣": {
+    "unicode": "1f3e3",
+    "name": "Japanese post office"
+  },
+  "🏤": {
+    "unicode": "1f3e4",
+    "name": "post office"
+  },
+  "🏥": {
+    "unicode": "1f3e5",
+    "name": "hospital"
+  },
+  "🏦": {
+    "unicode": "1f3e6",
+    "name": "bank"
+  },
+  "🏨": {
+    "unicode": "1f3e8",
+    "name": "hotel"
+  },
+  "🏩": {
+    "unicode": "1f3e9",
+    "name": "love hotel"
+  },
+  "🏪": {
+    "unicode": "1f3ea",
+    "name": "convenience store"
+  },
+  "🏫": {
+    "unicode": "1f3eb",
+    "name": "school"
+  },
+  "🏬": {
+    "unicode": "1f3ec",
+    "name": "department store"
+  },
+  "🏭": {
+    "unicode": "1f3ed",
+    "name": "factory"
+  },
+  "🏯": {
+    "unicode": "1f3ef",
+    "name": "Japanese castle"
+  },
+  "🏰": {
+    "unicode": "1f3f0",
+    "name": "castle"
+  },
+  "💒": {
+    "unicode": "1f492",
+    "name": "wedding"
+  },
+  "🗼": {
+    "unicode": "1f5fc",
+    "name": "Tokyo tower"
+  },
+  "🗽": {
+    "unicode": "1f5fd",
+    "name": "Statue of Liberty"
+  },
+  "⛪": {
+    "unicode": "26ea",
+    "name": "church"
+  },
+  "🕌": {
+    "unicode": "1f54c",
+    "name": "mosque"
+  },
+  "🛕": {
+    "unicode": "1f6d5",
+    "name": "hindu temple"
+  },
+  "🕍": {
+    "unicode": "1f54d",
+    "name": "synagogue"
+  },
+  "⛩": {
+    "unicode": "26e9",
+    "name": "shinto shrine"
+  },
+  "🕋": {
+    "unicode": "1f54b",
+    "name": "kaaba"
+  },
+  "⛲": {
+    "unicode": "26f2",
+    "name": "fountain"
+  },
+  "⛺": {
+    "unicode": "26fa",
+    "name": "tent"
+  },
+  "🌁": {
+    "unicode": "1f301",
+    "name": "foggy"
+  },
+  "🌃": {
+    "unicode": "1f303",
+    "name": "night with stars"
+  },
+  "🏙": {
+    "unicode": "1f3d9",
+    "name": "cityscape"
+  },
+  "🌄": {
+    "unicode": "1f304",
+    "name": "sunrise over mountains"
+  },
+  "🌅": {
+    "unicode": "1f305",
+    "name": "sunrise"
+  },
+  "🌆": {
+    "unicode": "1f306",
+    "name": "cityscape at dusk"
+  },
+  "🌇": {
+    "unicode": "1f307",
+    "name": "sunset"
+  },
+  "🌉": {
+    "unicode": "1f309",
+    "name": "bridge at night"
+  },
+  "♨": {
+    "unicode": "2668",
+    "name": "hot springs"
+  },
+  "🎠": {
+    "unicode": "1f3a0",
+    "name": "carousel horse"
+  },
+  "🛝": {
+    "unicode": "1f6dd",
+    "name": "⊛ playground slide"
+  },
+  "🎡": {
+    "unicode": "1f3a1",
+    "name": "ferris wheel"
+  },
+  "🎢": {
+    "unicode": "1f3a2",
+    "name": "roller coaster"
+  },
+  "💈": {
+    "unicode": "1f488",
+    "name": "barber pole"
+  },
+  "🎪": {
+    "unicode": "1f3aa",
+    "name": "circus tent"
+  },
+  "🚂": {
+    "unicode": "1f682",
+    "name": "locomotive"
+  },
+  "🚃": {
+    "unicode": "1f683",
+    "name": "railway car"
+  },
+  "🚄": {
+    "unicode": "1f684",
+    "name": "high-speed train"
+  },
+  "🚅": {
+    "unicode": "1f685",
+    "name": "bullet train"
+  },
+  "🚆": {
+    "unicode": "1f686",
+    "name": "train"
+  },
+  "🚇": {
+    "unicode": "1f687",
+    "name": "metro"
+  },
+  "🚈": {
+    "unicode": "1f688",
+    "name": "light rail"
+  },
+  "🚉": {
+    "unicode": "1f689",
+    "name": "station"
+  },
+  "🚊": {
+    "unicode": "1f68a",
+    "name": "tram"
+  },
+  "🚝": {
+    "unicode": "1f69d",
+    "name": "monorail"
+  },
+  "🚞": {
+    "unicode": "1f69e",
+    "name": "mountain railway"
+  },
+  "🚋": {
+    "unicode": "1f68b",
+    "name": "tram car"
+  },
+  "🚌": {
+    "unicode": "1f68c",
+    "name": "bus"
+  },
+  "🚍": {
+    "unicode": "1f68d",
+    "name": "oncoming bus"
+  },
+  "🚎": {
+    "unicode": "1f68e",
+    "name": "trolleybus"
+  },
+  "🚐": {
+    "unicode": "1f690",
+    "name": "minibus"
+  },
+  "🚑": {
+    "unicode": "1f691",
+    "name": "ambulance"
+  },
+  "🚒": {
+    "unicode": "1f692",
+    "name": "fire engine"
+  },
+  "🚓": {
+    "unicode": "1f693",
+    "name": "police car"
+  },
+  "🚔": {
+    "unicode": "1f694",
+    "name": "oncoming police car"
+  },
+  "🚕": {
+    "unicode": "1f695",
+    "name": "taxi"
+  },
+  "🚖": {
+    "unicode": "1f696",
+    "name": "oncoming taxi"
+  },
+  "🚗": {
+    "unicode": "1f697",
+    "name": "automobile"
+  },
+  "🚘": {
+    "unicode": "1f698",
+    "name": "oncoming automobile"
+  },
+  "🚙": {
+    "unicode": "1f699",
+    "name": "sport utility vehicle"
+  },
+  "🛻": {
+    "unicode": "1f6fb",
+    "name": "pickup truck"
+  },
+  "🚚": {
+    "unicode": "1f69a",
+    "name": "delivery truck"
+  },
+  "🚛": {
+    "unicode": "1f69b",
+    "name": "articulated lorry"
+  },
+  "🚜": {
+    "unicode": "1f69c",
+    "name": "tractor"
+  },
+  "🏎": {
+    "unicode": "1f3ce",
+    "name": "racing car"
+  },
+  "🏍": {
+    "unicode": "1f3cd",
+    "name": "motorcycle"
+  },
+  "🛵": {
+    "unicode": "1f6f5",
+    "name": "motor scooter"
+  },
+  "🦽": {
+    "unicode": "1f9bd",
+    "name": "manual wheelchair"
+  },
+  "🦼": {
+    "unicode": "1f9bc",
+    "name": "motorized wheelchair"
+  },
+  "🛺": {
+    "unicode": "1f6fa",
+    "name": "auto rickshaw"
+  },
+  "🚲": {
+    "unicode": "1f6b2",
+    "name": "bicycle"
+  },
+  "🛴": {
+    "unicode": "1f6f4",
+    "name": "kick scooter"
+  },
+  "🛹": {
+    "unicode": "1f6f9",
+    "name": "skateboard"
+  },
+  "🛼": {
+    "unicode": "1f6fc",
+    "name": "roller skate"
+  },
+  "🚏": {
+    "unicode": "1f68f",
+    "name": "bus stop"
+  },
+  "🛣": {
+    "unicode": "1f6e3",
+    "name": "motorway"
+  },
+  "🛤": {
+    "unicode": "1f6e4",
+    "name": "railway track"
+  },
+  "🛢": {
+    "unicode": "1f6e2",
+    "name": "oil drum"
+  },
+  "⛽": {
+    "unicode": "26fd",
+    "name": "fuel pump"
+  },
+  "🛞": {
+    "unicode": "1f6de",
+    "name": "⊛ wheel"
+  },
+  "🚨": {
+    "unicode": "1f6a8",
+    "name": "police car light"
+  },
+  "🚥": {
+    "unicode": "1f6a5",
+    "name": "horizontal traffic light"
+  },
+  "🚦": {
+    "unicode": "1f6a6",
+    "name": "vertical traffic light"
+  },
+  "🛑": {
+    "unicode": "1f6d1",
+    "name": "stop sign"
+  },
+  "🚧": {
+    "unicode": "1f6a7",
+    "name": "construction"
+  },
+  "⚓": {
+    "unicode": "2693",
+    "name": "anchor"
+  },
+  "🛟": {
+    "unicode": "1f6df",
+    "name": "⊛ ring buoy"
+  },
+  "⛵": {
+    "unicode": "26f5",
+    "name": "sailboat"
+  },
+  "🛶": {
+    "unicode": "1f6f6",
+    "name": "canoe"
+  },
+  "🚤": {
+    "unicode": "1f6a4",
+    "name": "speedboat"
+  },
+  "🛳": {
+    "unicode": "1f6f3",
+    "name": "passenger ship"
+  },
+  "⛴": {
+    "unicode": "26f4",
+    "name": "ferry"
+  },
+  "🛥": {
+    "unicode": "1f6e5",
+    "name": "motor boat"
+  },
+  "🚢": {
+    "unicode": "1f6a2",
+    "name": "ship"
+  },
+  "✈": {
+    "unicode": "2708",
+    "name": "airplane"
+  },
+  "🛩": {
+    "unicode": "1f6e9",
+    "name": "small airplane"
+  },
+  "🛫": {
+    "unicode": "1f6eb",
+    "name": "airplane departure"
+  },
+  "🛬": {
+    "unicode": "1f6ec",
+    "name": "airplane arrival"
+  },
+  "🪂": {
+    "unicode": "1fa82",
+    "name": "parachute"
+  },
+  "💺": {
+    "unicode": "1f4ba",
+    "name": "seat"
+  },
+  "🚁": {
+    "unicode": "1f681",
+    "name": "helicopter"
+  },
+  "🚟": {
+    "unicode": "1f69f",
+    "name": "suspension railway"
+  },
+  "🚠": {
+    "unicode": "1f6a0",
+    "name": "mountain cableway"
+  },
+  "🚡": {
+    "unicode": "1f6a1",
+    "name": "aerial tramway"
+  },
+  "🛰": {
+    "unicode": "1f6f0",
+    "name": "satellite"
+  },
+  "🚀": {
+    "unicode": "1f680",
+    "name": "rocket"
+  },
+  "🛸": {
+    "unicode": "1f6f8",
+    "name": "flying saucer"
+  },
+  "🛎": {
+    "unicode": "1f6ce",
+    "name": "bellhop bell"
+  },
+  "🧳": {
+    "unicode": "1f9f3",
+    "name": "luggage"
+  },
+  "⌛": {
+    "unicode": "231b",
+    "name": "hourglass done"
+  },
+  "⏳": {
+    "unicode": "23f3",
+    "name": "hourglass not done"
+  },
+  "⌚": {
+    "unicode": "231a",
+    "name": "watch"
+  },
+  "⏰": {
+    "unicode": "23f0",
+    "name": "alarm clock"
+  },
+  "⏱": {
+    "unicode": "23f1",
+    "name": "stopwatch"
+  },
+  "⏲": {
+    "unicode": "23f2",
+    "name": "timer clock"
+  },
+  "🕰": {
+    "unicode": "1f570",
+    "name": "mantelpiece clock"
+  },
+  "🕛": {
+    "unicode": "1f55b",
+    "name": "twelve o’clock"
+  },
+  "🕧": {
+    "unicode": "1f567",
+    "name": "twelve-thirty"
+  },
+  "🕐": {
+    "unicode": "1f550",
+    "name": "one o’clock"
+  },
+  "🕜": {
+    "unicode": "1f55c",
+    "name": "one-thirty"
+  },
+  "🕑": {
+    "unicode": "1f551",
+    "name": "two o’clock"
+  },
+  "🕝": {
+    "unicode": "1f55d",
+    "name": "two-thirty"
+  },
+  "🕒": {
+    "unicode": "1f552",
+    "name": "three o’clock"
+  },
+  "🕞": {
+    "unicode": "1f55e",
+    "name": "three-thirty"
+  },
+  "🕓": {
+    "unicode": "1f553",
+    "name": "four o’clock"
+  },
+  "🕟": {
+    "unicode": "1f55f",
+    "name": "four-thirty"
+  },
+  "🕔": {
+    "unicode": "1f554",
+    "name": "five o’clock"
+  },
+  "🕠": {
+    "unicode": "1f560",
+    "name": "five-thirty"
+  },
+  "🕕": {
+    "unicode": "1f555",
+    "name": "six o’clock"
+  },
+  "🕡": {
+    "unicode": "1f561",
+    "name": "six-thirty"
+  },
+  "🕖": {
+    "unicode": "1f556",
+    "name": "seven o’clock"
+  },
+  "🕢": {
+    "unicode": "1f562",
+    "name": "seven-thirty"
+  },
+  "🕗": {
+    "unicode": "1f557",
+    "name": "eight o’clock"
+  },
+  "🕣": {
+    "unicode": "1f563",
+    "name": "eight-thirty"
+  },
+  "🕘": {
+    "unicode": "1f558",
+    "name": "nine o’clock"
+  },
+  "🕤": {
+    "unicode": "1f564",
+    "name": "nine-thirty"
+  },
+  "🕙": {
+    "unicode": "1f559",
+    "name": "ten o’clock"
+  },
+  "🕥": {
+    "unicode": "1f565",
+    "name": "ten-thirty"
+  },
+  "🕚": {
+    "unicode": "1f55a",
+    "name": "eleven o’clock"
+  },
+  "🕦": {
+    "unicode": "1f566",
+    "name": "eleven-thirty"
+  },
+  "🌑": {
+    "unicode": "1f311",
+    "name": "new moon"
+  },
+  "🌒": {
+    "unicode": "1f312",
+    "name": "waxing crescent moon"
+  },
+  "🌓": {
+    "unicode": "1f313",
+    "name": "first quarter moon"
+  },
+  "🌔": {
+    "unicode": "1f314",
+    "name": "waxing gibbous moon"
+  },
+  "🌕": {
+    "unicode": "1f315",
+    "name": "full moon"
+  },
+  "🌖": {
+    "unicode": "1f316",
+    "name": "waning gibbous moon"
+  },
+  "🌗": {
+    "unicode": "1f317",
+    "name": "last quarter moon"
+  },
+  "🌘": {
+    "unicode": "1f318",
+    "name": "waning crescent moon"
+  },
+  "🌙": {
+    "unicode": "1f319",
+    "name": "crescent moon"
+  },
+  "🌚": {
+    "unicode": "1f31a",
+    "name": "new moon face"
+  },
+  "🌛": {
+    "unicode": "1f31b",
+    "name": "first quarter moon face"
+  },
+  "🌜": {
+    "unicode": "1f31c",
+    "name": "last quarter moon face"
+  },
+  "🌡": {
+    "unicode": "1f321",
+    "name": "thermometer"
+  },
+  "☀": {
+    "unicode": "2600",
+    "name": "sun"
+  },
+  "🌝": {
+    "unicode": "1f31d",
+    "name": "full moon face"
+  },
+  "🌞": {
+    "unicode": "1f31e",
+    "name": "sun with face"
+  },
+  "🪐": {
+    "unicode": "1fa90",
+    "name": "ringed planet"
+  },
+  "⭐": {
+    "unicode": "2b50",
+    "name": "star"
+  },
+  "🌟": {
+    "unicode": "1f31f",
+    "name": "glowing star"
+  },
+  "🌠": {
+    "unicode": "1f320",
+    "name": "shooting star"
+  },
+  "🌌": {
+    "unicode": "1f30c",
+    "name": "milky way"
+  },
+  "☁": {
+    "unicode": "2601",
+    "name": "cloud"
+  },
+  "⛅": {
+    "unicode": "26c5",
+    "name": "sun behind cloud"
+  },
+  "⛈": {
+    "unicode": "26c8",
+    "name": "cloud with lightning and rain"
+  },
+  "🌤": {
+    "unicode": "1f324",
+    "name": "sun behind small cloud"
+  },
+  "🌥": {
+    "unicode": "1f325",
+    "name": "sun behind large cloud"
+  },
+  "🌦": {
+    "unicode": "1f326",
+    "name": "sun behind rain cloud"
+  },
+  "🌧": {
+    "unicode": "1f327",
+    "name": "cloud with rain"
+  },
+  "🌨": {
+    "unicode": "1f328",
+    "name": "cloud with snow"
+  },
+  "🌩": {
+    "unicode": "1f329",
+    "name": "cloud with lightning"
+  },
+  "🌪": {
+    "unicode": "1f32a",
+    "name": "tornado"
+  },
+  "🌫": {
+    "unicode": "1f32b",
+    "name": "fog"
+  },
+  "🌬": {
+    "unicode": "1f32c",
+    "name": "wind face"
+  },
+  "🌀": {
+    "unicode": "1f300",
+    "name": "cyclone"
+  },
+  "🌈": {
+    "unicode": "1f308",
+    "name": "rainbow"
+  },
+  "🌂": {
+    "unicode": "1f302",
+    "name": "closed umbrella"
+  },
+  "☂": {
+    "unicode": "2602",
+    "name": "umbrella"
+  },
+  "☔": {
+    "unicode": "2614",
+    "name": "umbrella with rain drops"
+  },
+  "⛱": {
+    "unicode": "26f1",
+    "name": "umbrella on ground"
+  },
+  "⚡": {
+    "unicode": "26a1",
+    "name": "high voltage"
+  },
+  "❄": {
+    "unicode": "2744",
+    "name": "snowflake"
+  },
+  "☃": {
+    "unicode": "2603",
+    "name": "snowman"
+  },
+  "⛄": {
+    "unicode": "26c4",
+    "name": "snowman without snow"
+  },
+  "☄": {
+    "unicode": "2604",
+    "name": "comet"
+  },
+  "🔥": {
+    "unicode": "1f525",
+    "name": "fire"
+  },
+  "💧": {
+    "unicode": "1f4a7",
+    "name": "droplet"
+  },
+  "🌊": {
+    "unicode": "1f30a",
+    "name": "water wave"
+  },
+  "🎃": {
+    "unicode": "1f383",
+    "name": "jack-o-lantern"
+  },
+  "🎄": {
+    "unicode": "1f384",
+    "name": "Christmas tree"
+  },
+  "🎆": {
+    "unicode": "1f386",
+    "name": "fireworks"
+  },
+  "🎇": {
+    "unicode": "1f387",
+    "name": "sparkler"
+  },
+  "🧨": {
+    "unicode": "1f9e8",
+    "name": "firecracker"
+  },
+  "✨": {
+    "unicode": "2728",
+    "name": "sparkles"
+  },
+  "🎈": {
+    "unicode": "1f388",
+    "name": "balloon"
+  },
+  "🎉": {
+    "unicode": "1f389",
+    "name": "party popper"
+  },
+  "🎊": {
+    "unicode": "1f38a",
+    "name": "confetti ball"
+  },
+  "🎋": {
+    "unicode": "1f38b",
+    "name": "tanabata tree"
+  },
+  "🎍": {
+    "unicode": "1f38d",
+    "name": "pine decoration"
+  },
+  "🎎": {
+    "unicode": "1f38e",
+    "name": "Japanese dolls"
+  },
+  "🎏": {
+    "unicode": "1f38f",
+    "name": "carp streamer"
+  },
+  "🎐": {
+    "unicode": "1f390",
+    "name": "wind chime"
+  },
+  "🎑": {
+    "unicode": "1f391",
+    "name": "moon viewing ceremony"
+  },
+  "🧧": {
+    "unicode": "1f9e7",
+    "name": "red envelope"
+  },
+  "🎀": {
+    "unicode": "1f380",
+    "name": "ribbon"
+  },
+  "🎁": {
+    "unicode": "1f381",
+    "name": "wrapped gift"
+  },
+  "🎗": {
+    "unicode": "1f397",
+    "name": "reminder ribbon"
+  },
+  "🎟": {
+    "unicode": "1f39f",
+    "name": "admission tickets"
+  },
+  "🎫": {
+    "unicode": "1f3ab",
+    "name": "ticket"
+  },
+  "🎖": {
+    "unicode": "1f396",
+    "name": "military medal"
+  },
+  "🏆": {
+    "unicode": "1f3c6",
+    "name": "trophy"
+  },
+  "🏅": {
+    "unicode": "1f3c5",
+    "name": "sports medal"
+  },
+  "🥇": {
+    "unicode": "1f947",
+    "name": "1st place medal"
+  },
+  "🥈": {
+    "unicode": "1f948",
+    "name": "2nd place medal"
+  },
+  "🥉": {
+    "unicode": "1f949",
+    "name": "3rd place medal"
+  },
+  "⚽": {
+    "unicode": "26bd",
+    "name": "soccer ball"
+  },
+  "⚾": {
+    "unicode": "26be",
+    "name": "baseball"
+  },
+  "🥎": {
+    "unicode": "1f94e",
+    "name": "softball"
+  },
+  "🏀": {
+    "unicode": "1f3c0",
+    "name": "basketball"
+  },
+  "🏐": {
+    "unicode": "1f3d0",
+    "name": "volleyball"
+  },
+  "🏈": {
+    "unicode": "1f3c8",
+    "name": "american football"
+  },
+  "🏉": {
+    "unicode": "1f3c9",
+    "name": "rugby football"
+  },
+  "🎾": {
+    "unicode": "1f3be",
+    "name": "tennis"
+  },
+  "🥏": {
+    "unicode": "1f94f",
+    "name": "flying disc"
+  },
+  "🎳": {
+    "unicode": "1f3b3",
+    "name": "bowling"
+  },
+  "🏏": {
+    "unicode": "1f3cf",
+    "name": "cricket game"
+  },
+  "🏑": {
+    "unicode": "1f3d1",
+    "name": "field hockey"
+  },
+  "🏒": {
+    "unicode": "1f3d2",
+    "name": "ice hockey"
+  },
+  "🥍": {
+    "unicode": "1f94d",
+    "name": "lacrosse"
+  },
+  "🏓": {
+    "unicode": "1f3d3",
+    "name": "ping pong"
+  },
+  "🏸": {
+    "unicode": "1f3f8",
+    "name": "badminton"
+  },
+  "🥊": {
+    "unicode": "1f94a",
+    "name": "boxing glove"
+  },
+  "🥋": {
+    "unicode": "1f94b",
+    "name": "martial arts uniform"
+  },
+  "🥅": {
+    "unicode": "1f945",
+    "name": "goal net"
+  },
+  "⛳": {
+    "unicode": "26f3",
+    "name": "flag in hole"
+  },
+  "⛸": {
+    "unicode": "26f8",
+    "name": "ice skate"
+  },
+  "🎣": {
+    "unicode": "1f3a3",
+    "name": "fishing pole"
+  },
+  "🤿": {
+    "unicode": "1f93f",
+    "name": "diving mask"
+  },
+  "🎽": {
+    "unicode": "1f3bd",
+    "name": "running shirt"
+  },
+  "🎿": {
+    "unicode": "1f3bf",
+    "name": "skis"
+  },
+  "🛷": {
+    "unicode": "1f6f7",
+    "name": "sled"
+  },
+  "🥌": {
+    "unicode": "1f94c",
+    "name": "curling stone"
+  },
+  "🎯": {
+    "unicode": "1f3af",
+    "name": "bullseye"
+  },
+  "🪀": {
+    "unicode": "1fa80",
+    "name": "yo-yo"
+  },
+  "🪁": {
+    "unicode": "1fa81",
+    "name": "kite"
+  },
+  "🎱": {
+    "unicode": "1f3b1",
+    "name": "pool 8 ball"
+  },
+  "🔮": {
+    "unicode": "1f52e",
+    "name": "crystal ball"
+  },
+  "🪄": {
+    "unicode": "1fa84",
+    "name": "magic wand"
+  },
+  "🧿": {
+    "unicode": "1f9ff",
+    "name": "nazar amulet"
+  },
+  "🪬": {
+    "unicode": "1faac",
+    "name": "⊛ hamsa"
+  },
+  "🎮": {
+    "unicode": "1f3ae",
+    "name": "video game"
+  },
+  "🕹": {
+    "unicode": "1f579",
+    "name": "joystick"
+  },
+  "🎰": {
+    "unicode": "1f3b0",
+    "name": "slot machine"
+  },
+  "🎲": {
+    "unicode": "1f3b2",
+    "name": "game die"
+  },
+  "🧩": {
+    "unicode": "1f9e9",
+    "name": "puzzle piece"
+  },
+  "🧸": {
+    "unicode": "1f9f8",
+    "name": "teddy bear"
+  },
+  "🪅": {
+    "unicode": "1fa85",
+    "name": "piñata"
+  },
+  "🪩": {
+    "unicode": "1faa9",
+    "name": "⊛ mirror ball"
+  },
+  "🪆": {
+    "unicode": "1fa86",
+    "name": "nesting dolls"
+  },
+  "♠": {
+    "unicode": "2660",
+    "name": "spade suit"
+  },
+  "♥": {
+    "unicode": "2665",
+    "name": "heart suit"
+  },
+  "♦": {
+    "unicode": "2666",
+    "name": "diamond suit"
+  },
+  "♣": {
+    "unicode": "2663",
+    "name": "club suit"
+  },
+  "♟": {
+    "unicode": "265f",
+    "name": "chess pawn"
+  },
+  "🃏": {
+    "unicode": "1f0cf",
+    "name": "joker"
+  },
+  "🀄": {
+    "unicode": "1f004",
+    "name": "mahjong red dragon"
+  },
+  "🎴": {
+    "unicode": "1f3b4",
+    "name": "flower playing cards"
+  },
+  "🎭": {
+    "unicode": "1f3ad",
+    "name": "performing arts"
+  },
+  "🖼": {
+    "unicode": "1f5bc",
+    "name": "framed picture"
+  },
+  "🎨": {
+    "unicode": "1f3a8",
+    "name": "artist palette"
+  },
+  "🧵": {
+    "unicode": "1f9f5",
+    "name": "thread"
+  },
+  "🪡": {
+    "unicode": "1faa1",
+    "name": "sewing needle"
+  },
+  "🧶": {
+    "unicode": "1f9f6",
+    "name": "yarn"
+  },
+  "🪢": {
+    "unicode": "1faa2",
+    "name": "knot"
+  },
+  "👓": {
+    "unicode": "1f453",
+    "name": "glasses"
+  },
+  "🕶": {
+    "unicode": "1f576",
+    "name": "sunglasses"
+  },
+  "🥽": {
+    "unicode": "1f97d",
+    "name": "goggles"
+  },
+  "🥼": {
+    "unicode": "1f97c",
+    "name": "lab coat"
+  },
+  "🦺": {
+    "unicode": "1f9ba",
+    "name": "safety vest"
+  },
+  "👔": {
+    "unicode": "1f454",
+    "name": "necktie"
+  },
+  "👕": {
+    "unicode": "1f455",
+    "name": "t-shirt"
+  },
+  "👖": {
+    "unicode": "1f456",
+    "name": "jeans"
+  },
+  "🧣": {
+    "unicode": "1f9e3",
+    "name": "scarf"
+  },
+  "🧤": {
+    "unicode": "1f9e4",
+    "name": "gloves"
+  },
+  "🧥": {
+    "unicode": "1f9e5",
+    "name": "coat"
+  },
+  "🧦": {
+    "unicode": "1f9e6",
+    "name": "socks"
+  },
+  "👗": {
+    "unicode": "1f457",
+    "name": "dress"
+  },
+  "👘": {
+    "unicode": "1f458",
+    "name": "kimono"
+  },
+  "🥻": {
+    "unicode": "1f97b",
+    "name": "sari"
+  },
+  "🩱": {
+    "unicode": "1fa71",
+    "name": "one-piece swimsuit"
+  },
+  "🩲": {
+    "unicode": "1fa72",
+    "name": "briefs"
+  },
+  "🩳": {
+    "unicode": "1fa73",
+    "name": "shorts"
+  },
+  "👙": {
+    "unicode": "1f459",
+    "name": "bikini"
+  },
+  "👚": {
+    "unicode": "1f45a",
+    "name": "woman’s clothes"
+  },
+  "👛": {
+    "unicode": "1f45b",
+    "name": "purse"
+  },
+  "👜": {
+    "unicode": "1f45c",
+    "name": "handbag"
+  },
+  "👝": {
+    "unicode": "1f45d",
+    "name": "clutch bag"
+  },
+  "🛍": {
+    "unicode": "1f6cd",
+    "name": "shopping bags"
+  },
+  "🎒": {
+    "unicode": "1f392",
+    "name": "backpack"
+  },
+  "🩴": {
+    "unicode": "1fa74",
+    "name": "thong sandal"
+  },
+  "👞": {
+    "unicode": "1f45e",
+    "name": "man’s shoe"
+  },
+  "👟": {
+    "unicode": "1f45f",
+    "name": "running shoe"
+  },
+  "🥾": {
+    "unicode": "1f97e",
+    "name": "hiking boot"
+  },
+  "🥿": {
+    "unicode": "1f97f",
+    "name": "flat shoe"
+  },
+  "👠": {
+    "unicode": "1f460",
+    "name": "high-heeled shoe"
+  },
+  "👡": {
+    "unicode": "1f461",
+    "name": "woman’s sandal"
+  },
+  "🩰": {
+    "unicode": "1fa70",
+    "name": "ballet shoes"
+  },
+  "👢": {
+    "unicode": "1f462",
+    "name": "woman’s boot"
+  },
+  "👑": {
+    "unicode": "1f451",
+    "name": "crown"
+  },
+  "👒": {
+    "unicode": "1f452",
+    "name": "woman’s hat"
+  },
+  "🎩": {
+    "unicode": "1f3a9",
+    "name": "top hat"
+  },
+  "🎓": {
+    "unicode": "1f393",
+    "name": "graduation cap"
+  },
+  "🧢": {
+    "unicode": "1f9e2",
+    "name": "billed cap"
+  },
+  "🪖": {
+    "unicode": "1fa96",
+    "name": "military helmet"
+  },
+  "⛑": {
+    "unicode": "26d1",
+    "name": "rescue worker’s helmet"
+  },
+  "📿": {
+    "unicode": "1f4ff",
+    "name": "prayer beads"
+  },
+  "💄": {
+    "unicode": "1f484",
+    "name": "lipstick"
+  },
+  "💍": {
+    "unicode": "1f48d",
+    "name": "ring"
+  },
+  "💎": {
+    "unicode": "1f48e",
+    "name": "gem stone"
+  },
+  "🔇": {
+    "unicode": "1f507",
+    "name": "muted speaker"
+  },
+  "🔈": {
+    "unicode": "1f508",
+    "name": "speaker low volume"
+  },
+  "🔉": {
+    "unicode": "1f509",
+    "name": "speaker medium volume"
+  },
+  "🔊": {
+    "unicode": "1f50a",
+    "name": "speaker high volume"
+  },
+  "📢": {
+    "unicode": "1f4e2",
+    "name": "loudspeaker"
+  },
+  "📣": {
+    "unicode": "1f4e3",
+    "name": "megaphone"
+  },
+  "📯": {
+    "unicode": "1f4ef",
+    "name": "postal horn"
+  },
+  "🔔": {
+    "unicode": "1f514",
+    "name": "bell"
+  },
+  "🔕": {
+    "unicode": "1f515",
+    "name": "bell with slash"
+  },
+  "🎼": {
+    "unicode": "1f3bc",
+    "name": "musical score"
+  },
+  "🎵": {
+    "unicode": "1f3b5",
+    "name": "musical note"
+  },
+  "🎶": {
+    "unicode": "1f3b6",
+    "name": "musical notes"
+  },
+  "🎙": {
+    "unicode": "1f399",
+    "name": "studio microphone"
+  },
+  "🎚": {
+    "unicode": "1f39a",
+    "name": "level slider"
+  },
+  "🎛": {
+    "unicode": "1f39b",
+    "name": "control knobs"
+  },
+  "🎤": {
+    "unicode": "1f3a4",
+    "name": "microphone"
+  },
+  "🎧": {
+    "unicode": "1f3a7",
+    "name": "headphone"
+  },
+  "📻": {
+    "unicode": "1f4fb",
+    "name": "radio"
+  },
+  "🎷": {
+    "unicode": "1f3b7",
+    "name": "saxophone"
+  },
+  "🪗": {
+    "unicode": "1fa97",
+    "name": "accordion"
+  },
+  "🎸": {
+    "unicode": "1f3b8",
+    "name": "guitar"
+  },
+  "🎹": {
+    "unicode": "1f3b9",
+    "name": "musical keyboard"
+  },
+  "🎺": {
+    "unicode": "1f3ba",
+    "name": "trumpet"
+  },
+  "🎻": {
+    "unicode": "1f3bb",
+    "name": "violin"
+  },
+  "🪕": {
+    "unicode": "1fa95",
+    "name": "banjo"
+  },
+  "🥁": {
+    "unicode": "1f941",
+    "name": "drum"
+  },
+  "🪘": {
+    "unicode": "1fa98",
+    "name": "long drum"
+  },
+  "📱": {
+    "unicode": "1f4f1",
+    "name": "mobile phone"
+  },
+  "📲": {
+    "unicode": "1f4f2",
+    "name": "mobile phone with arrow"
+  },
+  "☎": {
+    "unicode": "260e",
+    "name": "telephone"
+  },
+  "📞": {
+    "unicode": "1f4de",
+    "name": "telephone receiver"
+  },
+  "📟": {
+    "unicode": "1f4df",
+    "name": "pager"
+  },
+  "📠": {
+    "unicode": "1f4e0",
+    "name": "fax machine"
+  },
+  "🔋": {
+    "unicode": "1f50b",
+    "name": "battery"
+  },
+  "🪫": {
+    "unicode": "1faab",
+    "name": "⊛ low battery"
+  },
+  "🔌": {
+    "unicode": "1f50c",
+    "name": "electric plug"
+  },
+  "💻": {
+    "unicode": "1f4bb",
+    "name": "laptop"
+  },
+  "🖥": {
+    "unicode": "1f5a5",
+    "name": "desktop computer"
+  },
+  "🖨": {
+    "unicode": "1f5a8",
+    "name": "printer"
+  },
+  "⌨": {
+    "unicode": "2328",
+    "name": "keyboard"
+  },
+  "🖱": {
+    "unicode": "1f5b1",
+    "name": "computer mouse"
+  },
+  "🖲": {
+    "unicode": "1f5b2",
+    "name": "trackball"
+  },
+  "💽": {
+    "unicode": "1f4bd",
+    "name": "computer disk"
+  },
+  "💾": {
+    "unicode": "1f4be",
+    "name": "floppy disk"
+  },
+  "💿": {
+    "unicode": "1f4bf",
+    "name": "optical disk"
+  },
+  "📀": {
+    "unicode": "1f4c0",
+    "name": "dvd"
+  },
+  "🧮": {
+    "unicode": "1f9ee",
+    "name": "abacus"
+  },
+  "🎥": {
+    "unicode": "1f3a5",
+    "name": "movie camera"
+  },
+  "🎞": {
+    "unicode": "1f39e",
+    "name": "film frames"
+  },
+  "📽": {
+    "unicode": "1f4fd",
+    "name": "film projector"
+  },
+  "🎬": {
+    "unicode": "1f3ac",
+    "name": "clapper board"
+  },
+  "📺": {
+    "unicode": "1f4fa",
+    "name": "television"
+  },
+  "📷": {
+    "unicode": "1f4f7",
+    "name": "camera"
+  },
+  "📸": {
+    "unicode": "1f4f8",
+    "name": "camera with flash"
+  },
+  "📹": {
+    "unicode": "1f4f9",
+    "name": "video camera"
+  },
+  "📼": {
+    "unicode": "1f4fc",
+    "name": "videocassette"
+  },
+  "🔍": {
+    "unicode": "1f50d",
+    "name": "magnifying glass tilted left"
+  },
+  "🔎": {
+    "unicode": "1f50e",
+    "name": "magnifying glass tilted right"
+  },
+  "🕯": {
+    "unicode": "1f56f",
+    "name": "candle"
+  },
+  "💡": {
+    "unicode": "1f4a1",
+    "name": "light bulb"
+  },
+  "🔦": {
+    "unicode": "1f526",
+    "name": "flashlight"
+  },
+  "🏮": {
+    "unicode": "1f3ee",
+    "name": "red paper lantern"
+  },
+  "🪔": {
+    "unicode": "1fa94",
+    "name": "diya lamp"
+  },
+  "📔": {
+    "unicode": "1f4d4",
+    "name": "notebook with decorative cover"
+  },
+  "📕": {
+    "unicode": "1f4d5",
+    "name": "closed book"
+  },
+  "📖": {
+    "unicode": "1f4d6",
+    "name": "open book"
+  },
+  "📗": {
+    "unicode": "1f4d7",
+    "name": "green book"
+  },
+  "📘": {
+    "unicode": "1f4d8",
+    "name": "blue book"
+  },
+  "📙": {
+    "unicode": "1f4d9",
+    "name": "orange book"
+  },
+  "📚": {
+    "unicode": "1f4da",
+    "name": "books"
+  },
+  "📓": {
+    "unicode": "1f4d3",
+    "name": "notebook"
+  },
+  "📒": {
+    "unicode": "1f4d2",
+    "name": "ledger"
+  },
+  "📃": {
+    "unicode": "1f4c3",
+    "name": "page with curl"
+  },
+  "📜": {
+    "unicode": "1f4dc",
+    "name": "scroll"
+  },
+  "📄": {
+    "unicode": "1f4c4",
+    "name": "page facing up"
+  },
+  "📰": {
+    "unicode": "1f4f0",
+    "name": "newspaper"
+  },
+  "🗞": {
+    "unicode": "1f5de",
+    "name": "rolled-up newspaper"
+  },
+  "📑": {
+    "unicode": "1f4d1",
+    "name": "bookmark tabs"
+  },
+  "🔖": {
+    "unicode": "1f516",
+    "name": "bookmark"
+  },
+  "🏷": {
+    "unicode": "1f3f7",
+    "name": "label"
+  },
+  "💰": {
+    "unicode": "1f4b0",
+    "name": "money bag"
+  },
+  "🪙": {
+    "unicode": "1fa99",
+    "name": "coin"
+  },
+  "💴": {
+    "unicode": "1f4b4",
+    "name": "yen banknote"
+  },
+  "💵": {
+    "unicode": "1f4b5",
+    "name": "dollar banknote"
+  },
+  "💶": {
+    "unicode": "1f4b6",
+    "name": "euro banknote"
+  },
+  "💷": {
+    "unicode": "1f4b7",
+    "name": "pound banknote"
+  },
+  "💸": {
+    "unicode": "1f4b8",
+    "name": "money with wings"
+  },
+  "💳": {
+    "unicode": "1f4b3",
+    "name": "credit card"
+  },
+  "🧾": {
+    "unicode": "1f9fe",
+    "name": "receipt"
+  },
+  "💹": {
+    "unicode": "1f4b9",
+    "name": "chart increasing with yen"
+  },
+  "✉": {
+    "unicode": "2709",
+    "name": "envelope"
+  },
+  "📧": {
+    "unicode": "1f4e7",
+    "name": "e-mail"
+  },
+  "📨": {
+    "unicode": "1f4e8",
+    "name": "incoming envelope"
+  },
+  "📩": {
+    "unicode": "1f4e9",
+    "name": "envelope with arrow"
+  },
+  "📤": {
+    "unicode": "1f4e4",
+    "name": "outbox tray"
+  },
+  "📥": {
+    "unicode": "1f4e5",
+    "name": "inbox tray"
+  },
+  "📦": {
+    "unicode": "1f4e6",
+    "name": "package"
+  },
+  "📫": {
+    "unicode": "1f4eb",
+    "name": "closed mailbox with raised flag"
+  },
+  "📪": {
+    "unicode": "1f4ea",
+    "name": "closed mailbox with lowered flag"
+  },
+  "📬": {
+    "unicode": "1f4ec",
+    "name": "open mailbox with raised flag"
+  },
+  "📭": {
+    "unicode": "1f4ed",
+    "name": "open mailbox with lowered flag"
+  },
+  "📮": {
+    "unicode": "1f4ee",
+    "name": "postbox"
+  },
+  "🗳": {
+    "unicode": "1f5f3",
+    "name": "ballot box with ballot"
+  },
+  "✏": {
+    "unicode": "270f",
+    "name": "pencil"
+  },
+  "✒": {
+    "unicode": "2712",
+    "name": "black nib"
+  },
+  "🖋": {
+    "unicode": "1f58b",
+    "name": "fountain pen"
+  },
+  "🖊": {
+    "unicode": "1f58a",
+    "name": "pen"
+  },
+  "🖌": {
+    "unicode": "1f58c",
+    "name": "paintbrush"
+  },
+  "🖍": {
+    "unicode": "1f58d",
+    "name": "crayon"
+  },
+  "📝": {
+    "unicode": "1f4dd",
+    "name": "memo"
+  },
+  "💼": {
+    "unicode": "1f4bc",
+    "name": "briefcase"
+  },
+  "📁": {
+    "unicode": "1f4c1",
+    "name": "file folder"
+  },
+  "📂": {
+    "unicode": "1f4c2",
+    "name": "open file folder"
+  },
+  "🗂": {
+    "unicode": "1f5c2",
+    "name": "card index dividers"
+  },
+  "📅": {
+    "unicode": "1f4c5",
+    "name": "calendar"
+  },
+  "📆": {
+    "unicode": "1f4c6",
+    "name": "tear-off calendar"
+  },
+  "🗒": {
+    "unicode": "1f5d2",
+    "name": "spiral notepad"
+  },
+  "🗓": {
+    "unicode": "1f5d3",
+    "name": "spiral calendar"
+  },
+  "📇": {
+    "unicode": "1f4c7",
+    "name": "card index"
+  },
+  "📈": {
+    "unicode": "1f4c8",
+    "name": "chart increasing"
+  },
+  "📉": {
+    "unicode": "1f4c9",
+    "name": "chart decreasing"
+  },
+  "📊": {
+    "unicode": "1f4ca",
+    "name": "bar chart"
+  },
+  "📋": {
+    "unicode": "1f4cb",
+    "name": "clipboard"
+  },
+  "📌": {
+    "unicode": "1f4cc",
+    "name": "pushpin"
+  },
+  "📍": {
+    "unicode": "1f4cd",
+    "name": "round pushpin"
+  },
+  "📎": {
+    "unicode": "1f4ce",
+    "name": "paperclip"
+  },
+  "🖇": {
+    "unicode": "1f587",
+    "name": "linked paperclips"
+  },
+  "📏": {
+    "unicode": "1f4cf",
+    "name": "straight ruler"
+  },
+  "📐": {
+    "unicode": "1f4d0",
+    "name": "triangular ruler"
+  },
+  "✂": {
+    "unicode": "2702",
+    "name": "scissors"
+  },
+  "🗃": {
+    "unicode": "1f5c3",
+    "name": "card file box"
+  },
+  "🗄": {
+    "unicode": "1f5c4",
+    "name": "file cabinet"
+  },
+  "🗑": {
+    "unicode": "1f5d1",
+    "name": "wastebasket"
+  },
+  "🔒": {
+    "unicode": "1f512",
+    "name": "locked"
+  },
+  "🔓": {
+    "unicode": "1f513",
+    "name": "unlocked"
+  },
+  "🔏": {
+    "unicode": "1f50f",
+    "name": "locked with pen"
+  },
+  "🔐": {
+    "unicode": "1f510",
+    "name": "locked with key"
+  },
+  "🔑": {
+    "unicode": "1f511",
+    "name": "key"
+  },
+  "🗝": {
+    "unicode": "1f5dd",
+    "name": "old key"
+  },
+  "🔨": {
+    "unicode": "1f528",
+    "name": "hammer"
+  },
+  "🪓": {
+    "unicode": "1fa93",
+    "name": "axe"
+  },
+  "⛏": {
+    "unicode": "26cf",
+    "name": "pick"
+  },
+  "⚒": {
+    "unicode": "2692",
+    "name": "hammer and pick"
+  },
+  "🛠": {
+    "unicode": "1f6e0",
+    "name": "hammer and wrench"
+  },
+  "🗡": {
+    "unicode": "1f5e1",
+    "name": "dagger"
+  },
+  "⚔": {
+    "unicode": "2694",
+    "name": "crossed swords"
+  },
+  "🔫": {
+    "unicode": "1f52b",
+    "name": "water pistol"
+  },
+  "🪃": {
+    "unicode": "1fa83",
+    "name": "boomerang"
+  },
+  "🏹": {
+    "unicode": "1f3f9",
+    "name": "bow and arrow"
+  },
+  "🛡": {
+    "unicode": "1f6e1",
+    "name": "shield"
+  },
+  "🪚": {
+    "unicode": "1fa9a",
+    "name": "carpentry saw"
+  },
+  "🔧": {
+    "unicode": "1f527",
+    "name": "wrench"
+  },
+  "🪛": {
+    "unicode": "1fa9b",
+    "name": "screwdriver"
+  },
+  "🔩": {
+    "unicode": "1f529",
+    "name": "nut and bolt"
+  },
+  "⚙": {
+    "unicode": "2699",
+    "name": "gear"
+  },
+  "🗜": {
+    "unicode": "1f5dc",
+    "name": "clamp"
+  },
+  "⚖": {
+    "unicode": "2696",
+    "name": "balance scale"
+  },
+  "🦯": {
+    "unicode": "1f9af",
+    "name": "white cane"
+  },
+  "🔗": {
+    "unicode": "1f517",
+    "name": "link"
+  },
+  "⛓": {
+    "unicode": "26d3",
+    "name": "chains"
+  },
+  "🪝": {
+    "unicode": "1fa9d",
+    "name": "hook"
+  },
+  "🧰": {
+    "unicode": "1f9f0",
+    "name": "toolbox"
+  },
+  "🧲": {
+    "unicode": "1f9f2",
+    "name": "magnet"
+  },
+  "🪜": {
+    "unicode": "1fa9c",
+    "name": "ladder"
+  },
+  "⚗": {
+    "unicode": "2697",
+    "name": "alembic"
+  },
+  "🧪": {
+    "unicode": "1f9ea",
+    "name": "test tube"
+  },
+  "🧫": {
+    "unicode": "1f9eb",
+    "name": "petri dish"
+  },
+  "🧬": {
+    "unicode": "1f9ec",
+    "name": "dna"
+  },
+  "🔬": {
+    "unicode": "1f52c",
+    "name": "microscope"
+  },
+  "🔭": {
+    "unicode": "1f52d",
+    "name": "telescope"
+  },
+  "📡": {
+    "unicode": "1f4e1",
+    "name": "satellite antenna"
+  },
+  "💉": {
+    "unicode": "1f489",
+    "name": "syringe"
+  },
+  "🩸": {
+    "unicode": "1fa78",
+    "name": "drop of blood"
+  },
+  "💊": {
+    "unicode": "1f48a",
+    "name": "pill"
+  },
+  "🩹": {
+    "unicode": "1fa79",
+    "name": "adhesive bandage"
+  },
+  "🩼": {
+    "unicode": "1fa7c",
+    "name": "⊛ crutch"
+  },
+  "🩺": {
+    "unicode": "1fa7a",
+    "name": "stethoscope"
+  },
+  "🩻": {
+    "unicode": "1fa7b",
+    "name": "⊛ x-ray"
+  },
+  "🚪": {
+    "unicode": "1f6aa",
+    "name": "door"
+  },
+  "🛗": {
+    "unicode": "1f6d7",
+    "name": "elevator"
+  },
+  "🪞": {
+    "unicode": "1fa9e",
+    "name": "mirror"
+  },
+  "🪟": {
+    "unicode": "1fa9f",
+    "name": "window"
+  },
+  "🛏": {
+    "unicode": "1f6cf",
+    "name": "bed"
+  },
+  "🛋": {
+    "unicode": "1f6cb",
+    "name": "couch and lamp"
+  },
+  "🪑": {
+    "unicode": "1fa91",
+    "name": "chair"
+  },
+  "🚽": {
+    "unicode": "1f6bd",
+    "name": "toilet"
+  },
+  "🪠": {
+    "unicode": "1faa0",
+    "name": "plunger"
+  },
+  "🚿": {
+    "unicode": "1f6bf",
+    "name": "shower"
+  },
+  "🛁": {
+    "unicode": "1f6c1",
+    "name": "bathtub"
+  },
+  "🪤": {
+    "unicode": "1faa4",
+    "name": "mouse trap"
+  },
+  "🪒": {
+    "unicode": "1fa92",
+    "name": "razor"
+  },
+  "🧴": {
+    "unicode": "1f9f4",
+    "name": "lotion bottle"
+  },
+  "🧷": {
+    "unicode": "1f9f7",
+    "name": "safety pin"
+  },
+  "🧹": {
+    "unicode": "1f9f9",
+    "name": "broom"
+  },
+  "🧺": {
+    "unicode": "1f9fa",
+    "name": "basket"
+  },
+  "🧻": {
+    "unicode": "1f9fb",
+    "name": "roll of paper"
+  },
+  "🪣": {
+    "unicode": "1faa3",
+    "name": "bucket"
+  },
+  "🧼": {
+    "unicode": "1f9fc",
+    "name": "soap"
+  },
+  "🫧": {
+    "unicode": "1fae7",
+    "name": "⊛ bubbles"
+  },
+  "🪥": {
+    "unicode": "1faa5",
+    "name": "toothbrush"
+  },
+  "🧽": {
+    "unicode": "1f9fd",
+    "name": "sponge"
+  },
+  "🧯": {
+    "unicode": "1f9ef",
+    "name": "fire extinguisher"
+  },
+  "🛒": {
+    "unicode": "1f6d2",
+    "name": "shopping cart"
+  },
+  "🚬": {
+    "unicode": "1f6ac",
+    "name": "cigarette"
+  },
+  "⚰": {
+    "unicode": "26b0",
+    "name": "coffin"
+  },
+  "🪦": {
+    "unicode": "1faa6",
+    "name": "headstone"
+  },
+  "⚱": {
+    "unicode": "26b1",
+    "name": "funeral urn"
+  },
+  "🗿": {
+    "unicode": "1f5ff",
+    "name": "moai"
+  },
+  "🪧": {
+    "unicode": "1faa7",
+    "name": "placard"
+  },
+  "🪪": {
+    "unicode": "1faaa",
+    "name": "⊛ identification card"
+  },
+  "🏧": {
+    "unicode": "1f3e7",
+    "name": "ATM sign"
+  },
+  "🚮": {
+    "unicode": "1f6ae",
+    "name": "litter in bin sign"
+  },
+  "🚰": {
+    "unicode": "1f6b0",
+    "name": "potable water"
+  },
+  "♿": {
+    "unicode": "267f",
+    "name": "wheelchair symbol"
+  },
+  "🚹": {
+    "unicode": "1f6b9",
+    "name": "men’s room"
+  },
+  "🚺": {
+    "unicode": "1f6ba",
+    "name": "women’s room"
+  },
+  "🚻": {
+    "unicode": "1f6bb",
+    "name": "restroom"
+  },
+  "🚼": {
+    "unicode": "1f6bc",
+    "name": "baby symbol"
+  },
+  "🚾": {
+    "unicode": "1f6be",
+    "name": "water closet"
+  },
+  "🛂": {
+    "unicode": "1f6c2",
+    "name": "passport control"
+  },
+  "🛃": {
+    "unicode": "1f6c3",
+    "name": "customs"
+  },
+  "🛄": {
+    "unicode": "1f6c4",
+    "name": "baggage claim"
+  },
+  "🛅": {
+    "unicode": "1f6c5",
+    "name": "left luggage"
+  },
+  "⚠": {
+    "unicode": "26a0",
+    "name": "warning"
+  },
+  "🚸": {
+    "unicode": "1f6b8",
+    "name": "children crossing"
+  },
+  "⛔": {
+    "unicode": "26d4",
+    "name": "no entry"
+  },
+  "🚫": {
+    "unicode": "1f6ab",
+    "name": "prohibited"
+  },
+  "🚳": {
+    "unicode": "1f6b3",
+    "name": "no bicycles"
+  },
+  "🚭": {
+    "unicode": "1f6ad",
+    "name": "no smoking"
+  },
+  "🚯": {
+    "unicode": "1f6af",
+    "name": "no littering"
+  },
+  "🚱": {
+    "unicode": "1f6b1",
+    "name": "non-potable water"
+  },
+  "🚷": {
+    "unicode": "1f6b7",
+    "name": "no pedestrians"
+  },
+  "📵": {
+    "unicode": "1f4f5",
+    "name": "no mobile phones"
+  },
+  "🔞": {
+    "unicode": "1f51e",
+    "name": "no one under eighteen"
+  },
+  "☢": {
+    "unicode": "2622",
+    "name": "radioactive"
+  },
+  "☣": {
+    "unicode": "2623",
+    "name": "biohazard"
+  },
+  "⬆": {
+    "unicode": "2b06",
+    "name": "up arrow"
+  },
+  "↗": {
+    "unicode": "2197",
+    "name": "up-right arrow"
+  },
+  "➡": {
+    "unicode": "27a1",
+    "name": "right arrow"
+  },
+  "↘": {
+    "unicode": "2198",
+    "name": "down-right arrow"
+  },
+  "⬇": {
+    "unicode": "2b07",
+    "name": "down arrow"
+  },
+  "↙": {
+    "unicode": "2199",
+    "name": "down-left arrow"
+  },
+  "⬅": {
+    "unicode": "2b05",
+    "name": "left arrow"
+  },
+  "↖": {
+    "unicode": "2196",
+    "name": "up-left arrow"
+  },
+  "↕": {
+    "unicode": "2195",
+    "name": "up-down arrow"
+  },
+  "↔": {
+    "unicode": "2194",
+    "name": "left-right arrow"
+  },
+  "↩": {
+    "unicode": "21a9",
+    "name": "right arrow curving left"
+  },
+  "↪": {
+    "unicode": "21aa",
+    "name": "left arrow curving right"
+  },
+  "⤴": {
+    "unicode": "2934",
+    "name": "right arrow curving up"
+  },
+  "⤵": {
+    "unicode": "2935",
+    "name": "right arrow curving down"
+  },
+  "🔃": {
+    "unicode": "1f503",
+    "name": "clockwise vertical arrows"
+  },
+  "🔄": {
+    "unicode": "1f504",
+    "name": "counterclockwise arrows button"
+  },
+  "🔙": {
+    "unicode": "1f519",
+    "name": "BACK arrow"
+  },
+  "🔚": {
+    "unicode": "1f51a",
+    "name": "END arrow"
+  },
+  "🔛": {
+    "unicode": "1f51b",
+    "name": "ON! arrow"
+  },
+  "🔜": {
+    "unicode": "1f51c",
+    "name": "SOON arrow"
+  },
+  "🔝": {
+    "unicode": "1f51d",
+    "name": "TOP arrow"
+  },
+  "🛐": {
+    "unicode": "1f6d0",
+    "name": "place of worship"
+  },
+  "⚛": {
+    "unicode": "269b",
+    "name": "atom symbol"
+  },
+  "🕉": {
+    "unicode": "1f549",
+    "name": "om"
+  },
+  "✡": {
+    "unicode": "2721",
+    "name": "star of David"
+  },
+  "☸": {
+    "unicode": "2638",
+    "name": "wheel of dharma"
+  },
+  "☯": {
+    "unicode": "262f",
+    "name": "yin yang"
+  },
+  "✝": {
+    "unicode": "271d",
+    "name": "latin cross"
+  },
+  "☦": {
+    "unicode": "2626",
+    "name": "orthodox cross"
+  },
+  "☪": {
+    "unicode": "262a",
+    "name": "star and crescent"
+  },
+  "☮": {
+    "unicode": "262e",
+    "name": "peace symbol"
+  },
+  "🕎": {
+    "unicode": "1f54e",
+    "name": "menorah"
+  },
+  "🔯": {
+    "unicode": "1f52f",
+    "name": "dotted six-pointed star"
+  },
+  "♈": {
+    "unicode": "2648",
+    "name": "Aries"
+  },
+  "♉": {
+    "unicode": "2649",
+    "name": "Taurus"
+  },
+  "♊": {
+    "unicode": "264a",
+    "name": "Gemini"
+  },
+  "♋": {
+    "unicode": "264b",
+    "name": "Cancer"
+  },
+  "♌": {
+    "unicode": "264c",
+    "name": "Leo"
+  },
+  "♍": {
+    "unicode": "264d",
+    "name": "Virgo"
+  },
+  "♎": {
+    "unicode": "264e",
+    "name": "Libra"
+  },
+  "♏": {
+    "unicode": "264f",
+    "name": "Scorpio"
+  },
+  "♐": {
+    "unicode": "2650",
+    "name": "Sagittarius"
+  },
+  "♑": {
+    "unicode": "2651",
+    "name": "Capricorn"
+  },
+  "♒": {
+    "unicode": "2652",
+    "name": "Aquarius"
+  },
+  "♓": {
+    "unicode": "2653",
+    "name": "Pisces"
+  },
+  "⛎": {
+    "unicode": "26ce",
+    "name": "Ophiuchus"
+  },
+  "🔀": {
+    "unicode": "1f500",
+    "name": "shuffle tracks button"
+  },
+  "🔁": {
+    "unicode": "1f501",
+    "name": "repeat button"
+  },
+  "🔂": {
+    "unicode": "1f502",
+    "name": "repeat single button"
+  },
+  "▶": {
+    "unicode": "25b6",
+    "name": "play button"
+  },
+  "⏩": {
+    "unicode": "23e9",
+    "name": "fast-forward button"
+  },
+  "⏭": {
+    "unicode": "23ed",
+    "name": "next track button"
+  },
+  "⏯": {
+    "unicode": "23ef",
+    "name": "play or pause button"
+  },
+  "◀": {
+    "unicode": "25c0",
+    "name": "reverse button"
+  },
+  "⏪": {
+    "unicode": "23ea",
+    "name": "fast reverse button"
+  },
+  "⏮": {
+    "unicode": "23ee",
+    "name": "last track button"
+  },
+  "🔼": {
+    "unicode": "1f53c",
+    "name": "upwards button"
+  },
+  "⏫": {
+    "unicode": "23eb",
+    "name": "fast up button"
+  },
+  "🔽": {
+    "unicode": "1f53d",
+    "name": "downwards button"
+  },
+  "⏬": {
+    "unicode": "23ec",
+    "name": "fast down button"
+  },
+  "⏸": {
+    "unicode": "23f8",
+    "name": "pause button"
+  },
+  "⏹": {
+    "unicode": "23f9",
+    "name": "stop button"
+  },
+  "⏺": {
+    "unicode": "23fa",
+    "name": "record button"
+  },
+  "⏏": {
+    "unicode": "23cf",
+    "name": "eject button"
+  },
+  "🎦": {
+    "unicode": "1f3a6",
+    "name": "cinema"
+  },
+  "🔅": {
+    "unicode": "1f505",
+    "name": "dim button"
+  },
+  "🔆": {
+    "unicode": "1f506",
+    "name": "bright button"
+  },
+  "📶": {
+    "unicode": "1f4f6",
+    "name": "antenna bars"
+  },
+  "📳": {
+    "unicode": "1f4f3",
+    "name": "vibration mode"
+  },
+  "📴": {
+    "unicode": "1f4f4",
+    "name": "mobile phone off"
+  },
+  "♀": {
+    "unicode": "2640",
+    "name": "female sign"
+  },
+  "♂": {
+    "unicode": "2642",
+    "name": "male sign"
+  },
+  "⚧": {
+    "unicode": "26a7",
+    "name": "transgender symbol"
+  },
+  "✖": {
+    "unicode": "2716",
+    "name": "multiply"
+  },
+  "➕": {
+    "unicode": "2795",
+    "name": "plus"
+  },
+  "➖": {
+    "unicode": "2796",
+    "name": "minus"
+  },
+  "➗": {
+    "unicode": "2797",
+    "name": "divide"
+  },
+  "🟰": {
+    "unicode": "1f7f0",
+    "name": "⊛ heavy equals sign"
+  },
+  "♾": {
+    "unicode": "267e",
+    "name": "infinity"
+  },
+  "‼": {
+    "unicode": "203c",
+    "name": "double exclamation mark"
+  },
+  "⁉": {
+    "unicode": "2049",
+    "name": "exclamation question mark"
+  },
+  "❓": {
+    "unicode": "2753",
+    "name": "red question mark"
+  },
+  "❔": {
+    "unicode": "2754",
+    "name": "white question mark"
+  },
+  "❕": {
+    "unicode": "2755",
+    "name": "white exclamation mark"
+  },
+  "❗": {
+    "unicode": "2757",
+    "name": "red exclamation mark"
+  },
+  "〰": {
+    "unicode": "3030",
+    "name": "wavy dash"
+  },
+  "💱": {
+    "unicode": "1f4b1",
+    "name": "currency exchange"
+  },
+  "💲": {
+    "unicode": "1f4b2",
+    "name": "heavy dollar sign"
+  },
+  "⚕": {
+    "unicode": "2695",
+    "name": "medical symbol"
+  },
+  "♻": {
+    "unicode": "267b",
+    "name": "recycling symbol"
+  },
+  "⚜": {
+    "unicode": "269c",
+    "name": "fleur-de-lis"
+  },
+  "🔱": {
+    "unicode": "1f531",
+    "name": "trident emblem"
+  },
+  "📛": {
+    "unicode": "1f4db",
+    "name": "name badge"
+  },
+  "🔰": {
+    "unicode": "1f530",
+    "name": "Japanese symbol for beginner"
+  },
+  "⭕": {
+    "unicode": "2b55",
+    "name": "hollow red circle"
+  },
+  "✅": {
+    "unicode": "2705",
+    "name": "check mark button"
+  },
+  "☑": {
+    "unicode": "2611",
+    "name": "check box with check"
+  },
+  "✔": {
+    "unicode": "2714",
+    "name": "check mark"
+  },
+  "❌": {
+    "unicode": "274c",
+    "name": "cross mark"
+  },
+  "❎": {
+    "unicode": "274e",
+    "name": "cross mark button"
+  },
+  "➰": {
+    "unicode": "27b0",
+    "name": "curly loop"
+  },
+  "➿": {
+    "unicode": "27bf",
+    "name": "double curly loop"
+  },
+  "〽": {
+    "unicode": "303d",
+    "name": "part alternation mark"
+  },
+  "✳": {
+    "unicode": "2733",
+    "name": "eight-spoked asterisk"
+  },
+  "✴": {
+    "unicode": "2734",
+    "name": "eight-pointed star"
+  },
+  "❇": {
+    "unicode": "2747",
+    "name": "sparkle"
+  },
+  "©": {
+    "unicode": "00a9",
+    "name": "copyright"
+  },
+  "®": {
+    "unicode": "00ae",
+    "name": "registered"
+  },
+  "™": {
+    "unicode": "2122",
+    "name": "trade mark"
+  },
+  "#️⃣": {
+    "unicode": "0023-fe0f-20e3",
+    "name": "keycap: #"
+  },
+  "*️⃣": {
+    "unicode": "002a-fe0f-20e3",
+    "name": "keycap: *"
+  },
+  "0️⃣": {
+    "unicode": "0030-fe0f-20e3",
+    "name": "keycap: 0"
+  },
+  "1️⃣": {
+    "unicode": "0031-fe0f-20e3",
+    "name": "keycap: 1"
+  },
+  "2️⃣": {
+    "unicode": "0032-fe0f-20e3",
+    "name": "keycap: 2"
+  },
+  "3️⃣": {
+    "unicode": "0033-fe0f-20e3",
+    "name": "keycap: 3"
+  },
+  "4️⃣": {
+    "unicode": "0034-fe0f-20e3",
+    "name": "keycap: 4"
+  },
+  "5️⃣": {
+    "unicode": "0035-fe0f-20e3",
+    "name": "keycap: 5"
+  },
+  "6️⃣": {
+    "unicode": "0036-fe0f-20e3",
+    "name": "keycap: 6"
+  },
+  "7️⃣": {
+    "unicode": "0037-fe0f-20e3",
+    "name": "keycap: 7"
+  },
+  "8️⃣": {
+    "unicode": "0038-fe0f-20e3",
+    "name": "keycap: 8"
+  },
+  "9️⃣": {
+    "unicode": "0039-fe0f-20e3",
+    "name": "keycap: 9"
+  },
+  "🔟": {
+    "unicode": "1f51f",
+    "name": "keycap: 10"
+  },
+  "🔠": {
+    "unicode": "1f520",
+    "name": "input latin uppercase"
+  },
+  "🔡": {
+    "unicode": "1f521",
+    "name": "input latin lowercase"
+  },
+  "🔢": {
+    "unicode": "1f522",
+    "name": "input numbers"
+  },
+  "🔣": {
+    "unicode": "1f523",
+    "name": "input symbols"
+  },
+  "🔤": {
+    "unicode": "1f524",
+    "name": "input latin letters"
+  },
+  "🅰": {
+    "unicode": "1f170",
+    "name": "A button (blood type)"
+  },
+  "🆎": {
+    "unicode": "1f18e",
+    "name": "AB button (blood type)"
+  },
+  "🅱": {
+    "unicode": "1f171",
+    "name": "B button (blood type)"
+  },
+  "🆑": {
+    "unicode": "1f191",
+    "name": "CL button"
+  },
+  "🆒": {
+    "unicode": "1f192",
+    "name": "COOL button"
+  },
+  "🆓": {
+    "unicode": "1f193",
+    "name": "FREE button"
+  },
+  "ℹ": {
+    "unicode": "2139",
+    "name": "information"
+  },
+  "🆔": {
+    "unicode": "1f194",
+    "name": "ID button"
+  },
+  "Ⓜ": {
+    "unicode": "24c2",
+    "name": "circled M"
+  },
+  "🆕": {
+    "unicode": "1f195",
+    "name": "NEW button"
+  },
+  "🆖": {
+    "unicode": "1f196",
+    "name": "NG button"
+  },
+  "🅾": {
+    "unicode": "1f17e",
+    "name": "O button (blood type)"
+  },
+  "🆗": {
+    "unicode": "1f197",
+    "name": "OK button"
+  },
+  "🅿": {
+    "unicode": "1f17f",
+    "name": "P button"
+  },
+  "🆘": {
+    "unicode": "1f198",
+    "name": "SOS button"
+  },
+  "🆙": {
+    "unicode": "1f199",
+    "name": "UP! button"
+  },
+  "🆚": {
+    "unicode": "1f19a",
+    "name": "VS button"
+  },
+  "🈁": {
+    "unicode": "1f201",
+    "name": "Japanese “here” button"
+  },
+  "🈂": {
+    "unicode": "1f202",
+    "name": "Japanese “service charge” button"
+  },
+  "🈷": {
+    "unicode": "1f237",
+    "name": "Japanese “monthly amount” button"
+  },
+  "🈶": {
+    "unicode": "1f236",
+    "name": "Japanese “not free of charge” button"
+  },
+  "🈯": {
+    "unicode": "1f22f",
+    "name": "Japanese “reserved” button"
+  },
+  "🉐": {
+    "unicode": "1f250",
+    "name": "Japanese “bargain” button"
+  },
+  "🈹": {
+    "unicode": "1f239",
+    "name": "Japanese “discount” button"
+  },
+  "🈚": {
+    "unicode": "1f21a",
+    "name": "Japanese “free of charge” button"
+  },
+  "🈲": {
+    "unicode": "1f232",
+    "name": "Japanese “prohibited” button"
+  },
+  "🉑": {
+    "unicode": "1f251",
+    "name": "Japanese “acceptable” button"
+  },
+  "🈸": {
+    "unicode": "1f238",
+    "name": "Japanese “application” button"
+  },
+  "🈴": {
+    "unicode": "1f234",
+    "name": "Japanese “passing grade” button"
+  },
+  "🈳": {
+    "unicode": "1f233",
+    "name": "Japanese “vacancy” button"
+  },
+  "㊗": {
+    "unicode": "3297",
+    "name": "Japanese “congratulations” button"
+  },
+  "㊙": {
+    "unicode": "3299",
+    "name": "Japanese “secret” button"
+  },
+  "🈺": {
+    "unicode": "1f23a",
+    "name": "Japanese “open for business” button"
+  },
+  "🈵": {
+    "unicode": "1f235",
+    "name": "Japanese “no vacancy” button"
+  },
+  "🔴": {
+    "unicode": "1f534",
+    "name": "red circle"
+  },
+  "🟠": {
+    "unicode": "1f7e0",
+    "name": "orange circle"
+  },
+  "🟡": {
+    "unicode": "1f7e1",
+    "name": "yellow circle"
+  },
+  "🟢": {
+    "unicode": "1f7e2",
+    "name": "green circle"
+  },
+  "🔵": {
+    "unicode": "1f535",
+    "name": "blue circle"
+  },
+  "🟣": {
+    "unicode": "1f7e3",
+    "name": "purple circle"
+  },
+  "🟤": {
+    "unicode": "1f7e4",
+    "name": "brown circle"
+  },
+  "⚫": {
+    "unicode": "26ab",
+    "name": "black circle"
+  },
+  "⚪": {
+    "unicode": "26aa",
+    "name": "white circle"
+  },
+  "🟥": {
+    "unicode": "1f7e5",
+    "name": "red square"
+  },
+  "🟧": {
+    "unicode": "1f7e7",
+    "name": "orange square"
+  },
+  "🟨": {
+    "unicode": "1f7e8",
+    "name": "yellow square"
+  },
+  "🟩": {
+    "unicode": "1f7e9",
+    "name": "green square"
+  },
+  "🟦": {
+    "unicode": "1f7e6",
+    "name": "blue square"
+  },
+  "🟪": {
+    "unicode": "1f7ea",
+    "name": "purple square"
+  },
+  "🟫": {
+    "unicode": "1f7eb",
+    "name": "brown square"
+  },
+  "⬛": {
+    "unicode": "2b1b",
+    "name": "black large square"
+  },
+  "⬜": {
+    "unicode": "2b1c",
+    "name": "white large square"
+  },
+  "◼": {
+    "unicode": "25fc",
+    "name": "black medium square"
+  },
+  "◻": {
+    "unicode": "25fb",
+    "name": "white medium square"
+  },
+  "◾": {
+    "unicode": "25fe",
+    "name": "black medium-small square"
+  },
+  "◽": {
+    "unicode": "25fd",
+    "name": "white medium-small square"
+  },
+  "▪": {
+    "unicode": "25aa",
+    "name": "black small square"
+  },
+  "▫": {
+    "unicode": "25ab",
+    "name": "white small square"
+  },
+  "🔶": {
+    "unicode": "1f536",
+    "name": "large orange diamond"
+  },
+  "🔷": {
+    "unicode": "1f537",
+    "name": "large blue diamond"
+  },
+  "🔸": {
+    "unicode": "1f538",
+    "name": "small orange diamond"
+  },
+  "🔹": {
+    "unicode": "1f539",
+    "name": "small blue diamond"
+  },
+  "🔺": {
+    "unicode": "1f53a",
+    "name": "red triangle pointed up"
+  },
+  "🔻": {
+    "unicode": "1f53b",
+    "name": "red triangle pointed down"
+  },
+  "💠": {
+    "unicode": "1f4a0",
+    "name": "diamond with a dot"
+  },
+  "🔘": {
+    "unicode": "1f518",
+    "name": "radio button"
+  },
+  "🔳": {
+    "unicode": "1f533",
+    "name": "white square button"
+  },
+  "🔲": {
+    "unicode": "1f532",
+    "name": "black square button"
+  },
+  "🏁": {
+    "unicode": "1f3c1",
+    "name": "chequered flag"
+  },
+  "🚩": {
+    "unicode": "1f6a9",
+    "name": "triangular flag"
+  },
+  "🎌": {
+    "unicode": "1f38c",
+    "name": "crossed flags"
+  },
+  "🏴": {
+    "unicode": "1f3f4",
+    "name": "black flag"
+  },
+  "🏳": {
+    "unicode": "1f3f3",
+    "name": "white flag"
+  },
+  "🏳️‍🌈": {
+    "unicode": "1f3f3-fe0f-200d-1f308",
+    "name": "rainbow flag"
+  },
+  "🏳️‍⚧️": {
+    "unicode": "1f3f3-fe0f-200d-26a7-fe0f",
+    "name": "transgender flag"
+  },
+  "🏴‍☠️": {
+    "unicode": "1f3f4-200d-2620-fe0f",
+    "name": "pirate flag"
+  },
+  "🇦🇨": {
+    "unicode": "1f1e6-1f1e8",
+    "name": "flag: Ascension Island"
+  },
+  "🇦🇩": {
+    "unicode": "1f1e6-1f1e9",
+    "name": "flag: Andorra"
+  },
+  "🇦🇪": {
+    "unicode": "1f1e6-1f1ea",
+    "name": "flag: United Arab Emirates"
+  },
+  "🇦🇫": {
+    "unicode": "1f1e6-1f1eb",
+    "name": "flag: Afghanistan"
+  },
+  "🇦🇬": {
+    "unicode": "1f1e6-1f1ec",
+    "name": "flag: Antigua &amp; Barbuda"
+  },
+  "🇦🇮": {
+    "unicode": "1f1e6-1f1ee",
+    "name": "flag: Anguilla"
+  },
+  "🇦🇱": {
+    "unicode": "1f1e6-1f1f1",
+    "name": "flag: Albania"
+  },
+  "🇦🇲": {
+    "unicode": "1f1e6-1f1f2",
+    "name": "flag: Armenia"
+  },
+  "🇦🇴": {
+    "unicode": "1f1e6-1f1f4",
+    "name": "flag: Angola"
+  },
+  "🇦🇶": {
+    "unicode": "1f1e6-1f1f6",
+    "name": "flag: Antarctica"
+  },
+  "🇦🇷": {
+    "unicode": "1f1e6-1f1f7",
+    "name": "flag: Argentina"
+  },
+  "🇦🇸": {
+    "unicode": "1f1e6-1f1f8",
+    "name": "flag: American Samoa"
+  },
+  "🇦🇹": {
+    "unicode": "1f1e6-1f1f9",
+    "name": "flag: Austria"
+  },
+  "🇦🇺": {
+    "unicode": "1f1e6-1f1fa",
+    "name": "flag: Australia"
+  },
+  "🇦🇼": {
+    "unicode": "1f1e6-1f1fc",
+    "name": "flag: Aruba"
+  },
+  "🇦🇽": {
+    "unicode": "1f1e6-1f1fd",
+    "name": "flag: Åland Islands"
+  },
+  "🇦🇿": {
+    "unicode": "1f1e6-1f1ff",
+    "name": "flag: Azerbaijan"
+  },
+  "🇧🇦": {
+    "unicode": "1f1e7-1f1e6",
+    "name": "flag: Bosnia &amp; Herzegovina"
+  },
+  "🇧🇧": {
+    "unicode": "1f1e7-1f1e7",
+    "name": "flag: Barbados"
+  },
+  "🇧🇩": {
+    "unicode": "1f1e7-1f1e9",
+    "name": "flag: Bangladesh"
+  },
+  "🇧🇪": {
+    "unicode": "1f1e7-1f1ea",
+    "name": "flag: Belgium"
+  },
+  "🇧🇫": {
+    "unicode": "1f1e7-1f1eb",
+    "name": "flag: Burkina Faso"
+  },
+  "🇧🇬": {
+    "unicode": "1f1e7-1f1ec",
+    "name": "flag: Bulgaria"
+  },
+  "🇧🇭": {
+    "unicode": "1f1e7-1f1ed",
+    "name": "flag: Bahrain"
+  },
+  "🇧🇮": {
+    "unicode": "1f1e7-1f1ee",
+    "name": "flag: Burundi"
+  },
+  "🇧🇯": {
+    "unicode": "1f1e7-1f1ef",
+    "name": "flag: Benin"
+  },
+  "🇧🇱": {
+    "unicode": "1f1e7-1f1f1",
+    "name": "flag: St. Barthélemy"
+  },
+  "🇧🇲": {
+    "unicode": "1f1e7-1f1f2",
+    "name": "flag: Bermuda"
+  },
+  "🇧🇳": {
+    "unicode": "1f1e7-1f1f3",
+    "name": "flag: Brunei"
+  },
+  "🇧🇴": {
+    "unicode": "1f1e7-1f1f4",
+    "name": "flag: Bolivia"
+  },
+  "🇧🇶": {
+    "unicode": "1f1e7-1f1f6",
+    "name": "flag: Caribbean Netherlands"
+  },
+  "🇧🇷": {
+    "unicode": "1f1e7-1f1f7",
+    "name": "flag: Brazil"
+  },
+  "🇧🇸": {
+    "unicode": "1f1e7-1f1f8",
+    "name": "flag: Bahamas"
+  },
+  "🇧🇹": {
+    "unicode": "1f1e7-1f1f9",
+    "name": "flag: Bhutan"
+  },
+  "🇧🇻": {
+    "unicode": "1f1e7-1f1fb",
+    "name": "flag: Bouvet Island"
+  },
+  "🇧🇼": {
+    "unicode": "1f1e7-1f1fc",
+    "name": "flag: Botswana"
+  },
+  "🇧🇾": {
+    "unicode": "1f1e7-1f1fe",
+    "name": "flag: Belarus"
+  },
+  "🇧🇿": {
+    "unicode": "1f1e7-1f1ff",
+    "name": "flag: Belize"
+  },
+  "🇨🇦": {
+    "unicode": "1f1e8-1f1e6",
+    "name": "flag: Canada"
+  },
+  "🇨🇨": {
+    "unicode": "1f1e8-1f1e8",
+    "name": "flag: Cocos (Keeling) Islands"
+  },
+  "🇨🇩": {
+    "unicode": "1f1e8-1f1e9",
+    "name": "flag: Congo - Kinshasa"
+  },
+  "🇨🇫": {
+    "unicode": "1f1e8-1f1eb",
+    "name": "flag: Central African Republic"
+  },
+  "🇨🇬": {
+    "unicode": "1f1e8-1f1ec",
+    "name": "flag: Congo - Brazzaville"
+  },
+  "🇨🇭": {
+    "unicode": "1f1e8-1f1ed",
+    "name": "flag: Switzerland"
+  },
+  "🇨🇮": {
+    "unicode": "1f1e8-1f1ee",
+    "name": "flag: Côte d’Ivoire"
+  },
+  "🇨🇰": {
+    "unicode": "1f1e8-1f1f0",
+    "name": "flag: Cook Islands"
+  },
+  "🇨🇱": {
+    "unicode": "1f1e8-1f1f1",
+    "name": "flag: Chile"
+  },
+  "🇨🇲": {
+    "unicode": "1f1e8-1f1f2",
+    "name": "flag: Cameroon"
+  },
+  "🇨🇳": {
+    "unicode": "1f1e8-1f1f3",
+    "name": "flag: China"
+  },
+  "🇨🇴": {
+    "unicode": "1f1e8-1f1f4",
+    "name": "flag: Colombia"
+  },
+  "🇨🇵": {
+    "unicode": "1f1e8-1f1f5",
+    "name": "flag: Clipperton Island"
+  },
+  "🇨🇷": {
+    "unicode": "1f1e8-1f1f7",
+    "name": "flag: Costa Rica"
+  },
+  "🇨🇺": {
+    "unicode": "1f1e8-1f1fa",
+    "name": "flag: Cuba"
+  },
+  "🇨🇻": {
+    "unicode": "1f1e8-1f1fb",
+    "name": "flag: Cape Verde"
+  },
+  "🇨🇼": {
+    "unicode": "1f1e8-1f1fc",
+    "name": "flag: Curaçao"
+  },
+  "🇨🇽": {
+    "unicode": "1f1e8-1f1fd",
+    "name": "flag: Christmas Island"
+  },
+  "🇨🇾": {
+    "unicode": "1f1e8-1f1fe",
+    "name": "flag: Cyprus"
+  },
+  "🇨🇿": {
+    "unicode": "1f1e8-1f1ff",
+    "name": "flag: Czechia"
+  },
+  "🇩🇪": {
+    "unicode": "1f1e9-1f1ea",
+    "name": "flag: Germany"
+  },
+  "🇩🇬": {
+    "unicode": "1f1e9-1f1ec",
+    "name": "flag: Diego Garcia"
+  },
+  "🇩🇯": {
+    "unicode": "1f1e9-1f1ef",
+    "name": "flag: Djibouti"
+  },
+  "🇩🇰": {
+    "unicode": "1f1e9-1f1f0",
+    "name": "flag: Denmark"
+  },
+  "🇩🇲": {
+    "unicode": "1f1e9-1f1f2",
+    "name": "flag: Dominica"
+  },
+  "🇩🇴": {
+    "unicode": "1f1e9-1f1f4",
+    "name": "flag: Dominican Republic"
+  },
+  "🇩🇿": {
+    "unicode": "1f1e9-1f1ff",
+    "name": "flag: Algeria"
+  },
+  "🇪🇦": {
+    "unicode": "1f1ea-1f1e6",
+    "name": "flag: Ceuta &amp; Melilla"
+  },
+  "🇪🇨": {
+    "unicode": "1f1ea-1f1e8",
+    "name": "flag: Ecuador"
+  },
+  "🇪🇪": {
+    "unicode": "1f1ea-1f1ea",
+    "name": "flag: Estonia"
+  },
+  "🇪🇬": {
+    "unicode": "1f1ea-1f1ec",
+    "name": "flag: Egypt"
+  },
+  "🇪🇭": {
+    "unicode": "1f1ea-1f1ed",
+    "name": "flag: Western Sahara"
+  },
+  "🇪🇷": {
+    "unicode": "1f1ea-1f1f7",
+    "name": "flag: Eritrea"
+  },
+  "🇪🇸": {
+    "unicode": "1f1ea-1f1f8",
+    "name": "flag: Spain"
+  },
+  "🇪🇹": {
+    "unicode": "1f1ea-1f1f9",
+    "name": "flag: Ethiopia"
+  },
+  "🇪🇺": {
+    "unicode": "1f1ea-1f1fa",
+    "name": "flag: European Union"
+  },
+  "🇫🇮": {
+    "unicode": "1f1eb-1f1ee",
+    "name": "flag: Finland"
+  },
+  "🇫🇯": {
+    "unicode": "1f1eb-1f1ef",
+    "name": "flag: Fiji"
+  },
+  "🇫🇰": {
+    "unicode": "1f1eb-1f1f0",
+    "name": "flag: Falkland Islands"
+  },
+  "🇫🇲": {
+    "unicode": "1f1eb-1f1f2",
+    "name": "flag: Micronesia"
+  },
+  "🇫🇴": {
+    "unicode": "1f1eb-1f1f4",
+    "name": "flag: Faroe Islands"
+  },
+  "🇫🇷": {
+    "unicode": "1f1eb-1f1f7",
+    "name": "flag: France"
+  },
+  "🇬🇦": {
+    "unicode": "1f1ec-1f1e6",
+    "name": "flag: Gabon"
+  },
+  "🇬🇧": {
+    "unicode": "1f1ec-1f1e7",
+    "name": "flag: United Kingdom"
+  },
+  "🇬🇩": {
+    "unicode": "1f1ec-1f1e9",
+    "name": "flag: Grenada"
+  },
+  "🇬🇪": {
+    "unicode": "1f1ec-1f1ea",
+    "name": "flag: Georgia"
+  },
+  "🇬🇫": {
+    "unicode": "1f1ec-1f1eb",
+    "name": "flag: French Guiana"
+  },
+  "🇬🇬": {
+    "unicode": "1f1ec-1f1ec",
+    "name": "flag: Guernsey"
+  },
+  "🇬🇭": {
+    "unicode": "1f1ec-1f1ed",
+    "name": "flag: Ghana"
+  },
+  "🇬🇮": {
+    "unicode": "1f1ec-1f1ee",
+    "name": "flag: Gibraltar"
+  },
+  "🇬🇱": {
+    "unicode": "1f1ec-1f1f1",
+    "name": "flag: Greenland"
+  },
+  "🇬🇲": {
+    "unicode": "1f1ec-1f1f2",
+    "name": "flag: Gambia"
+  },
+  "🇬🇳": {
+    "unicode": "1f1ec-1f1f3",
+    "name": "flag: Guinea"
+  },
+  "🇬🇵": {
+    "unicode": "1f1ec-1f1f5",
+    "name": "flag: Guadeloupe"
+  },
+  "🇬🇶": {
+    "unicode": "1f1ec-1f1f6",
+    "name": "flag: Equatorial Guinea"
+  },
+  "🇬🇷": {
+    "unicode": "1f1ec-1f1f7",
+    "name": "flag: Greece"
+  },
+  "🇬🇸": {
+    "unicode": "1f1ec-1f1f8",
+    "name": "flag: South Georgia &amp; South Sandwich Islands"
+  },
+  "🇬🇹": {
+    "unicode": "1f1ec-1f1f9",
+    "name": "flag: Guatemala"
+  },
+  "🇬🇺": {
+    "unicode": "1f1ec-1f1fa",
+    "name": "flag: Guam"
+  },
+  "🇬🇼": {
+    "unicode": "1f1ec-1f1fc",
+    "name": "flag: Guinea-Bissau"
+  },
+  "🇬🇾": {
+    "unicode": "1f1ec-1f1fe",
+    "name": "flag: Guyana"
+  },
+  "🇭🇰": {
+    "unicode": "1f1ed-1f1f0",
+    "name": "flag: Hong Kong SAR China"
+  },
+  "🇭🇲": {
+    "unicode": "1f1ed-1f1f2",
+    "name": "flag: Heard &amp; McDonald Islands"
+  },
+  "🇭🇳": {
+    "unicode": "1f1ed-1f1f3",
+    "name": "flag: Honduras"
+  },
+  "🇭🇷": {
+    "unicode": "1f1ed-1f1f7",
+    "name": "flag: Croatia"
+  },
+  "🇭🇹": {
+    "unicode": "1f1ed-1f1f9",
+    "name": "flag: Haiti"
+  },
+  "🇭🇺": {
+    "unicode": "1f1ed-1f1fa",
+    "name": "flag: Hungary"
+  },
+  "🇮🇨": {
+    "unicode": "1f1ee-1f1e8",
+    "name": "flag: Canary Islands"
+  },
+  "🇮🇩": {
+    "unicode": "1f1ee-1f1e9",
+    "name": "flag: Indonesia"
+  },
+  "🇮🇪": {
+    "unicode": "1f1ee-1f1ea",
+    "name": "flag: Ireland"
+  },
+  "🇮🇱": {
+    "unicode": "1f1ee-1f1f1",
+    "name": "flag: Israel"
+  },
+  "🇮🇲": {
+    "unicode": "1f1ee-1f1f2",
+    "name": "flag: Isle of Man"
+  },
+  "🇮🇳": {
+    "unicode": "1f1ee-1f1f3",
+    "name": "flag: India"
+  },
+  "🇮🇴": {
+    "unicode": "1f1ee-1f1f4",
+    "name": "flag: British Indian Ocean Territory"
+  },
+  "🇮🇶": {
+    "unicode": "1f1ee-1f1f6",
+    "name": "flag: Iraq"
+  },
+  "🇮🇷": {
+    "unicode": "1f1ee-1f1f7",
+    "name": "flag: Iran"
+  },
+  "🇮🇸": {
+    "unicode": "1f1ee-1f1f8",
+    "name": "flag: Iceland"
+  },
+  "🇮🇹": {
+    "unicode": "1f1ee-1f1f9",
+    "name": "flag: Italy"
+  },
+  "🇯🇪": {
+    "unicode": "1f1ef-1f1ea",
+    "name": "flag: Jersey"
+  },
+  "🇯🇲": {
+    "unicode": "1f1ef-1f1f2",
+    "name": "flag: Jamaica"
+  },
+  "🇯🇴": {
+    "unicode": "1f1ef-1f1f4",
+    "name": "flag: Jordan"
+  },
+  "🇯🇵": {
+    "unicode": "1f1ef-1f1f5",
+    "name": "flag: Japan"
+  },
+  "🇰🇪": {
+    "unicode": "1f1f0-1f1ea",
+    "name": "flag: Kenya"
+  },
+  "🇰🇬": {
+    "unicode": "1f1f0-1f1ec",
+    "name": "flag: Kyrgyzstan"
+  },
+  "🇰🇭": {
+    "unicode": "1f1f0-1f1ed",
+    "name": "flag: Cambodia"
+  },
+  "🇰🇮": {
+    "unicode": "1f1f0-1f1ee",
+    "name": "flag: Kiribati"
+  },
+  "🇰🇲": {
+    "unicode": "1f1f0-1f1f2",
+    "name": "flag: Comoros"
+  },
+  "🇰🇳": {
+    "unicode": "1f1f0-1f1f3",
+    "name": "flag: St. Kitts &amp; Nevis"
+  },
+  "🇰🇵": {
+    "unicode": "1f1f0-1f1f5",
+    "name": "flag: North Korea"
+  },
+  "🇰🇷": {
+    "unicode": "1f1f0-1f1f7",
+    "name": "flag: South Korea"
+  },
+  "🇰🇼": {
+    "unicode": "1f1f0-1f1fc",
+    "name": "flag: Kuwait"
+  },
+  "🇰🇾": {
+    "unicode": "1f1f0-1f1fe",
+    "name": "flag: Cayman Islands"
+  },
+  "🇰🇿": {
+    "unicode": "1f1f0-1f1ff",
+    "name": "flag: Kazakhstan"
+  },
+  "🇱🇦": {
+    "unicode": "1f1f1-1f1e6",
+    "name": "flag: Laos"
+  },
+  "🇱🇧": {
+    "unicode": "1f1f1-1f1e7",
+    "name": "flag: Lebanon"
+  },
+  "🇱🇨": {
+    "unicode": "1f1f1-1f1e8",
+    "name": "flag: St. Lucia"
+  },
+  "🇱🇮": {
+    "unicode": "1f1f1-1f1ee",
+    "name": "flag: Liechtenstein"
+  },
+  "🇱🇰": {
+    "unicode": "1f1f1-1f1f0",
+    "name": "flag: Sri Lanka"
+  },
+  "🇱🇷": {
+    "unicode": "1f1f1-1f1f7",
+    "name": "flag: Liberia"
+  },
+  "🇱🇸": {
+    "unicode": "1f1f1-1f1f8",
+    "name": "flag: Lesotho"
+  },
+  "🇱🇹": {
+    "unicode": "1f1f1-1f1f9",
+    "name": "flag: Lithuania"
+  },
+  "🇱🇺": {
+    "unicode": "1f1f1-1f1fa",
+    "name": "flag: Luxembourg"
+  },
+  "🇱🇻": {
+    "unicode": "1f1f1-1f1fb",
+    "name": "flag: Latvia"
+  },
+  "🇱🇾": {
+    "unicode": "1f1f1-1f1fe",
+    "name": "flag: Libya"
+  },
+  "🇲🇦": {
+    "unicode": "1f1f2-1f1e6",
+    "name": "flag: Morocco"
+  },
+  "🇲🇨": {
+    "unicode": "1f1f2-1f1e8",
+    "name": "flag: Monaco"
+  },
+  "🇲🇩": {
+    "unicode": "1f1f2-1f1e9",
+    "name": "flag: Moldova"
+  },
+  "🇲🇪": {
+    "unicode": "1f1f2-1f1ea",
+    "name": "flag: Montenegro"
+  },
+  "🇲🇫": {
+    "unicode": "1f1f2-1f1eb",
+    "name": "flag: St. Martin"
+  },
+  "🇲🇬": {
+    "unicode": "1f1f2-1f1ec",
+    "name": "flag: Madagascar"
+  },
+  "🇲🇭": {
+    "unicode": "1f1f2-1f1ed",
+    "name": "flag: Marshall Islands"
+  },
+  "🇲🇰": {
+    "unicode": "1f1f2-1f1f0",
+    "name": "flag: North Macedonia"
+  },
+  "🇲🇱": {
+    "unicode": "1f1f2-1f1f1",
+    "name": "flag: Mali"
+  },
+  "🇲🇲": {
+    "unicode": "1f1f2-1f1f2",
+    "name": "flag: Myanmar (Burma)"
+  },
+  "🇲🇳": {
+    "unicode": "1f1f2-1f1f3",
+    "name": "flag: Mongolia"
+  },
+  "🇲🇴": {
+    "unicode": "1f1f2-1f1f4",
+    "name": "flag: Macao SAR China"
+  },
+  "🇲🇵": {
+    "unicode": "1f1f2-1f1f5",
+    "name": "flag: Northern Mariana Islands"
+  },
+  "🇲🇶": {
+    "unicode": "1f1f2-1f1f6",
+    "name": "flag: Martinique"
+  },
+  "🇲🇷": {
+    "unicode": "1f1f2-1f1f7",
+    "name": "flag: Mauritania"
+  },
+  "🇲🇸": {
+    "unicode": "1f1f2-1f1f8",
+    "name": "flag: Montserrat"
+  },
+  "🇲🇹": {
+    "unicode": "1f1f2-1f1f9",
+    "name": "flag: Malta"
+  },
+  "🇲🇺": {
+    "unicode": "1f1f2-1f1fa",
+    "name": "flag: Mauritius"
+  },
+  "🇲🇻": {
+    "unicode": "1f1f2-1f1fb",
+    "name": "flag: Maldives"
+  },
+  "🇲🇼": {
+    "unicode": "1f1f2-1f1fc",
+    "name": "flag: Malawi"
+  },
+  "🇲🇽": {
+    "unicode": "1f1f2-1f1fd",
+    "name": "flag: Mexico"
+  },
+  "🇲🇾": {
+    "unicode": "1f1f2-1f1fe",
+    "name": "flag: Malaysia"
+  },
+  "🇲🇿": {
+    "unicode": "1f1f2-1f1ff",
+    "name": "flag: Mozambique"
+  },
+  "🇳🇦": {
+    "unicode": "1f1f3-1f1e6",
+    "name": "flag: Namibia"
+  },
+  "🇳🇨": {
+    "unicode": "1f1f3-1f1e8",
+    "name": "flag: New Caledonia"
+  },
+  "🇳🇪": {
+    "unicode": "1f1f3-1f1ea",
+    "name": "flag: Niger"
+  },
+  "🇳🇫": {
+    "unicode": "1f1f3-1f1eb",
+    "name": "flag: Norfolk Island"
+  },
+  "🇳🇬": {
+    "unicode": "1f1f3-1f1ec",
+    "name": "flag: Nigeria"
+  },
+  "🇳🇮": {
+    "unicode": "1f1f3-1f1ee",
+    "name": "flag: Nicaragua"
+  },
+  "🇳🇱": {
+    "unicode": "1f1f3-1f1f1",
+    "name": "flag: Netherlands"
+  },
+  "🇳🇴": {
+    "unicode": "1f1f3-1f1f4",
+    "name": "flag: Norway"
+  },
+  "🇳🇵": {
+    "unicode": "1f1f3-1f1f5",
+    "name": "flag: Nepal"
+  },
+  "🇳🇷": {
+    "unicode": "1f1f3-1f1f7",
+    "name": "flag: Nauru"
+  },
+  "🇳🇺": {
+    "unicode": "1f1f3-1f1fa",
+    "name": "flag: Niue"
+  },
+  "🇳🇿": {
+    "unicode": "1f1f3-1f1ff",
+    "name": "flag: New Zealand"
+  },
+  "🇴🇲": {
+    "unicode": "1f1f4-1f1f2",
+    "name": "flag: Oman"
+  },
+  "🇵🇦": {
+    "unicode": "1f1f5-1f1e6",
+    "name": "flag: Panama"
+  },
+  "🇵🇪": {
+    "unicode": "1f1f5-1f1ea",
+    "name": "flag: Peru"
+  },
+  "🇵🇫": {
+    "unicode": "1f1f5-1f1eb",
+    "name": "flag: French Polynesia"
+  },
+  "🇵🇬": {
+    "unicode": "1f1f5-1f1ec",
+    "name": "flag: Papua New Guinea"
+  },
+  "🇵🇭": {
+    "unicode": "1f1f5-1f1ed",
+    "name": "flag: Philippines"
+  },
+  "🇵🇰": {
+    "unicode": "1f1f5-1f1f0",
+    "name": "flag: Pakistan"
+  },
+  "🇵🇱": {
+    "unicode": "1f1f5-1f1f1",
+    "name": "flag: Poland"
+  },
+  "🇵🇲": {
+    "unicode": "1f1f5-1f1f2",
+    "name": "flag: St. Pierre &amp; Miquelon"
+  },
+  "🇵🇳": {
+    "unicode": "1f1f5-1f1f3",
+    "name": "flag: Pitcairn Islands"
+  },
+  "🇵🇷": {
+    "unicode": "1f1f5-1f1f7",
+    "name": "flag: Puerto Rico"
+  },
+  "🇵🇸": {
+    "unicode": "1f1f5-1f1f8",
+    "name": "flag: Palestinian Territories"
+  },
+  "🇵🇹": {
+    "unicode": "1f1f5-1f1f9",
+    "name": "flag: Portugal"
+  },
+  "🇵🇼": {
+    "unicode": "1f1f5-1f1fc",
+    "name": "flag: Palau"
+  },
+  "🇵🇾": {
+    "unicode": "1f1f5-1f1fe",
+    "name": "flag: Paraguay"
+  },
+  "🇶🇦": {
+    "unicode": "1f1f6-1f1e6",
+    "name": "flag: Qatar"
+  },
+  "🇷🇪": {
+    "unicode": "1f1f7-1f1ea",
+    "name": "flag: Réunion"
+  },
+  "🇷🇴": {
+    "unicode": "1f1f7-1f1f4",
+    "name": "flag: Romania"
+  },
+  "🇷🇸": {
+    "unicode": "1f1f7-1f1f8",
+    "name": "flag: Serbia"
+  },
+  "🇷🇺": {
+    "unicode": "1f1f7-1f1fa",
+    "name": "flag: Russia"
+  },
+  "🇷🇼": {
+    "unicode": "1f1f7-1f1fc",
+    "name": "flag: Rwanda"
+  },
+  "🇸🇦": {
+    "unicode": "1f1f8-1f1e6",
+    "name": "flag: Saudi Arabia"
+  },
+  "🇸🇧": {
+    "unicode": "1f1f8-1f1e7",
+    "name": "flag: Solomon Islands"
+  },
+  "🇸🇨": {
+    "unicode": "1f1f8-1f1e8",
+    "name": "flag: Seychelles"
+  },
+  "🇸🇩": {
+    "unicode": "1f1f8-1f1e9",
+    "name": "flag: Sudan"
+  },
+  "🇸🇪": {
+    "unicode": "1f1f8-1f1ea",
+    "name": "flag: Sweden"
+  },
+  "🇸🇬": {
+    "unicode": "1f1f8-1f1ec",
+    "name": "flag: Singapore"
+  },
+  "🇸🇭": {
+    "unicode": "1f1f8-1f1ed",
+    "name": "flag: St. Helena"
+  },
+  "🇸🇮": {
+    "unicode": "1f1f8-1f1ee",
+    "name": "flag: Slovenia"
+  },
+  "🇸🇯": {
+    "unicode": "1f1f8-1f1ef",
+    "name": "flag: Svalbard &amp; Jan Mayen"
+  },
+  "🇸🇰": {
+    "unicode": "1f1f8-1f1f0",
+    "name": "flag: Slovakia"
+  },
+  "🇸🇱": {
+    "unicode": "1f1f8-1f1f1",
+    "name": "flag: Sierra Leone"
+  },
+  "🇸🇲": {
+    "unicode": "1f1f8-1f1f2",
+    "name": "flag: San Marino"
+  },
+  "🇸🇳": {
+    "unicode": "1f1f8-1f1f3",
+    "name": "flag: Senegal"
+  },
+  "🇸🇴": {
+    "unicode": "1f1f8-1f1f4",
+    "name": "flag: Somalia"
+  },
+  "🇸🇷": {
+    "unicode": "1f1f8-1f1f7",
+    "name": "flag: Suriname"
+  },
+  "🇸🇸": {
+    "unicode": "1f1f8-1f1f8",
+    "name": "flag: South Sudan"
+  },
+  "🇸🇹": {
+    "unicode": "1f1f8-1f1f9",
+    "name": "flag: São Tomé &amp; Príncipe"
+  },
+  "🇸🇻": {
+    "unicode": "1f1f8-1f1fb",
+    "name": "flag: El Salvador"
+  },
+  "🇸🇽": {
+    "unicode": "1f1f8-1f1fd",
+    "name": "flag: Sint Maarten"
+  },
+  "🇸🇾": {
+    "unicode": "1f1f8-1f1fe",
+    "name": "flag: Syria"
+  },
+  "🇸🇿": {
+    "unicode": "1f1f8-1f1ff",
+    "name": "flag: Eswatini"
+  },
+  "🇹🇦": {
+    "unicode": "1f1f9-1f1e6",
+    "name": "flag: Tristan da Cunha"
+  },
+  "🇹🇨": {
+    "unicode": "1f1f9-1f1e8",
+    "name": "flag: Turks &amp; Caicos Islands"
+  },
+  "🇹🇩": {
+    "unicode": "1f1f9-1f1e9",
+    "name": "flag: Chad"
+  },
+  "🇹🇫": {
+    "unicode": "1f1f9-1f1eb",
+    "name": "flag: French Southern Territories"
+  },
+  "🇹🇬": {
+    "unicode": "1f1f9-1f1ec",
+    "name": "flag: Togo"
+  },
+  "🇹🇭": {
+    "unicode": "1f1f9-1f1ed",
+    "name": "flag: Thailand"
+  },
+  "🇹🇯": {
+    "unicode": "1f1f9-1f1ef",
+    "name": "flag: Tajikistan"
+  },
+  "🇹🇰": {
+    "unicode": "1f1f9-1f1f0",
+    "name": "flag: Tokelau"
+  },
+  "🇹🇱": {
+    "unicode": "1f1f9-1f1f1",
+    "name": "flag: Timor-Leste"
+  },
+  "🇹🇲": {
+    "unicode": "1f1f9-1f1f2",
+    "name": "flag: Turkmenistan"
+  },
+  "🇹🇳": {
+    "unicode": "1f1f9-1f1f3",
+    "name": "flag: Tunisia"
+  },
+  "🇹🇴": {
+    "unicode": "1f1f9-1f1f4",
+    "name": "flag: Tonga"
+  },
+  "🇹🇷": {
+    "unicode": "1f1f9-1f1f7",
+    "name": "flag: Turkey"
+  },
+  "🇹🇹": {
+    "unicode": "1f1f9-1f1f9",
+    "name": "flag: Trinidad &amp; Tobago"
+  },
+  "🇹🇻": {
+    "unicode": "1f1f9-1f1fb",
+    "name": "flag: Tuvalu"
+  },
+  "🇹🇼": {
+    "unicode": "1f1f9-1f1fc",
+    "name": "flag: Taiwan"
+  },
+  "🇹🇿": {
+    "unicode": "1f1f9-1f1ff",
+    "name": "flag: Tanzania"
+  },
+  "🇺🇦": {
+    "unicode": "1f1fa-1f1e6",
+    "name": "flag: Ukraine"
+  },
+  "🇺🇬": {
+    "unicode": "1f1fa-1f1ec",
+    "name": "flag: Uganda"
+  },
+  "🇺🇲": {
+    "unicode": "1f1fa-1f1f2",
+    "name": "flag: U.S. Outlying Islands"
+  },
+  "🇺🇳": {
+    "unicode": "1f1fa-1f1f3",
+    "name": "flag: United Nations"
+  },
+  "🇺🇸": {
+    "unicode": "1f1fa-1f1f8",
+    "name": "flag: United States"
+  },
+  "🇺🇾": {
+    "unicode": "1f1fa-1f1fe",
+    "name": "flag: Uruguay"
+  },
+  "🇺🇿": {
+    "unicode": "1f1fa-1f1ff",
+    "name": "flag: Uzbekistan"
+  },
+  "🇻🇦": {
+    "unicode": "1f1fb-1f1e6",
+    "name": "flag: Vatican City"
+  },
+  "🇻🇨": {
+    "unicode": "1f1fb-1f1e8",
+    "name": "flag: St. Vincent &amp; Grenadines"
+  },
+  "🇻🇪": {
+    "unicode": "1f1fb-1f1ea",
+    "name": "flag: Venezuela"
+  },
+  "🇻🇬": {
+    "unicode": "1f1fb-1f1ec",
+    "name": "flag: British Virgin Islands"
+  },
+  "🇻🇮": {
+    "unicode": "1f1fb-1f1ee",
+    "name": "flag: U.S. Virgin Islands"
+  },
+  "🇻🇳": {
+    "unicode": "1f1fb-1f1f3",
+    "name": "flag: Vietnam"
+  },
+  "🇻🇺": {
+    "unicode": "1f1fb-1f1fa",
+    "name": "flag: Vanuatu"
+  },
+  "🇼🇫": {
+    "unicode": "1f1fc-1f1eb",
+    "name": "flag: Wallis &amp; Futuna"
+  },
+  "🇼🇸": {
+    "unicode": "1f1fc-1f1f8",
+    "name": "flag: Samoa"
+  },
+  "🇽🇰": {
+    "unicode": "1f1fd-1f1f0",
+    "name": "flag: Kosovo"
+  },
+  "🇾🇪": {
+    "unicode": "1f1fe-1f1ea",
+    "name": "flag: Yemen"
+  },
+  "🇾🇹": {
+    "unicode": "1f1fe-1f1f9",
+    "name": "flag: Mayotte"
+  },
+  "🇿🇦": {
+    "unicode": "1f1ff-1f1e6",
+    "name": "flag: South Africa"
+  },
+  "🇿🇲": {
+    "unicode": "1f1ff-1f1f2",
+    "name": "flag: Zambia"
+  },
+  "🇿🇼": {
+    "unicode": "1f1ff-1f1fc",
+    "name": "flag: Zimbabwe"
+  },
+  "🏴󠁧󠁢󠁥󠁮󠁧󠁿": {
+    "unicode": "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f",
+    "name": "flag: England"
+  },
+  "🏴󠁧󠁢󠁳󠁣󠁴󠁿": {
+    "unicode": "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f",
+    "name": "flag: Scotland"
+  },
+  "🏴󠁧󠁢󠁷󠁬󠁳󠁿": {
+    "unicode": "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f",
+    "name": "flag: Wales"
+  }
+}
+
