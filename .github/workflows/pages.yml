@@ -33,7 +33,7 @@ jobs:
       - name: 🚚 Move files into place
         run: |
           mkdir ./pages
-          ./inject_css.sh ./pages/index.html
+          bash ./inject_css.sh ./pages/index.html
           cp style.css ./pages/
           cp images/ ./pages/ -r
           
