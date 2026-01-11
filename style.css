@@ -124,6 +124,10 @@ a.emoji-link span.emoji {
   font-size: 1.5em;
 }
 
+.bubble-border .container summary.donate-link {
+  display: inline-block;
+}
+
 @media (max-width: 636px) or (max-height: 50em) {
   body {
     display: block;
