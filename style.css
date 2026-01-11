@@ -101,7 +101,7 @@ a.emoji-link:hover .text {
   text-decoration: underline;
 }
 
-a.emoji-link span.emoji {
+a.emoji-link:hover span.emoji {
   text-decoration: none;
 }
 
@@ -114,6 +114,10 @@ a.emoji-link span.emoji {
   padding-block: 0.25em;
   padding-inline: 1em;
   width: 100%;
+}
+
+.bubble-border .container menu li a.emoji-link:hover {
+  text-decoration: none;
 }
 
 .bubble-border .container menu li:nth-child(odd) a.emoji-link {
