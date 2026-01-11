@@ -124,11 +124,14 @@ a.emoji-link span.emoji {
   font-size: 1.5em;
 }
 
-@media (max-width: 636px) {
+@media (max-width: 636px) or (max-height: 50em) {
   body {
     display: block;
     height: auto;
   }
+}
+
+@media (max-width: 636px) {
   .profile-pic {
     height: auto;
   }
