@@ -1,98 +1,111 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
   <head>
-    <title>Emma (MarmadileManteater)</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-      body {
-        font-family: sans-serif;
-        font-size: 1.25em;
-        padding: 1em 2em;
-        margin: 0;
-      }
-      #about-me {
-        display: flex;
-        gap: 1em;
-        margin-bottom: 1em;
-      }
-      #profile-pic {
-        border-radius: 50%;
-      }
-      #blurb {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-      #links {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-        width: 250px;
-        text-align: center;
-      }
-
-      #links a {
-        display: block;
-      }
-      
-      #contact {
-        display: flex;
-        gap: 1em;
-        margin-top: 1em;
-      }
-
-      a {
-        color: #9e2b02;
-        text-decoration: none;
-      }
-      
-      a:hover {
-        text-decoration: underline;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        body {
-          background-color: #0a0a0a;
-          color: white;
-        }
-        a {
-          color: #df3d01;
-        }
-      }
-      @media (max-width: 800px) {
-        #about-me {
-          flex-wrap: wrap;
-          justify-content: center;
-        }
-        #links {
-          text-align: left;
-          width: 100%;
-        }
-      }
-
-      @media (max-width: 370px) {
-        #contact {
-          flex-direction: column;
-        }
-      }
-    </style>
+    <title>marmadilemanteater.dev</title>
+    <meta
+      name="darkreader-lock"
+    />
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link 
+      rel="stylesheet"
+      href="./style.css"
+    />
   </head>
   <body>
-    <section id="about-me">
-      <img src="./images/profile-pic.webp" id="profile-pic" />
-      <summary id="blurb">Hi~! My name is Emma. I am passionate about helping others, and I create software for personal enjoyment.
-        <div id="contact">
-          <a href="mailto:marmadilemanteater@proton.me">📬 Email me</a>
-          <a href="https://matrix.to/#/@marmadilemanteater:matrix.org">💬 Message me</a>
+    <main>
+      <img 
+        src="./images/profile_pic_jan_2026_cropped_XS.png"
+        class="profile-pic"
+        alt="selfie of Emma (MarmadileManteater)"
+        title="me irl"
+      />
+      <section class="bubbles">
+        <div class="bubble-border">
+          <div class="container">
+            <div class="inner">
+              <summary>
+                <p>hi, my name is <strong>emma</strong>.</p>
+                
+                <p><strong><em>( she / her / hers )</em></strong></p>
+                
+                <p>i am an aspiring game dev and a caring individual. you may know me for projects such as <a href="https://github.com/MarmadileManteater/FreeTubeAndroid">freetube android</a>.</p>
+              </summary>
+            </div>
+          </div>
         </div>
-      </summary>
-    </section>
-    <section id="links">
-      <a href="https://liberapay.com/MarmadileManteater" rel="me">💕 Donate</a>
-      <a href="https://github.com/MarmadileManteater" rel="me">👩‍💻 GitHub</a>
-      <a href="https://gamemaking.social/@emma" rel="me">🐘 Mastodon</a>
-      <a href="https://marmadilemanteater.itch.io" rel="me">🎮 Itch.io</a>
-      <a href="https://opengameart.org/users/marmadilemanteater" rel="me">🎨 OpenGameArt</a>
-    </section>
+        <div class="bubble-border">
+          <div class="container">
+            <div class="inner">
+              <menu>
+                <li>
+                  <a 
+                    href="https://github.com/MarmadileManteater"
+                    class="emoji-link"
+                  >
+                    <span class="emoji">👩‍💻</span>
+                    <span class="text">GitHub</span>
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://marmadilemanteater.itch.io"
+                    class="emoji-link"
+                  >
+                    <span class="emoji">🎮</span>
+                    <span class="text">Itch.io</span>
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://opengameart.org/users/marmadilemanteater"
+                    class="emoji-link"
+                  >
+                    <span class="emoji">🎨</span>
+                    <span class="text">OpenGameArt</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://gamemaking.social/@emma"
+                    class="emoji-link"
+                  >
+                    <span class="emoji">🐘</span>
+                    <span class="text">Mastodon</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.twitch.tv/marmadilemanteater/"
+                    class="emoji-link"
+                  >
+                    <span class="emoji">📽️</span>
+                    <span class="text">Twitch</span>
+                  </a>
+                </li>
+              </menu>
+            </div>
+          </div>
+        </div>
+        <div class="bubble-border">
+          <div class="container">
+            <div class="inner">
+              <summary>
+                if you like what i do and want to help support me, feel free to 
+                <a 
+                  href="https://liberapay.com/MarmadileManteater"
+                  class="emoji-link"
+                >
+                  <span class="emoji">♥️</span>
+                  <span class="text">donate</span>
+                </a>
+              </summary>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

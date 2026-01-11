@@ -1,0 +1,144 @@
+
+:root {
+  --background: #001524;/* ink black */
+  --foreground: #FF8C7A;/* salmon */
+  --primary: #791325; /* burgundy */
+  --primary-darker: #5f0f1e;/* night bordeaux */
+  --secondary: #FF6F59;/* vibrant coral */
+  --link: #43AA8B;/* seagrass */
+}
+
+::selection {
+  background-color: var(--secondary);
+  color: var(--background);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 98vh;
+}
+
+a, a:visited {
+  color: var(--link);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  display: block;
+  height: 300px;
+  margin-block: -0.5em;
+  margin-inline: auto;
+  -webkit-mask-image: url(./images/mask.png);
+  mask-image: url(./images/mask.png);
+  mask-size: 100%;
+  max-width: 100%;
+}
+
+.bubbles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  margin-inline: auto;
+  max-width: 50em;
+}
+
+.bubble-border {
+  border: 1.5em solid transparent;
+  border-image: url(./images/border.png) 56 round;
+  display: flex;
+  max-width: 18em;
+}
+
+.bubble-border .container {
+  background-color: var(--primary);
+}
+
+.bubble-border .container .inner {
+  border: 2px dashed var(--foreground);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.bubble-border .container summary,
+.bubble-border .container menu {
+  margin: 0;
+  padding: 1em;
+}
+
+.bubble-border .container summary {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.bubble-border .container summary p {
+  margin: 0;
+}
+
+.bubble-border .container menu {
+  list-style: none;
+}
+
+a.emoji-link {
+  white-space: nowrap;
+}
+
+a.emoji-link:hover .text {
+  text-decoration: underline;
+}
+
+a.emoji-link span.emoji {
+  text-decoration: none;
+}
+
+.bubble-border .container menu li a.emoji-link {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  gap: 0.5em;
+  justify-content: left;
+  padding-block: 0.25em;
+  padding-inline: 1em;
+  width: 100%;
+}
+
+.bubble-border .container menu li:nth-child(odd) a.emoji-link {
+  background-color: var(--primary-darker);
+}
+
+.bubble-border .container menu a.emoji-link span.emoji {
+  font-size: 1.5em;
+}
+
+@media (max-width: 636px) {
+  body {
+    display: block;
+    height: auto;
+  }
+  .profile-pic {
+    height: auto;
+  }
+  body {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 330px) {
+  .profile-pic {
+    height: auto;
+  }
+}
