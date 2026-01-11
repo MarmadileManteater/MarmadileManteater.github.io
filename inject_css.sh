@@ -13,4 +13,4 @@ stylesheet="${href:6:-1}"
 
 style_tag=$(echo -e "<style>\n$(cat $stylesheet)\n</style>" | sed 's/@/\\@/g')
 
-cat index.html | perl -p0e "s^<link \n      rel=\"stylesheet\"\n      href=\".*\"\n    />^$style_tag^g" > 
+cat index.html | perl -p0e "s^<link \n      rel=\"stylesheet\"\n      href=\".*\"\n    />^$style_tag^g" > $file_name
