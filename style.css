@@ -140,9 +140,6 @@ a.emoji-link:hover span.emoji {
 }
 
 @media (max-width: 636px) {
-  .profile-pic {
-    height: auto;
-  }
   body {
     font-size: 1.2em;
   }
@@ -150,6 +147,7 @@ a.emoji-link:hover span.emoji {
 
 @media (max-width: 330px) {
   .profile-pic {
-    height: auto;
+    height: 90vw;
+    width: 90vw;
   }
 }
