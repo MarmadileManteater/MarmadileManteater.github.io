@@ -14,6 +14,6 @@ then
   out_directory="$(pwd)/out"
 fi
 
-./scripts/inject_css.sh $in_directory/index.html $out_directory/index.html
+bash ./scripts/inject_css.sh $in_directory/index.html $out_directory/index.html
 
 cp -r $in_directory/images $out_directory
