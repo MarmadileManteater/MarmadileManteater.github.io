@@ -32,10 +32,7 @@ jobs:
 
       - name: 🚚 Move files into place
         run: |
-          mkdir ./pages
-          bash ./inject_css.sh ./pages/index.html
-          cp style.css ./pages/
-          cp images/ ./pages/ -r
+          bash ./scripts/build.sh ./src ./pages
           
       - name: 🤐 Zip up build directory for 🏎faster uploads
         uses: montudor/action-zip@v1

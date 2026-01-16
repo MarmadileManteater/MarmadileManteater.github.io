@@ -1,13 +1,4 @@
 
-:root {
-  --background: #001524;/* ink black */
-  --foreground: #FF8C7A;/* salmon */
-  --primary: #791325; /* burgundy */
-  --primary-darker: #5f0f1e;/* night bordeaux */
-  --secondary: #FF6F59;/* vibrant coral */
-  --link: #43AA8B;/* seagrass */
-}
-
 ::selection {
   background-color: var(--secondary);
   color: var(--background);
@@ -39,8 +30,8 @@ a:hover {
   height: 300px;
   margin-block: -0.5em;
   margin-inline: auto;
-  -webkit-mask-image: url(./images/mask.png);
-  mask-image: url(./images/mask.png);
+  -webkit-mask-image: url(/images/mask.png);
+  mask-image: url(/images/mask.png);
   mask-size: 100%;
   max-width: 100%;
 }
@@ -56,7 +47,7 @@ a:hover {
 
 .bubble-border {
   border: 1.5em solid transparent;
-  border-image: url(./images/border.png) 56 round;
+  border-image: url(/images/border.png) 56 round;
   display: flex;
   max-width: 18em;
 }
@@ -130,24 +121,4 @@ a.emoji-link:hover span.emoji {
 
 .bubble-border .container summary.donate-link {
   display: inline-block;
-}
-
-@media (max-width: 636px) or (max-height: 50em) {
-  body {
-    display: block;
-    height: auto;
-  }
-}
-
-@media (max-width: 636px) {
-  body {
-    font-size: 1.2em;
-  }
-}
-
-@media (max-width: 330px) {
-  .profile-pic {
-    height: 90vw;
-    width: 90vw;
-  }
 }
