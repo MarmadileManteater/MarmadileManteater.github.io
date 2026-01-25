@@ -23,9 +23,17 @@ then
   clean=0
 fi
 
+# whether or not to include posts
+posts_flag=""
+
+if [ "$(echo $@ | grep -o "\--posts")" != "" ]
+then
+  posts_flag="--posts"
+fi
+
 # Configuration
 WATCH_DIR="./src"  # Directory to monitor (relative or absolute path)
-BUILD_CMD="./scripts/build.sh"  # Your build command here
+BUILD_CMD="./scripts/build.sh $posts_flag"  # Your build command here
 
 if [ $host -eq 1 ]
 then

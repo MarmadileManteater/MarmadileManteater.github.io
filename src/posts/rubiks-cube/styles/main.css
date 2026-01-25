@@ -1,0 +1,77 @@
+
+::selection {
+  background-color: var(--celadon);
+  color: var(--rich-mahogany);
+}
+
+
+body {
+  background-color: var(--rich-mahogany);
+  color: var(--lavender-blush);
+  font-family: sans-serif;
+  margin-inline: auto;
+  max-width: 48em;
+  margin-block: 0;
+}
+
+header {
+  background-color: #451000;
+  display: flex;
+  min-height: 150px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+header img {
+  height: auto;
+  user-select: none;
+}
+
+article, footer {
+  padding-inline: 1.5em;
+}
+
+.tutorial {
+  background-color: var(--sage-green);
+  border-radius: 0.25em;
+  display: inline-block;
+  padding-block: 0px 0.15em;
+  padding-inline: 0.25em;
+  position: relative;
+  top: -0.07em;
+  user-select: none;
+}
+
+h1 {
+  margin-bottom: 0.3em;
+}
+
+h2 {
+  color: var(--celadon);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  flex-wrap: wrap-reverse;
+  gap: 1em;
+}
+
+.author {
+  align-items: center;
+  display: flex;
+  gap: 0.5em;
+}
+
+.author img {
+  mask-image: url(/images/mask-xxs.png);
+  mask-size: 100%;
+}
+
+time {
+  white-space: nowrap;
+  font-style: italic;
+  text-align: right;
+}
