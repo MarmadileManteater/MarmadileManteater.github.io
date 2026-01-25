@@ -34,6 +34,6 @@ then
   post_directories=$(ls $in_directory/posts)
   for post_directory in ${post_directories[@]}
   do
-    ./scripts/build.sh $in_directory/posts/$post_directory $out_directory/$post_directory
+    bash ./scripts/build.sh $in_directory/posts/$post_directory $out_directory/$post_directory
   done
 fi
