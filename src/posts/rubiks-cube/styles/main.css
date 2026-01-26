@@ -35,11 +35,9 @@ article, footer {
   background-color: var(--sage-green);
   border-radius: 0.25em;
   display: inline-block;
-  padding-block: 0px 0.15em;
   padding-inline: 0.25em;
   position: relative;
   top: -0.07em;
-  user-select: none;
 }
 
 h1 {
