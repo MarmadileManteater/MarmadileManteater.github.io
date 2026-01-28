@@ -1,0 +1,52 @@
+
+::selection {
+  background-color: var(--cerulean);
+  color: var(--linen);
+}
+
+body {
+  background-color: var(--midnight-violet);
+  color: var(--linen);
+  display: flex;
+  flex-direction: column;
+  font-family: serif;
+  justify-content: center;
+  margin-block: 1.5em;
+  margin-inline: auto;
+  max-width: 48em;
+  min-height: 93vh;
+}
+
+article, header {
+  padding-inline: 1em;
+}
+
+span.mono {
+  background-color: var(--toffee-brown);
+  font-family: monospace;
+  font-size: 1.3em;
+  padding-inline: 0.5em;
+}
+
+header {
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em;
+  justify-content: space-between;
+}
+
+a, a:visited {
+  color: var(--linen);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p.bordered {
+  border-top: 1px solid var(--linen);
+  margin-top: 1.5em;
+  padding-top: 1.5em;
+}
