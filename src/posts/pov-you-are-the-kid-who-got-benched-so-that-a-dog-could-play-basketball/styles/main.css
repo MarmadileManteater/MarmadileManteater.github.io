@@ -1,0 +1,56 @@
+
+::selection {
+  background-color: var(--snow);
+  color: var(--dark-coffee);
+}
+
+body {
+  background-color: var(--dark-coffee);
+  color: var(--snow);
+  font-family: sans-serif;
+  max-width: 48em;
+  margin-inline: auto;
+  margin-block: 0;
+}
+
+
+header {
+  background-color: var(--sage-green);
+  min-height: 138.8px;
+}
+
+header img {
+  width: 300px;
+  display: flex;
+}
+
+
+article, footer {
+  padding-inline: 1em;
+}
+
+.author {
+  align-items: center;
+  display: flex;
+  gap: 0.5em;
+}
+
+.author img {
+  mask-image: url(/images/mask-xxs.png);
+  mask-size: 100%;
+}
+
+time {
+  display: block;
+  margin-top: -1.5em;
+}
+
+footer {
+  padding-bottom: 1em;
+}
+
+.tag {
+  background-color: var(--hunter-green);
+  border-radius: 0.25em;
+  padding: 0.15em;
+}
