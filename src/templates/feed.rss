@@ -1,0 +1,14 @@
+<rss version="2.0">
+  <channel>
+    <title>marmadilemanteater.dev</title>
+    <link>{{ SITE_URL }}</link>
+    <description>
+      A RSS feed containing the written works of Emma &lt;Marmadilemanteater&gt;
+    </description>
+    <webMaster>marmadilemanteater@proton.me</webMaster>
+    <language>en-us</language>
+    <pubDate>{{ UPDATE_DATE }}</pubDate>
+    <ttl>43830</ttl>
+    {{ ITEMS }}
+  </channel>
+</rss>

@@ -33,7 +33,7 @@ fi
 
 # Configuration
 WATCH_DIR="./src"  # Directory to monitor (relative or absolute path)
-BUILD_CMD="./scripts/build.sh $posts_flag"  # Your build command here
+BUILD_CMD="./scripts/build.sh $posts_flag"
 
 if [ $host -eq 1 ]
 then

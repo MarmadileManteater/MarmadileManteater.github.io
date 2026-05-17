@@ -36,4 +36,5 @@ then
   do
     bash ./scripts/build.sh $in_directory/posts/$post_directory $out_directory/$post_directory
   done
+  bash ./scripts/build_rss_feed.sh > $out_directory/.rss
 fi

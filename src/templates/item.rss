@@ -1,0 +1,8 @@
+<item>
+  <title>{{ .title }}</title>
+  <link>{{ SITE_URL }}/{{ .stub }}</link>
+  <description>{{ .description }}</description>
+  {{ ["<category>\(.keywords | .[])</category>"] | join("\n  ") }}
+  <guid isPermaLink="true">{{ SITE_URL }}/{{ .stub }}</guid>
+  <pubDate>{{ .publishedRss }}</pubDate>
+</item>
