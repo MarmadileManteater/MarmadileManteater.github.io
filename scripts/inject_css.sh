@@ -31,7 +31,7 @@ for href in ${hrefs[@]}
 do
   stylesheet="${href:6:-1}"
 
-  style_tag=$(echo -e "<style>\n$(cat $input_dir/$stylesheet)\n</style>" | sed 's/@/\\@/g')
+  style_tag=$(./scripts/tab_each_line.sh "$(echo -e "<style>\n  $(./scripts/tab_each_line.sh "$(cat $input_dir/$stylesheet)" 2)\n</style>")" 4 | sed 's/@/\\@/g')
 
   html=$(echo -e "$html" | perl -p0e "s^<link \n      rel=\"stylesheet\"\n      href=\"$stylesheet\"\n    />^$style_tag^g")
 done

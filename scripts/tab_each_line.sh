@@ -18,7 +18,7 @@ function tab_each_line() {
         printf " "
       done
     fi
-    printf "${input[$k]}\n"
+    printf "$(echo ${input[$k]} | sed 's/%/%%/g')\n"
   done
 }
 
