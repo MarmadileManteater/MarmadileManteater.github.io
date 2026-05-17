@@ -1,14 +1,13 @@
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>marmadilemanteater.dev</title>
     <link>{{ SITE_URL }}</link>
-    <description>
-      A RSS feed containing the written works of Emma &lt;Marmadilemanteater&gt;
-    </description>
-    <webMaster>marmadilemanteater@proton.me</webMaster>
+    <description>A RSS feed containing the written works of Emma (Marmadilemanteater)</description>
+    <webMaster>marmadilemanteater@proton.me (Emma)</webMaster>
     <language>en-us</language>
     <pubDate>{{ UPDATE_DATE }}</pubDate>
     <ttl>43830</ttl>
+    <atom:link href="{{ SITE_URL }}/.rss" rel="self" type="application/rss+xml" />
     {{ ITEMS }}
   </channel>
 </rss>
