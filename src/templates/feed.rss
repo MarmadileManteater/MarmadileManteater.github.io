@@ -2,7 +2,7 @@
   <channel>
     <title>marmadilemanteater.dev</title>
     <link>{{ SITE_URL }}</link>
-    <description>A RSS feed containing the written works of Emma (Marmadilemanteater)</description>
+    <description>a collection of dumb little articles i wrote for my stupid little website</description>
     <webMaster>marmadilemanteater@proton.me (Emma)</webMaster>
     <language>en-us</language>
     <pubDate>{{ UPDATE_DATE }}</pubDate>

@@ -32,6 +32,7 @@ jobs:
 
       - name: 🚚 Move files into place
         run: |
+          export SITE_URL="https://marmadilemanteater.dev"
           bash ./scripts/build.sh ./src ./pages --posts
           
       - name: 🤐 Zip up build directory for 🏎faster uploads

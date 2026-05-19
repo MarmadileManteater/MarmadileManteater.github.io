@@ -4,6 +4,7 @@ function tab_each_line() {
   IFS=$'\n'
   local input=($1)
   local distance="$2"
+  
   if [ "$distance" == "" ]
   then
     distance="2"

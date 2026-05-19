@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="darkreader-lock"
+    />
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A bunch of stupid little articles for you to read"
+    />
+    <meta
+      name="keywords"
+      content="no-index"
+    />
+    <meta
+      name="author"
+      content="emma (marmadilemanteater)"
+    />
+    <title>My Writing</title>
+    <link 
+      rel="stylesheet"
+      href="./styles/vars.css"
+    />
+    <link 
+      rel="stylesheet"
+      href="./styles/main.css"
+    />
+  </head>
+  <body>
+    <div class="buttons">
+      <div class="inner">
+        <div class="logo">
+          <img 
+            src="/images/banner-image-xs.png"
+            width="250"
+            height="87"
+            title="a collection of dumb little articles i wrote for my stupid little website"
+          />
+        </div>
+        <a 
+          href="{{ SITE_URL }}/.rss"
+          id="rss_feed"
+        >
+          <img src="/images/rss-xs.png" width="100" height="100" class="rss-icon" /><img src="/images/rss-text-xs.png" width="100" class="rss-text" alt="RSS" />
+        </a>
+      </div>
+    </div>
+    <div popover id="toast">RSS Link Copied To Clipboard</div>
+    <div class="background-top"></div>
+    <div class="background">
+      <section class="posts">
+        {{ import('./list-item.html', './scripts/index_posts.sh', 'list') }}
+      </section>
+    </div>
+    <script>
+      const rssLink = rss_feed.href
+
+      let popoverTimeout = null
+      function cancelTimeout() {
+        if (popoverTimeout != null) {
+          clearTimeout(popoverTimeout)
+        }
+      }
+
+      rss_feed.onclick = function (e) {
+        if ('clipboard' in navigator) {
+          e.preventDefault()
+
+          cancelTimeout()
+
+          navigator.clipboard.writeText(rssLink)
+          toast.showPopover()
+
+          popoverTimeout = setTimeout(() => {
+            toast.hidePopover()
+            cancelTimeout()
+          }, 2000)
+        }
+      }
+    </script>
+  </body>
+</html>
