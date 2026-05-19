@@ -26,7 +26,7 @@ bash ./scripts/inject_css.sh $in_directory/index.html $out_directory/index.html
 
 sed -i "s@{{ SITE_URL }}@$SITE_URL@g" $out_directory/index.html
 
-sed -i "s@</head>@  <link type=\"application/atom+xml\" rel=\"alternate\" href=\"$SITE_URL/.rss\" title=\"a collection of dumb little articles i wrote for my stupid little website\" />\n  </head>@g" $out_directory/index.html
+sed -i "s@</head>@  <link type=\"application/atom+xml\" rel=\"alternate\" href=\"$SITE_URL/rss.xml\" title=\"a collection of dumb little articles i wrote for my stupid little website\" />\n  </head>@g" $out_directory/index.html
 
 IFS=$'\n'
 imports=($(cat $out_directory/index.html | grep -o " *{{ *import[^}]*}}"))
@@ -85,5 +85,5 @@ then
       bash ./scripts/build.sh $in_directory/posts/$post_directory $out_directory/$post_directory
     fi
   done
-  bash ./scripts/build_rss_feed.sh > $out_directory/.rss
+  bash ./scripts/build_rss_feed.sh > $out_directory/rss.xml
 fi

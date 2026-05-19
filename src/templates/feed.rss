@@ -7,7 +7,7 @@
     <language>en-us</language>
     <pubDate>{{ UPDATE_DATE }}</pubDate>
     <ttl>43830</ttl>
-    <atom:link href="{{ SITE_URL }}/.rss" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ SITE_URL }}/rss.xml" rel="self" type="application/rss+xml" />
     {{ ITEMS }}
   </channel>
 </rss>
