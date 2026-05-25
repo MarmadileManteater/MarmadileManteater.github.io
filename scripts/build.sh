@@ -47,11 +47,18 @@ do
     mode=${arguments[2]:1:-1}
   fi
 
+  if [[ "$command_for_json" =~ ^~/ ]]
+  then
+    command_for_json="${command_for_json:2}"
+  else
+    command_for_json="$in_directory/$command_for_json"
+  fi
+
   json=$(bash $command_for_json)
 
   if [ "$mode" == "object" ]
   then
-    template_result=$($command_for_json | bash ./scripts/build_jq_template.sh "$(cat $in_directory/$template_name)")
+    template_result=$(echo "$json" | bash ./scripts/build_jq_template.sh "$(cat $in_directory/$template_name)")
   fi
 
   if [ "$mode" == "list" ]
