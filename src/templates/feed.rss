@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>the written works of emma manteater</title>
-    <link>{{ SITE_URL }}</link>
+    <link>{{ SITE_URL }}/writing</link>
     <description>a collection of dumb little articles i wrote for my stupid little website</description>
     <webMaster>marmadilemanteater@proton.me (Emma)</webMaster>
     <language>en-us</language>
